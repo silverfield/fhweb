@@ -1,0 +1,58 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "Fero Hajnovic - personal web",
+  "main": "index.js",
+  "watch": {
+    "test": [
+      "src/**.js",
+      "src/**.scss",
+      "src/**.html"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/webpack",
+    "watch": "npm-watch",
+    "start:dev": "webpack-dev-server --content-base dist",
+    "start:prod": "./node_modules/http-server/bin/http-server -c-1 dist/",
+    "both": "./node_modules/.bin/webpack & webpack-dev-server --content-base dist",
+    "publish": "cp -r dist publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silverfield/fhweb.git"
+  },
+  "keywords": [
+    "Fero Hajnovic",
+    "Fero Musician"
+  ],
+  "author": "Frantisek Hajnovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silverfield/fhweb/issues"
+  },
+  "homepage": "https://github.com/silverfield/fhweb#readme",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.7.4",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.0.4",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "node-sass": "^4.12.0",
+    "npm-watch": "^0.6.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.8.2"
+  }
+}
