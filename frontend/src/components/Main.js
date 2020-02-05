@@ -4,7 +4,8 @@ import {
     Route,
 } from "react-router-dom";
 import Home from './mains/Home'
-import Busking from './mains/Busking'
+import CausesSupported from './mains/busking/CausesSupported'
+import Material from './mains/busking/Material'
 import Contact from './mains/Contact'
 import Original from './mains/Original'
 
@@ -18,8 +19,11 @@ export default function Main({
                     <Route exact path="/">
                         <Home />
                     </Route>
-                    <Route path="/busking">
-                        <Busking />
+                    <Route path="/busking" exact>
+                        <CausesSupported />
+                    </Route>
+                    <Route path="/busking/material">
+                        <Material />
                     </Route>
                     <Route path="/original">
                         <Original />
