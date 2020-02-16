@@ -12,15 +12,11 @@ export default function SecondaryNav({
         <>
             <Router>
                 <Switch>
-                    <Route path="/busking">
+                    <Route path="/my-music">
                         <nav className="secondary-nav">
-                            <NavLink to="/busking/" className="second-link" activeClassName="active-link" exact={true}>causes supported</NavLink>
-                            <NavLink to="/busking/material" className="second-link" activeClassName="active-link">material</NavLink>
-                        </nav>
-                    </Route>
-                    <Route path="/original">
-                        <nav className="secondary-nav">
-                            <NavLink to="/original/silverfield" className="second-link" activeClassName="active-link">causes supported</NavLink>
+                            <NavLink to="/my-music/everyday" className="second-link" activeClassName="active-link">everyday (demo album)</NavLink>
+                            <NavLink to="/my-music/covers" className="second-link" activeClassName="active-link">covers</NavLink>
+                            <NavLink to="/my-music/collaborations" className="second-link" activeClassName="active-link">collaborations</NavLink>
                         </nav>
                     </Route>
                 </Switch>

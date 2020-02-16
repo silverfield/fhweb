@@ -10,12 +10,12 @@ export default function PrimaryNav({
         <div id="primary-nav-wrap">
             <nav className="primary-nav">
                 <Router>
-                    <NavLink to="/" className="main-link" activeClassName="active-link" exact={true}>home</NavLink>
+                    <NavLink to="/home" className="main-link" activeClassName="active-link">home</NavLink>
+                    <NavLink to="/my-music" className="main-link" activeClassName="active-link">my music</NavLink>
                     <NavLink to="/busking" className="main-link" activeClassName="active-link">busking 4 good</NavLink>
-                    {/* <NavLink to="/presentation" className="main-link" activeClassName="active-link">presentation</NavLink> */}
-                    <NavLink to="/original" className="main-link" activeClassName="active-link">original stuff</NavLink>
+                    <NavLink to="/repertoire" className="main-link" activeClassName="active-link">repertoire</NavLink>
                     <NavLink to="/about" className="main-link" activeClassName="active-link">about me</NavLink>
-                    <NavLink to="/contact" className="main-link" activeClassName="active-link">contact</NavLink>
+                    <NavLink to="/contact" className="main-link" activeClassName="active-link">contact me</NavLink>
                 </Router>
             </nav>
 

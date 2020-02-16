@@ -3,11 +3,18 @@ import {
     Switch,
     Route,
 } from "react-router-dom";
+
 import Home from './mains/Home'
-import CausesSupported from './mains/busking/CausesSupported'
-import Material from './mains/busking/Material'
+
+import Everyday from './mains/my-music/Everyday'
+import Covers from './mains/my-music/Covers'
+import Collaborations from './mains/my-music/Collaborations'
+
+import Busking from './mains/Busking'
+
+import Repertoire from './mains/Repertoire'
+
 import Contact from './mains/Contact'
-import Original from './mains/Original'
 
 export default function Main({
 
@@ -16,25 +23,37 @@ export default function Main({
         <>
             <Router>
                 <Switch>
-                    <Route exact path="/">
+                    <Route path="/" exact component={() => { 
+                        window.location.href = '#/home'; 
+                        return null;
+                    }}/>
+                    <Route path="/home">
                         <Home />
                     </Route>
-                    <Route path="/busking" exact>
-                        <CausesSupported />
+
+                    <Route path="/my-music" exact component={() => { 
+                        window.location.href = '#/my-music/everyday'; 
+                        return null;
+                    }}/>
+                    <Route path="/my-music/everyday" >
+                        <Everyday />
                     </Route>
-                    <Route path="/busking/material">
-                        <Material />
+                    <Route path="/my-music/collaborations" >
+                        <Collaborations />
                     </Route>
-                    <Route path="/original">
-                        <Original />
+                    <Route path="/my-music/covers" >
+                        <Covers />
+                    </Route>
+
+                    <Route path="/busking">
+                        <Busking />
+                    </Route>
+                    <Route path="/repertoire">
+                        <Repertoire />
                     </Route>
                     <Route path="/contact">
                         <Contact />
                     </Route>
-                    <Route path="/presentation" component={() => { 
-                        window.location.href = '/presentation.html'; 
-                        return null;
-                    }}/>
                 </Switch>
             </Router>
         </>

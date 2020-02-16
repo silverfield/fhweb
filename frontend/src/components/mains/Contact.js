@@ -21,12 +21,33 @@ export default function Contact({
         return false; 
     }
 
+    var thankYouUrl = window.location.href.split('#/contact')[0] + 'thank-you.html';
+
     return (
         <div className="row">
             <div className="col-sm-6">
-                Best way to contact me is via my <a href="mailto:ferohajnovic@gmail.com">email</a><br/><br/>
+                <p>
+                    Want me to play at your venue? Check out my <a href="#repertoire">repertoire</a> and
+                     give me a shout!
+                </p>
                 
-                You can also find me on social media<br/>
+                <p>
+                    Fancy doing music or a jam together? I'm up for that 🤘
+                </p>
+
+                <p>
+                    Want me to support your good cause? Let's discuss that.
+                </p>
+                
+                <p>
+                    Best way to contact me is at my email address 
+                    <a href="mailto:ferohajnovic@gmail.com">ferohajnovic@gmail.com</a> or via the 
+                    form on this page
+                </p>
+                
+                <p>
+                    You can also find me on social media:
+                </p>
                 
                 <a href="https://www.facebook.com/feromusician" className="fa fa-facebook"></a>
                 <a href="https://www.facebook.com/feromusician">@feromusician</a>
@@ -59,7 +80,7 @@ export default function Contact({
                 >
                     <input name="skip_WhereToSend" type="hidden" value="ferohajnovic@gmail.com" />
                     <input name="skip_SnapHostID" type="hidden" value="DK73LGGU9GJC" />
-                    <input name="skip_WhereToReturn" type="hidden" value="http://www.YourWebsiteAddress.com/ThankYouPage.htm" />
+                    <input name="skip_WhereToReturn" type="hidden" value={thankYouUrl} />
                     <input name="skip_Subject" type="hidden" value="Contact Us Form" />
                     <input name="skip_ShowUsersIp" type="hidden" value="1" />
                     <input name="skip_SendCopyToUser" type="hidden" value="1" />
@@ -73,7 +94,7 @@ export default function Contact({
                     <b>Email address*:</b><br/>
                     <input name="FromEmailAddress" type="text" maxLength="60" style={{"width":"100%", "maxWidth": "350px"}} /><br/>
 
-                    <b>Comments and questions*:</b><br/>
+                    <b>Text*:</b><br/>
                     <textarea name="Comments" rows="7" cols="40" style={{"width":"100%", "maxWidth": "350px"}} maxLength="2000"></textarea><br/>
 
                     <div className="row">
@@ -83,7 +104,7 @@ export default function Contact({
                             </a> <br/>
                             <a href="https://www.snaphost.com/captcha/ReadyForms/ContactUsForm.aspx">
                                 <img 
-                                        id="captcha-image" 
+                                    id="captcha-image" 
                                     alt="Contact Us form" 
                                     title="HTML code for Contact Us form"
                                     src="https://www.SnapHost.com/captcha/CaptchaImage.aspx?id=DK73LGGU9GJC&ImgType=2" 

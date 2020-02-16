@@ -38,8 +38,8 @@ module.exports = {
   plugins: [
     new CopyWebpackPlugin([
       { from: './src/index.html', to: 'index.html' },
+      { from: './src/thank-you.html', to: 'thank-you.html' },
       // { from: './src/presentation.html', to: 'presentation.html' },
-      { from: './src/libs', to: 'libs' },
       // { from: './src/pics', to: 'pics' },
     ]),
   ],
