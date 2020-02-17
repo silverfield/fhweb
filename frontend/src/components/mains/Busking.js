@@ -2,16 +2,14 @@ import {PageSection} from '../../helpers/combo-helper'
 import {useState} from "react"
 import { useEffect } from "react";
 
+var totalSumAccumulator = 0;
+
 function Causes({
     name,
     sum,
-    totalSum,
-    setTotalSum,
     children
 }) {
-    useEffect(() => {
-        setTotalSum(totalSum + sum);
-    }, []);
+    totalSumAccumulator += sum;
 
     return <>
         <PageSection name={name} headerExtra={<span className="cause-sum">£{sum}</span>}>
@@ -25,11 +23,17 @@ export default function Busking({
 }) {
     const [totalSum, setTotalSum] = useState(0);
 
+    useEffect(() => {
+        setTotalSum(totalSumAccumulator)
+    }, [])
+
     return (
         <>
-            {totalSum}
             <div className="row">
                 <div className="col-sm-6">
+                    <div className="total-raised">
+                        Total good cause donations: <span className="raised-sum">£{totalSum}</span>
+                    </div>
                     <p>
                         I started to busk in 2014 and I love it ever since. 
                         For me, it's not about money - I enjoy playing for people, connecting 
@@ -50,7 +54,7 @@ export default function Busking({
                 </div>
             </div>
 
-            <Causes name="2019 - Various causes" sum={500} totalSum={totalSum} setTotalSum={setTotalSum}>
+            <Causes name="2019 - Various causes" sum={500}>
                 <div className="row">
                     <div className="col-sm-6">
                         <img src={require("../../pics/library-2.jpg")} />
@@ -73,7 +77,7 @@ export default function Busking({
                 </div>
             </Causes>
 
-            <Causes name="Dec 2019 - Christmas busking choir" sum={112} totalSum={totalSum} setTotalSum={setTotalSum}>
+            <Causes name="Dec 2019 - Christmas busking choir" sum={112}>
                 A repeat of the successfuly Christmas choir busking, this time in front of
                 Cardiff's Central market, again with all donations going to homelessness 
                 charity Llamau.
@@ -90,7 +94,7 @@ export default function Busking({
                 </div>
             </Causes>
 
-            <Causes name="July 2019 - Education for underprivileged children" sum={150} totalSum={totalSum} setTotalSum={setTotalSum}>
+            <Causes name="July 2019 - Education for underprivileged children" sum={150}>
                 <div className="row">
                     <div className="col-sm-4">
                         <img src={require("../../pics/triathlon.jpg")} />
@@ -116,7 +120,7 @@ export default function Busking({
                 </div>
             </Causes>
 
-            <Causes name="Spring 2019 - Busking for Llamau" sum={150} totalSum={totalSum} setTotalSum={setTotalSum}>
+            <Causes name="Spring 2019 - Busking for Llamau" sum={150}>
                 As a busker, I witnessed first hand the deteriorating state of homelessness on 
                 the streets of Cardiff. This prompted me to donate some more of the raised money to 
                 the homelessness charity Llamau, which works with young and vulnerable people
@@ -152,7 +156,7 @@ export default function Busking({
                 </div>
             </Causes>
 
-            <Causes name="Dec 2018 - Christmas busking choir" sum={126} totalSum={totalSum} setTotalSum={setTotalSum}>
+            <Causes name="Dec 2018 - Christmas busking choir" sum={126}>
                 In December 2018, I organized a busking performance with the choir
                 I've been attending at my former workplace (Office for National Statistics). The performances
                 took place at The Hayes in Cardiff and all raised money
@@ -171,7 +175,7 @@ export default function Busking({
                 </div>
             </Causes>
 
-            <Causes name="Oct 2014 - Guitar for SOS childrens village in Bergen" sum={250} totalSum={totalSum} setTotalSum={setTotalSum}>
+            <Causes name="Oct 2014 - Guitar for SOS childrens village in Bergen" sum={250}>
                 <p>
                     The idea of "busking for good" originated when I started busking 2014 in Oslo. 
                     I realized I have 

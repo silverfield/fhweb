@@ -240,15 +240,22 @@ div.page-section {
         font-weight: 800;
         display: inline-block;
     }
+}
 
-    img {
-        border: solid $color-dark-strong 2px;
-        display: block;
-        width: 100%;
-        margin: 5px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+img {
+    border: solid $color-dark-strong 2px;
+    display: block;
+    width: 100%;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.float-img {
+    float: left;
+    width: 30%;
+    min-width: 200px;
+    margin: 10px;
 }
 
 .cause-sum {
@@ -268,6 +275,39 @@ div.page-section {
         display: inline-block;
         font-size: 0.8em;
     }
+}
+
+.total-raised {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 15px;
+
+    .raised-sum {
+        color: $color-bright-light;
+    }
+}
+
+.home-greeting {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: $color-inco-strongest;
+    font-variant: small-caps;
+    text-shadow: 0 0 10px white;
+}
+
+.news-title {
+    display: block;
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.news-date {
+    font-size: 20px;
+    font-weight: 1000;
+    float: right;
+    color: $color-inco-strongest;
+    text-shadow: 0 0 5px $color-dark-light;
 }
 
 /* ------------------------------------------------------------ */
