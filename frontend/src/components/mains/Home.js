@@ -17,7 +17,7 @@ export default function Home({
 }) {
     return (
         <>
-            <p className="home-greeting">
+            <p className="section-title">
                 Welcome to my website, good music lover!
             </p>
 

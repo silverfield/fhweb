@@ -19,7 +19,7 @@ export default function PrimaryNav({
                 </Router>
             </nav>
 
-            <div id="header-title">Fero Hajnovic</div>
+            <div id="header-title">Fero Hajnovič</div>
         </div>
     );
   }

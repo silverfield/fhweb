@@ -3,8 +3,9 @@ export default function Footer({
 }) {
     return (
         <>
-            design & developed by Frantisek Hajnovic<br/>
+            design &amp; developed by Frantisek Hajnovic<br/>
             copyright © 2020, all rights reserved <br/>
+            pic credits mainly <a href="https://www.instagram.com/eo.lenka/">Lenka</a>, <a href="https://www.instagram.com/garethsphotography/">Gareth</a> and Kika <br/>
             
             <div>
                 <a href="https://www.facebook.com/feromusician" className="fa fa-facebook"></a>

@@ -29,29 +29,27 @@ export default function Busking({
 
     return (
         <>
-            <div className="row">
-                <div className="col-sm-6">
-                    <div className="total-raised">
-                        Total good cause donations: <span className="raised-sum">£{totalSum}</span>
-                    </div>
-                    <p>
-                        I started to busk in 2014 and I love it ever since. 
-                        For me, it's not about money - I enjoy playing for people, connecting 
-                        with the street and seeing how people react. When busking, I feel alive and 
-                        the instant feedback, be it a small donation or just a thumb up from the passers
-                        by, is simply irreplaceable. 
-                    </p>
-                    <p>
-                        When busking, I have a "<b>50% for good</b>" rule. This means that 50% of what
-                        I raise goes for a good cause - check out the causes I supported over the years below.
-                        And if this is not a good enough reason to support me busking, watch this video :-)
-                    </p>
-                </div>
-                <div className="col-sm-6 center-content-vert">
+            <div className="section-title">
+                Total good cause donations: <span className="raised-sum">£{totalSum}</span>
+            </div>
+            <div>
+                <div className="float-img" style={{'width': '40%'}}>
                     <div className="iframe-div">
                         <iframe src="https://www.youtube.com/embed/jAXI18tFkUM" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>
                     </div>
                 </div>
+                <p>
+                    I started to busk in 2014 and I love it ever since. 
+                    For me, it's not about money - I enjoy playing for people, connecting 
+                    with the street and seeing how people react. When busking, I feel alive and 
+                    the instant feedback, be it a small donation or just a thumb up from the passers
+                    by, is simply irreplaceable. 
+                </p>
+                <p>
+                    When busking, I have a "<b>50% for good</b>" rule. This means that 50% of what
+                    I raise goes for a good cause - check out the causes I supported over the years below.
+                    And if this is not a good enough reason to support me busking, watch this video :-)
+                </p>
             </div>
 
             <Causes name="2019 - Various causes" sum={500}>
@@ -94,7 +92,7 @@ export default function Busking({
                 </div>
             </Causes>
 
-            <Causes name="July 2019 - Education for underprivileged children" sum={150}>
+            <Causes name="July 2019 - Education trips for kids" sum={150}>
                 <div className="row">
                     <div className="col-sm-4">
                         <img src={require("../../pics/triathlon.jpg")} />
@@ -102,7 +100,8 @@ export default function Busking({
                     <div className="col-sm-4">
                         <p>
                             In July 2019, I participated the Cardiff Bay triathlon, as part of which
-                            I was raising money for education programmes in my home country. I
+                            I was raising money for education programmes for school kids from poor parts 
+                            of my home country. I
                             contributed £150 to the fund, eventually reaching the target of £500.
                         </p>
                         <p>

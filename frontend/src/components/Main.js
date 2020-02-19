@@ -14,6 +14,8 @@ import Busking from './mains/Busking'
 
 import Repertoire from './mains/Repertoire'
 
+import About from './mains/About'
+
 import Contact from './mains/Contact'
 
 export default function Main({
@@ -50,6 +52,9 @@ export default function Main({
                     </Route>
                     <Route path="/repertoire">
                         <Repertoire />
+                    </Route>
+                    <Route path="/about">
+                        <About />
                     </Route>
                     <Route path="/contact">
                         <Contact />

@@ -258,6 +258,16 @@ img {
     margin: 10px;
 }
 
+.float-right {
+    float: right;
+}
+
+.about-face {
+    font-weight: 800;
+    color: $color-dark-light;
+    font-variant: small-caps;
+}
+
 .cause-sum {
     font-size: 25px;
     font-weight: 1000;
@@ -277,23 +287,28 @@ img {
     }
 }
 
-.total-raised {
-    font-size: 1.5em;
-    text-align: center;
-    margin-bottom: 15px;
-
-    .raised-sum {
-        color: $color-bright-light;
-    }
+.raised-sum {
+    color: $color-bright-light;
 }
 
-.home-greeting {
+.section-title {
     text-align: center;
     font-size: 1.5em;
     font-weight: 700;
     color: $color-inco-strongest;
     font-variant: small-caps;
     text-shadow: 0 0 10px white;
+    margin-bottom: 10px;
+}
+
+.everyday-album {
+    display: block;
+    margin-bottom: 10px;
+    padding:10px;
+}
+
+.clear-float {
+    clear: both;
 }
 
 .news-title {
@@ -317,7 +332,6 @@ img {
 footer {
     color: $color-inco-light;
     flex: 0 1 $footer-height;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
