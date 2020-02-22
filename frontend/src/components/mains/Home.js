@@ -21,7 +21,6 @@ export default function Home({
                 Welcome to my website, good music lover!
             </p>
 
-
             <div>
                 <img src={require("../../pics/grass-1.jpg")} className="float-img" />
 

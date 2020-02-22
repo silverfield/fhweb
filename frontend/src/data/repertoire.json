@@ -1,0 +1,999 @@
+[
+    {
+        "interpret": "Dire Straits",
+        "name": "Brothers in arms",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "ambient",
+            "dsmk",
+            "guitary",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "Dire Straits",
+        "name": "Money for nothing",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "dsmk",
+            "rocky",
+            "guitary",
+            "famous"
+        ]
+    },
+    {
+        "interpret": "Dire Straits",
+        "name": "On every street",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "dsmk",
+            "ambient",
+            "guitary",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "Dire Straits",
+        "name": "Private investigations",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "dsmk",
+            "ambient",
+            "acoustic",
+            "songwrite",
+            "guitary"
+        ]
+    },
+    {
+        "interpret": "Dire Straits",
+        "name": "Romeo and Juliet",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "dsmk",
+            "ambient",
+            "acoustic",
+            "famous"
+        ]
+    },
+    {
+        "interpret": "Dire Straits",
+        "name": "Six blade knife",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "dsmk",
+            "rocky",
+            "acoustic",
+            "guitary"
+        ]
+    },
+    {
+        "interpret": "Dire Straits",
+        "name": "Sultans of swing",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "famous",
+            "dsmk",
+            "rocky",
+            "acoustic",
+            "guitary"
+        ]
+    },
+    {
+        "interpret": "Dire Straits",
+        "name": "Telegraph road",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "dsmk",
+            "rocky",
+            "guitary"
+        ]
+    },
+    {
+        "interpret": "Dire Straits",
+        "name": "Tunnel of love",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "dsmk",
+            "rocky",
+            "guitary"
+        ]
+    },
+    {
+        "interpret": "Dire Straits",
+        "name": "Where do you think you're going",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "rocky",
+            "acoustic",
+            "ambient",
+            "guitary"
+        ]
+    },
+    {
+        "interpret": "Eric Clapton",
+        "name": "Layla",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "famous",
+            "rhythm",
+            "acoustic",
+            "ambient",
+            "guitary"
+        ]
+    },
+    {
+        "interpret": "Fero Hajnovic",
+        "name": "African Bird",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "ambient",
+            "guitary"
+        ]
+    },
+    {
+        "interpret": "Fero Hajnovic",
+        "name": "Bluff",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "acoustic",
+            "ambient",
+            "guitary"
+        ]
+    },
+    {
+        "interpret": "Fero Hajnovic",
+        "name": "Calling at Newport",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "rocky",
+            "acoustic",
+            "guitary"
+        ]
+    },
+    {
+        "interpret": "Fero Hajnovic",
+        "name": "Daily ride",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "rocky",
+            "acoustic",
+            "ambient",
+            "guitary"
+        ]
+    },
+    {
+        "interpret": "Fero Hajnovic",
+        "name": "Everyday",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "rocky",
+            "acoustic",
+            "guitary"
+        ]
+    },
+    {
+        "interpret": "Fero Hajnovic",
+        "name": "Fargo and Pelgrim",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "acoustic",
+            "ambient",
+            "guitary"
+        ]
+    },
+    {
+        "interpret": "Fero Hajnovic",
+        "name": "Happy Home",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "rhythm",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "Fero Hajnovic",
+        "name": "Hey dad",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "acoustic",
+            "ambient",
+            "guitary"
+        ]
+    },
+    {
+        "interpret": "Fero Hajnovic",
+        "name": "Let's go fail",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "rhythm",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "Fero Hajnovic",
+        "name": "Summer breeze",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "acoustic",
+            "ambient",
+            "guitary"
+        ]
+    },
+    {
+        "interpret": "Fero Hajnovic",
+        "name": "Summer tune",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "acoustic",
+            "ambient",
+            "guitary",
+            "instrumental"
+        ]
+    },
+    {
+        "interpret": "Fero Hajnovic",
+        "name": "Vices",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "acoustic",
+            "ambient",
+            "guitary"
+        ]
+    },
+    {
+        "interpret": "Mark Knopfler",
+        "name": "Are we in trouble now",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "ambient",
+            "guitary"
+        ]
+    },
+    {
+        "interpret": "Mark Knopfler",
+        "name": "Boom like that",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "rocky",
+            "guitary",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "Mark Knopfler",
+        "name": "Darling pretty",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "rocky",
+            "guitary",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "Mark Knopfler",
+        "name": "Davil Baby",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "ambient",
+            "guitary",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "Mark Knopfler",
+        "name": "Going home 96",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "dsmk",
+            "rocky",
+            "guitary"
+        ]
+    },
+    {
+        "interpret": "Mark Knopfler",
+        "name": "Golden Heart",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "ambient",
+            "guitary",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "Mark Knopfler",
+        "name": "Heart full of holes",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "ambient",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "Mark Knopfler",
+        "name": "Hillfarmer's blues",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "ambient",
+            "guitary",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "Mark Knopfler",
+        "name": "I dug up a diamon",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "ambient",
+            "guitary",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "Mark Knopfler",
+        "name": "Local hero",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "dsmk",
+            "ambient",
+            "guitary"
+        ]
+    },
+    {
+        "interpret": "Mark Knopfler",
+        "name": "Piper to the end",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "ambient",
+            "guitary",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "Mark Knopfler",
+        "name": "Sailing to Philadelphia",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "ambient",
+            "guitary",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "Mark Knopfler",
+        "name": "Speedway At Nazareth",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "rocky",
+            "guitary",
+            "dsmk"
+        ]
+    },
+    {
+        "interpret": "Mark Knopfler",
+        "name": "What it is",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "rocky",
+            "guitary",
+            "dsmk"
+        ]
+    },
+    {
+        "interpret": "Notting Hillbillies",
+        "name": "Feel Like Going Home",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "ambient",
+            "guitary",
+            "acoustic",
+            "singing"
+        ]
+    },
+    {
+        "interpret": "Pink Floyd",
+        "name": "Coming Back To Life",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "ambient",
+            "guitary",
+            "rocky"
+        ]
+    },
+    {
+        "interpret": "A Great Big World & Christina Aguilera",
+        "name": "Say Something",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "famous",
+            "ambient",
+            "acoustic",
+            "singing"
+        ]
+    },
+    {
+        "interpret": "A Star is Born soundtrack",
+        "name": "Always Remember Us This Way",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "famous",
+            "singing",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "A Star is Born soundtrack",
+        "name": "Maybe Its Time",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "famous",
+            "singing",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "A Star is Born soundtrack",
+        "name": "Shallow",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "famous",
+            "singing",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "Ben E King",
+        "name": "Stand By Me",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "famous",
+            "singing",
+            "rhythm",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "Chris Isaak",
+        "name": "Wicked Game",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "famous",
+            "singing",
+            "acoustic",
+            "ambient"
+        ]
+    },
+    {
+        "interpret": "Dire Straits",
+        "name": "Romeo And Juliet",
+        "bt": false,
+        "nbt": true,
+        "tags": []
+    },
+    {
+        "interpret": "Dire Straits",
+        "name": "Six Blade Knife",
+        "bt": false,
+        "nbt": true,
+        "tags": []
+    },
+    {
+        "interpret": "Dire Straits",
+        "name": "Where Do You Think You're Going",
+        "bt": false,
+        "nbt": true,
+        "tags": []
+    },
+    {
+        "interpret": "Dire Straits",
+        "name": "You And Your Friend",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "ambient",
+            "dsmk",
+            "guitary"
+        ]
+    },
+    {
+        "interpret": "Ed Sheeran",
+        "name": "I See Fire",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "famous",
+            "rhythm",
+            "guitary"
+        ]
+    },
+    {
+        "interpret": "Ed Sheeran",
+        "name": "Perfect",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "famous",
+            "ambient",
+            "singing"
+        ]
+    },
+    {
+        "interpret": "Ed Sheeran",
+        "name": "Thinking Out Loud",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "famous",
+            "rhythm",
+            "singing"
+        ]
+    },
+    {
+        "interpret": "Eric Clapton",
+        "name": "Layla",
+        "bt": true,
+        "nbt": true,
+        "tags": [
+            "rhythm",
+            "famous",
+            "guitary",
+            "ambient",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "Eva Cassidy",
+        "name": "Fields of Gold",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "ambient",
+            "singing",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "Fero Hajnovic",
+        "name": "In style",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "ambient",
+            "songwrite",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "John Hiatt",
+        "name": "Have a little faith in me",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "ambient",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "John Hughes",
+        "name": "Calon lan",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "ambient",
+            "instrumental"
+        ]
+    },
+    {
+        "interpret": "John Mayer",
+        "name": "Age of Worry",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "ambient",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "John Mayer",
+        "name": "Changing",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "ambient",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "John Mayer",
+        "name": "Crossroads",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "rocky",
+            "guitary"
+        ]
+    },
+    {
+        "interpret": "John Mayer",
+        "name": "Dear Marie",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "ambient",
+            "guitary",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "John Mayer",
+        "name": "Edge of Desire",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "ambient",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "John Mayer",
+        "name": "I Guess I Just Feel Like",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "famous",
+            "ambient",
+            "acoustic",
+            "guitary"
+        ]
+    },
+    {
+        "interpret": "John Mayer",
+        "name": "In the Blood",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "famous",
+            "acoustic",
+            "rhythm"
+        ]
+    },
+    {
+        "interpret": "John Mayer",
+        "name": "Never on the Day You Leave",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "ambient",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "John Mayer",
+        "name": "Something Like Olivia",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "rhythm",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "John Mayer",
+        "name": "Stop This Train",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "ambient",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "John Mayer",
+        "name": "The Heart Of Life",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "ambient",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "John Mayer",
+        "name": "Who says",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "rhythm",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "John Mayer",
+        "name": "Your Body Is a Wonderland",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "rhythm",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "Leonard Cohen",
+        "name": "Hallelujah",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "ambient",
+            "famous",
+            "singing",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "Linking Park",
+        "name": "The Messenger",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "ambient",
+            "famous",
+            "singing",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "Mark Knopfler",
+        "name": "Belle Star",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "rocky",
+            "singing",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "Mark Knopfler",
+        "name": "Get lucky",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "ambient",
+            "acoustic",
+            "songwrite"
+        ]
+    },
+    {
+        "interpret": "Mark Knopfler",
+        "name": "Golden Heart",
+        "bt": true,
+        "nbt": true,
+        "tags": [
+            "guitary",
+            "ambient",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "Mark Knopfler",
+        "name": "Heart Full Of Holes",
+        "bt": false,
+        "nbt": true,
+        "tags": []
+    },
+    {
+        "interpret": "Mark Knopfler",
+        "name": "Heart of oak",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "ambient",
+            "acoustic",
+            "songwrite"
+        ]
+    },
+    {
+        "interpret": "Mark Knopfler",
+        "name": "Lights of Taormina",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "ambient",
+            "acoustic",
+            "songwrite",
+            "guitary"
+        ]
+    },
+    {
+        "interpret": "Mark Knopfler",
+        "name": "Matchstick Man",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "ambient",
+            "acoustic",
+            "songwrite"
+        ]
+    },
+    {
+        "interpret": "Mark Knopfler",
+        "name": "My heart has never changed",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "ambient",
+            "acoustic",
+            "songwrite"
+        ]
+    },
+    {
+        "interpret": "Mark Knopfler",
+        "name": "One Song at a Time",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "ambient",
+            "acoustic",
+            "songwrite"
+        ]
+    },
+    {
+        "interpret": "Mark Knopfler",
+        "name": "Ragpicker's dream",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "ambient",
+            "acoustic",
+            "songwrite"
+        ]
+    },
+    {
+        "interpret": "Mark Knopfler",
+        "name": "Sailing to Philadelphia",
+        "bt": true,
+        "nbt": true,
+        "tags": [
+            "guitary",
+            "ambient",
+            "acoustic"
+        ]
+    },
+    {
+        "interpret": "Ray Charles",
+        "name": "Hit The Road Jack (remastered)",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "rhythm",
+            "acoustic",
+            "famous"
+        ]
+    },
+    {
+        "interpret": "Simon & Garfunkel",
+        "name": "The Boxer",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "ambient",
+            "acoustic",
+            "songwrite",
+            "singing"
+        ]
+    },
+    {
+        "interpret": "Simon And Garfunkel",
+        "name": "Sound Of Silence",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "ambient",
+            "acoustic",
+            "famous",
+            "singing"
+        ]
+    },
+    {
+        "interpret": "The Greatest Showman soundtrack",
+        "name": "A Million Dreams",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "acoustic",
+            "famous",
+            "singing"
+        ]
+    },
+    {
+        "interpret": "The Greatest Showman soundtrack",
+        "name": "From now on",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "acoustic",
+            "famous",
+            "singing"
+        ]
+    },
+    {
+        "interpret": "The Greatest Showman soundtrack",
+        "name": "This Is Me",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "ambient",
+            "acoustic",
+            "famous",
+            "singing"
+        ]
+    },
+    {
+        "interpret": "Tina Turner",
+        "name": "Proud Mary",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "rhythm",
+            "acoustic",
+            "famous",
+            "singing"
+        ]
+    },
+    {
+        "interpret": "Tommy Emmanuel",
+        "name": "Those Who Wait",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "instrumental",
+            "ambient",
+            "acoustic",
+            "guitary"
+        ]
+    }
+]
