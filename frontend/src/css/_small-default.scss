@@ -330,6 +330,8 @@ img {
 }
 
 .repertoire-tbl {
+    width: 100%;
+
     th {
         height: 100px;
         font-size: 0.9em;
@@ -362,12 +364,62 @@ img {
     }
 
     &:nth-child(odd) {
-        background-color: $color-inco-strong;
+        td:nth-child(1) {
+            background-color: $color-inco-strong;
+        }
+
+        td:nth-child(6) {
+            background-color: $color-inco-medstrong;
+        }
+
+        td:nth-child(2) {
+            background-color: $color-inco-medstrong;
+        }
+
+        td:nth-child(n+3):nth-child(-n+5) {
+            background-color: $color-inco-strong;
+        }
     }
 
     &:nth-child(even) {
-        background-color: $color-inco-medium;
+        td:nth-child(1) {
+            background-color: $color-inco-medium;
+        }
+
+        td:nth-child(6) {
+            background-color: $color-inco-medlight;
+        }
+
+        td:nth-child(2) {
+            background-color: $color-inco-medlight;
+        }
+
+        td:nth-child(n+3):nth-child(-n+5) {
+            background-color: $color-inco-medium;
+        }
     }
+}
+
+.tickcross {
+    background-color: $color-inco-strongest;
+    border-radius: 2px;
+    font-weight: 800;
+    padding: 5px;
+
+    &.tick {
+        color: #6fda4f71;
+    }
+    
+    &.cross {
+        color: #e2485a93;
+    }
+}
+
+.repe-tag {
+    border-radius: 2px;
+    padding: 2px 3px;
+    background-color: #1d1a1a48;
+    margin-left: 3px;
 }
 
 /* ------------------------------------------------------------ */
@@ -384,3 +436,4 @@ footer {
     text-align: center;
     background-color: $color-inco-strongest;
 }
+  

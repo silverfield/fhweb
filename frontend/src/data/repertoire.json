@@ -50,25 +50,25 @@
     },
     {
         "interpret": "Dire Straits",
-        "name": "Romeo and Juliet",
+        "name": "Romeo And Juliet",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
-            "dsmk",
-            "ambient",
             "acoustic",
-            "famous"
+            "ambient",
+            "famous",
+            "dsmk"
         ]
     },
     {
         "interpret": "Dire Straits",
-        "name": "Six blade knife",
+        "name": "Six Blade Knife",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
-            "dsmk",
             "rocky",
             "acoustic",
+            "dsmk",
             "guitary"
         ]
     },
@@ -109,13 +109,13 @@
     },
     {
         "interpret": "Dire Straits",
-        "name": "Where do you think you're going",
+        "name": "Where Do You Think You're Going",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "rocky",
-            "acoustic",
             "ambient",
+            "acoustic",
             "guitary"
         ]
     },
@@ -123,12 +123,12 @@
         "interpret": "Eric Clapton",
         "name": "Layla",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
+            "ambient",
+            "acoustic",
             "famous",
             "rhythm",
-            "acoustic",
-            "ambient",
             "guitary"
         ]
     },
@@ -321,21 +321,21 @@
         "interpret": "Mark Knopfler",
         "name": "Golden Heart",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
+            "acoustic",
             "ambient",
-            "guitary",
-            "acoustic"
+            "guitary"
         ]
     },
     {
         "interpret": "Mark Knopfler",
-        "name": "Heart full of holes",
+        "name": "Heart Full Of Holes",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
-            "ambient",
-            "acoustic"
+            "acoustic",
+            "ambient"
         ]
     },
     {
@@ -386,11 +386,11 @@
         "interpret": "Mark Knopfler",
         "name": "Sailing to Philadelphia",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
+            "acoustic",
             "ambient",
-            "guitary",
-            "acoustic"
+            "guitary"
         ]
     },
     {
@@ -509,27 +509,6 @@
     },
     {
         "interpret": "Dire Straits",
-        "name": "Romeo And Juliet",
-        "bt": false,
-        "nbt": true,
-        "tags": []
-    },
-    {
-        "interpret": "Dire Straits",
-        "name": "Six Blade Knife",
-        "bt": false,
-        "nbt": true,
-        "tags": []
-    },
-    {
-        "interpret": "Dire Straits",
-        "name": "Where Do You Think You're Going",
-        "bt": false,
-        "nbt": true,
-        "tags": []
-    },
-    {
-        "interpret": "Dire Straits",
         "name": "You And Your Friend",
         "bt": false,
         "nbt": true,
@@ -570,19 +549,6 @@
             "famous",
             "rhythm",
             "singing"
-        ]
-    },
-    {
-        "interpret": "Eric Clapton",
-        "name": "Layla",
-        "bt": true,
-        "nbt": true,
-        "tags": [
-            "rhythm",
-            "famous",
-            "guitary",
-            "ambient",
-            "acoustic"
         ]
     },
     {
@@ -809,24 +775,6 @@
     },
     {
         "interpret": "Mark Knopfler",
-        "name": "Golden Heart",
-        "bt": true,
-        "nbt": true,
-        "tags": [
-            "guitary",
-            "ambient",
-            "acoustic"
-        ]
-    },
-    {
-        "interpret": "Mark Knopfler",
-        "name": "Heart Full Of Holes",
-        "bt": false,
-        "nbt": true,
-        "tags": []
-    },
-    {
-        "interpret": "Mark Knopfler",
         "name": "Heart of oak",
         "bt": false,
         "nbt": true,
@@ -890,17 +838,6 @@
             "ambient",
             "acoustic",
             "songwrite"
-        ]
-    },
-    {
-        "interpret": "Mark Knopfler",
-        "name": "Sailing to Philadelphia",
-        "bt": true,
-        "nbt": true,
-        "tags": [
-            "guitary",
-            "ambient",
-            "acoustic"
         ]
     },
     {
