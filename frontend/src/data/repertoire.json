@@ -1,18 +1,18 @@
 [
     {
-        "interpret": "Dire Straits",
+        "artist": "Dire Straits",
         "name": "Brothers in arms",
         "bt": true,
         "nbt": false,
         "tags": [
-            "ambient",
+            "relaxed",
             "dsmk",
             "guitary",
             "acoustic"
         ]
     },
     {
-        "interpret": "Dire Straits",
+        "artist": "Dire Straits",
         "name": "Money for nothing",
         "bt": true,
         "nbt": false,
@@ -24,56 +24,56 @@
         ]
     },
     {
-        "interpret": "Dire Straits",
+        "artist": "Dire Straits",
         "name": "On every street",
         "bt": true,
         "nbt": false,
         "tags": [
             "dsmk",
-            "ambient",
+            "relaxed",
             "guitary",
             "acoustic"
         ]
     },
     {
-        "interpret": "Dire Straits",
+        "artist": "Dire Straits",
         "name": "Private investigations",
         "bt": true,
         "nbt": false,
         "tags": [
             "dsmk",
-            "ambient",
+            "relaxed",
             "acoustic",
             "songwrite",
             "guitary"
         ]
     },
     {
-        "interpret": "Dire Straits",
+        "artist": "Dire Straits",
         "name": "Romeo And Juliet",
         "bt": true,
         "nbt": true,
         "tags": [
+            "dsmk",
             "acoustic",
-            "ambient",
-            "famous",
-            "dsmk"
+            "relaxed",
+            "famous"
         ]
     },
     {
-        "interpret": "Dire Straits",
+        "artist": "Dire Straits",
         "name": "Six Blade Knife",
         "bt": true,
         "nbt": true,
         "tags": [
-            "rocky",
-            "acoustic",
+            "guitary",
             "dsmk",
-            "guitary"
+            "rocky",
+            "acoustic"
         ]
     },
     {
-        "interpret": "Dire Straits",
+        "artist": "Dire Straits",
         "name": "Sultans of swing",
         "bt": true,
         "nbt": false,
@@ -86,7 +86,7 @@
         ]
     },
     {
-        "interpret": "Dire Straits",
+        "artist": "Dire Straits",
         "name": "Telegraph road",
         "bt": true,
         "nbt": false,
@@ -97,7 +97,7 @@
         ]
     },
     {
-        "interpret": "Dire Straits",
+        "artist": "Dire Straits",
         "name": "Tunnel of love",
         "bt": true,
         "nbt": false,
@@ -108,53 +108,53 @@
         ]
     },
     {
-        "interpret": "Dire Straits",
+        "artist": "Dire Straits",
         "name": "Where Do You Think You're Going",
         "bt": true,
         "nbt": true,
         "tags": [
+            "guitary",
+            "relaxed",
             "rocky",
-            "ambient",
-            "acoustic",
-            "guitary"
+            "acoustic"
         ]
     },
     {
-        "interpret": "Eric Clapton",
+        "artist": "Eric Clapton",
         "name": "Layla",
         "bt": true,
         "nbt": true,
         "tags": [
-            "ambient",
-            "acoustic",
-            "famous",
             "rhythm",
-            "guitary"
+            "guitary",
+            "relaxed",
+            "acoustic",
+            "famous"
         ]
     },
     {
-        "interpret": "Fero Hajnovic",
+        "artist": "Fero Hajnovic",
         "name": "African Bird",
         "bt": true,
         "nbt": false,
         "tags": [
-            "ambient",
+            "relaxed",
             "guitary"
         ]
     },
     {
-        "interpret": "Fero Hajnovic",
+        "artist": "Fero Hajnovic",
         "name": "Bluff",
         "bt": true,
         "nbt": false,
         "tags": [
             "acoustic",
-            "ambient",
+            "relaxed",
             "guitary"
         ]
     },
     {
-        "interpret": "Fero Hajnovic",
+        "artist": "Fero Hajnovic",
         "name": "Calling at Newport",
         "bt": true,
         "nbt": false,
@@ -165,19 +165,19 @@
         ]
     },
     {
-        "interpret": "Fero Hajnovic",
+        "artist": "Fero Hajnovic",
         "name": "Daily ride",
         "bt": true,
         "nbt": false,
         "tags": [
             "rocky",
             "acoustic",
-            "ambient",
+            "relaxed",
             "guitary"
         ]
     },
     {
-        "interpret": "Fero Hajnovic",
+        "artist": "Fero Hajnovic",
         "name": "Everyday",
         "bt": true,
         "nbt": false,
@@ -188,18 +188,18 @@
         ]
     },
     {
-        "interpret": "Fero Hajnovic",
+        "artist": "Fero Hajnovic",
         "name": "Fargo and Pelgrim",
         "bt": true,
         "nbt": false,
         "tags": [
             "acoustic",
-            "ambient",
+            "relaxed",
             "guitary"
         ]
     },
     {
-        "interpret": "Fero Hajnovic",
+        "artist": "Fero Hajnovic",
         "name": "Happy Home",
         "bt": true,
         "nbt": false,
@@ -209,18 +209,18 @@
         ]
     },
     {
-        "interpret": "Fero Hajnovic",
+        "artist": "Fero Hajnovic",
         "name": "Hey dad",
         "bt": true,
         "nbt": false,
         "tags": [
             "acoustic",
-            "ambient",
+            "relaxed",
             "guitary"
         ]
     },
     {
-        "interpret": "Fero Hajnovic",
+        "artist": "Fero Hajnovic",
         "name": "Let's go fail",
         "bt": true,
         "nbt": false,
@@ -230,51 +230,51 @@
         ]
     },
     {
-        "interpret": "Fero Hajnovic",
+        "artist": "Fero Hajnovic",
         "name": "Summer breeze",
         "bt": true,
         "nbt": false,
         "tags": [
             "acoustic",
-            "ambient",
+            "relaxed",
             "guitary"
         ]
     },
     {
-        "interpret": "Fero Hajnovic",
+        "artist": "Fero Hajnovic",
         "name": "Summer tune",
         "bt": true,
         "nbt": false,
         "tags": [
             "acoustic",
-            "ambient",
+            "relaxed",
             "guitary",
             "instrumental"
         ]
     },
     {
-        "interpret": "Fero Hajnovic",
+        "artist": "Fero Hajnovic",
         "name": "Vices",
         "bt": true,
         "nbt": false,
         "tags": [
             "acoustic",
-            "ambient",
+            "relaxed",
             "guitary"
         ]
     },
     {
-        "interpret": "Mark Knopfler",
+        "artist": "Mark Knopfler",
         "name": "Are we in trouble now",
         "bt": true,
         "nbt": false,
         "tags": [
-            "ambient",
+            "relaxed",
             "guitary"
         ]
     },
     {
-        "interpret": "Mark Knopfler",
+        "artist": "Mark Knopfler",
         "name": "Boom like that",
         "bt": true,
         "nbt": false,
@@ -285,7 +285,7 @@
         ]
     },
     {
-        "interpret": "Mark Knopfler",
+        "artist": "Mark Knopfler",
         "name": "Darling pretty",
         "bt": true,
         "nbt": false,
@@ -296,18 +296,18 @@
         ]
     },
     {
-        "interpret": "Mark Knopfler",
+        "artist": "Mark Knopfler",
         "name": "Davil Baby",
         "bt": true,
         "nbt": false,
         "tags": [
-            "ambient",
+            "relaxed",
             "guitary",
             "acoustic"
         ]
     },
     {
-        "interpret": "Mark Knopfler",
+        "artist": "Mark Knopfler",
         "name": "Going home 96",
         "bt": true,
         "nbt": false,
@@ -318,83 +318,83 @@
         ]
     },
     {
-        "interpret": "Mark Knopfler",
+        "artist": "Mark Knopfler",
         "name": "Golden Heart",
         "bt": true,
         "nbt": true,
         "tags": [
+            "guitary",
             "acoustic",
-            "ambient",
-            "guitary"
+            "relaxed"
         ]
     },
     {
-        "interpret": "Mark Knopfler",
+        "artist": "Mark Knopfler",
         "name": "Heart Full Of Holes",
         "bt": true,
         "nbt": true,
         "tags": [
             "acoustic",
-            "ambient"
+            "relaxed"
         ]
     },
     {
-        "interpret": "Mark Knopfler",
+        "artist": "Mark Knopfler",
         "name": "Hillfarmer's blues",
         "bt": true,
         "nbt": false,
         "tags": [
-            "ambient",
+            "relaxed",
             "guitary",
             "acoustic"
         ]
     },
     {
-        "interpret": "Mark Knopfler",
+        "artist": "Mark Knopfler",
         "name": "I dug up a diamon",
         "bt": true,
         "nbt": false,
         "tags": [
-            "ambient",
+            "relaxed",
             "guitary",
             "acoustic"
         ]
     },
     {
-        "interpret": "Mark Knopfler",
+        "artist": "Mark Knopfler",
         "name": "Local hero",
         "bt": true,
         "nbt": false,
         "tags": [
             "dsmk",
-            "ambient",
+            "relaxed",
             "guitary"
         ]
     },
     {
-        "interpret": "Mark Knopfler",
+        "artist": "Mark Knopfler",
         "name": "Piper to the end",
         "bt": true,
         "nbt": false,
         "tags": [
-            "ambient",
+            "relaxed",
             "guitary",
             "acoustic"
         ]
     },
     {
-        "interpret": "Mark Knopfler",
+        "artist": "Mark Knopfler",
         "name": "Sailing to Philadelphia",
         "bt": true,
         "nbt": true,
         "tags": [
+            "guitary",
             "acoustic",
-            "ambient",
-            "guitary"
+            "relaxed"
         ]
     },
     {
-        "interpret": "Mark Knopfler",
+        "artist": "Mark Knopfler",
         "name": "Speedway At Nazareth",
         "bt": true,
         "nbt": false,
@@ -405,7 +405,7 @@
         ]
     },
     {
-        "interpret": "Mark Knopfler",
+        "artist": "Mark Knopfler",
         "name": "What it is",
         "bt": true,
         "nbt": false,
@@ -416,42 +416,42 @@
         ]
     },
     {
-        "interpret": "Notting Hillbillies",
+        "artist": "Notting Hillbillies",
         "name": "Feel Like Going Home",
         "bt": true,
         "nbt": false,
         "tags": [
-            "ambient",
+            "relaxed",
             "guitary",
             "acoustic",
             "singing"
         ]
     },
     {
-        "interpret": "Pink Floyd",
+        "artist": "Pink Floyd",
         "name": "Coming Back To Life",
         "bt": true,
         "nbt": false,
         "tags": [
-            "ambient",
+            "relaxed",
             "guitary",
             "rocky"
         ]
     },
     {
-        "interpret": "A Great Big World & Christina Aguilera",
+        "artist": "A Great Big World & Christina Aguilera",
         "name": "Say Something",
         "bt": false,
         "nbt": true,
         "tags": [
             "famous",
-            "ambient",
+            "relaxed",
             "acoustic",
             "singing"
         ]
     },
     {
-        "interpret": "A Star is Born soundtrack",
+        "artist": "A Star is Born soundtrack",
         "name": "Always Remember Us This Way",
         "bt": false,
         "nbt": true,
@@ -462,7 +462,7 @@
         ]
     },
     {
-        "interpret": "A Star is Born soundtrack",
+        "artist": "A Star is Born soundtrack",
         "name": "Maybe Its Time",
         "bt": false,
         "nbt": true,
@@ -473,7 +473,7 @@
         ]
     },
     {
-        "interpret": "A Star is Born soundtrack",
+        "artist": "A Star is Born soundtrack",
         "name": "Shallow",
         "bt": false,
         "nbt": true,
@@ -484,7 +484,7 @@
         ]
     },
     {
-        "interpret": "Ben E King",
+        "artist": "Ben E King",
         "name": "Stand By Me",
         "bt": false,
         "nbt": true,
@@ -496,7 +496,7 @@
         ]
     },
     {
-        "interpret": "Chris Isaak",
+        "artist": "Chris Isaak",
         "name": "Wicked Game",
         "bt": false,
         "nbt": true,
@@ -504,22 +504,22 @@
             "famous",
             "singing",
             "acoustic",
-            "ambient"
+            "relaxed"
         ]
     },
     {
-        "interpret": "Dire Straits",
+        "artist": "Dire Straits",
         "name": "You And Your Friend",
         "bt": false,
         "nbt": true,
         "tags": [
-            "ambient",
+            "relaxed",
             "dsmk",
             "guitary"
         ]
     },
     {
-        "interpret": "Ed Sheeran",
+        "artist": "Ed Sheeran",
         "name": "I See Fire",
         "bt": false,
         "nbt": true,
@@ -530,18 +530,18 @@
         ]
     },
     {
-        "interpret": "Ed Sheeran",
+        "artist": "Ed Sheeran",
         "name": "Perfect",
         "bt": false,
         "nbt": true,
         "tags": [
             "famous",
-            "ambient",
+            "relaxed",
             "singing"
         ]
     },
     {
-        "interpret": "Ed Sheeran",
+        "artist": "Ed Sheeran",
         "name": "Thinking Out Loud",
         "bt": false,
         "nbt": true,
@@ -552,69 +552,69 @@
         ]
     },
     {
-        "interpret": "Eva Cassidy",
+        "artist": "Eva Cassidy",
         "name": "Fields of Gold",
         "bt": false,
         "nbt": true,
         "tags": [
-            "ambient",
+            "relaxed",
             "singing",
             "acoustic"
         ]
     },
     {
-        "interpret": "Fero Hajnovic",
+        "artist": "Fero Hajnovic",
         "name": "In style",
         "bt": false,
         "nbt": true,
         "tags": [
-            "ambient",
+            "relaxed",
             "songwrite",
             "acoustic"
         ]
     },
     {
-        "interpret": "John Hiatt",
+        "artist": "John Hiatt",
         "name": "Have a little faith in me",
         "bt": false,
         "nbt": true,
         "tags": [
-            "ambient",
+            "relaxed",
             "acoustic"
         ]
     },
     {
-        "interpret": "John Hughes",
+        "artist": "John Hughes",
         "name": "Calon lan",
         "bt": false,
         "nbt": true,
         "tags": [
-            "ambient",
+            "relaxed",
             "instrumental"
         ]
     },
     {
-        "interpret": "John Mayer",
+        "artist": "John Mayer",
         "name": "Age of Worry",
         "bt": false,
         "nbt": true,
         "tags": [
-            "ambient",
+            "relaxed",
             "acoustic"
         ]
     },
     {
-        "interpret": "John Mayer",
+        "artist": "John Mayer",
         "name": "Changing",
         "bt": false,
         "nbt": true,
         "tags": [
-            "ambient",
+            "relaxed",
             "acoustic"
         ]
     },
     {
-        "interpret": "John Mayer",
+        "artist": "John Mayer",
         "name": "Crossroads",
         "bt": false,
         "nbt": true,
@@ -624,40 +624,40 @@
         ]
     },
     {
-        "interpret": "John Mayer",
+        "artist": "John Mayer",
         "name": "Dear Marie",
         "bt": false,
         "nbt": true,
         "tags": [
-            "ambient",
+            "relaxed",
             "guitary",
             "acoustic"
         ]
     },
     {
-        "interpret": "John Mayer",
+        "artist": "John Mayer",
         "name": "Edge of Desire",
         "bt": false,
         "nbt": true,
         "tags": [
-            "ambient",
+            "relaxed",
             "acoustic"
         ]
     },
     {
-        "interpret": "John Mayer",
+        "artist": "John Mayer",
         "name": "I Guess I Just Feel Like",
         "bt": false,
         "nbt": true,
         "tags": [
             "famous",
-            "ambient",
+            "relaxed",
             "acoustic",
             "guitary"
         ]
     },
     {
-        "interpret": "John Mayer",
+        "artist": "John Mayer",
         "name": "In the Blood",
         "bt": false,
         "nbt": true,
@@ -668,17 +668,17 @@
         ]
     },
     {
-        "interpret": "John Mayer",
+        "artist": "John Mayer",
         "name": "Never on the Day You Leave",
         "bt": false,
         "nbt": true,
         "tags": [
-            "ambient",
+            "relaxed",
             "acoustic"
         ]
     },
     {
-        "interpret": "John Mayer",
+        "artist": "John Mayer",
         "name": "Something Like Olivia",
         "bt": false,
         "nbt": true,
@@ -688,27 +688,27 @@
         ]
     },
     {
-        "interpret": "John Mayer",
+        "artist": "John Mayer",
         "name": "Stop This Train",
         "bt": false,
         "nbt": true,
         "tags": [
-            "ambient",
+            "relaxed",
             "acoustic"
         ]
     },
     {
-        "interpret": "John Mayer",
+        "artist": "John Mayer",
         "name": "The Heart Of Life",
         "bt": false,
         "nbt": true,
         "tags": [
-            "ambient",
+            "relaxed",
             "acoustic"
         ]
     },
     {
-        "interpret": "John Mayer",
+        "artist": "John Mayer",
         "name": "Who says",
         "bt": false,
         "nbt": true,
@@ -718,7 +718,7 @@
         ]
     },
     {
-        "interpret": "John Mayer",
+        "artist": "John Mayer",
         "name": "Your Body Is a Wonderland",
         "bt": false,
         "nbt": true,
@@ -728,31 +728,31 @@
         ]
     },
     {
-        "interpret": "Leonard Cohen",
+        "artist": "Leonard Cohen",
         "name": "Hallelujah",
         "bt": false,
         "nbt": true,
         "tags": [
-            "ambient",
+            "relaxed",
             "famous",
             "singing",
             "acoustic"
         ]
     },
     {
-        "interpret": "Linking Park",
+        "artist": "Linking Park",
         "name": "The Messenger",
         "bt": false,
         "nbt": true,
         "tags": [
-            "ambient",
+            "relaxed",
             "famous",
             "singing",
             "acoustic"
         ]
     },
     {
-        "interpret": "Mark Knopfler",
+        "artist": "Mark Knopfler",
         "name": "Belle Star",
         "bt": false,
         "nbt": true,
@@ -763,85 +763,85 @@
         ]
     },
     {
-        "interpret": "Mark Knopfler",
+        "artist": "Mark Knopfler",
         "name": "Get lucky",
         "bt": false,
         "nbt": true,
         "tags": [
-            "ambient",
+            "relaxed",
             "acoustic",
             "songwrite"
         ]
     },
     {
-        "interpret": "Mark Knopfler",
+        "artist": "Mark Knopfler",
         "name": "Heart of oak",
         "bt": false,
         "nbt": true,
         "tags": [
-            "ambient",
+            "relaxed",
             "acoustic",
             "songwrite"
         ]
     },
     {
-        "interpret": "Mark Knopfler",
+        "artist": "Mark Knopfler",
         "name": "Lights of Taormina",
         "bt": false,
         "nbt": true,
         "tags": [
-            "ambient",
+            "relaxed",
             "acoustic",
             "songwrite",
             "guitary"
         ]
     },
     {
-        "interpret": "Mark Knopfler",
+        "artist": "Mark Knopfler",
         "name": "Matchstick Man",
         "bt": false,
         "nbt": true,
         "tags": [
-            "ambient",
+            "relaxed",
             "acoustic",
             "songwrite"
         ]
     },
     {
-        "interpret": "Mark Knopfler",
+        "artist": "Mark Knopfler",
         "name": "My heart has never changed",
         "bt": false,
         "nbt": true,
         "tags": [
-            "ambient",
+            "relaxed",
             "acoustic",
             "songwrite"
         ]
     },
     {
-        "interpret": "Mark Knopfler",
+        "artist": "Mark Knopfler",
         "name": "One Song at a Time",
         "bt": false,
         "nbt": true,
         "tags": [
-            "ambient",
+            "relaxed",
             "acoustic",
             "songwrite"
         ]
     },
     {
-        "interpret": "Mark Knopfler",
+        "artist": "Mark Knopfler",
         "name": "Ragpicker's dream",
         "bt": false,
         "nbt": true,
         "tags": [
-            "ambient",
+            "relaxed",
             "acoustic",
             "songwrite"
         ]
     },
     {
-        "interpret": "Ray Charles",
+        "artist": "Ray Charles",
         "name": "Hit The Road Jack (remastered)",
         "bt": false,
         "nbt": true,
@@ -852,31 +852,31 @@
         ]
     },
     {
-        "interpret": "Simon & Garfunkel",
+        "artist": "Simon & Garfunkel",
         "name": "The Boxer",
         "bt": false,
         "nbt": true,
         "tags": [
-            "ambient",
+            "relaxed",
             "acoustic",
             "songwrite",
             "singing"
         ]
     },
     {
-        "interpret": "Simon And Garfunkel",
+        "artist": "Simon And Garfunkel",
         "name": "Sound Of Silence",
         "bt": false,
         "nbt": true,
         "tags": [
-            "ambient",
+            "relaxed",
             "acoustic",
             "famous",
             "singing"
         ]
     },
     {
-        "interpret": "The Greatest Showman soundtrack",
+        "artist": "The Greatest Showman soundtrack",
         "name": "A Million Dreams",
         "bt": false,
         "nbt": true,
@@ -887,7 +887,7 @@
         ]
     },
     {
-        "interpret": "The Greatest Showman soundtrack",
+        "artist": "The Greatest Showman soundtrack",
         "name": "From now on",
         "bt": false,
         "nbt": true,
@@ -898,19 +898,19 @@
         ]
     },
     {
-        "interpret": "The Greatest Showman soundtrack",
+        "artist": "The Greatest Showman soundtrack",
         "name": "This Is Me",
         "bt": false,
         "nbt": true,
         "tags": [
-            "ambient",
+            "relaxed",
             "acoustic",
             "famous",
             "singing"
         ]
     },
     {
-        "interpret": "Tina Turner",
+        "artist": "Tina Turner",
         "name": "Proud Mary",
         "bt": false,
         "nbt": true,
@@ -922,13 +922,13 @@
         ]
     },
     {
-        "interpret": "Tommy Emmanuel",
+        "artist": "Tommy Emmanuel",
         "name": "Those Who Wait",
         "bt": false,
         "nbt": true,
         "tags": [
             "instrumental",
-            "ambient",
+            "relaxed",
             "acoustic",
             "guitary"
         ]

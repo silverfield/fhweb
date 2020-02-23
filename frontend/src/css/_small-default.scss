@@ -331,11 +331,27 @@ img {
 
 .repertoire-tbl {
     width: 100%;
+    table-layout: fixed;
 
     th {
-        height: 100px;
         font-size: 0.9em;
         vertical-align: bottom;
+    }
+
+    .th-artist {
+        width: 20%;
+    }
+
+    .th-name {
+        width: 20%;
+    }
+
+    .th-props {
+        width: 15%;
+    }
+
+    .th-tags {
+        width: 40%;
     }
 
     th.rotate {
@@ -360,7 +376,7 @@ img {
     height: 3em;
 
     td {
-        padding: 5px
+        padding: 5px;
     }
 
     &:nth-child(odd) {
@@ -368,16 +384,16 @@ img {
             background-color: $color-inco-strong;
         }
 
-        td:nth-child(6) {
-            background-color: $color-inco-medstrong;
-        }
-
         td:nth-child(2) {
             background-color: $color-inco-medstrong;
         }
 
-        td:nth-child(n+3):nth-child(-n+5) {
+        td:nth-child(3) {
             background-color: $color-inco-strong;
+        }
+
+        td:nth-child(4) {
+            background-color: $color-inco-medstrong;
         }
     }
 
@@ -386,25 +402,42 @@ img {
             background-color: $color-inco-medium;
         }
 
-        td:nth-child(6) {
-            background-color: $color-inco-medlight;
-        }
-
         td:nth-child(2) {
             background-color: $color-inco-medlight;
         }
 
-        td:nth-child(n+3):nth-child(-n+5) {
+        td:nth-child(3) {
             background-color: $color-inco-medium;
         }
+
+        td:nth-child(4) {
+            background-color: $color-inco-medlight;
+        }
+    }
+}
+
+.repe-top {
+    font-size: 0.8em;
+}
+
+.repe-artist {
+    cursor: pointer;
+
+    &:hover {
+        font-weight: 1000;
+        text-shadow: 0 0 3px white;
     }
 }
 
 .tickcross {
     background-color: $color-inco-strongest;
+    display: inline-block;
     border-radius: 2px;
-    font-weight: 800;
-    padding: 5px;
+    font-weight: 1000;
+    font-size: 1.2em;
+    padding: 0 5px;
+    margin: 0 1px;
+    cursor: pointer;
 
     &.tick {
         color: #6fda4f71;
@@ -420,6 +453,36 @@ img {
     padding: 2px 3px;
     background-color: #1d1a1a48;
     margin-left: 3px;
+    cursor: pointer;
+}
+
+.tag-div {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.active-filter {
+    cursor: pointer;
+    display: inline-block;
+    background-color: $color-inco-medlight;
+    border-radius: 2px;
+    padding: 3px;
+    margin: 3px;
+    width: 100%;
+}
+
+.remove-filter {
+    float: right;
+}
+
+.tag-float-right {
+    @media only screen and (min-width: 576px) {
+        float:right;
+    }
+}
+
+.inline-flex {
+    display: inline-flex;
 }
 
 /* ------------------------------------------------------------ */
