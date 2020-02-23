@@ -347,11 +347,11 @@ img {
     }
 
     .th-props {
-        width: 15%;
+        width: 20%;
     }
 
     .th-tags {
-        width: 40%;
+        width: 35%;
     }
 
     th.rotate {
@@ -377,6 +377,10 @@ img {
 
     td {
         padding: 5px;
+    }
+
+    td.repe-props {
+        text-align: center;
     }
 
     &:nth-child(odd) {
@@ -416,10 +420,9 @@ img {
     }
 
     &.repe-selected {
-        border: 2px solid white;
-
-        .repe-name {
-            color: white;
+        td.repe-name {
+            color: black;
+            background-color: white;
         }
     }
 }
@@ -435,14 +438,18 @@ img {
         font-weight: 1000;
         text-shadow: 0 0 3px white;
     }
+
+    &.is-active {
+        border: 1px solid $color-bright-light;
+    }
 }
 
-.repe-name {
+td.repe-name {
     cursor: pointer;
 
     &:hover {
-        font-weight: 1000;
-        text-shadow: 0 0 3px white;
+        color: black;
+        background-color: white !important;
     }
 }
 
@@ -463,6 +470,10 @@ img {
     &.cross {
         color: #e2485a93;
     }
+
+    &.is-active {
+        border: 1px solid $color-bright-light;
+    }
 }
 
 .repe-tag {
@@ -473,11 +484,24 @@ img {
     margin-top: 1px;
     margin-bottom: 1px;
     cursor: pointer;
+    
+    &.is-active {
+        border: 2px solid $color-bright-light;
+    }
+}
+
+.repe-buttons {
+    align-items: stretch;
+    flex-direction: row;
+    display: flex;
 }
 
 .repe-button {
+    flex-grow: 1;
+    justify-content: center;
+    border: solid 1px white;
     cursor: pointer;
-    display: inline-block;
+    display: inline-flex;
     padding: 5px;
     margin: 4px;
     border-radius: 4px;

@@ -1,6 +1,7 @@
 import repdata from '../../data/repertoire.json'
 import {htmlDecode} from '../../helpers/combo-helper'
 import {useState} from "react"
+import {useEffect} from "react"
 
 var tagMap = {
     'relaxed': {
@@ -41,7 +42,7 @@ var tagMap = {
         'color': '#6f68ceb9'
     },
     'rhythm': {
-        'full': 'Rhythmic songs for vibrant pubs',
+        'full': 'Rhythmic songs for vibrant venues',
         'color': '#41df41b9'
     }
 }
@@ -51,15 +52,29 @@ var cross = htmlDecode('&#x2717;');
 
 function TickCross({
     yes,
-    name
+    name,
+    filters,
+    onClickHandler
 }) {
-    name = (`${yes ? tick : cross} - ${name}`);
+    var tooltipText = null;
+    if (name === 'bt') {
+        tooltipText = `${yes ? 'Has' : 'Doesn\'t have'} a backing track version`
+    }
+    if (name === 'nbt') {
+        tooltipText = `${yes ? 'Has' : 'Doesn\'t have'} a non-backing track version`
+    }
+    if (name === 'orig') {
+        tooltipText = `${yes ? 'Original' : 'Cover'} song`
+    }
+    tooltipText += ' (click to show only songs like this)'
+    var isActiveTickCross = filters.filter((f) => (f['name'] === name) && (f['value'] === yes)).length > 0;
 
     return <>
         <span 
-            className={`tickcross ${yes ? "tick" : "cross"}`} 
+            className={`tickcross ${yes ? "tick" : "cross"}` + (isActiveTickCross ? ' is-active' : '')} 
+            onClick={onClickHandler}
             data-toggle="tooltip" 
-            title={name}
+            title={tooltipText}
         >
             {yes ? <>{tick}</> : <>{cross}</>}
         </span>
@@ -69,12 +84,17 @@ function TickCross({
 function Tag({
     value,
     tagMap,
+    filters,
     updateFilters
 }) {
+    var tooltipText = tagMap[value]['full'];
+    tooltipText += ' (click to show only songs with this tag)';
+    var isActiveTag = filters.filter((f) => f['name'] === 'tag' && f['value'] === value).length > 0;
+
     return <span 
-        className="repe-tag" 
+        className={"repe-tag" + (isActiveTag ? ' is-active' : '')}
         data-toggle="tooltip" 
-        title={tagMap[value]['full']}
+        title={tooltipText}
         style={{'backgroundColor': tagMap[value]['color']}}
         onClick={() => updateFilters('tag', value)}
     >
@@ -128,29 +148,57 @@ function Item({
 
     var isSelected = selection.filter((s) => s['name'] === name && s['artist'] === artist).length > 0;
 
+    var artistTooltipText = 'Click to show only this artist'
+
+    useEffect(() => {
+        $('[data-toggle="tooltip"]').tooltip();
+    }, [])
+
+    var isActiveArtist = filters.filter((f) => f['name'] === 'artist' && f['value'] === artist).length > 0;
+
     return <>
         <tr className={"repe-item" + (isSelected ? ' repe-selected': '')}>
-            <td className="repe-artist" onClick={() => updateFilters('artist', artist)}>
+            <td 
+                className={"repe-artist" + (isActiveArtist ? ' is-active' : '')}
+                onClick={() => updateFilters('artist', artist)}
+                data-toggle="tooltip" 
+                title={artistTooltipText}
+            >
                 {artist}
             </td>
             <td className="repe-name" onClick={() => updateSelection(artist, name)}>
                 {name}
             </td>
-            <td className="repe-props" onClick={() => updateFilters('orig', artist === 'Fero Hajnovic')}>
+            <td className="repe-props">
                 <div className="inline-flex">
-                    <TickCross yes={artist === 'Fero Hajnovic'} name="Original" />  
+                    <TickCross 
+                        yes={artist === 'Fero Hajnovic'} 
+                        name="orig"
+                        filters={filters}
+                        onClickHandler={() => updateFilters('orig', artist === 'Fero Hajnovic')}
+                    />  
                 </div>
                 <div className="inline-flex">
-                    <TickCross yes={bt} name="Backing track version" />
+                    <TickCross 
+                        yes={bt} 
+                        name="bt" 
+                        filters={filters}
+                        onClickHandler={() => updateFilters('bt', bt)}
+                    />
                 </div>
                 <div className="inline-flex">
-                    <TickCross yes={nbt} name="Non-backing track version" />
+                    <TickCross 
+                        yes={nbt} 
+                        name="nbt" 
+                        filters={filters}
+                        onClickHandler={() => updateFilters('nbt', nbt)}
+                    />
                 </div>
             </td>
             <td className="repe-tags">
                 {tags.map((value) => {
                     return <div className="inline-flex">
-                        <Tag tagMap={tagMap} value={value} updateFilters={updateFilters}/>
+                        <Tag tagMap={tagMap} value={value} filters={filters} updateFilters={updateFilters}/>
                     </div>
                 })}
             </td>
@@ -181,8 +229,19 @@ export default function Repertoire({
         setSelection(newSelection);
     }
 
-    function selectAll() {
+    function getFiltered() {
         var repdataFiltered = repdata.filter((x) => passFilters(filters, x['artist'], x['bt'], x['nbt'], x['tags']));
+        return repdataFiltered;
+    }
+
+    function getSelectedFiltered() {
+        var filtered = getFiltered()
+        return selection.filter((s) => filtered.find((f) => f['name'] === s['name'] && f['artist'] === s['artist']))
+    }
+
+    function selectAll() {
+        var repdataFiltered = getFiltered()
+
         setSelection(repdataFiltered.map((r) => {
             return {
                 artist: r['artist'], name: r['name']
@@ -194,7 +253,11 @@ export default function Repertoire({
     }
 
     function exportSelection() {
-        var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(selection, null, 2));
+        var string = ''
+        for (var i in selection) {
+            string += `${selection[i]['artist']} - ${selection[i]['name']}\n`
+        }
+        var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(string);
         var dlAnchorElem = document.getElementById('downloadAnchorElem');
         dlAnchorElem.setAttribute("href", dataStr);
         dlAnchorElem.setAttribute("download", "selection.txt");
@@ -219,7 +282,7 @@ export default function Repertoire({
     var allTags = [...new Set(repdata.map((item) => item['tags']).flat())];
     allTags.sort();
 
-    var noFilters = <div className="active-filter">
+    var noFilters = <div>
         No filters
     </div>
 
@@ -230,20 +293,29 @@ export default function Repertoire({
             </div>
             <div className="repe-intro">
                 <p>
-                    Below is a (rather long) list of songs I play, have playes, or are
+                    Below is a (rather long) list of songs I play, have played, or are
                     planning to play - on open mics, gigs or when busking. 
                 </p>
                 <p>
-                    Some of them require a backing track or accompaniment, but for most songs
-                    I have a version which does not require a backing track - singing, guitar and a
+                    Some of the songs need a backing track or accompaniment, but for most 
+                    I have a version which does not require a backing track, so singing and guitar with a
                     loop station are enough. Many of the songs can be also done in a pure acoustic
                     version.
                 </p>
-
-                <a className="repe-button" onClick={() => selectAll()}>Select all</a>
-                <a className="repe-button" onClick={() => deselectAll()}>Deselect all</a>
-                <a className="repe-button" onClick={() => exportSelection()}>Export selection</a>
-                <a id="downloadAnchorElem"></a>
+                <p>
+                    Explore and build the repertoire you'd like me to play! 
+                    <li>Filter by (clicking the song's) artist, tags or attributes</li>
+                    <li>Build a selection by clicking the names of the song</li>
+                    <li>Finally, export the selection and send it to me by email</li>
+                </p>
+                <p>
+                    Or check out these predefined setlists ;-)
+                </p>
+                <div className="predef-setlists">
+                    <div className="predef-set">
+                        Dire Straits
+                    </div>
+                </div>
             </div>
             <div className="repe-top row">
                 <div className="col-sm-4">
@@ -257,16 +329,16 @@ export default function Repertoire({
                             text = `Only artist "${value}"`;
                         }
                         if (f['name'] === 'tag') {
-                            text = <>Tag <Tag tagMap={tagMap} value={value} updateFilters={updateFilters}/></>
+                            text = <>Tag <Tag tagMap={tagMap} value={value} filters={filters} updateFilters={updateFilters}/></>
                         }
                         if (f['name'] === 'orig') {
                             text = value ? 'Only originals' : 'Only covers';
                         }
                         if (f['name'] === 'bt') {
-                            text = value ? 'Has backing track version' : 'Does not have backing track version';
+                            text = value ? 'Has backing track version' : 'Doesn\'t have a backing track version';
                         }
                         if (f['name'] === 'nbt') {
-                            text = value ? 'Has non-backing track version' : 'Does not have non-backing track version';
+                            text = value ? 'Has non-backing track version' : 'Doesn\'t have a non-backing track version';
                         }
 
                         return <div className="active-filter" onClick={() => updateFilters(f['name'], f['value'])}>
@@ -282,7 +354,7 @@ export default function Repertoire({
                         return <div className="tag-div row">
                             <div className="col-3">
                                 <div className="tag-float-right">
-                                    <Tag tagMap={tagMap} value={value} updateFilters={updateFilters}/>
+                                    <Tag tagMap={tagMap} value={value} filters={filters} updateFilters={updateFilters}/>
                                 </div>
                             </div>
                             <div className="col-9">
@@ -292,12 +364,18 @@ export default function Repertoire({
                     })}
                 </div>
             </div>
+            <div className="repe-buttons">
+                <a className="repe-button" onClick={() => selectAll()}>Select all</a>
+                <a className="repe-button" onClick={() => deselectAll()}>Deselect all</a>
+                <a className="repe-button" onClick={() => exportSelection()}>Export selection</a>
+                <a id="downloadAnchorElem"></a>
+            </div>
             <table className="repertoire-tbl">
                 <thead>
                 <tr>
                     <th className="th-artist"><div><span>Artist</span></div></th>
                     <th className="th-song"><div><span>Song</span></div></th>
-                    <th className="th-props"><div><span>Props</span></div></th>
+                    <th className="th-props"><div><span>Attributes</span></div></th>
                     <th className="th-tags"><div><span>Tags</span></div></th>
                 </tr>
                 </thead>
@@ -316,6 +394,9 @@ export default function Repertoire({
                 ></Item>)}
                 </tbody>
             </table>
+            <div className="repe-count">
+                {getFiltered().length} items, {getSelectedFiltered().length} selected
+            </div>
         </> 
     );
 }

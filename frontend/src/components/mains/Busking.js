@@ -24,7 +24,8 @@ export default function Busking({
     const [totalSum, setTotalSum] = useState(0);
 
     useEffect(() => {
-        setTotalSum(totalSumAccumulator)
+        setTotalSum(totalSumAccumulator);
+        totalSumAccumulator = -totalSumAccumulator;
     }, [])
 
     return (
