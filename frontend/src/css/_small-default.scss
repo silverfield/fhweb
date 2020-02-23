@@ -414,6 +414,14 @@ img {
             background-color: $color-inco-medlight;
         }
     }
+
+    &.repe-selected {
+        border: 2px solid white;
+
+        .repe-name {
+            color: white;
+        }
+    }
 }
 
 .repe-top {
@@ -421,6 +429,15 @@ img {
 }
 
 .repe-artist {
+    cursor: pointer;
+
+    &:hover {
+        font-weight: 1000;
+        text-shadow: 0 0 3px white;
+    }
+}
+
+.repe-name {
     cursor: pointer;
 
     &:hover {
@@ -450,15 +467,44 @@ img {
 
 .repe-tag {
     border-radius: 2px;
-    padding: 2px 3px;
+    padding: 1px 3px;
     background-color: #1d1a1a48;
     margin-left: 3px;
+    margin-top: 1px;
+    margin-bottom: 1px;
     cursor: pointer;
+}
+
+.repe-button {
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px;
+    margin: 4px;
+    border-radius: 4px;
+    background-color: $color-inco-medstrong;
+
+    &:hover {
+        background-color: $color-bright-medium;
+    }
 }
 
 .tag-div {
     margin-top: 8px;
     margin-bottom: 8px;
+}
+
+.active-filters-heading {
+    font-weight: bold;
+    font-size: 1.1em;
+    text-align: center;
+    display: block;
+}
+
+.tags-heading {
+    font-weight: bold;
+    font-size: 1.1em;
+    text-align: center;
+    display: block;
 }
 
 .active-filter {
