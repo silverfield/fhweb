@@ -266,9 +266,13 @@ img {
     float: right;
 }
 
+.float-left {
+    float: right;
+}
+
 .about-face {
-    font-weight: 800;
-    color: $color-dark-light;
+    font-weight: 1000;
+    color: $color-dark-strong;
     font-variant: small-caps;
 }
 
