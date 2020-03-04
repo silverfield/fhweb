@@ -115,51 +115,86 @@ export default function About({
                     </p>
                 </div>
 
-                <p>
-                    <span className="about-face">The outdoors face</span>. Outdoors is awesome. There's hardly
-                    a better weekend I can imagine than an overnight hike in the countryside with friends, 
-                    wild-camping in the middle of nowhere. Add jumps to waterfall pools, views from the
-                    mountain tops and
-                    the obligatory well-deserved dinner in the pub (with a couple pints, of course), and 
-                    you're good to go for another week or two in work. It's simply the ultimate cure,
-                    for body and the mind alike. The only downside is that it's just hard to bring 
-                    a guitar to a hike. 
-                </p>
+                <div className="page-section">
+                    <p>
+                        <span className="about-face">The outdoors face</span>. Outdoors is awesome. There's hardly
+                        a better weekend I can imagine than an overnight hike in the countryside with friends, 
+                        wild-camping in the middle of nowhere. Add jumps to waterfall pools, views from the
+                        mountain tops and
+                        the obligatory well-deserved dinner in the pub (with a couple pints, of course), and 
+                        you're good to go for another week or two in work. It's simply the ultimate cure,
+                        for body and the mind alike. The only downside is that it's just hard to bring 
+                        a guitar to a hike. 
+                    </p>
 
-                <p>
-                    Or is it? Arun once showed me his Klos travel guitar - a carbon-fibre 
-                    3/4-sized acoustic marvel that is not only lightweight enough to add to clip on to
-                    the backpack, but which is also near-indestructible thanks to the materials used. 
-                    A week later, I ordered mine and it has been an excellent companion on many hikes, 
-                    or simply the extra acoustic guitar I'd take when going busking.
-                </p>
+                    <p>
+                        Or is it? Arun once showed me his Klos travel guitar - a carbon-fibre 
+                        3/4-sized acoustic marvel that is not only lightweight enough to add to clip on to
+                        the backpack, but which is also near-indestructible thanks to the materials used. 
+                        A week later, I ordered mine and it has been an excellent companion on many hikes, 
+                        or simply the extra acoustic guitar I'd take when going busking.
+                    </p>
+                </div>
 
-                <p>
-                    <span className="about-face">The pizza face</span>. It started long time ago,
-                    when I was still in high school in Bratislava. I realized I like to make pizzas
-                    and would frequently make (from scratch) six or seven of them for the whole family.
-                    Later, on work &amp; travel in US, 2012, I'd pick pizza chef jobs in two pizzerias
-                    where I'd up the game a bit and learn some dough slapping/throwing tricks. 
-                    Shortly after, in 2013, I'd then start 
-                    my <a href="http://ferovpizzaquest.blogspot.com/">pizza-hunt blog</a> which was 
-                    recently renamed to "Slice of life" following suggestion by my friend Vinny. 
-                    It now features 50 blog posts from pizzeria visits in about 20 different 
-                    countries, capturing (or hoping to capture) not just the taste of the pizzas, 
-                    but also the adventures along the way. 
-                </p>
+                <div className="page-section">
+                    <p>
+                        <span className="about-face">The pizza face</span>. It started long time ago,
+                        when I was still at high school in Bratislava. I realized I like to make pizzas
+                        and I would frequently make - from scratch - six or seven large pies 
+                        for the whole family.
+                        Later, in 2012 on work &amp; travel in US, I'd pick jobs as a pizza chef 
+                        in two pizzerias
+                        where I'd considerably up the game, learning how pizzerias work and seeing 
+                        (and doing) the whole pipeline pizza making pipeline first hand.
+                    </p>
+                    <p>]
+                        Shortly after, in 2013, I'd then start 
+                        my <a href="http://ferovpizzaquest.blogspot.com/">pizza-hunt blog</a> which was 
+                        recently renamed to "A Slice of Life" following suggestion by my friend Vinny. 
+                        It now features 50 blog posts from pizzeria visits in about 20 different 
+                        countries, capturing (or hoping to capture) not just the taste of the pizzas, 
+                        but also the adventures along the way. 
+                    </p>
+                    <p>
+                        The last and most significant "pizza stop" in my life was working at the
+                        Real Italian Pizza Company in Cardiff, following my arrival to UK in 
+                        the fall of 2015. A much different experience than the one from the US, 
+                        it was here where I really understood what separates just another pizzeria
+                        from the top ranked ones, which RIPC is to this day. The work 
+                        was fun, the food was excellent and my head chef Paola and the 
+                        colleagues nice, and so I stayed for almost a whole year, 
+                        albeit slowly phasing out my hours once I started a full-time job in IT...
+                    </p>
+                </div>
 
-                <p>
-                    <span className="about-face">The blogger face</span>. 
-                    <a href="http://ferovpizzaquest.blogspot.com/">The Slice of Life</a> was my ticket 
-                    to the the blogging life, but I soon realized I enjoyed writing about other things, 
-                    including my travels or life in a new place. Quite often these would go together 
-                    nicely with the pizzas.
-
-                    http://ferowrites.blogspot.com/
-                    http://feroafrica.blogspot.com/
-                    http://zivotvosle.blogspot.com/
-                    http://ferostreetplay.blogspot.com/
-                </p>
+                <div className="page-section">
+                    <p>
+                        <span className="about-face">The blogger face</span>. 
+                        <a href="http://ferovpizzaquest.blogspot.com/">The Slice of Life</a> was my 
+                        entry ticket 
+                        to the the blogging life, but I soon realized I enjoyed writing about other 
+                        things too: my life in a new place abroad, busking or the obligatory 
+                        travelling. Quite often these would fit at my pizza blog thanks to the odd
+                        visit to a pizzeria on the way. But at times, I felt a dedicated blog 
+                        would would better and make me feel less obliged seeking a slice of pizza 
+                        just to get a blog post up :-) .
+                    </p>
+                    <p>
+                        First such addition was my blog <a href="http://zivotvosle.blogspot.com/">Life 
+                        in Oslo</a>, which depicted the roughly year and half I spent in the 
+                        Norwegian capital. Another <a href="http://feroafrica.blogspot.com/">blog</a>
+                        followed from likely the most memorable time of my life - 4 months in Ghana 
+                        at the African Institute of Mathematical Sciences. Shortly after, 
+                        while busking around northern Europe in June 2015, 
+                        I <a href="http://ferostreetplay.blogspot.com/">expanded my blog family 
+                        yet again</a> before finally realizing I just need something generic where
+                        I can just keep writing - leading 
+                        to <a href="http://ferowrites.blogspot.com/">Fero writes</a> (kicked off 
+                        with my most-read blog post ever - one that I wish wouldn't have needed 
+                        to be written in the first place)
+                    </p>
+                </div>
+                
             </div>
         </> 
     );

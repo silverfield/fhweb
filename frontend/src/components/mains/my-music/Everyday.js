@@ -21,9 +21,9 @@ export default function Everyday({
             </a>
 
             <div>
-                <div className="float-img" style={{'width': '40%', 'min-width': '300px'}}>
-                    <div className="iframe-div" style={{'padding-bottom': '100%'}}>
-                        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/781852491&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                <div className="float-img" style={{'width': '40%', 'minWidth': '300px'}}>
+                    <div className="iframe-div" style={{'paddingBottom': '100%'}}>
+                        <iframe width="100%" height="300" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/781852491&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
                     </div>
                 </div>
 
@@ -64,7 +64,7 @@ export default function Everyday({
                         width="100%" 
                         height="300" 
                         scrolling="no" 
-                        frameborder="no" 
+                        frameBorder="no" 
                         allow="autoplay" 
                         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/745913461&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
                     >

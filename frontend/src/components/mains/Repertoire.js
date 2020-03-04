@@ -196,13 +196,182 @@ function Item({
                 </div>
             </td>
             <td className="repe-tags">
-                {tags.map((value) => {
-                    return <div className="inline-flex">
+                {tags.map((value, i) => {
+                    return <div key={i} className="inline-flex">
                         <Tag tagMap={tagMap} value={value} filters={filters} updateFilters={updateFilters}/>
                     </div>
                 })}
             </td>
         </tr>
+    </>
+}
+
+function RepeIntro() {
+    return <>
+        <div className="repe-intro">
+            <p>
+                Below is a (rather long) list of songs I play, have played, or are
+                planning to play - on open mics, gigs or when busking. 
+            </p>
+            <p>
+                Some of the songs need a backing track or accompaniment, but for most 
+                I have a version which does not require a backing track, so singing and guitar with a
+                loop station are enough. Many of the songs can be also done in a pure acoustic
+                version.
+            </p>
+            <p>
+                Explore and build the repertoire you'd like me to play! 
+                <li>Filter by (clicking the song's) artist, tags or attributes</li>
+                <li>Build a selection by clicking the names of the song</li>
+                <li>Finally, export the selection and send it to me by email</li>
+            </p>
+            <p>
+                Or check out these predefined setlists ;-)
+            </p>
+            <div className="predef-setlists">
+                <div className="predef-set">
+                    Dire Straits
+                </div>
+            </div>
+        </div>
+    </>
+}
+
+function RepeTop({
+    filters,
+    updateFilters,
+}) {
+    var allTags = [...new Set(repdata.map((item) => item['tags']).flat())];
+    allTags.sort();
+
+    return <>
+        <div className="repe-top row">
+            <div className="col-sm-4">
+                <hr></hr>
+                <span className="active-filters-heading">Active filters</span>
+                {filters.length === 0 ? <div>No filters</div> : <></>}
+                {filters.map((f, i) => {
+                    var value = f['value'];
+                    var text = value;
+                    if (f['name'] === 'artist') {
+                        text = `Only artist "${value}"`;
+                    }
+                    if (f['name'] === 'tag') {
+                        text = <>Tag <Tag tagMap={tagMap} value={value} filters={filters} updateFilters={updateFilters}/></>
+                    }
+                    if (f['name'] === 'orig') {
+                        text = value ? 'Only originals' : 'Only covers';
+                    }
+                    if (f['name'] === 'bt') {
+                        text = value ? 'Has backing track version' : 'Doesn\'t have a backing track version';
+                    }
+                    if (f['name'] === 'nbt') {
+                        text = value ? 'Has non-backing track version' : 'Doesn\'t have a non-backing track version';
+                    }
+
+                    return <div key={i} className="active-filter" onClick={() => updateFilters(f['name'], f['value'])}>
+                        <span>{text}</span>
+                        <span className="remove-filter">{cross}</span>
+                    </div>
+                })}
+            </div>
+            <div className="col-sm-8">
+                <hr></hr>
+                <span className="tags-heading">Tags explained</span>
+                {allTags.map((value, i) => {
+                    return <div key={i} className="tag-div row">
+                        <div className="col-3">
+                            <div className="tag-float-right">
+                                <Tag tagMap={tagMap} value={value} filters={filters} updateFilters={updateFilters}/>
+                            </div>
+                        </div>
+                        <div className="col-9">
+                            {tagMap[value]['full']}
+                        </div>
+                    </div>
+                })}
+            </div>
+        </div>
+    </>
+}
+
+function RepeTable({
+    repdata,
+    filters,
+    updateFilters,
+    selection,
+    updateSelection
+}) {
+    function getFiltered() {
+        var repdataFiltered = repdata.filter((x) => passFilters(filters, x['artist'], x['bt'], x['nbt'], x['tags']));
+        return repdataFiltered;
+    }
+
+    function getSelectedFiltered() {
+        var filtered = getFiltered()
+        return selection.filter((s) => filtered.find((f) => f['name'] === s['name'] && f['artist'] === s['artist']))
+    }
+
+    function selectAll() {
+        var repdataFiltered = getFiltered()
+
+        setSelection(repdataFiltered.map((r) => {
+            return {
+                artist: r['artist'], name: r['name']
+            }
+        }));
+    }
+
+    function deselectAll() {
+        setSelection([]);
+    }
+
+    function exportSelection() {
+        var string = ''
+        for (var i in selection) {
+            string += `${selection[i]['artist']} - ${selection[i]['name']}\n`
+        }
+        var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(string);
+        var dlAnchorElem = document.getElementById('downloadAnchorElem');
+        dlAnchorElem.setAttribute("href", dataStr);
+        dlAnchorElem.setAttribute("download", "selection.txt");
+        dlAnchorElem.click();
+    }
+
+    return <>
+        <div className="repe-buttons">
+            <a className="repe-button" onClick={() => selectAll()}>Select all</a>
+            <a className="repe-button" onClick={() => deselectAll()}>Deselect all</a>
+            <a className="repe-button" onClick={() => exportSelection()}>Export selection</a>
+            <a id="downloadAnchorElem"></a>
+        </div>
+        <table className="repertoire-tbl">
+            <thead>
+            <tr>
+                <th className="th-artist"><div><span>Artist</span></div></th>
+                <th className="th-song"><div><span>Song</span></div></th>
+                <th className="th-props"><div><span>Attributes</span></div></th>
+                <th className="th-tags"><div><span>Tags</span></div></th>
+            </tr>
+            </thead>
+            <tbody>
+            {repdata.map((item) => <Item 
+                key={item['name'] + item['artist']}
+                artist={item['artist']} 
+                name={item['name']} 
+                bt={item['bt']} 
+                nbt={item['nbt']} 
+                tags={item['tags']}
+                filters={filters}
+                updateFilters={updateFilters}
+                selection={selection}
+                updateSelection={updateSelection}
+            ></Item>)}
+            </tbody>
+        </table>
+        <div className="repe-count">
+            {getFiltered().length} items, {getSelectedFiltered().length} selected
+        </div>
     </>
 }
 
@@ -229,41 +398,6 @@ export default function Repertoire({
         setSelection(newSelection);
     }
 
-    function getFiltered() {
-        var repdataFiltered = repdata.filter((x) => passFilters(filters, x['artist'], x['bt'], x['nbt'], x['tags']));
-        return repdataFiltered;
-    }
-
-    function getSelectedFiltered() {
-        var filtered = getFiltered()
-        return selection.filter((s) => filtered.find((f) => f['name'] === s['name'] && f['artist'] === s['artist']))
-    }
-
-    function selectAll() {
-        var repdataFiltered = getFiltered()
-
-        setSelection(repdataFiltered.map((r) => {
-            return {
-                artist: r['artist'], name: r['name']
-            }
-        }));
-    }
-    function deselectAll() {
-        setSelection([]);
-    }
-
-    function exportSelection() {
-        var string = ''
-        for (var i in selection) {
-            string += `${selection[i]['artist']} - ${selection[i]['name']}\n`
-        }
-        var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(string);
-        var dlAnchorElem = document.getElementById('downloadAnchorElem');
-        dlAnchorElem.setAttribute("href", dataStr);
-        dlAnchorElem.setAttribute("download", "selection.txt");
-        dlAnchorElem.click();
-    }
-
     function updateFilters(name, value) {
         var matchFilters = filters.filter((f) => (f['name'] === name) && (f['value'] === value));
         
@@ -277,126 +411,26 @@ export default function Repertoire({
             'value': value
         }])
         setFilters(newFilters);
-    }
-
-    var allTags = [...new Set(repdata.map((item) => item['tags']).flat())];
-    allTags.sort();
-
-    var noFilters = <div>
-        No filters
-    </div>
+    }    
 
     return (
         <>
             <div className="section-title">
-                My repertoire
+                This is what I play
             </div>
-            <div className="repe-intro">
-                <p>
-                    Below is a (rather long) list of songs I play, have played, or are
-                    planning to play - on open mics, gigs or when busking. 
-                </p>
-                <p>
-                    Some of the songs need a backing track or accompaniment, but for most 
-                    I have a version which does not require a backing track, so singing and guitar with a
-                    loop station are enough. Many of the songs can be also done in a pure acoustic
-                    version.
-                </p>
-                <p>
-                    Explore and build the repertoire you'd like me to play! 
-                    <li>Filter by (clicking the song's) artist, tags or attributes</li>
-                    <li>Build a selection by clicking the names of the song</li>
-                    <li>Finally, export the selection and send it to me by email</li>
-                </p>
-                <p>
-                    Or check out these predefined setlists ;-)
-                </p>
-                <div className="predef-setlists">
-                    <div className="predef-set">
-                        Dire Straits
-                    </div>
-                </div>
-            </div>
-            <div className="repe-top row">
-                <div className="col-sm-4">
-                    <hr></hr>
-                    <span className="active-filters-heading">Active filters</span>
-                    {filters.length === 0 ? noFilters : <></>}
-                    {filters.map((f) => {
-                        var value = f['value'];
-                        var text = value;
-                        if (f['name'] === 'artist') {
-                            text = `Only artist "${value}"`;
-                        }
-                        if (f['name'] === 'tag') {
-                            text = <>Tag <Tag tagMap={tagMap} value={value} filters={filters} updateFilters={updateFilters}/></>
-                        }
-                        if (f['name'] === 'orig') {
-                            text = value ? 'Only originals' : 'Only covers';
-                        }
-                        if (f['name'] === 'bt') {
-                            text = value ? 'Has backing track version' : 'Doesn\'t have a backing track version';
-                        }
-                        if (f['name'] === 'nbt') {
-                            text = value ? 'Has non-backing track version' : 'Doesn\'t have a non-backing track version';
-                        }
-
-                        return <div className="active-filter" onClick={() => updateFilters(f['name'], f['value'])}>
-                            <span>{text}</span>
-                            <span className="remove-filter">{cross}</span>
-                        </div>
-                    })}
-                </div>
-                <div className="col-sm-8">
-                    <hr></hr>
-                    <span className="tags-heading">Tags explained</span>
-                    {allTags.map((value) => {
-                        return <div className="tag-div row">
-                            <div className="col-3">
-                                <div className="tag-float-right">
-                                    <Tag tagMap={tagMap} value={value} filters={filters} updateFilters={updateFilters}/>
-                                </div>
-                            </div>
-                            <div className="col-9">
-                                {tagMap[value]['full']}
-                            </div>
-                        </div>
-                    })}
-                </div>
-            </div>
-            <div className="repe-buttons">
-                <a className="repe-button" onClick={() => selectAll()}>Select all</a>
-                <a className="repe-button" onClick={() => deselectAll()}>Deselect all</a>
-                <a className="repe-button" onClick={() => exportSelection()}>Export selection</a>
-                <a id="downloadAnchorElem"></a>
-            </div>
-            <table className="repertoire-tbl">
-                <thead>
-                <tr>
-                    <th className="th-artist"><div><span>Artist</span></div></th>
-                    <th className="th-song"><div><span>Song</span></div></th>
-                    <th className="th-props"><div><span>Attributes</span></div></th>
-                    <th className="th-tags"><div><span>Tags</span></div></th>
-                </tr>
-                </thead>
-                <tbody>
-                {repdata.map((item) => <Item 
-                    key={item['name'] + item['artist']}
-                    artist={item['artist']} 
-                    name={item['name']} 
-                    bt={item['bt']} 
-                    nbt={item['nbt']} 
-                    tags={item['tags']}
-                    filters={filters}
-                    updateFilters={updateFilters}
-                    selection={selection}
-                    updateSelection={updateSelection}
-                ></Item>)}
-                </tbody>
-            </table>
-            <div className="repe-count">
-                {getFiltered().length} items, {getSelectedFiltered().length} selected
-            </div>
+            <RepeIntro/>
+            <RepeTop
+                repdata={repdata}
+                filters={filters}
+                updateFilters={updateFilters}
+            />
+            <RepeTable
+                repdata={repdata}
+                filters={filters}
+                updateFilters={updateFilters}
+                selection={selection}
+                updateSelection={updateSelection}
+            />
         </> 
     );
 }
