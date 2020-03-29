@@ -3,7 +3,7 @@
         "artist": "Dire Straits",
         "name": "Brothers in arms",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "relaxed",
             "dsmk",
@@ -15,7 +15,7 @@
         "artist": "Dire Straits",
         "name": "On every street",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "dsmk",
             "relaxed",
@@ -27,7 +27,7 @@
         "artist": "Dire Straits",
         "name": "Private investigations",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "dsmk",
             "relaxed",
@@ -55,16 +55,16 @@
         "nbt": true,
         "tags": [
             "acoustic",
-            "dsmk",
+            "rocky",
             "guitary",
-            "rocky"
+            "dsmk"
         ]
     },
     {
         "artist": "Dire Straits",
         "name": "Sultans of swing",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "famous",
             "dsmk",
@@ -101,10 +101,10 @@
         "bt": true,
         "nbt": true,
         "tags": [
-            "guitary",
             "acoustic",
+            "rocky",
             "relaxed",
-            "rocky"
+            "guitary"
         ]
     },
     {
@@ -114,17 +114,17 @@
         "nbt": true,
         "tags": [
             "rhythm",
+            "relaxed",
             "guitary",
-            "acoustic",
             "famous",
-            "relaxed"
+            "acoustic"
         ]
     },
     {
         "artist": "Fero Hajnovic",
         "name": "African Bird",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "relaxed",
             "guitary"
@@ -134,7 +134,7 @@
         "artist": "Fero Hajnovic",
         "name": "Bluff",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "acoustic",
             "relaxed",
@@ -145,7 +145,7 @@
         "artist": "Fero Hajnovic",
         "name": "Calling at Newport",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "rocky",
             "acoustic",
@@ -156,7 +156,7 @@
         "artist": "Fero Hajnovic",
         "name": "Daily ride",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "rocky",
             "acoustic",
@@ -168,7 +168,7 @@
         "artist": "Fero Hajnovic",
         "name": "Everyday",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "rocky",
             "acoustic",
@@ -179,7 +179,7 @@
         "artist": "Fero Hajnovic",
         "name": "Fargo and Pelgrim",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "acoustic",
             "relaxed",
@@ -191,7 +191,7 @@
         "artist": "Fero Hajnovic",
         "name": "Happy Home",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "rhythm",
             "acoustic"
@@ -201,7 +201,7 @@
         "artist": "Fero Hajnovic",
         "name": "Hey dad",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "acoustic",
             "relaxed",
@@ -213,7 +213,7 @@
         "artist": "Fero Hajnovic",
         "name": "Let's go fail",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "rhythm",
             "acoustic"
@@ -223,7 +223,7 @@
         "artist": "Fero Hajnovic",
         "name": "Ocean shore",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "relaxed",
             "guitary",
@@ -235,7 +235,7 @@
         "artist": "Fero Hajnovic",
         "name": "Sticks in the water",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "relaxed",
             "guitary",
@@ -247,7 +247,7 @@
         "artist": "Fero Hajnovic",
         "name": "Summer breeze",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "acoustic",
             "relaxed",
@@ -258,7 +258,7 @@
         "artist": "Fero Hajnovic",
         "name": "Summer tune",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "acoustic",
             "relaxed",
@@ -270,7 +270,7 @@
         "artist": "Fero Hajnovic",
         "name": "Vices",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "acoustic",
             "relaxed",
@@ -281,7 +281,7 @@
         "artist": "Mark Knopfler",
         "name": "Are we in trouble now",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "relaxed",
             "guitary"
@@ -291,7 +291,7 @@
         "artist": "Mark Knopfler",
         "name": "Boom like that",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "rocky",
             "guitary",
@@ -305,15 +305,15 @@
         "nbt": false,
         "tags": [
             "acoustic",
-            "guitary",
-            "rocky"
+            "rocky",
+            "guitary"
         ]
     },
     {
         "artist": "Mark Knopfler",
         "name": "Davil Baby",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "relaxed",
             "guitary",
@@ -356,7 +356,7 @@
         "artist": "Mark Knopfler",
         "name": "Hillfarmer's blues",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "relaxed",
             "guitary",
@@ -378,7 +378,7 @@
         "artist": "Mark Knopfler",
         "name": "Local hero",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "dsmk",
             "relaxed",
@@ -389,7 +389,7 @@
         "artist": "Mark Knopfler",
         "name": "Piper to the end",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "relaxed",
             "guitary",
@@ -433,7 +433,7 @@
         "artist": "Notting Hillbillies",
         "name": "Feel Like Going Home",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "relaxed",
             "guitary",
@@ -524,7 +524,7 @@
     {
         "artist": "Dire Straits",
         "name": "You And Your Friend",
-        "bt": false,
+        "bt": true,
         "nbt": true,
         "tags": [
             "relaxed",

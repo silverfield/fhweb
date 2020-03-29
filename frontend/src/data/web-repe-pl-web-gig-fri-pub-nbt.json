@@ -12,7 +12,7 @@
     {
         "artist": "Dire Straits",
         "name": "Where do you think you're going",
-        "bt": false,
+        "bt": true,
         "nbt": true,
         "tags": [
             "rocky",
@@ -57,7 +57,7 @@
     {
         "artist": "Dire Straits",
         "name": "Romeo and Juliet",
-        "bt": false,
+        "bt": true,
         "nbt": true,
         "tags": [
             "dsmk",
@@ -70,7 +70,7 @@
         "artist": "Dire Straits",
         "name": "Sultans of swing",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "famous",
             "dsmk",
@@ -82,18 +82,19 @@
     {
         "artist": "Fero Hajnovic",
         "name": "Sticks in the water",
-        "bt": false,
+        "bt": true,
         "nbt": true,
         "tags": [
             "relaxed",
             "guitary",
-            "acoustic"
+            "acoustic",
+            "songwrite"
         ]
     },
     {
         "artist": "Eric Clapton",
         "name": "Layla",
-        "bt": false,
+        "bt": true,
         "nbt": true,
         "tags": [
             "famous",
@@ -141,7 +142,7 @@
     {
         "artist": "Fero Hajnovic",
         "name": "Let's go fail",
-        "bt": false,
+        "bt": true,
         "nbt": true,
         "tags": [
             "rhythm",
@@ -174,7 +175,7 @@
         "artist": "Fero Hajnovic",
         "name": "Calling at Newport",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "rocky",
             "acoustic",
@@ -265,7 +266,7 @@
         "artist": "Mark Knopfler",
         "name": "Boom like that",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "rocky",
             "guitary",
