@@ -13,18 +13,6 @@
     },
     {
         "artist": "Dire Straits",
-        "name": "Money for nothing",
-        "bt": true,
-        "nbt": false,
-        "tags": [
-            "dsmk",
-            "rocky",
-            "guitary",
-            "famous"
-        ]
-    },
-    {
-        "artist": "Dire Straits",
         "name": "On every street",
         "bt": true,
         "nbt": false,
@@ -50,26 +38,26 @@
     },
     {
         "artist": "Dire Straits",
-        "name": "Romeo And Juliet",
+        "name": "Romeo and Juliet",
         "bt": true,
         "nbt": true,
         "tags": [
-            "dsmk",
+            "famous",
             "acoustic",
             "relaxed",
-            "famous"
+            "dsmk"
         ]
     },
     {
         "artist": "Dire Straits",
-        "name": "Six Blade Knife",
+        "name": "Six blade knife",
         "bt": true,
         "nbt": true,
         "tags": [
-            "guitary",
+            "acoustic",
             "dsmk",
-            "rocky",
-            "acoustic"
+            "guitary",
+            "rocky"
         ]
     },
     {
@@ -109,14 +97,14 @@
     },
     {
         "artist": "Dire Straits",
-        "name": "Where Do You Think You're Going",
+        "name": "Where do you think you're going",
         "bt": true,
         "nbt": true,
         "tags": [
             "guitary",
+            "acoustic",
             "relaxed",
-            "rocky",
-            "acoustic"
+            "rocky"
         ]
     },
     {
@@ -127,9 +115,9 @@
         "tags": [
             "rhythm",
             "guitary",
-            "relaxed",
             "acoustic",
-            "famous"
+            "famous",
+            "relaxed"
         ]
     },
     {
@@ -195,7 +183,8 @@
         "tags": [
             "acoustic",
             "relaxed",
-            "guitary"
+            "guitary",
+            "songwrite"
         ]
     },
     {
@@ -216,7 +205,8 @@
         "tags": [
             "acoustic",
             "relaxed",
-            "guitary"
+            "guitary",
+            "songwrite"
         ]
     },
     {
@@ -227,6 +217,30 @@
         "tags": [
             "rhythm",
             "acoustic"
+        ]
+    },
+    {
+        "artist": "Fero Hajnovic",
+        "name": "Ocean shore",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "relaxed",
+            "guitary",
+            "acoustic",
+            "songwrite"
+        ]
+    },
+    {
+        "artist": "Fero Hajnovic",
+        "name": "Sticks in the water",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "relaxed",
+            "guitary",
+            "acoustic",
+            "songwrite"
         ]
     },
     {
@@ -290,9 +304,9 @@
         "bt": true,
         "nbt": false,
         "tags": [
-            "rocky",
+            "acoustic",
             "guitary",
-            "acoustic"
+            "rocky"
         ]
     },
     {
@@ -323,14 +337,14 @@
         "bt": true,
         "nbt": true,
         "tags": [
-            "guitary",
             "acoustic",
-            "relaxed"
+            "relaxed",
+            "guitary"
         ]
     },
     {
         "artist": "Mark Knopfler",
-        "name": "Heart Full Of Holes",
+        "name": "Heart full of holes",
         "bt": true,
         "nbt": true,
         "tags": [
@@ -388,9 +402,9 @@
         "bt": true,
         "nbt": true,
         "tags": [
-            "guitary",
             "acoustic",
-            "relaxed"
+            "relaxed",
+            "guitary"
         ]
     },
     {

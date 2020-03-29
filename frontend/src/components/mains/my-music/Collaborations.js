@@ -3,7 +3,7 @@ export default function Collaborations({
 }) {
     return (
         <>
-            Collaborations
+            Content coming soon!
         </> 
     );
 }

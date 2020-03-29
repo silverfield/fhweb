@@ -42,15 +42,17 @@ export default function Home({
                 </p>
 
                 <p>
-                    And if you're just wondering who the hell am I, you may find some 
-                    answers <a href="#about">here</a> ;-). 
+                    And if you're just wondering who the hell I am, you may find some 
+                    answers <a href="#about">here</a>.
                 </p>
             </div>
             
             <span className="news-title">News:</span>
 
-            <News name="New song - Sticks in the water!" date="01/2020">
-                
+            <News name="Demo album reaching completion!" date="04/2020">
+                Check out the <a href="#my-music">ten tracks</a> from album "Everyday" that are already near finished!
+                I'm re-recording some of the parts during the Covid-19 self-isolation - so that once the
+                lock-down ceases, I'll be ready to hit the streets and bars again! 
             </News>
         </>
     );

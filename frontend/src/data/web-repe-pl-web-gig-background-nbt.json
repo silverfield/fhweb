@@ -1,0 +1,526 @@
+[
+    {
+        "artist": "Dire Straits",
+        "name": "Where do you think you're going",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "rocky",
+            "acoustic",
+            "relaxed",
+            "guitary"
+        ]
+    },
+    {
+        "artist": "A Star is Born soundtrack",
+        "name": "Maybe Its Time",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "famous",
+            "singing",
+            "acoustic"
+        ]
+    },
+    {
+        "artist": "John Mayer",
+        "name": "Dear Marie",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "relaxed",
+            "guitary",
+            "acoustic"
+        ]
+    },
+    {
+        "artist": "Dire Straits",
+        "name": "Brothers in arms",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "relaxed",
+            "dsmk",
+            "guitary",
+            "acoustic"
+        ]
+    },
+    {
+        "artist": "Fero Hajnovic",
+        "name": "Fargo and Pelgrim",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "acoustic",
+            "relaxed",
+            "guitary"
+        ]
+    },
+    {
+        "artist": "Fero Hajnovic",
+        "name": "Summer tune",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "acoustic",
+            "relaxed",
+            "guitary",
+            "instrumental"
+        ]
+    },
+    {
+        "artist": "Dire Straits",
+        "name": "On every street",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "dsmk",
+            "relaxed",
+            "guitary",
+            "acoustic"
+        ]
+    },
+    {
+        "artist": "John Mayer",
+        "name": "Something Like Olivia",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "rhythm",
+            "acoustic"
+        ]
+    },
+    {
+        "artist": "John Mayer",
+        "name": "Stop This Train",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "relaxed",
+            "acoustic"
+        ]
+    },
+    {
+        "artist": "The Greatest Showman soundtrack",
+        "name": "This Is Me",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "relaxed",
+            "acoustic",
+            "famous",
+            "singing"
+        ]
+    },
+    {
+        "artist": "Mark Knopfler",
+        "name": "Golden Heart",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "relaxed",
+            "guitary",
+            "acoustic"
+        ]
+    },
+    {
+        "artist": "Ed Sheeran",
+        "name": "Thinking Out Loud",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "famous",
+            "rhythm",
+            "singing"
+        ]
+    },
+    {
+        "artist": "Eva Cassidy",
+        "name": "Fields of Gold",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "relaxed",
+            "singing",
+            "acoustic"
+        ]
+    },
+    {
+        "artist": "Fero Hajnovic",
+        "name": "In style",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "relaxed",
+            "songwrite",
+            "acoustic"
+        ]
+    },
+    {
+        "artist": "Dire Straits",
+        "name": "Romeo and Juliet",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "dsmk",
+            "relaxed",
+            "acoustic",
+            "famous"
+        ]
+    },
+    {
+        "artist": "Eric Clapton",
+        "name": "Layla",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "famous",
+            "rhythm",
+            "acoustic",
+            "relaxed",
+            "guitary"
+        ]
+    },
+    {
+        "artist": "Fero Hajnovic",
+        "name": "Hey dad",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "acoustic",
+            "relaxed",
+            "guitary"
+        ]
+    },
+    {
+        "artist": "Fero Hajnovic",
+        "name": "Ocean shore",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "relaxed",
+            "guitary",
+            "acoustic"
+        ]
+    },
+    {
+        "artist": "Ben E King",
+        "name": "Stand By Me",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "famous",
+            "singing",
+            "rhythm",
+            "acoustic"
+        ]
+    },
+    {
+        "artist": "Chris Isaak",
+        "name": "Wicked Game",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "famous",
+            "singing",
+            "acoustic",
+            "relaxed"
+        ]
+    },
+    {
+        "artist": "Dire Straits",
+        "name": "Romeo And Juliet",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "dsmk",
+            "relaxed",
+            "acoustic",
+            "famous"
+        ]
+    },
+    {
+        "artist": "Mark Knopfler",
+        "name": "Sailing to Philadelphia",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "relaxed",
+            "guitary",
+            "acoustic"
+        ]
+    },
+    {
+        "artist": "Notting Hillbillies",
+        "name": "Feel Like Going Home",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "relaxed",
+            "guitary",
+            "acoustic",
+            "singing"
+        ]
+    },
+    {
+        "artist": "John Mayer",
+        "name": "Who says",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "rhythm",
+            "acoustic"
+        ]
+    },
+    {
+        "artist": "Leonard Cohen",
+        "name": "Hallelujah",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "relaxed",
+            "famous",
+            "singing",
+            "acoustic"
+        ]
+    },
+    {
+        "artist": "Linking Park",
+        "name": "The Messenger",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "relaxed",
+            "famous",
+            "singing",
+            "acoustic"
+        ]
+    },
+    {
+        "artist": "Mark Knopfler",
+        "name": "Get lucky",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "relaxed",
+            "acoustic",
+            "songwrite"
+        ]
+    },
+    {
+        "artist": "Dire Straits",
+        "name": "You And Your Friend",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "relaxed",
+            "dsmk",
+            "guitary"
+        ]
+    },
+    {
+        "artist": "John Mayer",
+        "name": "Changing",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "relaxed",
+            "acoustic"
+        ]
+    },
+    {
+        "artist": "John Mayer",
+        "name": "I Guess I Just Feel Like",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "famous",
+            "relaxed",
+            "acoustic",
+            "guitary"
+        ]
+    },
+    {
+        "artist": "Mark Knopfler",
+        "name": "Matchstick Man",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "relaxed",
+            "acoustic",
+            "songwrite"
+        ]
+    },
+    {
+        "artist": "Mark Knopfler",
+        "name": "My heart has never changed",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "relaxed",
+            "acoustic",
+            "songwrite"
+        ]
+    },
+    {
+        "artist": "Simon & Garfunkel",
+        "name": "The Boxer",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "relaxed",
+            "acoustic",
+            "songwrite",
+            "singing"
+        ]
+    },
+    {
+        "artist": "Simon And Garfunkel",
+        "name": "Sound Of Silence",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "relaxed",
+            "acoustic",
+            "famous",
+            "singing"
+        ]
+    },
+    {
+        "artist": "The Greatest Showman soundtrack",
+        "name": "A Million Dreams",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "acoustic",
+            "famous",
+            "singing"
+        ]
+    },
+    {
+        "artist": "Fero Hajnovic",
+        "name": "Vices",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "acoustic",
+            "relaxed",
+            "guitary"
+        ]
+    },
+    {
+        "artist": "Mark Knopfler",
+        "name": "Boom like that",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "rocky",
+            "guitary",
+            "acoustic"
+        ]
+    },
+    {
+        "artist": "Mark Knopfler",
+        "name": "Local hero",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "dsmk",
+            "relaxed",
+            "guitary"
+        ]
+    },
+    {
+        "artist": "A Great Big World & Christina Aguilera",
+        "name": "Say Something",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "famous",
+            "relaxed",
+            "acoustic",
+            "singing"
+        ]
+    },
+    {
+        "artist": "Mark Knopfler",
+        "name": "Piper to the end",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "relaxed",
+            "guitary",
+            "acoustic"
+        ]
+    },
+    {
+        "artist": "Tommy Emmanuel",
+        "name": "Those Who Wait",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "instrumental",
+            "relaxed",
+            "acoustic",
+            "guitary"
+        ]
+    },
+    {
+        "artist": "Mark Knopfler",
+        "name": "Lights of Taormina",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "relaxed",
+            "acoustic",
+            "songwrite",
+            "guitary"
+        ]
+    },
+    {
+        "artist": "Mark Knopfler",
+        "name": "Heart full of holes",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "relaxed",
+            "acoustic"
+        ]
+    },
+    {
+        "artist": "Dire Straits",
+        "name": "Six blade knife",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "dsmk",
+            "rocky",
+            "acoustic",
+            "guitary"
+        ]
+    },
+    {
+        "artist": "Dire Straits",
+        "name": "Sultans of swing",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "famous",
+            "dsmk",
+            "rocky",
+            "acoustic",
+            "guitary"
+        ]
+    },
+    {
+        "artist": "Fero Hajnovic",
+        "name": "Sticks in the water",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "relaxed",
+            "guitary",
+            "acoustic"
+        ]
+    }
+]

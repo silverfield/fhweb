@@ -3,7 +3,7 @@ export default function Covers({
 }) {
     return (
         <>
-            covers
+            Content coming soon!
         </> 
     );
 }

@@ -31,21 +31,21 @@ export default function Contact({
             <div className="row">
                 <div className="col-sm-6">
                     <p>
-                        Want me to play at your venue? Check out my <a href="#repertoire">repertoire</a> and
+                        &rarr; Want me to play at your venue? Check out my <a href="#repertoire">repertoire</a> and
                         give me a shout!
                     </p>
                     
                     <p>
-                        Fancy doing music or a jam together? I'm up for that 🤘
+                        &rarr; Fancy doing music or a jam together? I'm up for that 🤘
                     </p>
 
                     <p>
-                        Want me to support your good cause? Let's discuss that.
+                        &rarr; Want me to support your good cause? Let's discuss that.
                     </p>
                     
                     <p>
-                        Best way to contact me is at my email address 
-                        <a href="mailto:ferohajnovic@gmail.com">ferohajnovic@gmail.com</a> or via the 
+                        Best way to contact me is at my email 
+                        address <a href="mailto:ferohajnovic@gmail.com">ferohajnovic@gmail.com</a> or via the 
                         form on this page
                     </p>
                     

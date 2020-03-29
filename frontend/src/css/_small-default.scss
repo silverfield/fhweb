@@ -222,6 +222,7 @@ div.page-section {
     border: 2px solid $color-dark-light;
     padding: 2%;
     margin-top: 2%;
+    overflow: auto;
 
     &:nth-child(1) {
         margin-top: 0;
@@ -557,6 +558,30 @@ td.repe-name {
 
 .inline-flex {
     display: inline-flex;
+}
+
+figcaption {
+    font-size: 0.8em;
+    font-style: italic;
+    text-align: center;
+}
+
+.predef-set {
+    border-radius: 2px;
+    border: solid black 1px;
+    display: inline-block;
+    margin: 3px;
+    padding: 3px;
+    background-color: $color-inco-medlight;
+
+    &.last {
+        background-color: $color-inco-light;
+    }
+
+    &:hover {
+        cursor: pointer;
+        background-color: $color-inco-medstrong;
+    }
 }
 
 /* ------------------------------------------------------------ */

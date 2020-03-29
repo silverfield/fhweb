@@ -1,0 +1,134 @@
+[
+    {
+        "artist": "Fero Hajnovic",
+        "name": "Everyday",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "rocky",
+            "acoustic",
+            "guitary"
+        ]
+    },
+    {
+        "artist": "Fero Hajnovic",
+        "name": "Calling at Newport",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "rocky",
+            "acoustic",
+            "guitary"
+        ]
+    },
+    {
+        "artist": "Fero Hajnovic",
+        "name": "Daily ride",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "rocky",
+            "acoustic",
+            "relaxed",
+            "guitary"
+        ]
+    },
+    {
+        "artist": "Fero Hajnovic",
+        "name": "African Bird",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "relaxed",
+            "guitary"
+        ]
+    },
+    {
+        "artist": "Fero Hajnovic",
+        "name": "Bluff",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "acoustic",
+            "relaxed",
+            "guitary"
+        ]
+    },
+    {
+        "artist": "Fero Hajnovic",
+        "name": "Let's go fail",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "rhythm",
+            "acoustic"
+        ]
+    },
+    {
+        "artist": "Fero Hajnovic",
+        "name": "Ocean shore",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "relaxed",
+            "guitary",
+            "acoustic"
+        ]
+    },
+    {
+        "artist": "Fero Hajnovic",
+        "name": "Sticks in the water",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "relaxed",
+            "guitary",
+            "acoustic"
+        ]
+    },
+    {
+        "artist": "Fero Hajnovic",
+        "name": "Hey dad",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "acoustic",
+            "relaxed",
+            "guitary"
+        ]
+    },
+    {
+        "artist": "Fero Hajnovic",
+        "name": "Summer tune",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "acoustic",
+            "relaxed",
+            "guitary",
+            "instrumental"
+        ]
+    },
+    {
+        "artist": "Fero Hajnovic",
+        "name": "Vices",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "acoustic",
+            "relaxed",
+            "guitary"
+        ]
+    },
+    {
+        "artist": "Fero Hajnovic",
+        "name": "Fargo and Pelgrim",
+        "bt": true,
+        "nbt": false,
+        "tags": [
+            "acoustic",
+            "relaxed",
+            "guitary"
+        ]
+    }
+]

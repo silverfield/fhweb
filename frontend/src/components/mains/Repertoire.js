@@ -1,4 +1,7 @@
-import repdata from '../../data/repertoire.json'
+import repdataBase from '../../data/web-repe-pl-all.json'
+import repdataBackground from '../../data/web-repe-pl-web-gig-background-nbt.json'
+import repdataFriday from '../../data/web-repe-pl-web-gig-fri-pub-nbt.json'
+import repdataOriginals from '../../data/web-repe-pl-web-gig-originals.json'
 import {htmlDecode} from '../../helpers/combo-helper'
 import {useState} from "react"
 import {useEffect} from "react"
@@ -206,7 +209,9 @@ function Item({
     </>
 }
 
-function RepeIntro() {
+function RepeIntro({
+    setRepdata
+}) {
     return <>
         <div className="repe-intro">
             <p>
@@ -226,11 +231,23 @@ function RepeIntro() {
                 <li>Finally, export the selection and send it to me by email</li>
             </p>
             <p>
-                Or check out these predefined setlists ;-)
+                Or check out these predefined setlists aimed at different situations and venues:
             </p>
             <div className="predef-setlists">
-                <div className="predef-set">
-                    Dire Straits
+                <div className="predef-set" onClick={()=>setRepdata(repdataOriginals)}>
+                    The originals
+                </div>
+
+                <div className="predef-set" onClick={()=>setRepdata(repdataFriday)}>
+                    Friday pub
+                </div>
+
+                <div className="predef-set" onClick={()=>setRepdata(repdataBackground)}>
+                    Relaxed restaurant
+                </div>
+
+                <div className="predef-set last" onClick={()=>setRepdata(repdataBase)}>
+                    Back to full list
                 </div>
             </div>
         </div>
@@ -238,6 +255,7 @@ function RepeIntro() {
 }
 
 function RepeTop({
+    repdata,
     filters,
     updateFilters,
 }) {
@@ -300,6 +318,7 @@ function RepeTable({
     filters,
     updateFilters,
     selection,
+    setSelection,
     updateSelection
 }) {
     function getFiltered() {
@@ -345,6 +364,9 @@ function RepeTable({
             <a className="repe-button" onClick={() => exportSelection()}>Export selection</a>
             <a id="downloadAnchorElem"></a>
         </div>
+        <div className="repe-count">
+            {getFiltered().length} items, {getSelectedFiltered().length} selected
+        </div>
         <table className="repertoire-tbl">
             <thead>
             <tr>
@@ -378,9 +400,10 @@ function RepeTable({
 export default function Repertoire({
 
 }) {
-    repdata.sort((a, b) => a['artist'] - b['artist']);
+    repdataBase.sort((a, b) => a['artist'] - b['artist']);
 
-    const [filters, setFilters] = useState([])
+    const [repdata, setRepdata] = useState(repdataBase);
+    const [filters, setFilters] = useState([]);
     const [selection, setSelection] = useState([]);
 
     function updateSelection(artist, name) {
@@ -418,7 +441,9 @@ export default function Repertoire({
             <div className="section-title">
                 This is what I play
             </div>
-            <RepeIntro/>
+            <RepeIntro
+                setRepdata={setRepdata}
+            />
             <RepeTop
                 repdata={repdata}
                 filters={filters}
@@ -429,6 +454,7 @@ export default function Repertoire({
                 filters={filters}
                 updateFilters={updateFilters}
                 selection={selection}
+                setSelection={setSelection}
                 updateSelection={updateSelection}
             />
         </> 
