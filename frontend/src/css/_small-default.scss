@@ -627,6 +627,24 @@ figcaption {
     }
 }
 
+.section-tag {
+    border-radius: 2px;
+    padding: 1px 3px;
+    background-color: #1d1a1a48;
+    margin-left: 3px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    cursor: pointer;
+    
+    &.is-active {
+        border: 2px solid $color-bright-light;
+    }
+}
+
+.section-extra {
+    float: right;
+}
+
 /* ------------------------------------------------------------ */
 /* Footer */
 /* ------------------------------------------------------------ */
