@@ -43,7 +43,7 @@ module.exports = {
       // { from: './src/pics', to: 'pics' },
     ]),
   ],
-  watch: true,
+  // watch: true,
   watchOptions: {
     ignored: './src/node_modules/'
   },

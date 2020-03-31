@@ -192,7 +192,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ./../pics/london.jpg
 exports = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-exports.push([module.i, "/* \nhtml5doctor.com Reset Stylesheet\nv1.6.1\nLast Updated: 2010-09-17\nAuthor: Richard Clark - http://richclarkdesign.com \nTwitter: @rich_clark\n*/\nhtml, body, div, span, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\nabbr, address, cite, code,\ndel, dfn, em, img, ins, kbd, q, samp,\nsmall, strong, sub, sup, var,\nb, i,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section, summary,\ntime, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  outline: 0;\n  font-size: 100%;\n  vertical-align: baseline;\n  background: transparent; }\n\nbody {\n  line-height: 1; }\n\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n  display: block; }\n\nnav ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after,\nq:before, q:after {\n  content: '';\n  content: none; }\n\na {\n  margin: 0;\n  padding: 0;\n  font-size: 100%;\n  vertical-align: baseline;\n  background: transparent; }\n\n/* change colours to suit your needs */\nins {\n  background-color: #ff9;\n  color: #000;\n  text-decoration: none; }\n\n/* change colours to suit your needs */\nmark {\n  background-color: #ff9;\n  color: #000;\n  font-style: italic;\n  font-weight: bold; }\n\ndel {\n  text-decoration: line-through; }\n\nabbr[title], dfn[title] {\n  border-bottom: 1px dotted;\n  cursor: help; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\n/* change border colour to suit your needs */\nhr {\n  display: block;\n  height: 1px;\n  border: 0;\n  border-top: 1px solid #cccccc;\n  margin: 1em 0;\n  padding: 0; }\n\ninput, select {\n  vertical-align: middle; }\n\n/* ------------------------------------------------------------ */\n/* General */\n/* ------------------------------------------------------------ */\nbody {\n  min-width: 300px; }\n\nhtml {\n  /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */\n  -webkit-text-size-adjust: 100%;\n  -ms-text-size-adjust: 100%;\n  height: 100%; }\n\na {\n  color: #331f3b;\n  font-weight: 700;\n  text-shadow: 0 0 3px white; }\n\nul {\n  margin-left: 20px; }\n\n.no-flex-grow {\n  flex-grow: 0; }\n\np {\n  margin-bottom: 10px; }\n\n/*  apply a natural box layout model to all elements  */\n* {\n  -moz-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box; }\n\nbody {\n  font-family: 'Didact Gothic', 'Lucida Grande', Tahoma, Sans-Serif;\n  background-color: #9d8d8f;\n  font-size: 19px;\n  line-height: 1.3em;\n  min-height: 100%;\n  display: flex;\n  flex-flow: column; }\n\n.fa {\n  text-shadow: none;\n  padding: 0.4em;\n  font-size: 1.5em;\n  width: 2em;\n  margin: 0.2em;\n  border-radius: 20%;\n  text-align: center;\n  text-decoration: none;\n  background: #5a5560;\n  color: white; }\n  .fa:hover {\n    opacity: 0.7;\n    color: #331f3b;\n    background-color: #dd551f;\n    -webkit-transition: 0.5s;\n    -moz-transition: 0.5s;\n    -ms-transition: 0.5s;\n    -o-transition: 0.5s;\n    transition: 0.5s; }\n\n/* ------------------------------------------------------------ */\n/* Header */\n/* ------------------------------------------------------------ */\nheader {\n  flex: 0 1 auto;\n  padding: 1.5%; }\n  header #primary-nav-wrap {\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    background-size: cover;\n    position: relative; }\n  header .primary-nav {\n    flex-direction: column;\n    display: flex;\n    padding: 3px; }\n    header .primary-nav .main-link {\n      border-radius: 0.2em;\n      width: 6em;\n      height: 3em;\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      text-align: center;\n      padding: 0.2em;\n      background-color: rgba(90, 85, 96, 0.7);\n      color: white;\n      text-decoration: none;\n      text-shadow: 0 0 3px black;\n      margin: 0.2em 0.1em;\n      box-shadow: 0 0 8px 0 rgba(90, 85, 96, 0.7); }\n      header .primary-nav .main-link:hover {\n        box-shadow: 0 0 8px 4px rgba(250, 237, 38, 0.7);\n        color: #faed26;\n        transition: 0.5s; }\n    header .primary-nav .active-link {\n      background-color: rgba(250, 237, 38, 0.7);\n      color: black;\n      text-shadow: 0 0 3px white; }\n      header .primary-nav .active-link:hover {\n        color: white;\n        box-shadow: 0 0 8px 4px rgba(255, 255, 255, 0.7);\n        transition: 0.5s;\n        text-shadow: 0 0 3px black; }\n  header .secondary-nav {\n    background-color: #744236;\n    padding: 3px;\n    flex-direction: row;\n    display: flex;\n    align-items: stretch; }\n    header .secondary-nav .second-link {\n      font-size: 17px;\n      line-height: 17px;\n      border-radius: 0.2em;\n      height: 2.5em;\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      text-align: center;\n      padding: 0.5em;\n      background-color: rgba(134, 87, 75, 0.7);\n      color: white;\n      text-decoration: none;\n      text-shadow: 0 0 3px black;\n      margin: 0.2em 0.1em;\n      box-shadow: 0 0 8px 0 rgba(90, 85, 96, 0.7); }\n      header .secondary-nav .second-link:hover {\n        box-shadow: 0 0 8px 4px rgba(221, 85, 31, 0.7);\n        color: #dd551f;\n        transition: 0.5s; }\n    header .secondary-nav .active-link {\n      background-color: rgba(221, 85, 31, 0.7);\n      color: black;\n      text-shadow: 0 0 3px white; }\n      header .secondary-nav .active-link:hover {\n        color: white;\n        box-shadow: 0 0 8px 4px rgba(255, 255, 255, 0.7);\n        transition: 0.5s;\n        text-shadow: 0 0 3px black; }\n  header div#header-title {\n    font-weight: 600;\n    font-size: 10vw;\n    color: #331f3b;\n    text-shadow: 0 0 5px #faed26;\n    position: absolute;\n    right: 1.5%;\n    bottom: 5vw; }\n\n/* ------------------------------------------------------------ */\n/* Main */\n/* ------------------------------------------------------------ */\nmain {\n  flex: 1 1 auto;\n  padding: 1.5%; }\n\n.iframe-div {\n  position: relative;\n  width: 100%;\n  height: 0;\n  margin-left: auto;\n  margin-right: auto;\n  padding-bottom: 51%;\n  border: solid 2px black; }\n  .iframe-div iframe {\n    position: absolute;\n    width: 100%;\n    height: 100%; }\n\n.center-content-vert {\n  margin-top: auto;\n  margin-bottom: auto; }\n\ndiv.page-section {\n  border: 2px solid #5a5560;\n  padding: 2%;\n  margin-top: 2%;\n  overflow: auto; }\n  div.page-section:nth-child(1) {\n    margin-top: 0; }\n  div.page-section:nth-child(odd) {\n    background-color: #86574b; }\n  div.page-section:nth-child(even) {\n    background-color: #9b786f; }\n  div.page-section .page-header {\n    margin-bottom: 10px; }\n  div.page-section .page-sec-title {\n    font-size: 20px;\n    font-weight: 800;\n    display: inline-block; }\n\nimg {\n  border: solid #331f3b 2px;\n  display: block;\n  width: 100%;\n  margin: 5px;\n  margin-left: auto;\n  margin-right: auto; }\n\n.float-img {\n  float: left;\n  width: 30%;\n  min-width: 200px;\n  margin: 10px; }\n\n.float-right {\n  float: right; }\n\n.float-left {\n  float: right; }\n\n.about-face {\n  font-weight: 1000;\n  color: #331f3b;\n  font-variant: small-caps; }\n\n.cause-sum {\n  font-size: 25px;\n  font-weight: 1000;\n  float: right;\n  color: #faed26;\n  text-shadow: 0 0 5px #5a5560; }\n\n.contact-section #captcha-image {\n  margin: 0; }\n\n.contact-section #powered-by-snap {\n  display: inline-block;\n  font-size: 0.8em; }\n\n.raised-sum {\n  color: #faed26; }\n\n.section-title {\n  text-align: center;\n  font-size: 1.5em;\n  font-weight: 700;\n  color: #744236;\n  font-variant: small-caps;\n  text-shadow: 0 0 10px white;\n  margin-bottom: 10px; }\n\n.everyday-album {\n  display: block;\n  margin-bottom: 10px;\n  padding: 10px; }\n\n.clear-float {\n  clear: both; }\n\n.news-title {\n  display: block;\n  margin-top: 20px;\n  font-size: 1.5em; }\n\n.news-date {\n  font-size: 20px;\n  font-weight: 1000;\n  float: right;\n  color: #744236;\n  text-shadow: 0 0 5px #5a5560; }\n\n.repertoire-tbl {\n  width: 100%;\n  table-layout: fixed; }\n  .repertoire-tbl th {\n    font-size: 0.9em;\n    vertical-align: bottom; }\n  .repertoire-tbl .th-artist {\n    width: 20%; }\n  .repertoire-tbl .th-name {\n    width: 20%; }\n  .repertoire-tbl .th-props {\n    width: 20%; }\n  .repertoire-tbl .th-tags {\n    width: 35%; }\n  .repertoire-tbl th.rotate {\n    width: 20px;\n    vertical-align: middle;\n    text-align: left;\n    white-space: nowrap; }\n  .repertoire-tbl th.rotate > div {\n    transform: translate(0px, 30px) rotate(-45deg);\n    width: 20px; }\n\n.repe-item {\n  font-size: 0.8em;\n  height: 3em; }\n  .repe-item td {\n    padding: 5px; }\n  .repe-item td.repe-props {\n    text-align: center; }\n  .repe-item:nth-child(odd) td:nth-child(1) {\n    background-color: #86574b; }\n  .repe-item:nth-child(odd) td:nth-child(2) {\n    background-color: #966a5f; }\n  .repe-item:nth-child(odd) td:nth-child(3) {\n    background-color: #86574b; }\n  .repe-item:nth-child(odd) td:nth-child(4) {\n    background-color: #966a5f; }\n  .repe-item:nth-child(even) td:nth-child(1) {\n    background-color: #9b786f; }\n  .repe-item:nth-child(even) td:nth-child(2) {\n    background-color: #b18f86; }\n  .repe-item:nth-child(even) td:nth-child(3) {\n    background-color: #9b786f; }\n  .repe-item:nth-child(even) td:nth-child(4) {\n    background-color: #b18f86; }\n  .repe-item.repe-selected td.repe-name {\n    color: black;\n    background-color: white; }\n\n.repe-top {\n  font-size: 0.8em; }\n\n.repe-artist {\n  cursor: pointer; }\n  .repe-artist:hover {\n    font-weight: 1000;\n    text-shadow: 0 0 3px white; }\n  .repe-artist.is-active {\n    border: 1px solid #faed26; }\n\ntd.repe-name {\n  cursor: pointer; }\n  td.repe-name:hover {\n    color: black;\n    background-color: white !important; }\n\n.tickcross {\n  background-color: #744236;\n  display: inline-block;\n  border-radius: 2px;\n  font-weight: 1000;\n  font-size: 1.2em;\n  padding: 0 5px;\n  margin: 0 1px;\n  cursor: pointer; }\n  .tickcross.tick {\n    color: #6fda4f71; }\n  .tickcross.cross {\n    color: #e2485a93; }\n  .tickcross.is-active {\n    border: 1px solid #faed26; }\n\n.repe-tag {\n  border-radius: 2px;\n  padding: 1px 3px;\n  background-color: #1d1a1a48;\n  margin-left: 3px;\n  margin-top: 1px;\n  margin-bottom: 1px;\n  cursor: pointer; }\n  .repe-tag.is-active {\n    border: 2px solid #faed26; }\n\n.repe-buttons {\n  align-items: stretch;\n  flex-direction: row;\n  display: flex; }\n\n.repe-button {\n  flex-grow: 1;\n  justify-content: center;\n  border: solid 1px white;\n  cursor: pointer;\n  display: inline-flex;\n  padding: 5px;\n  margin: 4px;\n  border-radius: 4px;\n  background-color: #966a5f; }\n  .repe-button:hover {\n    background-color: #dd551f; }\n\n.tag-div {\n  margin-top: 8px;\n  margin-bottom: 8px; }\n\n.active-filters-heading {\n  font-weight: bold;\n  font-size: 1.1em;\n  text-align: center;\n  display: block; }\n\n.tags-heading {\n  font-weight: bold;\n  font-size: 1.1em;\n  text-align: center;\n  display: block; }\n\n.active-filter {\n  cursor: pointer;\n  display: inline-block;\n  background-color: #b18f86;\n  border-radius: 2px;\n  padding: 3px;\n  margin: 3px;\n  width: 100%; }\n\n.remove-filter {\n  float: right; }\n\n@media only screen and (min-width: 576px) {\n  .tag-float-right {\n    float: right; } }\n\n.inline-flex {\n  display: inline-flex; }\n\nfigcaption {\n  font-size: 0.8em;\n  font-style: italic;\n  text-align: center; }\n\n.predef-set {\n  border-radius: 2px;\n  border: solid black 1px;\n  display: inline-block;\n  margin: 3px;\n  padding: 3px;\n  background-color: #b18f86; }\n  .predef-set.last {\n    background-color: #9d8d8f; }\n  .predef-set:hover {\n    cursor: pointer;\n    background-color: #966a5f; }\n\n/* ------------------------------------------------------------ */\n/* Footer */\n/* ------------------------------------------------------------ */\nfooter {\n  color: #9d8d8f;\n  flex: 0 1 100px;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  font-size: 0.7em;\n  text-align: center;\n  background-color: #744236; }\n\n@media only screen and (min-width: 540px) {\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  header .primary-nav {\n    flex-direction: row;\n    height: 16em; }\n  header div#header-title {\n    font-size: 8vw;\n    bottom: 5vw; }\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  .contact-main {\n    display: flex;\n    flex-direction: row; }\n    .contact-main .contact-section {\n      margin-right: 10px; }\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */ }\n\n@media only screen and (min-width: 960px) {\n  html {\n    background-color: white; }\n  header div#header-title {\n    font-size: 80px;\n    bottom: 40px; }\n  body {\n    margin: auto;\n    max-width: 1000px;\n    box-shadow: 0 4px 8px 0 #331f3b, 0 6px 20px 0 #331f3b; } }\n", ""]);
+exports.push([module.i, "/* \nhtml5doctor.com Reset Stylesheet\nv1.6.1\nLast Updated: 2010-09-17\nAuthor: Richard Clark - http://richclarkdesign.com \nTwitter: @rich_clark\n*/\nhtml, body, div, span, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\nabbr, address, cite, code,\ndel, dfn, em, img, ins, kbd, q, samp,\nsmall, strong, sub, sup, var,\nb, i,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section, summary,\ntime, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  outline: 0;\n  font-size: 100%;\n  vertical-align: baseline;\n  background: transparent; }\n\nbody {\n  line-height: 1; }\n\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n  display: block; }\n\nnav ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after,\nq:before, q:after {\n  content: '';\n  content: none; }\n\na {\n  margin: 0;\n  padding: 0;\n  font-size: 100%;\n  vertical-align: baseline;\n  background: transparent; }\n\n/* change colours to suit your needs */\nins {\n  background-color: #ff9;\n  color: #000;\n  text-decoration: none; }\n\n/* change colours to suit your needs */\nmark {\n  background-color: #ff9;\n  color: #000;\n  font-style: italic;\n  font-weight: bold; }\n\ndel {\n  text-decoration: line-through; }\n\nabbr[title], dfn[title] {\n  border-bottom: 1px dotted;\n  cursor: help; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\n/* change border colour to suit your needs */\nhr {\n  display: block;\n  height: 1px;\n  border: 0;\n  border-top: 1px solid #cccccc;\n  margin: 1em 0;\n  padding: 0; }\n\ninput, select {\n  vertical-align: middle; }\n\n/* ------------------------------------------------------------ */\n/* General */\n/* ------------------------------------------------------------ */\nbody {\n  min-width: 300px; }\n\nhtml {\n  /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */\n  -webkit-text-size-adjust: 100%;\n  -ms-text-size-adjust: 100%;\n  height: 100%; }\n\na {\n  color: #331f3b;\n  font-weight: 700;\n  text-shadow: 0 0 3px white; }\n\nul {\n  margin-left: 20px; }\n\n.no-flex-grow {\n  flex-grow: 0; }\n\np {\n  margin-bottom: 10px; }\n\n/*  apply a natural box layout model to all elements  */\n* {\n  -moz-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box; }\n\nbody {\n  font-family: 'Didact Gothic', 'Lucida Grande', Tahoma, Sans-Serif;\n  background-color: #9d8d8f;\n  font-size: 19px;\n  line-height: 1.3em;\n  min-height: 100%;\n  display: flex;\n  flex-flow: column; }\n\n.fa {\n  text-shadow: none;\n  padding: 0.4em;\n  font-size: 1.5em;\n  width: 2em;\n  margin: 0.2em;\n  border-radius: 20%;\n  text-align: center;\n  text-decoration: none;\n  background: #5a5560;\n  color: white; }\n  .fa:hover {\n    opacity: 0.7;\n    color: #331f3b;\n    background-color: #dd551f;\n    -webkit-transition: 0.5s;\n    -moz-transition: 0.5s;\n    -ms-transition: 0.5s;\n    -o-transition: 0.5s;\n    transition: 0.5s; }\n\n/* ------------------------------------------------------------ */\n/* Header */\n/* ------------------------------------------------------------ */\nheader {\n  flex: 0 1 auto;\n  padding: 1.5%; }\n  header #primary-nav-wrap {\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    background-size: cover;\n    position: relative; }\n  header .primary-nav {\n    flex-direction: column;\n    display: flex;\n    padding: 3px; }\n    header .primary-nav .main-link {\n      border-radius: 0.2em;\n      width: 6em;\n      height: 3em;\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      text-align: center;\n      padding: 0.2em;\n      background-color: rgba(90, 85, 96, 0.7);\n      color: white;\n      text-decoration: none;\n      text-shadow: 0 0 3px black;\n      margin: 0.2em 0.1em;\n      box-shadow: 0 0 8px 0 rgba(90, 85, 96, 0.7); }\n      header .primary-nav .main-link:hover {\n        box-shadow: 0 0 8px 4px rgba(250, 237, 38, 0.7);\n        color: #faed26;\n        transition: 0.5s; }\n    header .primary-nav .active-link {\n      background-color: rgba(250, 237, 38, 0.7);\n      color: black;\n      text-shadow: 0 0 3px white; }\n      header .primary-nav .active-link:hover {\n        color: white;\n        box-shadow: 0 0 8px 4px rgba(255, 255, 255, 0.7);\n        transition: 0.5s;\n        text-shadow: 0 0 3px black; }\n  header .secondary-nav {\n    background-color: #744236;\n    padding: 3px;\n    flex-direction: row;\n    display: flex;\n    align-items: stretch; }\n    header .secondary-nav .second-link {\n      font-size: 17px;\n      line-height: 17px;\n      border-radius: 0.2em;\n      height: 2.5em;\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      text-align: center;\n      padding: 0.5em;\n      background-color: rgba(134, 87, 75, 0.7);\n      color: white;\n      text-decoration: none;\n      text-shadow: 0 0 3px black;\n      margin: 0.2em 0.1em;\n      box-shadow: 0 0 8px 0 rgba(90, 85, 96, 0.7); }\n      header .secondary-nav .second-link:hover {\n        box-shadow: 0 0 8px 4px rgba(221, 85, 31, 0.7);\n        color: #dd551f;\n        transition: 0.5s; }\n    header .secondary-nav .active-link {\n      background-color: rgba(221, 85, 31, 0.7);\n      color: black;\n      text-shadow: 0 0 3px white; }\n      header .secondary-nav .active-link:hover {\n        color: white;\n        box-shadow: 0 0 8px 4px rgba(255, 255, 255, 0.7);\n        transition: 0.5s;\n        text-shadow: 0 0 3px black; }\n  header div#header-title {\n    font-weight: 600;\n    font-size: 10vw;\n    color: #331f3b;\n    text-shadow: 0 0 5px #faed26;\n    position: absolute;\n    right: 1.5%;\n    bottom: 5vw; }\n\n/* ------------------------------------------------------------ */\n/* Main */\n/* ------------------------------------------------------------ */\nmain {\n  flex: 1 1 auto;\n  padding: 1.5%; }\n\n.iframe-div {\n  position: relative;\n  width: 100%;\n  height: 0;\n  margin-left: auto;\n  margin-right: auto;\n  padding-bottom: 51%;\n  border: solid 2px black; }\n  .iframe-div iframe {\n    position: absolute;\n    width: 100%;\n    height: 100%; }\n\n.center-content-vert {\n  margin-top: auto;\n  margin-bottom: auto; }\n\ndiv.page-section {\n  border: 2px solid #5a5560;\n  padding: 2%;\n  margin-top: 2%;\n  overflow: auto; }\n  div.page-section:nth-child(1) {\n    margin-top: 0; }\n  div.page-section:nth-child(odd) {\n    background-color: #86574b; }\n  div.page-section:nth-child(even) {\n    background-color: #9b786f; }\n  div.page-section .page-header {\n    margin-bottom: 10px; }\n  div.page-section .page-sec-title {\n    font-size: 20px;\n    font-weight: 800;\n    display: inline-block; }\n\nimg {\n  border: solid #331f3b 2px;\n  display: block;\n  width: 100%;\n  margin: 5px;\n  margin-left: auto;\n  margin-right: auto; }\n\n.float-img {\n  float: left;\n  width: 30%;\n  min-width: 200px;\n  margin: 10px; }\n\n.float-right {\n  float: right; }\n\n.float-left {\n  float: right; }\n\n.about-face {\n  font-weight: 1000;\n  color: #331f3b;\n  font-variant: small-caps; }\n\n.cause-sum {\n  font-size: 25px;\n  font-weight: 1000;\n  float: right;\n  color: #faed26;\n  text-shadow: 0 0 5px #5a5560; }\n\n.contact-section #captcha-image {\n  margin: 0; }\n\n.contact-section #powered-by-snap {\n  display: inline-block;\n  font-size: 0.8em; }\n\n.raised-sum {\n  color: #faed26; }\n\n.section-title {\n  text-align: center;\n  font-size: 1.5em;\n  font-weight: 700;\n  color: #744236;\n  font-variant: small-caps;\n  text-shadow: 0 0 10px white;\n  margin-bottom: 10px; }\n\n.everyday-album {\n  display: block;\n  margin-bottom: 10px;\n  padding: 10px; }\n\n.clear-float {\n  clear: both; }\n\n.news-title {\n  display: block;\n  margin-top: 20px;\n  font-size: 1.5em; }\n\n.news-date {\n  font-size: 20px;\n  font-weight: 1000;\n  float: right;\n  color: #744236;\n  text-shadow: 0 0 5px #5a5560; }\n\n.repertoire-tbl {\n  width: 100%;\n  table-layout: fixed; }\n  .repertoire-tbl th {\n    font-size: 0.9em;\n    vertical-align: bottom; }\n  .repertoire-tbl .th-artist {\n    width: 20%; }\n  .repertoire-tbl .th-name {\n    width: 20%; }\n  .repertoire-tbl .th-props {\n    width: 20%; }\n  .repertoire-tbl .th-tags {\n    width: 35%; }\n  .repertoire-tbl th.rotate {\n    width: 20px;\n    vertical-align: middle;\n    text-align: left;\n    white-space: nowrap; }\n  .repertoire-tbl th.rotate > div {\n    transform: translate(0px, 30px) rotate(-45deg);\n    width: 20px; }\n\n.repe-item {\n  font-size: 0.8em;\n  height: 3em; }\n  .repe-item td {\n    padding: 5px; }\n  .repe-item td.repe-props {\n    text-align: center; }\n  .repe-item:nth-child(odd) td:nth-child(1) {\n    background-color: #86574b; }\n  .repe-item:nth-child(odd) td:nth-child(2) {\n    background-color: #966a5f; }\n  .repe-item:nth-child(odd) td:nth-child(3) {\n    background-color: #86574b; }\n  .repe-item:nth-child(odd) td:nth-child(4) {\n    background-color: #966a5f; }\n  .repe-item:nth-child(even) td:nth-child(1) {\n    background-color: #9b786f; }\n  .repe-item:nth-child(even) td:nth-child(2) {\n    background-color: #b18f86; }\n  .repe-item:nth-child(even) td:nth-child(3) {\n    background-color: #9b786f; }\n  .repe-item:nth-child(even) td:nth-child(4) {\n    background-color: #b18f86; }\n  .repe-item.repe-selected td.repe-name {\n    color: black;\n    background-color: white; }\n\n.repe-top {\n  font-size: 0.8em; }\n\n.repe-artist {\n  cursor: pointer; }\n  .repe-artist:hover {\n    font-weight: 1000;\n    text-shadow: 0 0 3px white; }\n  .repe-artist.is-active {\n    border: 1px solid #faed26; }\n\ntd.repe-name {\n  cursor: pointer; }\n  td.repe-name:hover {\n    color: black;\n    background-color: white !important; }\n\n.tickcross {\n  background-color: #744236;\n  display: inline-block;\n  border-radius: 2px;\n  font-weight: 1000;\n  font-size: 1.2em;\n  padding: 0 5px;\n  margin: 0 1px;\n  cursor: pointer; }\n  .tickcross.tick {\n    color: #6fda4f71; }\n  .tickcross.cross {\n    color: #e2485a93; }\n  .tickcross.is-active {\n    border: 1px solid #faed26; }\n\n.repe-tag {\n  border-radius: 2px;\n  padding: 1px 3px;\n  background-color: #1d1a1a48;\n  margin-left: 3px;\n  margin-top: 1px;\n  margin-bottom: 1px;\n  cursor: pointer; }\n  .repe-tag.is-active {\n    border: 2px solid #faed26; }\n\n.repe-buttons {\n  align-items: stretch;\n  flex-direction: row;\n  display: flex; }\n\n.repe-button {\n  flex-grow: 1;\n  justify-content: center;\n  border: solid 1px white;\n  cursor: pointer;\n  display: inline-flex;\n  padding: 5px;\n  margin: 4px;\n  border-radius: 4px;\n  background-color: #966a5f; }\n  .repe-button:hover {\n    background-color: #dd551f; }\n\n.tag-div {\n  margin-top: 8px;\n  margin-bottom: 8px; }\n\n.active-filters-heading {\n  font-weight: bold;\n  font-size: 1.1em;\n  text-align: center;\n  display: block; }\n\n.tags-heading {\n  font-weight: bold;\n  font-size: 1.1em;\n  text-align: center;\n  display: block; }\n\n.active-filter {\n  cursor: pointer;\n  display: inline-block;\n  background-color: #b18f86;\n  border-radius: 2px;\n  padding: 3px;\n  margin: 3px;\n  width: 100%; }\n\n.remove-filter {\n  float: right; }\n\n@media only screen and (min-width: 576px) {\n  .tag-float-right {\n    float: right; } }\n\n.inline-flex {\n  display: inline-flex; }\n\nfigcaption {\n  font-size: 0.8em;\n  font-style: italic;\n  text-align: center; }\n\n.predef-set {\n  border-radius: 2px;\n  border: solid black 1px;\n  display: inline-block;\n  margin: 3px;\n  padding: 3px;\n  background-color: #b18f86; }\n  .predef-set.last {\n    background-color: #9d8d8f; }\n  .predef-set:hover {\n    cursor: pointer;\n    background-color: #966a5f; }\n\n.soundcloud-embed {\n  font-size: 1.5em;\n  width: 100%;\n  height: 50px;\n  border-radius: 2px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background-color: #b6694a; }\n  .soundcloud-embed:hover {\n    cursor: pointer;\n    background-color: #dd551f;\n    box-shadow: 0 0 8px 4px rgba(51, 31, 59, 0.7);\n    transition: 0.5s; }\n  .soundcloud-embed .soundcloud-title {\n    font-style: italic; }\n\n/* ------------------------------------------------------------ */\n/* Footer */\n/* ------------------------------------------------------------ */\nfooter {\n  color: #9d8d8f;\n  flex: 0 1 100px;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  font-size: 0.7em;\n  text-align: center;\n  background-color: #744236; }\n\n@media only screen and (min-width: 540px) {\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  header .primary-nav {\n    flex-direction: row;\n    height: 16em; }\n  header div#header-title {\n    font-size: 8vw;\n    bottom: 5vw; }\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  .contact-main {\n    display: flex;\n    flex-direction: row; }\n    .contact-main .contact-section {\n      margin-right: 10px; }\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */ }\n\n@media only screen and (min-width: 960px) {\n  html {\n    background-color: white; }\n  header div#header-title {\n    font-size: 80px;\n    bottom: 40px; }\n  body {\n    margin: auto;\n    max-width: 1000px;\n    box-shadow: 0 4px 8px 0 #331f3b, 0 6px 20px 0 #331f3b; } }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -31042,7 +31042,7 @@ if (false) {} else {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, __RouterContext, generatePath, matchPath, useHistory, useLocation, useParams, useRouteMatch, withRouter, BrowserRouter, HashRouter, Link, NavLink */
+/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, __RouterContext, generatePath, matchPath, useHistory, useLocation, useParams, useRouteMatch, withRouter */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -36558,7 +36558,9 @@ function Main(_ref) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return PrimaryNav; });
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _ScrollToTop_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ScrollToTop.js */ "./src/components/ScrollToTop.js");
 function _objectDestructuringEmpty(obj) { if (obj == null) throw new TypeError("Cannot destructure undefined"); }
+
 
 
 function PrimaryNav(_ref) {
@@ -36568,7 +36570,7 @@ function PrimaryNav(_ref) {
     id: "primary-nav-wrap"
   }, React.createElement("nav", {
     className: "primary-nav"
-  }, React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["HashRouter"], null, React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["NavLink"], {
+  }, React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["HashRouter"], null, React.createElement(_ScrollToTop_js__WEBPACK_IMPORTED_MODULE_1__["default"], null, React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["NavLink"], {
     to: "/home",
     className: "main-link",
     activeClassName: "active-link"
@@ -36592,10 +36594,43 @@ function PrimaryNav(_ref) {
     to: "/contact",
     className: "main-link",
     activeClassName: "active-link"
-  }, "contact me"))), React.createElement("div", {
+  }, "contact me")))), React.createElement("div", {
     id: "header-title"
   }, "Fero Hajnovi\u010D"));
 }
+
+/***/ }),
+
+/***/ "./src/components/ScrollToTop.js":
+/*!***************************************!*\
+  !*** ./src/components/ScrollToTop.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+
+
+
+function ScrollToTop(_ref) {
+  var history = _ref.history,
+      children = _ref.children;
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
+    var unlisten = history.listen(function () {
+      window.scrollTo(0, 0);
+    });
+    return function () {
+      unlisten();
+    };
+  }, []);
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, children);
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["withRouter"])(ScrollToTop));
 
 /***/ }),
 
@@ -36610,13 +36645,22 @@ function PrimaryNav(_ref) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return SecondaryNav; });
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var history__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! history */ "./node_modules/history/esm/history.js");
+/* harmony import */ var _ScrollToTop_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ScrollToTop.js */ "./src/components/ScrollToTop.js");
 function _objectDestructuringEmpty(obj) { if (obj == null) throw new TypeError("Cannot destructure undefined"); }
+
+
 
 
 function SecondaryNav(_ref) {
   _objectDestructuringEmpty(_ref);
 
-  return React.createElement(React.Fragment, null, React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["HashRouter"], null, React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["Switch"], null, React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["Route"], {
+  return React.createElement(React.Fragment, null, React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["HashRouter"], {
+    onUpdate: function onUpdate() {
+      return window.scrollTo(0, 0);
+    },
+    history: Object(history__WEBPACK_IMPORTED_MODULE_1__["createBrowserHistory"])()
+  }, React.createElement(_ScrollToTop_js__WEBPACK_IMPORTED_MODULE_2__["default"], null, React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["Switch"], null, React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["Route"], {
     path: "/my-music"
   }, React.createElement("nav", {
     className: "secondary-nav"
@@ -36632,7 +36676,7 @@ function SecondaryNav(_ref) {
     to: "/my-music/collaborations",
     className: "second-link",
     activeClassName: "active-link"
-  }, "collaborations"))))));
+  }, "collaborations")))))));
 }
 
 /***/ }),
@@ -37283,7 +37327,7 @@ function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 var tagMap = {
   'relaxed': {
-    'full': 'Songs for relaxed/ambient restaurant atmosphere',
+    'full': 'Songs creating relaxed atmosphere (e.g. for restaurant)',
     'color': '#7ed4e9b9'
   },
   'dsmk': {
@@ -37304,15 +37348,15 @@ var tagMap = {
     'color': '#56e9b8b9'
   },
   'acoustic': {
-    'full': 'Songs I can play purely acoustic',
+    'full': 'Songs I can play purely acoustically',
     'color': '#965428b9'
   },
   'instrumental': {
-    'full': 'Instrumental songs',
+    'full': 'Purely instrumental songs',
     'color': '#a3a523b9'
   },
-  'songwrite': {
-    'full': 'Songwriter type of songs',
+  'songwriter': {
+    'full': 'Songwriter, story-telling type of songs',
     'color': '#ca3587b9'
   },
   'rocky': {
@@ -37849,8 +37893,36 @@ function Song(_ref) {
   }, children));
 }
 
-function Everyday(_ref2) {
-  _objectDestructuringEmpty(_ref2);
+function SoundcloudEmbed(_ref2) {
+  var title = _ref2.title;
+  var embeds = {
+    'everyday': '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/786322903&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>',
+    'vices': '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/622361853&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>',
+    'let\'s go fail': '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/673315802&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>',
+    'daily ride': '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/622360437&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>',
+    'summer tune': '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/764998177&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>',
+    'fargo and pelgrim': '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/786320029&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>',
+    'calling at newport': '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/764767948&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>',
+    'hey dad': '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/770897755&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>',
+    'sticks in the water': '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/745913461&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>',
+    'at the ocean shore': '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/750585031&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>'
+  };
+  var link = embeds[title.toLowerCase()];
+  link = link.split('src="')[1].split('"></iframe>')[0];
+  return React.createElement("iframe", {
+    width: "100%",
+    height: "150",
+    scrolling: "no",
+    frameborder: "no",
+    allow: "autoplay",
+    src: link
+  }); // return <a className="soundcloud-embed" href={link}>
+  //     <div>Play <span className="soundcloud-title">{title}</span></div>
+  // </a>
+}
+
+function Everyday(_ref3) {
+  _objectDestructuringEmpty(_ref3);
 
   var height = 200;
   return React.createElement(React.Fragment, null, React.createElement("a", {
@@ -37892,35 +37964,20 @@ function Everyday(_ref2) {
     src: __webpack_require__(/*! ../../../pics/oslo-aker.jpg */ "./src/pics/oslo-aker.jpg")
   }), React.createElement("figcaption", null, "Oslo, Aker Brygge"))), React.createElement("div", {
     className: "col-md-9"
-  }, React.createElement("iframe", {
-    width: "100%",
-    height: height,
-    scrolling: "no",
-    frameBorder: "no",
-    allow: "autoplay",
-    src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/622360782&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+  }, React.createElement(SoundcloudEmbed, {
+    title: "Everyday"
   }), React.createElement("p", null, "This song is really about Oslo and some of my experiences there, but also about the time I started to focus on music, guitar and songwriting a bit more seriously than before..."), React.createElement("a", {
     href: "https://drive.google.com/file/d/1Di-44alLplaT_RoVP9_ZoVCiSLsCgMnc"
   }, "Chords and lyrics")))), React.createElement(Song, {
     name: "Vices"
-  }, React.createElement("iframe", {
-    width: "100%",
-    height: height,
-    scrolling: "no",
-    frameBorder: "no",
-    allow: "autoplay",
-    src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/622361853&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+  }, React.createElement(SoundcloudEmbed, {
+    title: "Vices"
   }), React.createElement("p", null, "This is a song about one of my friends, a quite unique character. Not much more is needed to be said, just listen to the song and you'll find out more..."), React.createElement("a", {
     href: "https://drive.google.com/file/d/1C6uYILWab7q74PpC8gPYo6kyxOgqC8E6"
   }, "Chords and lyrics")), React.createElement(Song, {
     name: "Let's go fail"
-  }, React.createElement("iframe", {
-    width: "100%",
-    height: height,
-    scrolling: "no",
-    frameBorder: "no",
-    allow: "autoplay",
-    src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/673315802&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+  }, React.createElement(SoundcloudEmbed, {
+    title: "Let's go fail"
   }), React.createElement("p", null, "A song I wrote in a train, returning from a visit to my friend Laco, who's the most \"yes attitude\" person I've ever met. Indeed, saying \"Laco, let's go fail\" is likely to be met with \"all right, let's do that!\". It's just hard NOT to write a song about a person like this!"), React.createElement("a", {
     href: "https://drive.google.com/file/d/1uyVyDSwf5BAG6KvRg5Kf6wr4hnmmdghW"
   }, "Chords and lyrics")), React.createElement(Song, {
@@ -37929,50 +37986,30 @@ function Everyday(_ref2) {
     className: "row"
   }, React.createElement("div", {
     className: "col-md-7"
-  }, React.createElement("iframe", {
-    width: "100%",
-    height: height,
-    scrolling: "no",
-    frameBorder: "no",
-    allow: "autoplay",
-    src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/622360437&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+  }, React.createElement(SoundcloudEmbed, {
+    title: "Daily ride"
   }), React.createElement("p", null, "This song is indeed about my daily ride that I had while in Biriwa, Ghana. I was working at the institute of mathematical sciences at the other end of the village. The ride on my bicycle through the hot night amidst frequent power cut in total darkness was simply unique and ultimately prompted me to write this song..."), React.createElement("a", {
     href: "https://drive.google.com/file/d/1yoMogwnQjyaBGwSiJRNHH2TF0sKLRmeQ"
   }, "Chords and lyrics")), React.createElement("div", {
     className: "col-md-5"
   }, React.createElement("figure", null, React.createElement("img", {
     src: __webpack_require__(/*! ../../../pics/biriwa.JPG */ "./src/pics/biriwa.JPG")
-  }), React.createElement("figcaption", null, "Biriwa with AIMS - the castle on the hill"))))), React.createElement(Song, {
+  }), React.createElement("figcaption", null, "Biriwa with AIMS - the \"castle on the hill\" in top right"))))), React.createElement(Song, {
     name: "Summer tune"
-  }, React.createElement("iframe", {
-    width: "100%",
-    height: height,
-    scrolling: "no",
-    frameBorder: "no",
-    allow: "autoplay",
-    src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/764998177&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+  }, React.createElement(SoundcloudEmbed, {
+    title: "Summer tune"
   }), React.createElement("p", null, "One of my few purely instrumental tracks. This came together spontaneously one sunny day in Prague, just after coming back from Ghana. I liked it straight away, named it \"Summer tune\" and played it ever since."), React.createElement("a", {
     href: "https://drive.google.com/file/d/1KzFUAV5ewzaEHcn-geI7OEYxQsEMZjfi"
   }, "Chords and lyrics")), React.createElement(Song, {
     name: "Fargo and Pelgrim"
-  }, React.createElement("iframe", {
-    width: "100%",
-    height: height,
-    scrolling: "no",
-    frameBorder: "no",
-    allow: "autoplay",
-    src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/622361436&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+  }, React.createElement(SoundcloudEmbed, {
+    title: "Fargo and Pelgrim"
   }), React.createElement("p", null, "This song is from one moment in Czech republic, when we were watching a sunset on a horse pasture and my girlfriend was explaining to me how horses communicate and behave. There's no maybes, problems are resolved with fights and things are generally more black or white. Seems so simple, yet beautiful..."), React.createElement("a", {
     href: "https://drive.google.com/file/d/18cNkcaIGDkd_HiWtYIpwmdqQQlWMhgOm"
   }, "Chords and lyrics")), React.createElement(Song, {
     name: "Calling at Newport"
-  }, React.createElement("iframe", {
-    width: "100%",
-    height: height,
-    scrolling: "no",
-    frameBorder: "no",
-    allow: "autoplay",
-    src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/764767948&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+  }, React.createElement(SoundcloudEmbed, {
+    title: "Calling at Newport"
   }), React.createElement("div", {
     className: "row"
   }, React.createElement("div", {
@@ -37985,24 +38022,14 @@ function Everyday(_ref2) {
     src: __webpack_require__(/*! ../../../pics/clyffard.JPG */ "./src/pics/clyffard.JPG")
   }), React.createElement("figcaption", null, "Clyffard Crescent in Newport"))))), React.createElement(Song, {
     name: "Hey dad"
-  }, React.createElement("iframe", {
-    width: "100%",
-    height: height,
-    scrolling: "no",
-    frameBorder: "no",
-    allow: "autoplay",
-    src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/770897755&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+  }, React.createElement(SoundcloudEmbed, {
+    title: "Hey dad"
   }), React.createElement("p", null, "I made this for my dad's recent birthday. He's a true inspiration ;-)"), React.createElement("a", {
     href: "https://drive.google.com/file/d/1KHBDmHPLcmMYg6efRG58HPyiH_aekGWi"
   }, "Chords and lyrics")), React.createElement(Song, {
     name: "Sticks in the water"
-  }, React.createElement("iframe", {
-    width: "100%",
-    height: height,
-    scrolling: "no",
-    frameBorder: "no",
-    allow: "autoplay",
-    src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/745913461&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+  }, React.createElement(SoundcloudEmbed, {
+    title: "Sticks in the water"
   }), React.createElement("p", null, "This song's lyrics were written mainly by Martin Buckridge, a friend from my Toastmasters club back in Cardiff. Martin's take on it is simply inspiring and the lyrics send an important message in today's world - there's too much rush and not enough time to pause. Give it a listen and find out more!"), React.createElement("a", {
     href: "https://drive.google.com/open?id=1GPm6GK45xovabba0uAGg3eC_w5CXvAk9"
   }, "Chords and lyrics")), React.createElement(Song, {
@@ -38011,13 +38038,8 @@ function Everyday(_ref2) {
     className: "row"
   }, React.createElement("div", {
     className: "col-md-7"
-  }, React.createElement("iframe", {
-    width: "100%",
-    height: height,
-    scrolling: "no",
-    frameBorder: "no",
-    allow: "autoplay",
-    src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/750585031&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+  }, React.createElement(SoundcloudEmbed, {
+    title: "At the ocean shore"
   }), React.createElement("p", null, "A song with roots from Llantwit Major. Here we once saw a bunch of youngsters jumping from the cliffs, some 5-6 meters above the water. An elderly couple was observing them from a bench nearby. It turned out it was grandparents of one of the boys and when we asked \"how do they know it's deep enough?\" they explained: when the tide is low, you can see the rocky bottom and so you're safe to jump when it's high..."), React.createElement("a", {
     href: "https://drive.google.com/file/d/1dzi1WxR66otirdY8aVwhw4oyIyQOo6As/view"
   }, "Chords and lyrics")), React.createElement("div", {
@@ -38067,7 +38089,7 @@ module.exports = exported;
 /*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("[{\"artist\":\"Dire Straits\",\"name\":\"Brothers in arms\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"dsmk\",\"guitary\",\"acoustic\"]},{\"artist\":\"Dire Straits\",\"name\":\"On every street\",\"bt\":true,\"nbt\":true,\"tags\":[\"dsmk\",\"relaxed\",\"guitary\",\"acoustic\"]},{\"artist\":\"Dire Straits\",\"name\":\"Private investigations\",\"bt\":true,\"nbt\":true,\"tags\":[\"dsmk\",\"relaxed\",\"acoustic\",\"songwrite\",\"guitary\"]},{\"artist\":\"Dire Straits\",\"name\":\"Romeo and Juliet\",\"bt\":true,\"nbt\":true,\"tags\":[\"famous\",\"acoustic\",\"relaxed\",\"dsmk\"]},{\"artist\":\"Dire Straits\",\"name\":\"Six blade knife\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"rocky\",\"guitary\",\"dsmk\"]},{\"artist\":\"Dire Straits\",\"name\":\"Sultans of swing\",\"bt\":true,\"nbt\":true,\"tags\":[\"famous\",\"dsmk\",\"rocky\",\"acoustic\",\"guitary\"]},{\"artist\":\"Dire Straits\",\"name\":\"Telegraph road\",\"bt\":true,\"nbt\":false,\"tags\":[\"dsmk\",\"rocky\",\"guitary\"]},{\"artist\":\"Dire Straits\",\"name\":\"Tunnel of love\",\"bt\":true,\"nbt\":false,\"tags\":[\"dsmk\",\"rocky\",\"guitary\"]},{\"artist\":\"Dire Straits\",\"name\":\"Where do you think you're going\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"rocky\",\"relaxed\",\"guitary\"]},{\"artist\":\"Eric Clapton\",\"name\":\"Layla\",\"bt\":true,\"nbt\":true,\"tags\":[\"rhythm\",\"relaxed\",\"guitary\",\"famous\",\"acoustic\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"African Bird\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Bluff\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"relaxed\",\"guitary\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Calling at Newport\",\"bt\":true,\"nbt\":true,\"tags\":[\"rocky\",\"acoustic\",\"guitary\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Daily ride\",\"bt\":true,\"nbt\":true,\"tags\":[\"rocky\",\"acoustic\",\"relaxed\",\"guitary\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Everyday\",\"bt\":true,\"nbt\":true,\"tags\":[\"rocky\",\"acoustic\",\"guitary\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Fargo and Pelgrim\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"relaxed\",\"guitary\",\"songwrite\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Happy Home\",\"bt\":true,\"nbt\":true,\"tags\":[\"rhythm\",\"acoustic\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Hey dad\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"relaxed\",\"guitary\",\"songwrite\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Let's go fail\",\"bt\":true,\"nbt\":true,\"tags\":[\"rhythm\",\"acoustic\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Ocean shore\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\",\"songwrite\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Sticks in the water\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\",\"songwrite\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Summer breeze\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"relaxed\",\"guitary\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Summer tune\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"relaxed\",\"guitary\",\"instrumental\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Vices\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"relaxed\",\"guitary\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Are we in trouble now\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Boom like that\",\"bt\":true,\"nbt\":true,\"tags\":[\"rocky\",\"guitary\",\"acoustic\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Darling pretty\",\"bt\":true,\"nbt\":false,\"tags\":[\"acoustic\",\"rocky\",\"guitary\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Davil Baby\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Going home 96\",\"bt\":true,\"nbt\":false,\"tags\":[\"dsmk\",\"rocky\",\"guitary\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Golden Heart\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"relaxed\",\"guitary\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Heart full of holes\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"relaxed\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Hillfarmer's blues\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"I dug up a diamon\",\"bt\":true,\"nbt\":false,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Local hero\",\"bt\":true,\"nbt\":true,\"tags\":[\"dsmk\",\"relaxed\",\"guitary\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Piper to the end\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Sailing to Philadelphia\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"relaxed\",\"guitary\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Speedway At Nazareth\",\"bt\":true,\"nbt\":false,\"tags\":[\"rocky\",\"guitary\",\"dsmk\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"What it is\",\"bt\":true,\"nbt\":false,\"tags\":[\"rocky\",\"guitary\",\"dsmk\"]},{\"artist\":\"Notting Hillbillies\",\"name\":\"Feel Like Going Home\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\",\"singing\"]},{\"artist\":\"Pink Floyd\",\"name\":\"Coming Back To Life\",\"bt\":true,\"nbt\":false,\"tags\":[\"relaxed\",\"guitary\",\"rocky\"]},{\"artist\":\"A Great Big World & Christina Aguilera\",\"name\":\"Say Something\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"relaxed\",\"acoustic\",\"singing\"]},{\"artist\":\"A Star is Born soundtrack\",\"name\":\"Always Remember Us This Way\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"singing\",\"acoustic\"]},{\"artist\":\"A Star is Born soundtrack\",\"name\":\"Maybe Its Time\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"singing\",\"acoustic\"]},{\"artist\":\"A Star is Born soundtrack\",\"name\":\"Shallow\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"singing\",\"acoustic\"]},{\"artist\":\"Ben E King\",\"name\":\"Stand By Me\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"singing\",\"rhythm\",\"acoustic\"]},{\"artist\":\"Chris Isaak\",\"name\":\"Wicked Game\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"singing\",\"acoustic\",\"relaxed\"]},{\"artist\":\"Dire Straits\",\"name\":\"You And Your Friend\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"dsmk\",\"guitary\"]},{\"artist\":\"Ed Sheeran\",\"name\":\"I See Fire\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"rhythm\",\"guitary\"]},{\"artist\":\"Ed Sheeran\",\"name\":\"Perfect\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"relaxed\",\"singing\"]},{\"artist\":\"Ed Sheeran\",\"name\":\"Thinking Out Loud\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"rhythm\",\"singing\"]},{\"artist\":\"Eva Cassidy\",\"name\":\"Fields of Gold\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"singing\",\"acoustic\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"In style\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"songwrite\",\"acoustic\"]},{\"artist\":\"John Hiatt\",\"name\":\"Have a little faith in me\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\"]},{\"artist\":\"John Hughes\",\"name\":\"Calon lan\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"instrumental\"]},{\"artist\":\"John Mayer\",\"name\":\"Age of Worry\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\"]},{\"artist\":\"John Mayer\",\"name\":\"Changing\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\"]},{\"artist\":\"John Mayer\",\"name\":\"Crossroads\",\"bt\":false,\"nbt\":true,\"tags\":[\"rocky\",\"guitary\"]},{\"artist\":\"John Mayer\",\"name\":\"Dear Marie\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\"]},{\"artist\":\"John Mayer\",\"name\":\"Edge of Desire\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\"]},{\"artist\":\"John Mayer\",\"name\":\"I Guess I Just Feel Like\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"relaxed\",\"acoustic\",\"guitary\"]},{\"artist\":\"John Mayer\",\"name\":\"In the Blood\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"acoustic\",\"rhythm\"]},{\"artist\":\"John Mayer\",\"name\":\"Never on the Day You Leave\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\"]},{\"artist\":\"John Mayer\",\"name\":\"Something Like Olivia\",\"bt\":false,\"nbt\":true,\"tags\":[\"rhythm\",\"acoustic\"]},{\"artist\":\"John Mayer\",\"name\":\"Stop This Train\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\"]},{\"artist\":\"John Mayer\",\"name\":\"The Heart Of Life\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\"]},{\"artist\":\"John Mayer\",\"name\":\"Who says\",\"bt\":false,\"nbt\":true,\"tags\":[\"rhythm\",\"acoustic\"]},{\"artist\":\"John Mayer\",\"name\":\"Your Body Is a Wonderland\",\"bt\":false,\"nbt\":true,\"tags\":[\"rhythm\",\"acoustic\"]},{\"artist\":\"Leonard Cohen\",\"name\":\"Hallelujah\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"famous\",\"singing\",\"acoustic\"]},{\"artist\":\"Linking Park\",\"name\":\"The Messenger\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"famous\",\"singing\",\"acoustic\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Belle Star\",\"bt\":false,\"nbt\":true,\"tags\":[\"rocky\",\"singing\",\"acoustic\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Get lucky\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"songwrite\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Heart of oak\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"songwrite\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Lights of Taormina\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"songwrite\",\"guitary\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Matchstick Man\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"songwrite\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"My heart has never changed\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"songwrite\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"One Song at a Time\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"songwrite\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Ragpicker's dream\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"songwrite\"]},{\"artist\":\"Ray Charles\",\"name\":\"Hit The Road Jack (remastered)\",\"bt\":false,\"nbt\":true,\"tags\":[\"rhythm\",\"acoustic\",\"famous\"]},{\"artist\":\"Simon & Garfunkel\",\"name\":\"The Boxer\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"songwrite\",\"singing\"]},{\"artist\":\"Simon And Garfunkel\",\"name\":\"Sound Of Silence\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"famous\",\"singing\"]},{\"artist\":\"The Greatest Showman soundtrack\",\"name\":\"A Million Dreams\",\"bt\":false,\"nbt\":true,\"tags\":[\"acoustic\",\"famous\",\"singing\"]},{\"artist\":\"The Greatest Showman soundtrack\",\"name\":\"From now on\",\"bt\":false,\"nbt\":true,\"tags\":[\"acoustic\",\"famous\",\"singing\"]},{\"artist\":\"The Greatest Showman soundtrack\",\"name\":\"This Is Me\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"famous\",\"singing\"]},{\"artist\":\"Tina Turner\",\"name\":\"Proud Mary\",\"bt\":false,\"nbt\":true,\"tags\":[\"rhythm\",\"acoustic\",\"famous\",\"singing\"]},{\"artist\":\"Tommy Emmanuel\",\"name\":\"Those Who Wait\",\"bt\":false,\"nbt\":true,\"tags\":[\"instrumental\",\"relaxed\",\"acoustic\",\"guitary\"]}]");
+module.exports = JSON.parse("[{\"artist\":\"Dire Straits\",\"name\":\"Brothers in arms\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"dsmk\",\"guitary\",\"acoustic\"]},{\"artist\":\"Dire Straits\",\"name\":\"On every street\",\"bt\":true,\"nbt\":true,\"tags\":[\"dsmk\",\"relaxed\",\"guitary\",\"acoustic\"]},{\"artist\":\"Dire Straits\",\"name\":\"Private investigations\",\"bt\":true,\"nbt\":true,\"tags\":[\"dsmk\",\"relaxed\",\"acoustic\",\"songwriter\",\"guitary\"]},{\"artist\":\"Dire Straits\",\"name\":\"Romeo and Juliet\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"famous\",\"dsmk\",\"relaxed\"]},{\"artist\":\"Dire Straits\",\"name\":\"Six blade knife\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"rocky\",\"dsmk\",\"guitary\"]},{\"artist\":\"Dire Straits\",\"name\":\"Sultans of swing\",\"bt\":true,\"nbt\":true,\"tags\":[\"famous\",\"dsmk\",\"rocky\",\"acoustic\",\"guitary\"]},{\"artist\":\"Dire Straits\",\"name\":\"Telegraph road\",\"bt\":true,\"nbt\":false,\"tags\":[\"dsmk\",\"rocky\",\"guitary\"]},{\"artist\":\"Dire Straits\",\"name\":\"Tunnel of love\",\"bt\":true,\"nbt\":false,\"tags\":[\"dsmk\",\"rocky\",\"guitary\"]},{\"artist\":\"Dire Straits\",\"name\":\"Where do you think you're going\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"rocky\",\"guitary\",\"relaxed\"]},{\"artist\":\"Eric Clapton\",\"name\":\"Layla\",\"bt\":true,\"nbt\":true,\"tags\":[\"famous\",\"acoustic\",\"rhythm\",\"guitary\",\"relaxed\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"African Bird\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Bluff\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"relaxed\",\"guitary\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Calling at Newport\",\"bt\":true,\"nbt\":true,\"tags\":[\"rocky\",\"acoustic\",\"guitary\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Daily ride\",\"bt\":true,\"nbt\":true,\"tags\":[\"rocky\",\"acoustic\",\"relaxed\",\"guitary\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Everyday\",\"bt\":true,\"nbt\":true,\"tags\":[\"rocky\",\"acoustic\",\"guitary\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Fargo and Pelgrim\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"relaxed\",\"guitary\",\"songwriter\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Happy Home\",\"bt\":true,\"nbt\":true,\"tags\":[\"rhythm\",\"acoustic\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Hey dad\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"relaxed\",\"guitary\",\"songwriter\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Let's go fail\",\"bt\":true,\"nbt\":true,\"tags\":[\"rhythm\",\"acoustic\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Ocean shore\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\",\"songwriter\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Sticks in the water\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\",\"songwriter\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Summer breeze\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"relaxed\",\"guitary\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Summer tune\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"relaxed\",\"guitary\",\"instrumental\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Vices\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"relaxed\",\"guitary\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Are we in trouble now\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Boom like that\",\"bt\":true,\"nbt\":true,\"tags\":[\"rocky\",\"guitary\",\"acoustic\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Darling pretty\",\"bt\":true,\"nbt\":false,\"tags\":[\"acoustic\",\"rocky\",\"guitary\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Davil Baby\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Going home 96\",\"bt\":true,\"nbt\":false,\"tags\":[\"dsmk\",\"rocky\",\"guitary\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Golden Heart\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"guitary\",\"relaxed\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Heart full of holes\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"relaxed\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Hillfarmer's blues\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"I dug up a diamon\",\"bt\":true,\"nbt\":false,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Local hero\",\"bt\":true,\"nbt\":true,\"tags\":[\"dsmk\",\"relaxed\",\"guitary\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Piper to the end\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Sailing to Philadelphia\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"guitary\",\"relaxed\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Speedway At Nazareth\",\"bt\":true,\"nbt\":false,\"tags\":[\"rocky\",\"guitary\",\"dsmk\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"What it is\",\"bt\":true,\"nbt\":false,\"tags\":[\"rocky\",\"guitary\",\"dsmk\"]},{\"artist\":\"Notting Hillbillies\",\"name\":\"Feel Like Going Home\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\",\"singing\"]},{\"artist\":\"Pink Floyd\",\"name\":\"Coming Back To Life\",\"bt\":true,\"nbt\":false,\"tags\":[\"relaxed\",\"guitary\",\"rocky\"]},{\"artist\":\"A Great Big World & Christina Aguilera\",\"name\":\"Say Something\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"relaxed\",\"acoustic\",\"singing\"]},{\"artist\":\"A Star is Born soundtrack\",\"name\":\"Always Remember Us This Way\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"singing\",\"acoustic\"]},{\"artist\":\"A Star is Born soundtrack\",\"name\":\"Maybe Its Time\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"singing\",\"acoustic\"]},{\"artist\":\"A Star is Born soundtrack\",\"name\":\"Shallow\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"singing\",\"acoustic\"]},{\"artist\":\"Ben E King\",\"name\":\"Stand By Me\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"singing\",\"rhythm\",\"acoustic\"]},{\"artist\":\"Chris Isaak\",\"name\":\"Wicked Game\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"singing\",\"acoustic\",\"relaxed\"]},{\"artist\":\"Dire Straits\",\"name\":\"You And Your Friend\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"dsmk\",\"guitary\"]},{\"artist\":\"Ed Sheeran\",\"name\":\"I See Fire\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"rhythm\",\"guitary\"]},{\"artist\":\"Ed Sheeran\",\"name\":\"Perfect\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"relaxed\",\"singing\"]},{\"artist\":\"Ed Sheeran\",\"name\":\"Thinking Out Loud\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"rhythm\",\"singing\"]},{\"artist\":\"Eva Cassidy\",\"name\":\"Fields of Gold\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"singing\",\"acoustic\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"In style\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"songwriter\",\"acoustic\"]},{\"artist\":\"John Hiatt\",\"name\":\"Have a little faith in me\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\"]},{\"artist\":\"John Hughes\",\"name\":\"Calon lan\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"instrumental\"]},{\"artist\":\"John Mayer\",\"name\":\"Age of Worry\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\"]},{\"artist\":\"John Mayer\",\"name\":\"Changing\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\"]},{\"artist\":\"John Mayer\",\"name\":\"Crossroads\",\"bt\":false,\"nbt\":true,\"tags\":[\"rocky\",\"guitary\"]},{\"artist\":\"John Mayer\",\"name\":\"Dear Marie\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\"]},{\"artist\":\"John Mayer\",\"name\":\"Edge of Desire\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\"]},{\"artist\":\"John Mayer\",\"name\":\"I Guess I Just Feel Like\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"relaxed\",\"acoustic\",\"guitary\"]},{\"artist\":\"John Mayer\",\"name\":\"In the Blood\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"acoustic\",\"rhythm\"]},{\"artist\":\"John Mayer\",\"name\":\"Never on the Day You Leave\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\"]},{\"artist\":\"John Mayer\",\"name\":\"Something Like Olivia\",\"bt\":false,\"nbt\":true,\"tags\":[\"rhythm\",\"acoustic\"]},{\"artist\":\"John Mayer\",\"name\":\"Stop This Train\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\"]},{\"artist\":\"John Mayer\",\"name\":\"The Heart Of Life\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\"]},{\"artist\":\"John Mayer\",\"name\":\"Who says\",\"bt\":false,\"nbt\":true,\"tags\":[\"rhythm\",\"acoustic\"]},{\"artist\":\"John Mayer\",\"name\":\"Your Body Is a Wonderland\",\"bt\":false,\"nbt\":true,\"tags\":[\"rhythm\",\"acoustic\"]},{\"artist\":\"Leonard Cohen\",\"name\":\"Hallelujah\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"famous\",\"singing\",\"acoustic\"]},{\"artist\":\"Linking Park\",\"name\":\"The Messenger\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"famous\",\"singing\",\"acoustic\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Belle Star\",\"bt\":false,\"nbt\":true,\"tags\":[\"rocky\",\"singing\",\"acoustic\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Get lucky\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"songwriter\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Heart of oak\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"songwriter\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Lights of Taormina\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"songwriter\",\"guitary\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Matchstick Man\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"songwriter\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"My heart has never changed\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"songwriter\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"One Song at a Time\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"songwriter\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Ragpicker's dream\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"songwriter\"]},{\"artist\":\"Ray Charles\",\"name\":\"Hit The Road Jack (remastered)\",\"bt\":false,\"nbt\":true,\"tags\":[\"rhythm\",\"acoustic\",\"famous\"]},{\"artist\":\"Simon & Garfunkel\",\"name\":\"The Boxer\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"songwriter\",\"singing\"]},{\"artist\":\"Simon And Garfunkel\",\"name\":\"Sound Of Silence\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"famous\",\"singing\"]},{\"artist\":\"The Greatest Showman soundtrack\",\"name\":\"A Million Dreams\",\"bt\":false,\"nbt\":true,\"tags\":[\"acoustic\",\"famous\",\"singing\"]},{\"artist\":\"The Greatest Showman soundtrack\",\"name\":\"From now on\",\"bt\":false,\"nbt\":true,\"tags\":[\"acoustic\",\"famous\",\"singing\"]},{\"artist\":\"The Greatest Showman soundtrack\",\"name\":\"This Is Me\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"famous\",\"singing\"]},{\"artist\":\"Tina Turner\",\"name\":\"Proud Mary\",\"bt\":false,\"nbt\":true,\"tags\":[\"rhythm\",\"acoustic\",\"famous\",\"singing\"]},{\"artist\":\"Tommy Emmanuel\",\"name\":\"Those Who Wait\",\"bt\":false,\"nbt\":true,\"tags\":[\"instrumental\",\"relaxed\",\"acoustic\",\"guitary\"]}]");
 
 /***/ }),
 
@@ -38078,7 +38100,7 @@ module.exports = JSON.parse("[{\"artist\":\"Dire Straits\",\"name\":\"Brothers i
 /*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("[{\"artist\":\"Dire Straits\",\"name\":\"Where do you think you're going\",\"bt\":true,\"nbt\":true,\"tags\":[\"rocky\",\"acoustic\",\"relaxed\",\"guitary\"]},{\"artist\":\"A Star is Born soundtrack\",\"name\":\"Maybe Its Time\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"singing\",\"acoustic\"]},{\"artist\":\"John Mayer\",\"name\":\"Dear Marie\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\"]},{\"artist\":\"Dire Straits\",\"name\":\"Brothers in arms\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"dsmk\",\"guitary\",\"acoustic\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Fargo and Pelgrim\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"relaxed\",\"guitary\",\"songwrite\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Summer tune\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"relaxed\",\"guitary\",\"instrumental\"]},{\"artist\":\"Dire Straits\",\"name\":\"On every street\",\"bt\":true,\"nbt\":true,\"tags\":[\"dsmk\",\"relaxed\",\"guitary\",\"acoustic\"]},{\"artist\":\"John Mayer\",\"name\":\"Something Like Olivia\",\"bt\":false,\"nbt\":true,\"tags\":[\"rhythm\",\"acoustic\"]},{\"artist\":\"John Mayer\",\"name\":\"Stop This Train\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\"]},{\"artist\":\"The Greatest Showman soundtrack\",\"name\":\"This Is Me\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"famous\",\"singing\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Golden Heart\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\"]},{\"artist\":\"Ed Sheeran\",\"name\":\"Thinking Out Loud\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"rhythm\",\"singing\"]},{\"artist\":\"Eva Cassidy\",\"name\":\"Fields of Gold\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"singing\",\"acoustic\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"In style\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"songwrite\",\"acoustic\"]},{\"artist\":\"Dire Straits\",\"name\":\"Romeo and Juliet\",\"bt\":true,\"nbt\":true,\"tags\":[\"famous\",\"acoustic\",\"relaxed\",\"dsmk\"]},{\"artist\":\"Eric Clapton\",\"name\":\"Layla\",\"bt\":true,\"nbt\":true,\"tags\":[\"famous\",\"rhythm\",\"acoustic\",\"relaxed\",\"guitary\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Hey dad\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"relaxed\",\"guitary\",\"songwrite\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Ocean shore\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\",\"songwrite\"]},{\"artist\":\"Ben E King\",\"name\":\"Stand By Me\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"singing\",\"rhythm\",\"acoustic\"]},{\"artist\":\"Chris Isaak\",\"name\":\"Wicked Game\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"singing\",\"acoustic\",\"relaxed\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Sailing to Philadelphia\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\"]},{\"artist\":\"Notting Hillbillies\",\"name\":\"Feel Like Going Home\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\",\"singing\"]},{\"artist\":\"John Mayer\",\"name\":\"Who says\",\"bt\":false,\"nbt\":true,\"tags\":[\"rhythm\",\"acoustic\"]},{\"artist\":\"Leonard Cohen\",\"name\":\"Hallelujah\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"famous\",\"singing\",\"acoustic\"]},{\"artist\":\"Linking Park\",\"name\":\"The Messenger\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"famous\",\"singing\",\"acoustic\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Get lucky\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"songwrite\"]},{\"artist\":\"Dire Straits\",\"name\":\"You And Your Friend\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"dsmk\",\"guitary\"]},{\"artist\":\"John Mayer\",\"name\":\"Changing\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\"]},{\"artist\":\"John Mayer\",\"name\":\"I Guess I Just Feel Like\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"relaxed\",\"acoustic\",\"guitary\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Matchstick Man\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"songwrite\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"My heart has never changed\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"songwrite\"]},{\"artist\":\"Simon & Garfunkel\",\"name\":\"The Boxer\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"songwrite\",\"singing\"]},{\"artist\":\"Simon And Garfunkel\",\"name\":\"Sound Of Silence\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"famous\",\"singing\"]},{\"artist\":\"The Greatest Showman soundtrack\",\"name\":\"A Million Dreams\",\"bt\":false,\"nbt\":true,\"tags\":[\"acoustic\",\"famous\",\"singing\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Vices\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"relaxed\",\"guitary\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Boom like that\",\"bt\":true,\"nbt\":true,\"tags\":[\"rocky\",\"guitary\",\"acoustic\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Local hero\",\"bt\":true,\"nbt\":true,\"tags\":[\"dsmk\",\"relaxed\",\"guitary\"]},{\"artist\":\"A Great Big World & Christina Aguilera\",\"name\":\"Say Something\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"relaxed\",\"acoustic\",\"singing\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Piper to the end\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\"]},{\"artist\":\"Tommy Emmanuel\",\"name\":\"Those Who Wait\",\"bt\":false,\"nbt\":true,\"tags\":[\"instrumental\",\"relaxed\",\"acoustic\",\"guitary\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Lights of Taormina\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"songwrite\",\"guitary\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Heart full of holes\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\"]},{\"artist\":\"Dire Straits\",\"name\":\"Six blade knife\",\"bt\":true,\"nbt\":true,\"tags\":[\"dsmk\",\"rocky\",\"acoustic\",\"guitary\"]},{\"artist\":\"Dire Straits\",\"name\":\"Sultans of swing\",\"bt\":true,\"nbt\":true,\"tags\":[\"famous\",\"dsmk\",\"rocky\",\"acoustic\",\"guitary\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Sticks in the water\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\",\"songwrite\"]}]");
+module.exports = JSON.parse("[{\"artist\":\"Dire Straits\",\"name\":\"Where do you think you're going\",\"bt\":true,\"nbt\":true,\"tags\":[\"rocky\",\"acoustic\",\"relaxed\",\"guitary\"]},{\"artist\":\"A Star is Born soundtrack\",\"name\":\"Maybe Its Time\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"singing\",\"acoustic\"]},{\"artist\":\"John Mayer\",\"name\":\"Dear Marie\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\"]},{\"artist\":\"Dire Straits\",\"name\":\"Brothers in arms\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"dsmk\",\"guitary\",\"acoustic\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Fargo and Pelgrim\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"relaxed\",\"guitary\",\"songwriter\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Summer tune\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"relaxed\",\"guitary\",\"instrumental\"]},{\"artist\":\"Dire Straits\",\"name\":\"On every street\",\"bt\":true,\"nbt\":true,\"tags\":[\"dsmk\",\"relaxed\",\"guitary\",\"acoustic\"]},{\"artist\":\"John Mayer\",\"name\":\"Something Like Olivia\",\"bt\":false,\"nbt\":true,\"tags\":[\"rhythm\",\"acoustic\"]},{\"artist\":\"John Mayer\",\"name\":\"Stop This Train\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\"]},{\"artist\":\"The Greatest Showman soundtrack\",\"name\":\"This Is Me\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"famous\",\"singing\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Golden Heart\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\"]},{\"artist\":\"Ed Sheeran\",\"name\":\"Thinking Out Loud\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"rhythm\",\"singing\"]},{\"artist\":\"Eva Cassidy\",\"name\":\"Fields of Gold\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"singing\",\"acoustic\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"In style\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"songwriter\",\"acoustic\"]},{\"artist\":\"Dire Straits\",\"name\":\"Romeo and Juliet\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"famous\",\"dsmk\",\"relaxed\"]},{\"artist\":\"Eric Clapton\",\"name\":\"Layla\",\"bt\":true,\"nbt\":true,\"tags\":[\"famous\",\"rhythm\",\"acoustic\",\"relaxed\",\"guitary\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Hey dad\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"relaxed\",\"guitary\",\"songwriter\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Ocean shore\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\",\"songwriter\"]},{\"artist\":\"Ben E King\",\"name\":\"Stand By Me\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"singing\",\"rhythm\",\"acoustic\"]},{\"artist\":\"Chris Isaak\",\"name\":\"Wicked Game\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"singing\",\"acoustic\",\"relaxed\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Sailing to Philadelphia\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\"]},{\"artist\":\"Notting Hillbillies\",\"name\":\"Feel Like Going Home\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\",\"singing\"]},{\"artist\":\"John Mayer\",\"name\":\"Who says\",\"bt\":false,\"nbt\":true,\"tags\":[\"rhythm\",\"acoustic\"]},{\"artist\":\"Leonard Cohen\",\"name\":\"Hallelujah\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"famous\",\"singing\",\"acoustic\"]},{\"artist\":\"Linking Park\",\"name\":\"The Messenger\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"famous\",\"singing\",\"acoustic\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Get lucky\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"songwriter\"]},{\"artist\":\"Dire Straits\",\"name\":\"You And Your Friend\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"dsmk\",\"guitary\"]},{\"artist\":\"John Mayer\",\"name\":\"Changing\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\"]},{\"artist\":\"John Mayer\",\"name\":\"I Guess I Just Feel Like\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"relaxed\",\"acoustic\",\"guitary\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Matchstick Man\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"songwriter\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"My heart has never changed\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"songwriter\"]},{\"artist\":\"Simon & Garfunkel\",\"name\":\"The Boxer\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"songwriter\",\"singing\"]},{\"artist\":\"Simon And Garfunkel\",\"name\":\"Sound Of Silence\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"famous\",\"singing\"]},{\"artist\":\"The Greatest Showman soundtrack\",\"name\":\"A Million Dreams\",\"bt\":false,\"nbt\":true,\"tags\":[\"acoustic\",\"famous\",\"singing\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Vices\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"relaxed\",\"guitary\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Boom like that\",\"bt\":true,\"nbt\":true,\"tags\":[\"rocky\",\"guitary\",\"acoustic\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Local hero\",\"bt\":true,\"nbt\":true,\"tags\":[\"dsmk\",\"relaxed\",\"guitary\"]},{\"artist\":\"A Great Big World & Christina Aguilera\",\"name\":\"Say Something\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"relaxed\",\"acoustic\",\"singing\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Piper to the end\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\"]},{\"artist\":\"Tommy Emmanuel\",\"name\":\"Those Who Wait\",\"bt\":false,\"nbt\":true,\"tags\":[\"instrumental\",\"relaxed\",\"acoustic\",\"guitary\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Lights of Taormina\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"songwriter\",\"guitary\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Heart full of holes\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\"]},{\"artist\":\"Dire Straits\",\"name\":\"Six blade knife\",\"bt\":true,\"nbt\":true,\"tags\":[\"dsmk\",\"rocky\",\"acoustic\",\"guitary\"]},{\"artist\":\"Dire Straits\",\"name\":\"Sultans of swing\",\"bt\":true,\"nbt\":true,\"tags\":[\"famous\",\"dsmk\",\"rocky\",\"acoustic\",\"guitary\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Sticks in the water\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\",\"songwriter\"]}]");
 
 /***/ }),
 
@@ -38089,7 +38111,7 @@ module.exports = JSON.parse("[{\"artist\":\"Dire Straits\",\"name\":\"Where do y
 /*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("[{\"artist\":\"John Mayer\",\"name\":\"Crossroads\",\"bt\":false,\"nbt\":true,\"tags\":[\"rocky\",\"guitary\"]},{\"artist\":\"Dire Straits\",\"name\":\"Where do you think you're going\",\"bt\":true,\"nbt\":true,\"tags\":[\"rocky\",\"acoustic\",\"relaxed\",\"guitary\"]},{\"artist\":\"John Mayer\",\"name\":\"Something Like Olivia\",\"bt\":false,\"nbt\":true,\"tags\":[\"rhythm\",\"acoustic\"]},{\"artist\":\"The Greatest Showman soundtrack\",\"name\":\"This Is Me\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"famous\",\"singing\"]},{\"artist\":\"Ed Sheeran\",\"name\":\"I See Fire\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"rhythm\",\"guitary\"]},{\"artist\":\"Dire Straits\",\"name\":\"Romeo and Juliet\",\"bt\":true,\"nbt\":true,\"tags\":[\"dsmk\",\"relaxed\",\"acoustic\",\"famous\"]},{\"artist\":\"Dire Straits\",\"name\":\"Sultans of swing\",\"bt\":true,\"nbt\":true,\"tags\":[\"famous\",\"dsmk\",\"rocky\",\"acoustic\",\"guitary\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Sticks in the water\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\",\"songwrite\"]},{\"artist\":\"Eric Clapton\",\"name\":\"Layla\",\"bt\":true,\"nbt\":true,\"tags\":[\"famous\",\"rhythm\",\"acoustic\",\"relaxed\",\"guitary\"]},{\"artist\":\"A Star is Born soundtrack\",\"name\":\"Shallow\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"singing\",\"acoustic\"]},{\"artist\":\"Dire Straits\",\"name\":\"Six blade knife\",\"bt\":false,\"nbt\":true,\"tags\":[\"dsmk\",\"rocky\",\"acoustic\",\"guitary\"]},{\"artist\":\"Ben E King\",\"name\":\"Stand By Me\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"singing\",\"rhythm\",\"acoustic\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Let's go fail\",\"bt\":true,\"nbt\":true,\"tags\":[\"rhythm\",\"acoustic\"]},{\"artist\":\"John Mayer\",\"name\":\"Dear Marie\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\"]},{\"artist\":\"Ed Sheeran\",\"name\":\"Thinking Out Loud\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"rhythm\",\"singing\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Calling at Newport\",\"bt\":true,\"nbt\":true,\"tags\":[\"rocky\",\"acoustic\",\"guitary\"]},{\"artist\":\"John Mayer\",\"name\":\"I Guess I Just Feel Like\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"relaxed\",\"acoustic\",\"guitary\"]},{\"artist\":\"Tina Turner\",\"name\":\"Proud Mary\",\"bt\":false,\"nbt\":true,\"tags\":[\"rhythm\",\"acoustic\",\"famous\",\"singing\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Lights of Taormina\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"songwrite\",\"guitary\"]},{\"artist\":\"John Mayer\",\"name\":\"In the Blood\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"acoustic\",\"rhythm\"]},{\"artist\":\"Leonard Cohen\",\"name\":\"Hallelujah\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"famous\",\"singing\",\"acoustic\"]},{\"artist\":\"John Mayer\",\"name\":\"Who says\",\"bt\":false,\"nbt\":true,\"tags\":[\"rhythm\",\"acoustic\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"In style\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"songwrite\",\"acoustic\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Boom like that\",\"bt\":true,\"nbt\":true,\"tags\":[\"rocky\",\"guitary\",\"acoustic\"]},{\"artist\":\"John Mayer\",\"name\":\"Your Body Is a Wonderland\",\"bt\":false,\"nbt\":true,\"tags\":[\"rhythm\",\"acoustic\"]},{\"artist\":\"Ray Charles\",\"name\":\"Hit The Road Jack (remastered)\",\"bt\":false,\"nbt\":true,\"tags\":[\"rhythm\",\"acoustic\",\"famous\"]},{\"artist\":\"Simon And Garfunkel\",\"name\":\"Sound Of Silence\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"famous\",\"singing\"]}]");
+module.exports = JSON.parse("[{\"artist\":\"John Mayer\",\"name\":\"Crossroads\",\"bt\":false,\"nbt\":true,\"tags\":[\"rocky\",\"guitary\"]},{\"artist\":\"Dire Straits\",\"name\":\"Where do you think you're going\",\"bt\":true,\"nbt\":true,\"tags\":[\"rocky\",\"acoustic\",\"relaxed\",\"guitary\"]},{\"artist\":\"John Mayer\",\"name\":\"Something Like Olivia\",\"bt\":false,\"nbt\":true,\"tags\":[\"rhythm\",\"acoustic\"]},{\"artist\":\"The Greatest Showman soundtrack\",\"name\":\"This Is Me\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"famous\",\"singing\"]},{\"artist\":\"Ed Sheeran\",\"name\":\"I See Fire\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"rhythm\",\"guitary\"]},{\"artist\":\"Dire Straits\",\"name\":\"Romeo and Juliet\",\"bt\":true,\"nbt\":true,\"tags\":[\"dsmk\",\"relaxed\",\"acoustic\",\"famous\"]},{\"artist\":\"Dire Straits\",\"name\":\"Sultans of swing\",\"bt\":true,\"nbt\":true,\"tags\":[\"famous\",\"dsmk\",\"rocky\",\"acoustic\",\"guitary\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Sticks in the water\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\",\"songwriter\"]},{\"artist\":\"Eric Clapton\",\"name\":\"Layla\",\"bt\":true,\"nbt\":true,\"tags\":[\"famous\",\"rhythm\",\"acoustic\",\"relaxed\",\"guitary\"]},{\"artist\":\"A Star is Born soundtrack\",\"name\":\"Shallow\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"singing\",\"acoustic\"]},{\"artist\":\"Dire Straits\",\"name\":\"Six blade knife\",\"bt\":false,\"nbt\":true,\"tags\":[\"dsmk\",\"rocky\",\"acoustic\",\"guitary\"]},{\"artist\":\"Ben E King\",\"name\":\"Stand By Me\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"singing\",\"rhythm\",\"acoustic\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Let's go fail\",\"bt\":true,\"nbt\":true,\"tags\":[\"rhythm\",\"acoustic\"]},{\"artist\":\"John Mayer\",\"name\":\"Dear Marie\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\"]},{\"artist\":\"Ed Sheeran\",\"name\":\"Thinking Out Loud\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"rhythm\",\"singing\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Calling at Newport\",\"bt\":true,\"nbt\":true,\"tags\":[\"rocky\",\"acoustic\",\"guitary\"]},{\"artist\":\"John Mayer\",\"name\":\"I Guess I Just Feel Like\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"relaxed\",\"acoustic\",\"guitary\"]},{\"artist\":\"Tina Turner\",\"name\":\"Proud Mary\",\"bt\":false,\"nbt\":true,\"tags\":[\"rhythm\",\"acoustic\",\"famous\",\"singing\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Lights of Taormina\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"songwriter\",\"guitary\"]},{\"artist\":\"John Mayer\",\"name\":\"In the Blood\",\"bt\":false,\"nbt\":true,\"tags\":[\"famous\",\"acoustic\",\"rhythm\"]},{\"artist\":\"Leonard Cohen\",\"name\":\"Hallelujah\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"famous\",\"singing\",\"acoustic\"]},{\"artist\":\"John Mayer\",\"name\":\"Who says\",\"bt\":false,\"nbt\":true,\"tags\":[\"rhythm\",\"acoustic\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"In style\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"songwriter\",\"acoustic\"]},{\"artist\":\"Mark Knopfler\",\"name\":\"Boom like that\",\"bt\":true,\"nbt\":true,\"tags\":[\"rocky\",\"guitary\",\"acoustic\"]},{\"artist\":\"John Mayer\",\"name\":\"Your Body Is a Wonderland\",\"bt\":false,\"nbt\":true,\"tags\":[\"rhythm\",\"acoustic\"]},{\"artist\":\"Ray Charles\",\"name\":\"Hit The Road Jack (remastered)\",\"bt\":false,\"nbt\":true,\"tags\":[\"rhythm\",\"acoustic\",\"famous\"]},{\"artist\":\"Simon And Garfunkel\",\"name\":\"Sound Of Silence\",\"bt\":false,\"nbt\":true,\"tags\":[\"relaxed\",\"acoustic\",\"famous\",\"singing\"]}]");
 
 /***/ }),
 
@@ -38100,7 +38122,7 @@ module.exports = JSON.parse("[{\"artist\":\"John Mayer\",\"name\":\"Crossroads\"
 /*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("[{\"artist\":\"Fero Hajnovic\",\"name\":\"Everyday\",\"bt\":true,\"nbt\":true,\"tags\":[\"rocky\",\"acoustic\",\"guitary\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Calling at Newport\",\"bt\":true,\"nbt\":true,\"tags\":[\"rocky\",\"acoustic\",\"guitary\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Daily ride\",\"bt\":true,\"nbt\":true,\"tags\":[\"rocky\",\"acoustic\",\"relaxed\",\"guitary\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"African Bird\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Bluff\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"relaxed\",\"guitary\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Let's go fail\",\"bt\":true,\"nbt\":true,\"tags\":[\"rhythm\",\"acoustic\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Ocean shore\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\",\"songwrite\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Sticks in the water\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\",\"songwrite\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Hey dad\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"relaxed\",\"guitary\",\"songwrite\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Summer tune\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"relaxed\",\"guitary\",\"instrumental\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Vices\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"relaxed\",\"guitary\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Fargo and Pelgrim\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"relaxed\",\"guitary\",\"songwrite\"]}]");
+module.exports = JSON.parse("[{\"artist\":\"Fero Hajnovic\",\"name\":\"Everyday\",\"bt\":true,\"nbt\":true,\"tags\":[\"rocky\",\"acoustic\",\"guitary\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Calling at Newport\",\"bt\":true,\"nbt\":true,\"tags\":[\"rocky\",\"acoustic\",\"guitary\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Daily ride\",\"bt\":true,\"nbt\":true,\"tags\":[\"rocky\",\"acoustic\",\"relaxed\",\"guitary\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"African Bird\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Bluff\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"relaxed\",\"guitary\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Let's go fail\",\"bt\":true,\"nbt\":true,\"tags\":[\"rhythm\",\"acoustic\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Ocean shore\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\",\"songwriter\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Sticks in the water\",\"bt\":true,\"nbt\":true,\"tags\":[\"relaxed\",\"guitary\",\"acoustic\",\"songwriter\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Hey dad\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"relaxed\",\"guitary\",\"songwriter\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Summer tune\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"relaxed\",\"guitary\",\"instrumental\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Vices\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"relaxed\",\"guitary\"]},{\"artist\":\"Fero Hajnovic\",\"name\":\"Fargo and Pelgrim\",\"bt\":true,\"nbt\":true,\"tags\":[\"acoustic\",\"relaxed\",\"guitary\",\"songwriter\"]}]");
 
 /***/ }),
 
@@ -38188,7 +38210,7 @@ if (document.getElementById("react-footer")) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "438f4156832849651b58b052bf32f676.jpg";
+module.exports = __webpack_require__.p + "048edb0bb20c2a670631d6388d9f186a.jpg";
 
 /***/ }),
 
@@ -38199,7 +38221,7 @@ module.exports = __webpack_require__.p + "438f4156832849651b58b052bf32f676.jpg";
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "0d08d7c2465df44d83979562536a89f1.jpg";
+module.exports = __webpack_require__.p + "0b50ca990ef8ced316a66033cf53d3ab.jpg";
 
 /***/ }),
 
@@ -38210,7 +38232,7 @@ module.exports = __webpack_require__.p + "0d08d7c2465df44d83979562536a89f1.jpg";
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "b8af147ba8308e342257fb28a847d843.JPG";
+module.exports = __webpack_require__.p + "0ff9625ad0c0391d3bd259ec98430ca9.JPG";
 
 /***/ }),
 
@@ -38221,7 +38243,7 @@ module.exports = __webpack_require__.p + "b8af147ba8308e342257fb28a847d843.JPG";
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "fc1cf94fdce75984247adaf3039286ed.jpg";
+module.exports = __webpack_require__.p + "4e3093916f93b4898d81b01ce2994a74.jpg";
 
 /***/ }),
 
@@ -38232,7 +38254,7 @@ module.exports = __webpack_require__.p + "fc1cf94fdce75984247adaf3039286ed.jpg";
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "ec3f78a66ee8414209cfbbd0ee8f4d47.JPG";
+module.exports = __webpack_require__.p + "6285a68502128018b28ff31fd8274bd5.JPG";
 
 /***/ }),
 
@@ -38254,7 +38276,7 @@ module.exports = __webpack_require__.p + "e31dbbd42f01a23505da1b0f9f85e4c6.png";
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "7babc6e1b56e1a665a7b45179fbd2d96.jpg";
+module.exports = __webpack_require__.p + "86368cbb876b853e5ba01f028d6fa669.jpg";
 
 /***/ }),
 
@@ -38265,7 +38287,7 @@ module.exports = __webpack_require__.p + "7babc6e1b56e1a665a7b45179fbd2d96.jpg";
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "47f37e9c7ac49677f43003d82ceb3243.jpg";
+module.exports = __webpack_require__.p + "56cde233b0c3da05facb5ea2d815ebe7.jpg";
 
 /***/ }),
 
@@ -38276,7 +38298,7 @@ module.exports = __webpack_require__.p + "47f37e9c7ac49677f43003d82ceb3243.jpg";
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "540ae0d34c69211ae85cbeac5f702948.jpg";
+module.exports = __webpack_require__.p + "bb00f09e6367281ffa24daac606c12e6.jpg";
 
 /***/ }),
 
@@ -38298,7 +38320,7 @@ module.exports = __webpack_require__.p + "94c93bdcccffc4c53f842fe2b792b63a.jpg";
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "e1b8b0fab88332c25f74ba82259c610a.jpg";
+module.exports = __webpack_require__.p + "ad46620992045f1f20699341a60e4555.jpg";
 
 /***/ }),
 
@@ -38309,7 +38331,7 @@ module.exports = __webpack_require__.p + "e1b8b0fab88332c25f74ba82259c610a.jpg";
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "a353cdd8c98453c0ecaa446d2b1ee856.JPG";
+module.exports = __webpack_require__.p + "506da7de0214e05ca5eaf04ec190200e.JPG";
 
 /***/ }),
 
@@ -38320,7 +38342,7 @@ module.exports = __webpack_require__.p + "a353cdd8c98453c0ecaa446d2b1ee856.JPG";
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "cdce8ad687308113d75d61a2a6c40d25.jpg";
+module.exports = __webpack_require__.p + "dba41f5e5c906cf6278b0fa0cbd6a0a2.jpg";
 
 /***/ }),
 
@@ -38353,7 +38375,7 @@ module.exports = __webpack_require__.p + "ae1bce3a7bd8e7a5e1b1a52dd6cc39a3.jpg";
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "29c00eee8f0a5ae4ecf3d73eb495240f.jpg";
+module.exports = __webpack_require__.p + "e1b5d65531e3ab9760a09ddb480d68bb.jpg";
 
 /***/ }),
 
@@ -38364,7 +38386,7 @@ module.exports = __webpack_require__.p + "29c00eee8f0a5ae4ecf3d73eb495240f.jpg";
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "a1c8d14115a57ac96780431d503020e6.jpg";
+module.exports = __webpack_require__.p + "f49cf4afa63b5197e7935f5b6c37ba60.jpg";
 
 /***/ }),
 
@@ -38375,7 +38397,7 @@ module.exports = __webpack_require__.p + "a1c8d14115a57ac96780431d503020e6.jpg";
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "f2f2938ee7f2928f417d3441d04c869a.jpg";
+module.exports = __webpack_require__.p + "820114eaecb9592ef07684801e176d26.jpg";
 
 /***/ }),
 
@@ -38386,7 +38408,7 @@ module.exports = __webpack_require__.p + "f2f2938ee7f2928f417d3441d04c869a.jpg";
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "9842c41d842ad5bca36089a819aa5bfc.jpg";
+module.exports = __webpack_require__.p + "9adca36244c744f96b4bbe3d85ae76d6.jpg";
 
 /***/ }),
 
@@ -38397,7 +38419,7 @@ module.exports = __webpack_require__.p + "9842c41d842ad5bca36089a819aa5bfc.jpg";
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "558bdc6224960047ad0db7d9a8a1e713.jpg";
+module.exports = __webpack_require__.p + "25bfd963eff43d94da9864cb8729b59c.jpg";
 
 /***/ }),
 
@@ -38408,7 +38430,7 @@ module.exports = __webpack_require__.p + "558bdc6224960047ad0db7d9a8a1e713.jpg";
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "0d85a9697bb392d76ee5e1e1573c20b6.jpg";
+module.exports = __webpack_require__.p + "016a74e4c7253dec0e3a7b9fb0066ce5.jpg";
 
 /***/ }),
 
@@ -38419,7 +38441,7 @@ module.exports = __webpack_require__.p + "0d85a9697bb392d76ee5e1e1573c20b6.jpg";
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "c0eb1c110a9519a0f08fefc103ac2fce.png";
+module.exports = __webpack_require__.p + "62b17a7c0b7305c6c214d10bc3fe68f8.png";
 
 /***/ }),
 
@@ -38430,7 +38452,7 @@ module.exports = __webpack_require__.p + "c0eb1c110a9519a0f08fefc103ac2fce.png";
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "2b99bdcddeb6a75adbae2d127d9e38cf.png";
+module.exports = __webpack_require__.p + "94d25c666c1ef10f0a626f0e2ecf15e9.png";
 
 /***/ }),
 
@@ -38441,7 +38463,7 @@ module.exports = __webpack_require__.p + "2b99bdcddeb6a75adbae2d127d9e38cf.png";
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "3f6c27487633586feb16089d82096cdc.jpg";
+module.exports = __webpack_require__.p + "593a6e33e3f10c47f74b17a843b193cf.jpg";
 
 /***/ }),
 
@@ -38452,7 +38474,7 @@ module.exports = __webpack_require__.p + "3f6c27487633586feb16089d82096cdc.jpg";
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "21be280ba0c62cde83edb6f74aaf7b80.jpg";
+module.exports = __webpack_require__.p + "8c79690d92d597cc38ca8319a52708b9.jpg";
 
 /***/ }),
 
@@ -38463,7 +38485,7 @@ module.exports = __webpack_require__.p + "21be280ba0c62cde83edb6f74aaf7b80.jpg";
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "d4608afefac111418b236055684f5a3c.jpg";
+module.exports = __webpack_require__.p + "d3ffc20e6d8ad88c5837edf894d1509a.jpg";
 
 /***/ }),
 
@@ -38474,7 +38496,7 @@ module.exports = __webpack_require__.p + "d4608afefac111418b236055684f5a3c.jpg";
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "bc00b9624a7b3223a69b9d35d97c444c.jpg";
+module.exports = __webpack_require__.p + "01739eabb7e2506a40ee9403a35e245d.jpg";
 
 /***/ }),
 
@@ -38485,7 +38507,7 @@ module.exports = __webpack_require__.p + "bc00b9624a7b3223a69b9d35d97c444c.jpg";
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "be3dea0cb3f7a3bafd68abf76ef1fc39.jpg";
+module.exports = __webpack_require__.p + "501d7ad7e38107c2b0116ec605cfc2b1.jpg";
 
 /***/ }),
 
@@ -38496,7 +38518,7 @@ module.exports = __webpack_require__.p + "be3dea0cb3f7a3bafd68abf76ef1fc39.jpg";
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "fa6c414b32f58240b18ef5b09596d58f.jpg";
+module.exports = __webpack_require__.p + "e57585f9cdf810196a900e535f832668.jpg";
 
 /***/ }),
 
@@ -38507,7 +38529,7 @@ module.exports = __webpack_require__.p + "fa6c414b32f58240b18ef5b09596d58f.jpg";
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "3fe9e6f6ec7b017fc3fc07c09ba4549b.jpg";
+module.exports = __webpack_require__.p + "926888bf652b682b49af65c760c5ad7d.jpg";
 
 /***/ }),
 
@@ -38518,7 +38540,7 @@ module.exports = __webpack_require__.p + "3fe9e6f6ec7b017fc3fc07c09ba4549b.jpg";
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "f78ca2f6bd5ac798821333c0def20775.jpg";
+module.exports = __webpack_require__.p + "9b989a85d538c0f64f4127372127c993.jpg";
 
 /***/ })
 

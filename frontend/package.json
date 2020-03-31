@@ -12,12 +12,12 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/.bin/webpack",
+    "build": "./node_modules/.bin/webpack --watch",
     "watch": "npm-watch",
     "start:dev": "webpack-dev-server --content-base dist",
     "start:prod": "./node_modules/http-server/bin/http-server -c-1 dist/",
-    "both": "./node_modules/.bin/webpack & webpack-dev-server --content-base dist",
-    "publish": "rm -rf publish; cp -r dist publish"
+    "both": "./node_modules/.bin/webpack --watch & webpack-dev-server --content-base dist",
+    "publish": "rm -rf dist; rm -rf publish; ./node_modules/.bin/webpack; cp -r dist publish"
   },
   "repository": {
     "type": "git",
