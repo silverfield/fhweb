@@ -34,7 +34,7 @@ function SoundcloudEmbed({
         width="100%" 
         height="150" 
         scrolling="no" 
-        frameborder="no" 
+        frameBorder="no" 
         allow="autoplay" 
         src={link}>
     </iframe>
