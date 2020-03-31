@@ -32,7 +32,7 @@
             "dsmk",
             "relaxed",
             "acoustic",
-            "songwrite",
+            "songwriter",
             "guitary"
         ]
     },
@@ -42,10 +42,10 @@
         "bt": true,
         "nbt": true,
         "tags": [
-            "famous",
             "acoustic",
-            "relaxed",
-            "dsmk"
+            "famous",
+            "dsmk",
+            "relaxed"
         ]
     },
     {
@@ -56,8 +56,8 @@
         "tags": [
             "acoustic",
             "rocky",
-            "guitary",
-            "dsmk"
+            "dsmk",
+            "guitary"
         ]
     },
     {
@@ -103,8 +103,8 @@
         "tags": [
             "acoustic",
             "rocky",
-            "relaxed",
-            "guitary"
+            "guitary",
+            "relaxed"
         ]
     },
     {
@@ -113,11 +113,11 @@
         "bt": true,
         "nbt": true,
         "tags": [
-            "rhythm",
-            "relaxed",
-            "guitary",
             "famous",
-            "acoustic"
+            "acoustic",
+            "rhythm",
+            "guitary",
+            "relaxed"
         ]
     },
     {
@@ -184,7 +184,7 @@
             "acoustic",
             "relaxed",
             "guitary",
-            "songwrite"
+            "songwriter"
         ]
     },
     {
@@ -206,7 +206,7 @@
             "acoustic",
             "relaxed",
             "guitary",
-            "songwrite"
+            "songwriter"
         ]
     },
     {
@@ -228,7 +228,7 @@
             "relaxed",
             "guitary",
             "acoustic",
-            "songwrite"
+            "songwriter"
         ]
     },
     {
@@ -240,7 +240,7 @@
             "relaxed",
             "guitary",
             "acoustic",
-            "songwrite"
+            "songwriter"
         ]
     },
     {
@@ -338,8 +338,8 @@
         "nbt": true,
         "tags": [
             "acoustic",
-            "relaxed",
-            "guitary"
+            "guitary",
+            "relaxed"
         ]
     },
     {
@@ -403,8 +403,8 @@
         "nbt": true,
         "tags": [
             "acoustic",
-            "relaxed",
-            "guitary"
+            "guitary",
+            "relaxed"
         ]
     },
     {
@@ -583,7 +583,7 @@
         "nbt": true,
         "tags": [
             "relaxed",
-            "songwrite",
+            "songwriter",
             "acoustic"
         ]
     },
@@ -784,7 +784,7 @@
         "tags": [
             "relaxed",
             "acoustic",
-            "songwrite"
+            "songwriter"
         ]
     },
     {
@@ -795,7 +795,7 @@
         "tags": [
             "relaxed",
             "acoustic",
-            "songwrite"
+            "songwriter"
         ]
     },
     {
@@ -806,7 +806,7 @@
         "tags": [
             "relaxed",
             "acoustic",
-            "songwrite",
+            "songwriter",
             "guitary"
         ]
     },
@@ -818,7 +818,7 @@
         "tags": [
             "relaxed",
             "acoustic",
-            "songwrite"
+            "songwriter"
         ]
     },
     {
@@ -829,7 +829,7 @@
         "tags": [
             "relaxed",
             "acoustic",
-            "songwrite"
+            "songwriter"
         ]
     },
     {
@@ -840,7 +840,7 @@
         "tags": [
             "relaxed",
             "acoustic",
-            "songwrite"
+            "songwriter"
         ]
     },
     {
@@ -851,7 +851,7 @@
         "tags": [
             "relaxed",
             "acoustic",
-            "songwrite"
+            "songwriter"
         ]
     },
     {
@@ -873,7 +873,7 @@
         "tags": [
             "relaxed",
             "acoustic",
-            "songwrite",
+            "songwriter",
             "singing"
         ]
     },

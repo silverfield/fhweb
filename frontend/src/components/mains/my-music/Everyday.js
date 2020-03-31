@@ -11,6 +11,39 @@ function Song({
     </>
 }
 
+function SoundcloudEmbed({
+    title
+}) {
+    var embeds = {
+        'everyday': '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/786322903&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>',
+        'vices': '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/622361853&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>',
+        'let\'s go fail': '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/673315802&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>',
+        'daily ride': '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/622360437&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>',
+        'summer tune': '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/764998177&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>',
+        'fargo and pelgrim': '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/786320029&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>',
+        'calling at newport': '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/764767948&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>',
+        'hey dad': '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/770897755&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>',
+        'sticks in the water': '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/745913461&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>',
+        'at the ocean shore': '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/750585031&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>',
+    };
+
+    var link = embeds[title.toLowerCase()];
+    link = link.split('src="')[1].split('"></iframe>')[0];
+
+    return <iframe 
+        width="100%" 
+        height="150" 
+        scrolling="no" 
+        frameborder="no" 
+        allow="autoplay" 
+        src={link}>
+    </iframe>
+
+    // return <a className="soundcloud-embed" href={link}>
+    //     <div>Play <span className="soundcloud-title">{title}</span></div>
+    // </a>
+}
+
 export default function Everyday({
 
 }) {
@@ -70,15 +103,7 @@ export default function Everyday({
                             </figure>
                         </div>
                         <div className="col-md-9">
-                            <iframe 
-                                width="100%"
-                                height={height} 
-                                scrolling="no" 
-                                frameBorder="no" 
-                                allow="autoplay" 
-                                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/622360782&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-                            >
-                            </iframe>
+                            <SoundcloudEmbed title="Everyday" />
 
                             <p>
                                 This song is really about Oslo and some of my experiences there, 
@@ -92,15 +117,7 @@ export default function Everyday({
                 </Song>
 
                 <Song name="Vices">
-                    <iframe 
-                        width="100%" 
-                        height={height} 
-                        scrolling="no" 
-                        frameBorder="no" 
-                        allow="autoplay" 
-                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/622361853&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-                    >
-                    </iframe>
+                    <SoundcloudEmbed title="Vices" />
 
                     <p>
                         This is a song about one of my friends, a quite unique character. 
@@ -112,15 +129,7 @@ export default function Everyday({
                 </Song>
 
                 <Song name="Let's go fail">
-                    <iframe 
-                        width="100%" 
-                        height={height} 
-                        scrolling="no" 
-                        frameBorder="no" 
-                        allow="autoplay" 
-                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/673315802&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-                    >
-                    </iframe>
+                    <SoundcloudEmbed title="Let's go fail" />
 
                     <p>
                         A song I wrote in a train, returning from a visit to my friend Laco, 
@@ -135,15 +144,7 @@ export default function Everyday({
                 <Song name="Daily ride">
                     <div className="row">
                         <div className="col-md-7">
-                            <iframe 
-                                width="100%" 
-                                height={height} 
-                                scrolling="no" 
-                                frameBorder="no" 
-                                allow="autoplay" 
-                                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/622360437&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-                            >
-                            </iframe>
+                            <SoundcloudEmbed title="Daily ride" />
 
                             <p>
                                 This song is indeed about my daily ride that I had while in Biriwa, Ghana. 
@@ -158,22 +159,14 @@ export default function Everyday({
                         <div className="col-md-5">
                             <figure>
                                 <img src={require("../../../pics/biriwa.JPG")} />
-                                <figcaption>Biriwa with AIMS - the castle on the hill</figcaption>
+                                <figcaption>Biriwa with AIMS - the "castle on the hill" in top right</figcaption>
                             </figure>
                         </div>
                     </div>
                 </Song>
 
                 <Song name="Summer tune">
-                    <iframe 
-                        width="100%" 
-                        height={height} 
-                        scrolling="no" 
-                        frameBorder="no" 
-                        allow="autoplay" 
-                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/764998177&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-                    >
-                    </iframe>
+                    <SoundcloudEmbed title="Summer tune" />
 
                     <p>
                         One of my few purely instrumental tracks. This came together spontaneously one 
@@ -185,15 +178,7 @@ export default function Everyday({
                 </Song>
 
                 <Song name="Fargo and Pelgrim">
-                    <iframe 
-                        width="100%" 
-                        height={height} 
-                        scrolling="no" 
-                        frameBorder="no" 
-                        allow="autoplay" 
-                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/622361436&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-                    >
-                    </iframe>
+                    <SoundcloudEmbed title="Fargo and Pelgrim" />
 
                     <p>
                         This song is from one moment in Czech republic, when we were watching 
@@ -207,15 +192,7 @@ export default function Everyday({
                 </Song>
 
                 <Song name="Calling at Newport">
-                    <iframe 
-                        width="100%" 
-                        height={height} 
-                        scrolling="no" 
-                        frameBorder="no" 
-                        allow="autoplay" 
-                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/764767948&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-                    >
-                    </iframe>
+                    <SoundcloudEmbed title="Calling at Newport" />
                     <div className="row">
                         <div className="col-md-8">
                             <p>
@@ -240,15 +217,7 @@ export default function Everyday({
                 </Song>
 
                 <Song name="Hey dad">
-                    <iframe 
-                        width="100%" 
-                        height={height} 
-                        scrolling="no" 
-                        frameBorder="no" 
-                        allow="autoplay" 
-                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/770897755&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-                    >
-                    </iframe>
+                    <SoundcloudEmbed title="Hey dad" />
 
                     <p>
                         I made this for my dad's recent birthday. He's a true inspiration ;-)
@@ -258,15 +227,7 @@ export default function Everyday({
                 </Song>
 
                 <Song name="Sticks in the water">
-                    <iframe 
-                        width="100%" 
-                        height={height} 
-                        scrolling="no" 
-                        frameBorder="no" 
-                        allow="autoplay" 
-                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/745913461&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-                    >
-                    </iframe>
+                    <SoundcloudEmbed title="Sticks in the water" />
 
                     <p>
                         This song's lyrics were written mainly by Martin Buckridge, 
@@ -281,15 +242,7 @@ export default function Everyday({
                 <Song name="At the ocean shore">
                     <div className="row">
                         <div className="col-md-7">
-                            <iframe 
-                                width="100%" 
-                                height={height} 
-                                scrolling="no" 
-                                frameBorder="no" 
-                                allow="autoplay" 
-                                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/750585031&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-                            >
-                            </iframe>
+                            <SoundcloudEmbed title="At the ocean shore" />
                             <p>
                                 A song with roots from Llantwit Major. Here we once saw a bunch of youngsters 
                                 jumping

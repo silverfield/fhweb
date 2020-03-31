@@ -4,13 +4,17 @@ import {
     Switch,
     Route,
 } from "react-router-dom";
+import { createBrowserHistory } from 'history'
+
+import ScrollToTop from './ScrollToTop.js'
 
 export default function SecondaryNav({
 
 }) {
     return (
         <>
-            <Router>
+            <Router onUpdate={() => window.scrollTo(0, 0)} history={createBrowserHistory()}>
+                <ScrollToTop>
                 <Switch>
                     <Route path="/my-music">
                         <nav className="secondary-nav">
@@ -20,6 +24,7 @@ export default function SecondaryNav({
                         </nav>
                     </Route>
                 </Switch>
+                </ScrollToTop>
             </Router>
         </>
     );

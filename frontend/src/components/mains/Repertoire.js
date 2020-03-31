@@ -8,7 +8,7 @@ import {useEffect} from "react"
 
 var tagMap = {
     'relaxed': {
-        'full': 'Songs for relaxed/ambient restaurant atmosphere',
+        'full': 'Songs creating relaxed atmosphere (e.g. for restaurant)',
         'color': '#7ed4e9b9'
     },
     'dsmk': {
@@ -29,15 +29,15 @@ var tagMap = {
         'color': '#56e9b8b9'
     },
     'acoustic': {
-        'full': 'Songs I can play purely acoustic',
+        'full': 'Songs I can play purely acoustically',
         'color': '#965428b9'
     },
     'instrumental': {
-        'full': 'Instrumental songs',
+        'full': 'Purely instrumental songs',
         'color': '#a3a523b9'
     },
-    'songwrite': {
-        'full': 'Songwriter type of songs',
+    'songwriter': {
+        'full': 'Songwriter, story-telling type of songs',
         'color': '#ca3587b9'
     },
     'rocky': {
