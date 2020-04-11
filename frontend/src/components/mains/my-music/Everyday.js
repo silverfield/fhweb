@@ -25,6 +25,7 @@ function SoundcloudEmbed({
         'hey dad': '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/770897755&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>',
         'sticks in the water': '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/745913461&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>',
         'at the ocean shore': '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/750585031&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>',
+        'when this is done': '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/794836717&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>',
     };
 
     var link = embeds[title.toLowerCase()];
@@ -38,10 +39,6 @@ function SoundcloudEmbed({
         allow="autoplay" 
         src={link}>
     </iframe>
-
-    // return <a className="soundcloud-embed" href={link}>
-    //     <div>Play <span className="soundcloud-title">{title}</span></div>
-    // </a>
 }
 
 export default function Everyday({
@@ -89,8 +86,7 @@ export default function Everyday({
                 </p>
 
                 <p>
-                    In loosely chronological order, I hope you enjoy the cut through my 
-                    life expressed through the songs of this album.
+                    I hope you enjoy the cut through my life expressed through the songs of this album.
                 </p>
             </div>
             <div className="clear-float">
@@ -260,6 +256,28 @@ export default function Everyday({
                                 <figcaption>The "jumping cliff" in Llantwit Major</figcaption>
                             </figure>
                         </div>
+                    </div>
+                </Song>
+
+                <Song name="When this is done">
+                    <div className="row">
+                        <div className="col-md-3">
+                            <figure>
+                                <img src={require("../../../pics/terrace.jpg")} />
+                                <figcaption>Self isolation times in London</figcaption>
+                            </figure>
+                        </div>
+                        <div className="col-md-9">
+                            <SoundcloudEmbed title="When this is done" />
+                            <p>
+                                A song made in the tough times of self-isolation. 
+                                And although tough times, for many, I believe, it has been an 
+                                opportunity for reflection as to how they would want to change 
+                                and what kind of world they'd like to see ... When this is done
+                            </p>
+
+                            <a href="https://drive.google.com/file/d/1NtTP0NpnIHD4yHjomHuUEeeAxFCxbpX4/view">Chords and lyrics</a>
+                        </div>                    
                     </div>
                 </Song>
             </div>            

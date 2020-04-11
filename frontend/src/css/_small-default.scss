@@ -234,6 +234,10 @@ div.page-section {
     margin-top: 2%;
     overflow: auto;
 
+    hr {
+        margin: 5px;
+    }
+
     &:nth-child(1) {
         margin-top: 0;
     }
@@ -629,8 +633,9 @@ figcaption {
 
 .section-tag {
     border-radius: 2px;
+    border: 1px solid $color-dark-light;
     padding: 1px 3px;
-    background-color: #1d1a1a48;
+    background-color: #6e9e2e48;
     margin-left: 3px;
     margin-top: 1px;
     margin-bottom: 1px;

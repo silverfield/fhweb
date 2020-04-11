@@ -40,6 +40,9 @@ export default function Main({
                     <Route path="/my-music/everyday" >
                         <Everyday />
                     </Route>
+                    <Route path="/my-music/everyday" >
+                        <Everyday />
+                    </Route>
                     <Route path="/my-music/collaborations" >
                         <Collaborations />
                     </Route>

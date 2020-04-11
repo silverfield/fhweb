@@ -434,7 +434,7 @@ export default function Repertoire({
             'value': value
         }])
         setFilters(newFilters);
-    }    
+    }
 
     return (
         <>
