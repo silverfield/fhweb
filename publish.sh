@@ -7,7 +7,7 @@ base_dir=~/wspace/fhweb/code
 
 git checkout publish
 git merge master
-cp -r $base_dir/frontend/dist/* $base_dir/
+cp -r $base_dir/dist/* $base_dir/
 git add -A
 git commit -m "publishing"
 git push origin publishing
