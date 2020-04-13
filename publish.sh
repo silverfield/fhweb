@@ -10,5 +10,5 @@ git merge master
 cp -r $base_dir/dist/* $base_dir/
 git add -A
 git commit -m "publishing"
-git push origin publishing
+git push -u origin publish
 git checkout master
