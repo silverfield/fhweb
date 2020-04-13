@@ -2,6 +2,8 @@
 
 My personal web
 
+Go to [the site](frontend/publish)
+
 
 ## Installation & run
 
