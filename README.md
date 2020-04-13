@@ -2,7 +2,7 @@
 
 My personal web
 
-Go to [the site](frontend/publish)
+Go to [the site](https://music.ferohajnovic.com/)
 
 
 ## Installation & run

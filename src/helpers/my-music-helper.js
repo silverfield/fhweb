@@ -1,5 +1,6 @@
 import {PageSection} from './combo-helper'
 import InstagramEmbed from 'react-instagram-embed';
+import $ from "jquery";
 
 export function Section({
     name,
@@ -68,18 +69,26 @@ export function YouTube({
 }
 
 export function SoundCloud({
-    iframeTag
+    iframeTag,
+    bckLink
 }) {
     let link = iframeTag.split('src="')[1].split('"></iframe>')[0];
 
-    return <iframe 
-        width="100%" 
-        height="150" 
-        scrolling="no" 
-        frameBorder="no" 
-        allow="autoplay" 
-        src={link}>
-    </iframe>
+    let bckLinkTag = <div className="soundcloud-bck">
+        If the SoundCloud content above does not load, click <a href={bckLink}>here</a>
+    </div>
+
+    return <div className="soundcloud-wrap">
+        <iframe 
+            width="100%" 
+            height="150" 
+            scrolling="no" 
+            frameBorder="no" 
+            allow="autoplay" 
+            src={link}>
+        </iframe>
+        {bckLink ? bckLinkTag : <></>}
+    </div>
 }
 
 export function Instagram({
