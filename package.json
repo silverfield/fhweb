@@ -17,7 +17,7 @@
     "start:dev": "webpack-dev-server --content-base dist",
     "start:prod": "./node_modules/http-server/bin/http-server -c-1 dist/",
     "both": "./node_modules/.bin/webpack --watch & webpack-dev-server --content-base dist",
-    "publish": "rm -rf dist; rm -rf publish; ./node_modules/.bin/webpack; cp -r dist publish"
+    "publish": "./publish.sh"
   },
   "repository": {
     "type": "git",
