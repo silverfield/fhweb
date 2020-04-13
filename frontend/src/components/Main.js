@@ -9,6 +9,7 @@ import Home from './mains/Home'
 import Everyday from './mains/my-music/Everyday'
 import Covers from './mains/my-music/Covers'
 import Collaborations from './mains/my-music/Collaborations'
+import Originals from './mains/my-music/Originals'
 
 import Busking from './mains/Busking'
 
@@ -40,8 +41,8 @@ export default function Main({
                     <Route path="/my-music/everyday" >
                         <Everyday />
                     </Route>
-                    <Route path="/my-music/everyday" >
-                        <Everyday />
+                    <Route path="/my-music/originals" >
+                        <Originals />
                     </Route>
                     <Route path="/my-music/collaborations" >
                         <Collaborations />

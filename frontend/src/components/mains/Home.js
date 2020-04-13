@@ -50,7 +50,7 @@ export default function Home({
             <span className="news-title">News:</span>
 
             <News name="Demo album reaching completion!" date="04/2020">
-                Check out the <a href="#my-music">ten tracks</a> from album "Everyday" that are already near finished!
+                Check out the <a href="#my-music">tracks</a> from album "Everyday" that are already near finished!
                 I'm re-recording some of the parts during the Covid-19 self-isolation - so that once the
                 lock-down ceases, I'll be ready to hit the streets and bars again! 
             </News>
