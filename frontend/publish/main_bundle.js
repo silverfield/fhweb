@@ -192,7 +192,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ./../pics/london.jpg
 exports = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-exports.push([module.i, "/* \nhtml5doctor.com Reset Stylesheet\nv1.6.1\nLast Updated: 2010-09-17\nAuthor: Richard Clark - http://richclarkdesign.com \nTwitter: @rich_clark\n*/\nhtml, body, div, span, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\nabbr, address, cite, code,\ndel, dfn, em, img, ins, kbd, q, samp,\nsmall, strong, sub, sup, var,\nb, i,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section, summary,\ntime, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  outline: 0;\n  font-size: 100%;\n  vertical-align: baseline;\n  background: transparent; }\n\nbody {\n  line-height: 1; }\n\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n  display: block; }\n\nnav ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after,\nq:before, q:after {\n  content: '';\n  content: none; }\n\na {\n  margin: 0;\n  padding: 0;\n  font-size: 100%;\n  vertical-align: baseline;\n  background: transparent; }\n\n/* change colours to suit your needs */\nins {\n  background-color: #ff9;\n  color: #000;\n  text-decoration: none; }\n\n/* change colours to suit your needs */\nmark {\n  background-color: #ff9;\n  color: #000;\n  font-style: italic;\n  font-weight: bold; }\n\ndel {\n  text-decoration: line-through; }\n\nabbr[title], dfn[title] {\n  border-bottom: 1px dotted;\n  cursor: help; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\n/* change border colour to suit your needs */\nhr {\n  display: block;\n  height: 1px;\n  border: 0;\n  border-top: 1px solid #cccccc;\n  margin: 1em 0;\n  padding: 0; }\n\ninput, select {\n  vertical-align: middle; }\n\n/* ------------------------------------------------------------ */\n/* General */\n/* ------------------------------------------------------------ */\nbody {\n  min-width: 300px; }\n\nhtml {\n  /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */\n  -webkit-text-size-adjust: 100%;\n  -ms-text-size-adjust: 100%;\n  height: 100%; }\n\na {\n  color: #331f3b;\n  font-weight: 700;\n  text-shadow: 0 0 3px white; }\n\nul {\n  margin-left: 20px; }\n\n.no-flex-grow {\n  flex-grow: 0; }\n\np {\n  margin-bottom: 10px; }\n\n/*  apply a natural box layout model to all elements  */\n* {\n  -moz-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box; }\n\nbody {\n  font-family: 'Didact Gothic', 'Lucida Grande', Tahoma, Sans-Serif;\n  background-color: #9d8d8f;\n  font-size: 19px;\n  line-height: 1.3em;\n  min-height: 100%;\n  display: flex;\n  flex-flow: column; }\n\n.fa {\n  text-shadow: none;\n  padding: 0.4em;\n  font-size: 1.5em;\n  width: 2em;\n  margin: 0.2em;\n  border-radius: 20%;\n  text-align: center;\n  text-decoration: none;\n  background: #5a5560;\n  color: white; }\n  @media (hover: hover) {\n    .fa:hover {\n      opacity: 0.7;\n      color: #331f3b;\n      background-color: #dd551f;\n      -webkit-transition: 0.5s;\n      -moz-transition: 0.5s;\n      -ms-transition: 0.5s;\n      -o-transition: 0.5s;\n      transition: 0.5s; } }\n\n/* ------------------------------------------------------------ */\n/* Header */\n/* ------------------------------------------------------------ */\nheader {\n  flex: 0 1 auto;\n  padding: 1.5%; }\n  header #primary-nav-wrap {\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    background-size: cover;\n    position: relative; }\n  header .primary-nav {\n    flex-direction: column;\n    display: flex;\n    padding: 3px; }\n    header .primary-nav .main-link {\n      border-radius: 0.2em;\n      width: 6em;\n      height: 3em;\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      text-align: center;\n      padding: 0.2em;\n      background-color: rgba(90, 85, 96, 0.7);\n      color: white;\n      text-decoration: none;\n      text-shadow: 0 0 3px black;\n      margin: 0.2em 0.1em;\n      box-shadow: 0 0 8px 0 rgba(90, 85, 96, 0.7); }\n      @media (hover: hover) {\n        header .primary-nav .main-link:hover {\n          box-shadow: 0 0 8px 4px rgba(250, 237, 38, 0.7);\n          color: #faed26;\n          transition: 0.5s; } }\n    header .primary-nav .active-link {\n      background-color: rgba(250, 237, 38, 0.7);\n      color: black;\n      text-shadow: 0 0 3px white; }\n      @media (hover: hover) {\n        header .primary-nav .active-link:hover {\n          color: white;\n          box-shadow: 0 0 8px 4px rgba(255, 255, 255, 0.7);\n          transition: 0.5s;\n          text-shadow: 0 0 3px black; } }\n  header .secondary-nav {\n    background-color: #744236;\n    padding: 3px;\n    flex-direction: row;\n    display: flex;\n    align-items: stretch; }\n    header .secondary-nav .second-link {\n      font-size: 17px;\n      line-height: 17px;\n      border-radius: 0.2em;\n      height: 2.5em;\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      text-align: center;\n      padding: 0.5em;\n      background-color: rgba(134, 87, 75, 0.7);\n      color: white;\n      text-decoration: none;\n      text-shadow: 0 0 3px black;\n      margin: 0.2em 0.1em;\n      box-shadow: 0 0 8px 0 rgba(90, 85, 96, 0.7); }\n      @media (hover: hover) {\n        header .secondary-nav .second-link:hover {\n          box-shadow: 0 0 8px 4px rgba(221, 85, 31, 0.7);\n          color: #dd551f;\n          transition: 0.5s; } }\n    header .secondary-nav .active-link {\n      background-color: rgba(221, 85, 31, 0.7);\n      color: black;\n      text-shadow: 0 0 3px white; }\n      @media (hover: hover) {\n        header .secondary-nav .active-link:hover {\n          color: white;\n          box-shadow: 0 0 8px 4px rgba(255, 255, 255, 0.7);\n          transition: 0.5s;\n          text-shadow: 0 0 3px black; } }\n  header div#header-title {\n    font-weight: 600;\n    font-size: 10vw;\n    color: #331f3b;\n    text-shadow: 0 0 5px #faed26;\n    position: absolute;\n    right: 1.5%;\n    bottom: 5vw; }\n\n/* ------------------------------------------------------------ */\n/* Main */\n/* ------------------------------------------------------------ */\nmain {\n  flex: 1 1 auto;\n  padding: 1.5%; }\n\n.iframe-div {\n  position: relative;\n  width: 100%;\n  height: 0;\n  margin-left: auto;\n  margin-right: auto;\n  padding-bottom: 51%;\n  border: solid 2px black; }\n  .iframe-div iframe {\n    position: absolute;\n    width: 100%;\n    height: 100%; }\n\n.center-content-vert {\n  margin-top: auto;\n  margin-bottom: auto; }\n\ndiv.page-section {\n  border: 2px solid #5a5560;\n  padding: 2%;\n  margin-top: 2%;\n  overflow: auto; }\n  div.page-section:nth-child(1) {\n    margin-top: 0; }\n  div.page-section:nth-child(odd) {\n    background-color: #86574b; }\n  div.page-section:nth-child(even) {\n    background-color: #9b786f; }\n  div.page-section .page-header {\n    margin-bottom: 10px; }\n  div.page-section .page-sec-title {\n    font-size: 20px;\n    font-weight: 800;\n    display: inline-block; }\n\nimg {\n  border: solid #331f3b 2px;\n  display: block;\n  width: 100%;\n  margin: 5px;\n  margin-left: auto;\n  margin-right: auto; }\n\n.float-img {\n  float: left;\n  width: 30%;\n  min-width: 200px;\n  margin: 10px; }\n\n.float-right {\n  float: right; }\n\n.float-left {\n  float: right; }\n\n.about-face {\n  font-weight: 1000;\n  color: #331f3b;\n  font-variant: small-caps; }\n\n.cause-sum {\n  font-size: 25px;\n  font-weight: 1000;\n  float: right;\n  color: #faed26;\n  text-shadow: 0 0 5px #5a5560; }\n\n.contact-section #captcha-image {\n  margin: 0; }\n\n.contact-section #powered-by-snap {\n  display: inline-block;\n  font-size: 0.8em; }\n\n.raised-sum {\n  color: #faed26; }\n\n.section-title {\n  text-align: center;\n  font-size: 1.5em;\n  font-weight: 700;\n  color: #744236;\n  font-variant: small-caps;\n  text-shadow: 0 0 10px white;\n  margin-bottom: 10px; }\n\n.everyday-album {\n  display: block;\n  margin-bottom: 10px;\n  padding: 10px; }\n\n.clear-float {\n  clear: both; }\n\n.news-title {\n  display: block;\n  margin-top: 20px;\n  font-size: 1.5em; }\n\n.news-date {\n  font-size: 20px;\n  font-weight: 1000;\n  float: right;\n  color: #744236;\n  text-shadow: 0 0 5px #5a5560; }\n\n.repertoire-tbl {\n  width: 100%;\n  table-layout: fixed; }\n  .repertoire-tbl th {\n    font-size: 0.9em;\n    vertical-align: bottom; }\n  .repertoire-tbl .th-artist {\n    width: 20%; }\n  .repertoire-tbl .th-name {\n    width: 20%; }\n  .repertoire-tbl .th-props {\n    width: 20%; }\n  .repertoire-tbl .th-tags {\n    width: 35%; }\n  .repertoire-tbl th.rotate {\n    width: 20px;\n    vertical-align: middle;\n    text-align: left;\n    white-space: nowrap; }\n  .repertoire-tbl th.rotate > div {\n    transform: translate(0px, 30px) rotate(-45deg);\n    width: 20px; }\n\n.repe-item {\n  font-size: 0.8em;\n  height: 3em; }\n  .repe-item td {\n    padding: 5px; }\n  .repe-item td.repe-props {\n    text-align: center; }\n  .repe-item:nth-child(odd) td:nth-child(1) {\n    background-color: #86574b; }\n  .repe-item:nth-child(odd) td:nth-child(2) {\n    background-color: #966a5f; }\n  .repe-item:nth-child(odd) td:nth-child(3) {\n    background-color: #86574b; }\n  .repe-item:nth-child(odd) td:nth-child(4) {\n    background-color: #966a5f; }\n  .repe-item:nth-child(even) td:nth-child(1) {\n    background-color: #9b786f; }\n  .repe-item:nth-child(even) td:nth-child(2) {\n    background-color: #b18f86; }\n  .repe-item:nth-child(even) td:nth-child(3) {\n    background-color: #9b786f; }\n  .repe-item:nth-child(even) td:nth-child(4) {\n    background-color: #b18f86; }\n  .repe-item.repe-selected td.repe-name {\n    color: black;\n    background-color: white; }\n\n.repe-top {\n  font-size: 0.8em; }\n\n.repe-artist {\n  cursor: pointer; }\n  @media (hover: hover) {\n    .repe-artist:hover {\n      font-weight: 1000;\n      text-shadow: 0 0 3px white; } }\n  .repe-artist.is-active {\n    border: 1px solid #faed26; }\n\ntd.repe-name {\n  cursor: pointer; }\n  @media (hover: hover) {\n    td.repe-name:hover {\n      color: black;\n      background-color: white !important; } }\n\n.tickcross {\n  background-color: #744236;\n  display: inline-block;\n  border-radius: 2px;\n  font-weight: 1000;\n  font-size: 1.2em;\n  padding: 0 5px;\n  margin: 0 1px;\n  cursor: pointer; }\n  .tickcross.tick {\n    color: #6fda4f71; }\n  .tickcross.cross {\n    color: #e2485a93; }\n  .tickcross.is-active {\n    border: 1px solid #faed26; }\n\n.repe-tag {\n  border-radius: 2px;\n  padding: 1px 3px;\n  background-color: #1d1a1a48;\n  margin-left: 3px;\n  margin-top: 1px;\n  margin-bottom: 1px;\n  cursor: pointer; }\n  .repe-tag.is-active {\n    border: 2px solid #faed26; }\n\n.repe-buttons {\n  align-items: stretch;\n  flex-direction: row;\n  display: flex; }\n\n.repe-button {\n  flex-grow: 1;\n  justify-content: center;\n  border: solid 1px white;\n  cursor: pointer;\n  display: inline-flex;\n  padding: 5px;\n  margin: 4px;\n  border-radius: 4px;\n  background-color: #966a5f; }\n  @media (hover: hover) {\n    .repe-button:hover {\n      background-color: #dd551f; } }\n\n.tag-div {\n  margin-top: 8px;\n  margin-bottom: 8px; }\n\n.active-filters-heading {\n  font-weight: bold;\n  font-size: 1.1em;\n  text-align: center;\n  display: block; }\n\n.tags-heading {\n  font-weight: bold;\n  font-size: 1.1em;\n  text-align: center;\n  display: block; }\n\n.active-filter {\n  cursor: pointer;\n  display: inline-block;\n  background-color: #b18f86;\n  border-radius: 2px;\n  padding: 3px;\n  margin: 3px;\n  width: 100%; }\n\n.remove-filter {\n  float: right; }\n\n@media only screen and (min-width: 576px) {\n  .tag-float-right {\n    float: right; } }\n\n.inline-flex {\n  display: inline-flex; }\n\nfigcaption {\n  font-size: 0.8em;\n  font-style: italic;\n  text-align: center; }\n\n.predef-set {\n  border-radius: 2px;\n  border: solid black 1px;\n  display: inline-block;\n  margin: 3px;\n  padding: 3px;\n  background-color: #b18f86; }\n  .predef-set.last {\n    background-color: #9d8d8f; }\n  @media (hover: hover) {\n    .predef-set:hover {\n      cursor: pointer;\n      background-color: #966a5f; } }\n\n.soundcloud-embed {\n  font-size: 1.5em;\n  width: 100%;\n  height: 50px;\n  border-radius: 2px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background-color: #b6694a; }\n  @media (hover: hover) {\n    .soundcloud-embed:hover {\n      cursor: pointer;\n      background-color: #dd551f;\n      box-shadow: 0 0 8px 4px rgba(51, 31, 59, 0.7);\n      transition: 0.5s; } }\n  .soundcloud-embed .soundcloud-title {\n    font-style: italic; }\n\n/* ------------------------------------------------------------ */\n/* Footer */\n/* ------------------------------------------------------------ */\nfooter {\n  color: #9d8d8f;\n  flex: 0 1 100px;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  font-size: 0.7em;\n  text-align: center;\n  background-color: #744236; }\n\n@media only screen and (min-width: 540px) {\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  header .primary-nav {\n    flex-direction: row;\n    height: 16em; }\n  header div#header-title {\n    font-size: 8vw;\n    bottom: 5vw; }\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  .contact-main {\n    display: flex;\n    flex-direction: row; }\n    .contact-main .contact-section {\n      margin-right: 10px; }\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */ }\n\n@media only screen and (min-width: 960px) {\n  html {\n    background-color: white; }\n  header div#header-title {\n    font-size: 80px;\n    bottom: 40px; }\n  body {\n    margin: auto;\n    max-width: 1000px;\n    box-shadow: 0 4px 8px 0 #331f3b, 0 6px 20px 0 #331f3b; } }\n", ""]);
+exports.push([module.i, "/* \nhtml5doctor.com Reset Stylesheet\nv1.6.1\nLast Updated: 2010-09-17\nAuthor: Richard Clark - http://richclarkdesign.com \nTwitter: @rich_clark\n*/\nhtml, body, div, span, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\nabbr, address, cite, code,\ndel, dfn, em, img, ins, kbd, q, samp,\nsmall, strong, sub, sup, var,\nb, i,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section, summary,\ntime, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  outline: 0;\n  font-size: 100%;\n  vertical-align: baseline;\n  background: transparent; }\n\nbody {\n  line-height: 1; }\n\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n  display: block; }\n\nnav ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after,\nq:before, q:after {\n  content: '';\n  content: none; }\n\na {\n  margin: 0;\n  padding: 0;\n  font-size: 100%;\n  vertical-align: baseline;\n  background: transparent; }\n\n/* change colours to suit your needs */\nins {\n  background-color: #ff9;\n  color: #000;\n  text-decoration: none; }\n\n/* change colours to suit your needs */\nmark {\n  background-color: #ff9;\n  color: #000;\n  font-style: italic;\n  font-weight: bold; }\n\ndel {\n  text-decoration: line-through; }\n\nabbr[title], dfn[title] {\n  border-bottom: 1px dotted;\n  cursor: help; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\n/* change border colour to suit your needs */\nhr {\n  display: block;\n  height: 1px;\n  border: 0;\n  border-top: 1px solid #cccccc;\n  margin: 1em 0;\n  padding: 0; }\n\ninput, select {\n  vertical-align: middle; }\n\n/* ------------------------------------------------------------ */\n/* General */\n/* ------------------------------------------------------------ */\nbody {\n  min-width: 300px; }\n\nhtml {\n  /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */\n  -webkit-text-size-adjust: 100%;\n  -ms-text-size-adjust: 100%;\n  height: 100%; }\n\na {\n  color: #331f3b;\n  font-weight: 700;\n  text-shadow: 0 0 3px white; }\n\nul {\n  margin-left: 20px; }\n\n.no-flex-grow {\n  flex-grow: 0; }\n\np {\n  margin-bottom: 10px; }\n\n/*  apply a natural box layout model to all elements  */\n* {\n  -moz-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box; }\n\nbody {\n  font-family: 'Didact Gothic', 'Lucida Grande', Tahoma, Sans-Serif;\n  background-color: #9d8d8f;\n  font-size: 19px;\n  line-height: 1.3em;\n  min-height: 100%;\n  display: flex;\n  flex-flow: column; }\n\n.fa {\n  text-shadow: none;\n  padding: 0.4em;\n  font-size: 1.5em;\n  width: 2em;\n  margin: 0.2em;\n  border-radius: 20%;\n  text-align: center;\n  text-decoration: none;\n  background: #5a5560;\n  color: white; }\n  @media (hover: hover) {\n    .fa:hover {\n      opacity: 0.7;\n      color: #331f3b;\n      background-color: #dd551f;\n      -webkit-transition: 0.5s;\n      -moz-transition: 0.5s;\n      -ms-transition: 0.5s;\n      -o-transition: 0.5s;\n      transition: 0.5s; } }\n\n/* ------------------------------------------------------------ */\n/* Header */\n/* ------------------------------------------------------------ */\nheader {\n  flex: 0 1 auto;\n  padding: 1.5%; }\n  header #primary-nav-wrap {\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    background-size: cover;\n    position: relative; }\n  header .primary-nav {\n    flex-direction: column;\n    display: flex;\n    padding: 3px; }\n    header .primary-nav .main-link {\n      border-radius: 0.2em;\n      width: 6em;\n      height: 3em;\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      text-align: center;\n      padding: 0.2em;\n      background-color: rgba(90, 85, 96, 0.7);\n      color: white;\n      text-decoration: none;\n      text-shadow: 0 0 3px black;\n      margin: 0.2em 0.1em;\n      box-shadow: 0 0 8px 0 rgba(90, 85, 96, 0.7); }\n      @media (hover: hover) {\n        header .primary-nav .main-link:hover {\n          box-shadow: 0 0 8px 4px rgba(250, 237, 38, 0.7);\n          color: #faed26;\n          transition: 0.5s; } }\n    header .primary-nav .active-link {\n      background-color: rgba(250, 237, 38, 0.7);\n      color: black;\n      text-shadow: 0 0 3px white; }\n      @media (hover: hover) {\n        header .primary-nav .active-link:hover {\n          color: white;\n          box-shadow: 0 0 8px 4px rgba(255, 255, 255, 0.7);\n          transition: 0.5s;\n          text-shadow: 0 0 3px black; } }\n  header .secondary-nav {\n    background-color: #744236;\n    padding: 3px;\n    flex-direction: row;\n    display: flex;\n    align-items: stretch; }\n    header .secondary-nav .second-link {\n      font-size: 17px;\n      line-height: 17px;\n      border-radius: 0.2em;\n      height: 2.5em;\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      text-align: center;\n      padding: 0.5em;\n      background-color: rgba(134, 87, 75, 0.7);\n      color: white;\n      text-decoration: none;\n      text-shadow: 0 0 3px black;\n      margin: 0.2em 0.1em;\n      box-shadow: 0 0 8px 0 rgba(90, 85, 96, 0.7); }\n      @media (hover: hover) {\n        header .secondary-nav .second-link:hover {\n          box-shadow: 0 0 8px 4px rgba(221, 85, 31, 0.7);\n          color: #dd551f;\n          transition: 0.5s; } }\n    header .secondary-nav .active-link {\n      background-color: rgba(221, 85, 31, 0.7);\n      color: black;\n      text-shadow: 0 0 3px white; }\n      @media (hover: hover) {\n        header .secondary-nav .active-link:hover {\n          color: white;\n          box-shadow: 0 0 8px 4px rgba(255, 255, 255, 0.7);\n          transition: 0.5s;\n          text-shadow: 0 0 3px black; } }\n  header div#header-title {\n    font-weight: 600;\n    font-size: 10vw;\n    color: #331f3b;\n    text-shadow: 0 0 5px #faed26;\n    position: absolute;\n    right: 1.5%;\n    bottom: 5vw; }\n\n/* ------------------------------------------------------------ */\n/* Main */\n/* ------------------------------------------------------------ */\nmain {\n  flex: 1 1 auto;\n  padding: 1.5%; }\n\n.iframe-div {\n  position: relative;\n  width: 100%;\n  height: 0;\n  margin-left: auto;\n  margin-right: auto;\n  padding-bottom: 51%;\n  border: solid 2px black; }\n  .iframe-div iframe {\n    position: absolute;\n    width: 100%;\n    height: 100%; }\n\n.center-content-vert {\n  margin-top: auto;\n  margin-bottom: auto; }\n\ndiv.page-section {\n  border: 2px solid #5a5560;\n  padding: 2%;\n  margin-top: 2%;\n  overflow: auto; }\n  div.page-section hr {\n    margin: 5px; }\n  div.page-section:nth-child(1) {\n    margin-top: 0; }\n  div.page-section:nth-child(odd) {\n    background-color: #86574b; }\n  div.page-section:nth-child(even) {\n    background-color: #9b786f; }\n  div.page-section .page-header {\n    margin-bottom: 10px; }\n  div.page-section .page-sec-title {\n    font-size: 20px;\n    font-weight: 800;\n    display: inline-block; }\n\nimg {\n  border: solid #331f3b 2px;\n  display: block;\n  width: 100%;\n  margin: 5px;\n  margin-left: auto;\n  margin-right: auto; }\n\n.float-img {\n  float: left;\n  width: 30%;\n  min-width: 200px;\n  margin: 10px; }\n\n.float-right {\n  float: right; }\n\n.float-left {\n  float: right; }\n\n.about-face {\n  font-weight: 1000;\n  color: #331f3b;\n  font-variant: small-caps; }\n\n.cause-sum {\n  font-size: 25px;\n  font-weight: 1000;\n  float: right;\n  color: #faed26;\n  text-shadow: 0 0 5px #5a5560; }\n\n.contact-section #captcha-image {\n  margin: 0; }\n\n.contact-section #powered-by-snap {\n  display: inline-block;\n  font-size: 0.8em; }\n\n.raised-sum {\n  color: #faed26; }\n\n.section-title {\n  text-align: center;\n  font-size: 1.5em;\n  font-weight: 700;\n  color: #744236;\n  font-variant: small-caps;\n  text-shadow: 0 0 10px white;\n  margin-bottom: 10px; }\n\n.everyday-album {\n  display: block;\n  margin-bottom: 10px;\n  padding: 10px; }\n\n.clear-float {\n  clear: both; }\n\n.news-title {\n  display: block;\n  margin-top: 20px;\n  font-size: 1.5em; }\n\n.news-date {\n  font-size: 20px;\n  font-weight: 1000;\n  float: right;\n  color: #744236;\n  text-shadow: 0 0 5px #5a5560; }\n\n.repertoire-tbl {\n  width: 100%;\n  table-layout: fixed; }\n  .repertoire-tbl th {\n    font-size: 0.9em;\n    vertical-align: bottom; }\n  .repertoire-tbl .th-artist {\n    width: 20%; }\n  .repertoire-tbl .th-name {\n    width: 20%; }\n  .repertoire-tbl .th-props {\n    width: 20%; }\n  .repertoire-tbl .th-tags {\n    width: 35%; }\n  .repertoire-tbl th.rotate {\n    width: 20px;\n    vertical-align: middle;\n    text-align: left;\n    white-space: nowrap; }\n  .repertoire-tbl th.rotate > div {\n    transform: translate(0px, 30px) rotate(-45deg);\n    width: 20px; }\n\n.repe-item {\n  font-size: 0.8em;\n  height: 3em; }\n  .repe-item td {\n    padding: 5px; }\n  .repe-item td.repe-props {\n    text-align: center; }\n  .repe-item:nth-child(odd) td:nth-child(1) {\n    background-color: #86574b; }\n  .repe-item:nth-child(odd) td:nth-child(2) {\n    background-color: #966a5f; }\n  .repe-item:nth-child(odd) td:nth-child(3) {\n    background-color: #86574b; }\n  .repe-item:nth-child(odd) td:nth-child(4) {\n    background-color: #966a5f; }\n  .repe-item:nth-child(even) td:nth-child(1) {\n    background-color: #9b786f; }\n  .repe-item:nth-child(even) td:nth-child(2) {\n    background-color: #b18f86; }\n  .repe-item:nth-child(even) td:nth-child(3) {\n    background-color: #9b786f; }\n  .repe-item:nth-child(even) td:nth-child(4) {\n    background-color: #b18f86; }\n  .repe-item.repe-selected td.repe-name {\n    color: black;\n    background-color: white; }\n\n.repe-top {\n  font-size: 0.8em; }\n\n.repe-artist {\n  cursor: pointer; }\n  @media (hover: hover) {\n    .repe-artist:hover {\n      font-weight: 1000;\n      text-shadow: 0 0 3px white; } }\n  .repe-artist.is-active {\n    border: 1px solid #faed26; }\n\ntd.repe-name {\n  cursor: pointer; }\n  @media (hover: hover) {\n    td.repe-name:hover {\n      color: black;\n      background-color: white !important; } }\n\n.tickcross {\n  background-color: #744236;\n  display: inline-block;\n  border-radius: 2px;\n  font-weight: 1000;\n  font-size: 1.2em;\n  padding: 0 5px;\n  margin: 0 1px;\n  cursor: pointer; }\n  .tickcross.tick {\n    color: #6fda4f71; }\n  .tickcross.cross {\n    color: #e2485a93; }\n  .tickcross.is-active {\n    border: 1px solid #faed26; }\n\n.repe-tag {\n  border-radius: 2px;\n  padding: 1px 3px;\n  background-color: #1d1a1a48;\n  margin-left: 3px;\n  margin-top: 1px;\n  margin-bottom: 1px;\n  cursor: pointer; }\n  .repe-tag.is-active {\n    border: 2px solid #faed26; }\n\n.repe-buttons {\n  align-items: stretch;\n  flex-direction: row;\n  display: flex; }\n\n.repe-button {\n  flex-grow: 1;\n  justify-content: center;\n  border: solid 1px white;\n  cursor: pointer;\n  display: inline-flex;\n  padding: 5px;\n  margin: 4px;\n  border-radius: 4px;\n  background-color: #966a5f; }\n  @media (hover: hover) {\n    .repe-button:hover {\n      background-color: #dd551f; } }\n\n.tag-div {\n  margin-top: 8px;\n  margin-bottom: 8px; }\n\n.active-filters-heading {\n  font-weight: bold;\n  font-size: 1.1em;\n  text-align: center;\n  display: block; }\n\n.tags-heading {\n  font-weight: bold;\n  font-size: 1.1em;\n  text-align: center;\n  display: block; }\n\n.active-filter {\n  cursor: pointer;\n  display: inline-block;\n  background-color: #b18f86;\n  border-radius: 2px;\n  padding: 3px;\n  margin: 3px;\n  width: 100%; }\n\n.remove-filter {\n  float: right; }\n\n@media only screen and (min-width: 576px) {\n  .tag-float-right {\n    float: right; } }\n\n.inline-flex {\n  display: inline-flex; }\n\nfigcaption {\n  font-size: 0.8em;\n  font-style: italic;\n  text-align: center; }\n\n.predef-set {\n  border-radius: 2px;\n  border: solid black 1px;\n  display: inline-block;\n  margin: 3px;\n  padding: 3px;\n  background-color: #b18f86; }\n  .predef-set.last {\n    background-color: #9d8d8f; }\n  @media (hover: hover) {\n    .predef-set:hover {\n      cursor: pointer;\n      background-color: #966a5f; } }\n\n.soundcloud-embed {\n  font-size: 1.5em;\n  width: 100%;\n  height: 50px;\n  border-radius: 2px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background-color: #b6694a; }\n  @media (hover: hover) {\n    .soundcloud-embed:hover {\n      cursor: pointer;\n      background-color: #dd551f;\n      box-shadow: 0 0 8px 4px rgba(51, 31, 59, 0.7);\n      transition: 0.5s; } }\n  .soundcloud-embed .soundcloud-title {\n    font-style: italic; }\n\n.section-tag {\n  border-radius: 2px;\n  border: 1px solid #5a5560;\n  padding: 1px 3px;\n  background-color: #6e9e2e48;\n  margin-left: 3px;\n  margin-top: 1px;\n  margin-bottom: 1px;\n  cursor: pointer; }\n  .section-tag.is-active {\n    border: 2px solid #faed26; }\n\n.section-extra {\n  float: right; }\n\n/* ------------------------------------------------------------ */\n/* Footer */\n/* ------------------------------------------------------------ */\nfooter {\n  color: #9d8d8f;\n  flex: 0 1 100px;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  font-size: 0.7em;\n  text-align: center;\n  background-color: #744236; }\n\n@media only screen and (min-width: 540px) {\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  header .primary-nav {\n    flex-direction: row;\n    height: 16em; }\n  header div#header-title {\n    font-size: 8vw;\n    bottom: 5vw; }\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  .contact-main {\n    display: flex;\n    flex-direction: row; }\n    .contact-main .contact-section {\n      margin-right: 10px; }\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */ }\n\n@media only screen and (min-width: 960px) {\n  html {\n    background-color: white; }\n  header div#header-title {\n    font-size: 80px;\n    bottom: 40px; }\n  body {\n    margin: auto;\n    max-width: 1000px;\n    box-shadow: 0 4px 8px 0 #331f3b, 0 6px 20px 0 #331f3b; } }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -328,6 +328,112 @@ module.exports = function (url, options) {
 
   return url;
 };
+
+/***/ }),
+
+/***/ "./node_modules/decode-uri-component/index.js":
+/*!****************************************************!*\
+  !*** ./node_modules/decode-uri-component/index.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var token = '%[a-f0-9]{2}';
+var singleMatcher = new RegExp(token, 'gi');
+var multiMatcher = new RegExp('(' + token + ')+', 'gi');
+
+function decodeComponents(components, split) {
+	try {
+		// Try to decode the entire string first
+		return decodeURIComponent(components.join(''));
+	} catch (err) {
+		// Do nothing
+	}
+
+	if (components.length === 1) {
+		return components;
+	}
+
+	split = split || 1;
+
+	// Split the array in 2 parts
+	var left = components.slice(0, split);
+	var right = components.slice(split);
+
+	return Array.prototype.concat.call([], decodeComponents(left), decodeComponents(right));
+}
+
+function decode(input) {
+	try {
+		return decodeURIComponent(input);
+	} catch (err) {
+		var tokens = input.match(singleMatcher);
+
+		for (var i = 1; i < tokens.length; i++) {
+			input = decodeComponents(tokens, i).join('');
+
+			tokens = input.match(singleMatcher);
+		}
+
+		return input;
+	}
+}
+
+function customDecodeURIComponent(input) {
+	// Keep track of all the replacements and prefill the map with the `BOM`
+	var replaceMap = {
+		'%FE%FF': '\uFFFD\uFFFD',
+		'%FF%FE': '\uFFFD\uFFFD'
+	};
+
+	var match = multiMatcher.exec(input);
+	while (match) {
+		try {
+			// Decode as big chunks as possible
+			replaceMap[match[0]] = decodeURIComponent(match[0]);
+		} catch (err) {
+			var result = decode(match[0]);
+
+			if (result !== match[0]) {
+				replaceMap[match[0]] = result;
+			}
+		}
+
+		match = multiMatcher.exec(input);
+	}
+
+	// Add `%C2` at the end of the map to make sure it does not replace the combinator before everything else
+	replaceMap['%C2'] = '\uFFFD';
+
+	var entries = Object.keys(replaceMap);
+
+	for (var i = 0; i < entries.length; i++) {
+		// Replace all decoded components
+		var key = entries[i];
+		input = input.replace(new RegExp(key, 'g'), replaceMap[key]);
+	}
+
+	return input;
+}
+
+module.exports = function (encodedURI) {
+	if (typeof encodedURI !== 'string') {
+		throw new TypeError('Expected `encodedURI` to be of type `string`, got `' + typeof encodedURI + '`');
+	}
+
+	try {
+		encodedURI = encodedURI.replace(/\+/g, ' ');
+
+		// Try the built in decoder first
+		return decodeURIComponent(encodedURI);
+	} catch (err) {
+		// Fallback to a more advanced decoder
+		return customDecodeURIComponent(encodedURI);
+	}
+};
+
 
 /***/ }),
 
@@ -2921,6 +3027,242 @@ if (true) {
 var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 
 module.exports = ReactPropTypesSecret;
+
+
+/***/ }),
+
+/***/ "./node_modules/query-string/index.js":
+/*!********************************************!*\
+  !*** ./node_modules/query-string/index.js ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var strictUriEncode = __webpack_require__(/*! strict-uri-encode */ "./node_modules/strict-uri-encode/index.js");
+var objectAssign = __webpack_require__(/*! object-assign */ "./node_modules/object-assign/index.js");
+var decodeComponent = __webpack_require__(/*! decode-uri-component */ "./node_modules/decode-uri-component/index.js");
+
+function encoderForArrayFormat(opts) {
+	switch (opts.arrayFormat) {
+		case 'index':
+			return function (key, value, index) {
+				return value === null ? [
+					encode(key, opts),
+					'[',
+					index,
+					']'
+				].join('') : [
+					encode(key, opts),
+					'[',
+					encode(index, opts),
+					']=',
+					encode(value, opts)
+				].join('');
+			};
+
+		case 'bracket':
+			return function (key, value) {
+				return value === null ? encode(key, opts) : [
+					encode(key, opts),
+					'[]=',
+					encode(value, opts)
+				].join('');
+			};
+
+		default:
+			return function (key, value) {
+				return value === null ? encode(key, opts) : [
+					encode(key, opts),
+					'=',
+					encode(value, opts)
+				].join('');
+			};
+	}
+}
+
+function parserForArrayFormat(opts) {
+	var result;
+
+	switch (opts.arrayFormat) {
+		case 'index':
+			return function (key, value, accumulator) {
+				result = /\[(\d*)\]$/.exec(key);
+
+				key = key.replace(/\[\d*\]$/, '');
+
+				if (!result) {
+					accumulator[key] = value;
+					return;
+				}
+
+				if (accumulator[key] === undefined) {
+					accumulator[key] = {};
+				}
+
+				accumulator[key][result[1]] = value;
+			};
+
+		case 'bracket':
+			return function (key, value, accumulator) {
+				result = /(\[\])$/.exec(key);
+				key = key.replace(/\[\]$/, '');
+
+				if (!result) {
+					accumulator[key] = value;
+					return;
+				} else if (accumulator[key] === undefined) {
+					accumulator[key] = [value];
+					return;
+				}
+
+				accumulator[key] = [].concat(accumulator[key], value);
+			};
+
+		default:
+			return function (key, value, accumulator) {
+				if (accumulator[key] === undefined) {
+					accumulator[key] = value;
+					return;
+				}
+
+				accumulator[key] = [].concat(accumulator[key], value);
+			};
+	}
+}
+
+function encode(value, opts) {
+	if (opts.encode) {
+		return opts.strict ? strictUriEncode(value) : encodeURIComponent(value);
+	}
+
+	return value;
+}
+
+function keysSorter(input) {
+	if (Array.isArray(input)) {
+		return input.sort();
+	} else if (typeof input === 'object') {
+		return keysSorter(Object.keys(input)).sort(function (a, b) {
+			return Number(a) - Number(b);
+		}).map(function (key) {
+			return input[key];
+		});
+	}
+
+	return input;
+}
+
+function extract(str) {
+	var queryStart = str.indexOf('?');
+	if (queryStart === -1) {
+		return '';
+	}
+	return str.slice(queryStart + 1);
+}
+
+function parse(str, opts) {
+	opts = objectAssign({arrayFormat: 'none'}, opts);
+
+	var formatter = parserForArrayFormat(opts);
+
+	// Create an object with no prototype
+	// https://github.com/sindresorhus/query-string/issues/47
+	var ret = Object.create(null);
+
+	if (typeof str !== 'string') {
+		return ret;
+	}
+
+	str = str.trim().replace(/^[?#&]/, '');
+
+	if (!str) {
+		return ret;
+	}
+
+	str.split('&').forEach(function (param) {
+		var parts = param.replace(/\+/g, ' ').split('=');
+		// Firefox (pre 40) decodes `%3D` to `=`
+		// https://github.com/sindresorhus/query-string/pull/37
+		var key = parts.shift();
+		var val = parts.length > 0 ? parts.join('=') : undefined;
+
+		// missing `=` should be `null`:
+		// http://w3.org/TR/2012/WD-url-20120524/#collect-url-parameters
+		val = val === undefined ? null : decodeComponent(val);
+
+		formatter(decodeComponent(key), val, ret);
+	});
+
+	return Object.keys(ret).sort().reduce(function (result, key) {
+		var val = ret[key];
+		if (Boolean(val) && typeof val === 'object' && !Array.isArray(val)) {
+			// Sort object keys, not values
+			result[key] = keysSorter(val);
+		} else {
+			result[key] = val;
+		}
+
+		return result;
+	}, Object.create(null));
+}
+
+exports.extract = extract;
+exports.parse = parse;
+
+exports.stringify = function (obj, opts) {
+	var defaults = {
+		encode: true,
+		strict: true,
+		arrayFormat: 'none'
+	};
+
+	opts = objectAssign(defaults, opts);
+
+	if (opts.sort === false) {
+		opts.sort = function () {};
+	}
+
+	var formatter = encoderForArrayFormat(opts);
+
+	return obj ? Object.keys(obj).sort(opts.sort).map(function (key) {
+		var val = obj[key];
+
+		if (val === undefined) {
+			return '';
+		}
+
+		if (val === null) {
+			return encode(key, opts);
+		}
+
+		if (Array.isArray(val)) {
+			var result = [];
+
+			val.slice().forEach(function (val2) {
+				if (val2 === undefined) {
+					return;
+				}
+
+				result.push(formatter(key, val2, result.length));
+			});
+
+			return result.join('&');
+		}
+
+		return encode(key, opts) + '=' + encode(val, opts);
+	}).filter(function (x) {
+		return x.length > 0;
+	}).join('&') : '';
+};
+
+exports.parseUrl = function (str, opts) {
+	return {
+		url: str.split('?')[0] || '',
+		query: parse(extract(str), opts)
+	};
+};
 
 
 /***/ }),
@@ -30777,6 +31119,192 @@ if (false) {} else {
 
 /***/ }),
 
+/***/ "./node_modules/react-instagram-embed/es/index.js":
+/*!********************************************************!*\
+  !*** ./node_modules/react-instagram-embed/es/index.js ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var query_string__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! query-string */ "./node_modules/query-string/index.js");
+/* harmony import */ var query_string__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(query_string__WEBPACK_IMPORTED_MODULE_1__);
+var __extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __assign = (undefined && undefined.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var __rest = (undefined && undefined.__rest) || function (s, e) {
+    var t = {};
+    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+        t[p] = s[p];
+    if (s != null && typeof Object.getOwnPropertySymbols === "function")
+        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) if (e.indexOf(p[i]) < 0)
+            t[p[i]] = s[p[i]];
+    return t;
+};
+
+
+var InstagramEmbed = /** @class */ (function (_super) {
+    __extends(InstagramEmbed, _super);
+    function InstagramEmbed(props) {
+        var _this = _super.call(this, props) || this;
+        _this.request = null;
+        // Public
+        _this.cancel = function () {
+            if (_this.request) {
+                _this.request.cancel();
+            }
+        };
+        _this.handleFetchSuccess = function (response) {
+            if (_this.props.onSuccess) {
+                _this.props.onSuccess(response);
+            }
+            _this.setState({ html: response.html }, function () {
+                window.instgrm.Embeds.process();
+                if (_this.props.onAfterRender) {
+                    _this.props.onAfterRender();
+                }
+            });
+        };
+        _this.handleFetchFailure = function () {
+            var args = [];
+            for (var _i = 0; _i < arguments.length; _i++) {
+                args[_i] = arguments[_i];
+            }
+            clearTimeout(_this.timer);
+            if (_this.props.onFailure) {
+                _this.props.onFailure(args);
+            }
+        };
+        _this.createRequestPromise = function (url) {
+            var request = {};
+            request.promise = new Promise(function (resolve, reject) {
+                var promise = fetch(url)
+                    .then(function (response) { return response.json(); })
+                    .then(function (json) { return resolve(json); })
+                    .catch(function (err) { return reject(err); });
+                request.cancel = function () { return reject(new Error('Cancelled')); };
+                return promise;
+            });
+            return request;
+        };
+        _this.state = { html: null };
+        return _this;
+    }
+    InstagramEmbed.prototype.componentDidMount = function () {
+        var _this = this;
+        if (window.instgrm) {
+            this.fetchEmbed(this.getQueryParams(this.props));
+        }
+        else {
+            if (this.props.injectScript && !document.getElementById('react-instagram-embed-script')) {
+                this.injectScript();
+            }
+            this.checkAPI().then(function () {
+                _this.fetchEmbed(_this.getQueryParams(_this.props));
+            });
+        }
+    };
+    InstagramEmbed.prototype.componentDidUpdate = function (prevProps) {
+        var _a = this.props, url = _a.url, hideCaption = _a.hideCaption, maxWidth = _a.maxWidth, containerTagName = _a.containerTagName;
+        if (prevProps.url !== url ||
+            prevProps.hideCaption !== hideCaption ||
+            prevProps.maxWidth !== maxWidth ||
+            prevProps.containerTagName !== containerTagName) {
+            this.request.cancel();
+            this.fetchEmbed(this.getQueryParams(this.props));
+        }
+    };
+    InstagramEmbed.prototype.componentWillUnmount = function () {
+        this.cancel();
+    };
+    InstagramEmbed.prototype.render = function () {
+        var Tag = this.props.containerTagName;
+        return react__WEBPACK_IMPORTED_MODULE_0__["createElement"](Tag, __assign({}, this.omitComponentProps(), { dangerouslySetInnerHTML: { __html: this.state.html || '' } }));
+    };
+    InstagramEmbed.prototype.fetchEmbed = function (queryParams) {
+        this.request = this.createRequestPromise("https://api.instagram.com/oembed/?" + queryParams);
+        if (this.props.onLoading) {
+            this.props.onLoading();
+        }
+        this.request.promise.then(this.handleFetchSuccess).catch(this.handleFetchFailure);
+    };
+    InstagramEmbed.prototype.omitComponentProps = function () {
+        var _a = this.props, url = _a.url, hideCaption = _a.hideCaption, maxWidth = _a.maxWidth, containerTagName = _a.containerTagName, onLoading = _a.onLoading, onSuccess = _a.onSuccess, onAfterRender = _a.onAfterRender, onFailure = _a.onFailure, protocol = _a.protocol, injectScript = _a.injectScript, rest = __rest(_a, ["url", "hideCaption", "maxWidth", "containerTagName", "onLoading", "onSuccess", "onAfterRender", "onFailure", "protocol", "injectScript"]);
+        return rest;
+    };
+    InstagramEmbed.prototype.injectScript = function () {
+        var protocolToUse = window.location.protocol.indexOf('file') === 0 ? this.props.protocol : '';
+        var s = document.createElement('script');
+        s.async = s.defer = true;
+        s.src = protocolToUse + "//platform.instagram.com/en_US/embeds.js";
+        s.id = 'react-instagram-embed-script';
+        var body = document.body;
+        if (body) {
+            body.appendChild(s);
+        }
+    };
+    InstagramEmbed.prototype.checkAPI = function () {
+        var _this = this;
+        return new Promise(function (resolve) {
+            (function checkAPI(self) {
+                self.timer = window.setTimeout(function () {
+                    if (window.instgrm) {
+                        clearTimeout(self.timer);
+                        resolve();
+                    }
+                    else {
+                        checkAPI(self);
+                    }
+                }, 20);
+            })(_this);
+        });
+    };
+    InstagramEmbed.prototype.getQueryParams = function (_a) {
+        var url = _a.url, hideCaption = _a.hideCaption, maxWidth = _a.maxWidth;
+        return query_string__WEBPACK_IMPORTED_MODULE_1__["stringify"]({
+            url: url,
+            hidecaption: hideCaption,
+            maxwidth: typeof maxWidth === 'number' && maxWidth >= 320 ? maxWidth : undefined,
+            omitscript: true
+        });
+    };
+    InstagramEmbed.defaultProps = {
+        hideCaption: false,
+        containerTagName: 'div',
+        protocol: 'https:',
+        injectScript: true
+    };
+    return InstagramEmbed;
+}(react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"]));
+/* harmony default export */ __webpack_exports__["default"] = (InstagramEmbed);
+
+
+/***/ }),
+
 /***/ "./node_modules/react-is/cjs/react-is.development.js":
 /*!***********************************************************!*\
   !*** ./node_modules/react-is/cjs/react-is.development.js ***!
@@ -36029,6 +36557,24 @@ if (false) {} else {
 
 /***/ }),
 
+/***/ "./node_modules/strict-uri-encode/index.js":
+/*!*************************************************!*\
+  !*** ./node_modules/strict-uri-encode/index.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+module.exports = function (str) {
+	return encodeURIComponent(str).replace(/[!'()*]/g, function (c) {
+		return '%' + c.charCodeAt(0).toString(16).toUpperCase();
+	});
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
 /*!****************************************************************************!*\
   !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
@@ -36494,11 +37040,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _mains_my_music_Everyday__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./mains/my-music/Everyday */ "./src/components/mains/my-music/Everyday.js");
 /* harmony import */ var _mains_my_music_Covers__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./mains/my-music/Covers */ "./src/components/mains/my-music/Covers.js");
 /* harmony import */ var _mains_my_music_Collaborations__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./mains/my-music/Collaborations */ "./src/components/mains/my-music/Collaborations.js");
-/* harmony import */ var _mains_Busking__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./mains/Busking */ "./src/components/mains/Busking.js");
-/* harmony import */ var _mains_Repertoire__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./mains/Repertoire */ "./src/components/mains/Repertoire.js");
-/* harmony import */ var _mains_About__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./mains/About */ "./src/components/mains/About.js");
-/* harmony import */ var _mains_Contact__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./mains/Contact */ "./src/components/mains/Contact.js");
+/* harmony import */ var _mains_my_music_Originals__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./mains/my-music/Originals */ "./src/components/mains/my-music/Originals.js");
+/* harmony import */ var _mains_Busking__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./mains/Busking */ "./src/components/mains/Busking.js");
+/* harmony import */ var _mains_Repertoire__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./mains/Repertoire */ "./src/components/mains/Repertoire.js");
+/* harmony import */ var _mains_About__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./mains/About */ "./src/components/mains/About.js");
+/* harmony import */ var _mains_Contact__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./mains/Contact */ "./src/components/mains/Contact.js");
 function _objectDestructuringEmpty(obj) { if (obj == null) throw new TypeError("Cannot destructure undefined"); }
+
 
 
 
@@ -36531,18 +37079,20 @@ function Main(_ref) {
   }), React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["Route"], {
     path: "/my-music/everyday"
   }, React.createElement(_mains_my_music_Everyday__WEBPACK_IMPORTED_MODULE_2__["default"], null)), React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["Route"], {
+    path: "/my-music/originals"
+  }, React.createElement(_mains_my_music_Originals__WEBPACK_IMPORTED_MODULE_5__["default"], null)), React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["Route"], {
     path: "/my-music/collaborations"
   }, React.createElement(_mains_my_music_Collaborations__WEBPACK_IMPORTED_MODULE_4__["default"], null)), React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["Route"], {
     path: "/my-music/covers"
   }, React.createElement(_mains_my_music_Covers__WEBPACK_IMPORTED_MODULE_3__["default"], null)), React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["Route"], {
     path: "/busking"
-  }, React.createElement(_mains_Busking__WEBPACK_IMPORTED_MODULE_5__["default"], null)), React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["Route"], {
+  }, React.createElement(_mains_Busking__WEBPACK_IMPORTED_MODULE_6__["default"], null)), React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["Route"], {
     path: "/repertoire"
-  }, React.createElement(_mains_Repertoire__WEBPACK_IMPORTED_MODULE_6__["default"], null)), React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["Route"], {
+  }, React.createElement(_mains_Repertoire__WEBPACK_IMPORTED_MODULE_7__["default"], null)), React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["Route"], {
     path: "/about"
-  }, React.createElement(_mains_About__WEBPACK_IMPORTED_MODULE_7__["default"], null)), React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["Route"], {
+  }, React.createElement(_mains_About__WEBPACK_IMPORTED_MODULE_8__["default"], null)), React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["Route"], {
     path: "/contact"
-  }, React.createElement(_mains_Contact__WEBPACK_IMPORTED_MODULE_8__["default"], null)))));
+  }, React.createElement(_mains_Contact__WEBPACK_IMPORTED_MODULE_9__["default"], null)))));
 }
 
 /***/ }),
@@ -36669,6 +37219,10 @@ function SecondaryNav(_ref) {
     className: "second-link",
     activeClassName: "active-link"
   }, "everyday (demo album)"), React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["NavLink"], {
+    to: "/my-music/originals",
+    className: "second-link",
+    activeClassName: "active-link"
+  }, "other originals"), React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["NavLink"], {
     to: "/my-music/covers",
     className: "second-link",
     activeClassName: "active-link"
@@ -36872,16 +37426,21 @@ function Busking(_ref2) {
     src: __webpack_require__(/*! ../../pics/library-2.jpg */ "./src/pics/library-2.jpg")
   })), React.createElement("div", {
     className: "col-sm-6"
-  }, React.createElement("p", null, "Throughout the year of 2019, I've used the ever increasing \"busking fund\" to support various causes, donating in total over \xA31000. Much of this is mentioned on this page, however other causes I supported included:"), React.createElement("ul", null, React.createElement("li", null, "A friend who became a mum in a bit complicated situation"), React.createElement("li", null, "Ocean cleanup"), React.createElement("li", null, "Alzheimer society"), React.createElement("li", null, "School bus for local school"), React.createElement("li", null, "Wikipedia"), React.createElement("li", null, "..."))))), React.createElement(Causes, {
+  }, React.createElement("p", null, "Throughout the year of 2019, I've used the ever increasing \"busking fund\" to support various causes, donating in total over \xA31000. Much of this is mentioned on this page, however other causes I supported included:"), React.createElement("ul", null, React.createElement("li", null, "Ocean cleanup"), React.createElement("li", null, "Alzheimer society"), React.createElement("li", null, "School bus for local school"), React.createElement("li", null, "Wikipedia"), React.createElement("li", null, "..."))))), React.createElement(Causes, {
     name: "Dec 2019 - Christmas busking choir",
     sum: 112
   }, "A repeat of the successfuly Christmas choir busking, this time in front of Cardiff's Central market, again with all donations going to homelessness charity Llamau.", React.createElement("div", {
     className: "row"
   }, React.createElement("div", {
     className: "col-sm-5"
+  }, React.createElement("figure", {
+    className: "float-img float-left",
+    style: {
+      'width': '100%'
+    }
   }, React.createElement("img", {
     src: __webpack_require__(/*! ../../pics/xmas-busk-2.jpg */ "./src/pics/xmas-busk-2.jpg")
-  })), React.createElement("div", {
+  }), React.createElement("figcaption", null, "2nd edition of Christmas choir busking"))), React.createElement("div", {
     className: "col-sm-7 center-content-vert"
   }, React.createElement("div", {
     className: "iframe-div"
@@ -36897,9 +37456,14 @@ function Busking(_ref2) {
     className: "row"
   }, React.createElement("div", {
     className: "col-sm-4"
+  }, React.createElement("figure", {
+    className: "float-img float-left",
+    style: {
+      'width': '100%'
+    }
   }, React.createElement("img", {
     src: __webpack_require__(/*! ../../pics/triathlon.jpg */ "./src/pics/triathlon.jpg")
-  })), React.createElement("div", {
+  }), React.createElement("figcaption", null, "Triathlon done"))), React.createElement("div", {
     className: "col-sm-4"
   }, React.createElement("p", null, "In July 2019, I participated the Cardiff Bay triathlon, as part of which I was raising money for education programmes for school kids from poor parts of my home country. I contributed \xA3150 to the fund, eventually reaching the target of \xA3500."), React.createElement("p", null, "Even better, I finished the triathlon! Read more about this experience on ", React.createElement("a", {
     href: "http://ferowrites.blogspot.com/2019/07/cardiff-bay-triathlon.html"
@@ -36947,9 +37511,16 @@ function Busking(_ref2) {
     className: "row"
   }, React.createElement("div", {
     className: "col"
+  }, React.createElement("figure", {
+    className: "float-img float-left",
+    style: {
+      'width': '100%'
+    }
   }, React.createElement("img", {
     src: __webpack_require__(/*! ../../pics/prof-pic-1.png */ "./src/pics/prof-pic-1.png")
-  })))))), React.createElement(Causes, {
+  }), React.createElement("figcaption", null, "Pic by ", React.createElement("a", {
+    href: "https://www.instagram.com/garethsphotography/"
+  }, "Gareth"), ", the best photographer I know"))))))), React.createElement(Causes, {
     name: "Dec 2018 - Christmas busking choir",
     sum: 126
   }, "In December 2018, I organized a busking performance with the choir I've been attending at my former workplace (Office for National Statistics). The performances took place at The Hayes in Cardiff and all raised money was donated to a homelessness charity Llamau.", React.createElement("div", {
@@ -36986,29 +37557,51 @@ function Busking(_ref2) {
     className: "row"
   }, React.createElement("div", {
     className: "col"
+  }, React.createElement("figure", {
+    className: "float-img float-left",
+    style: {
+      'width': '100%'
+    }
   }, React.createElement("img", {
     src: __webpack_require__(/*! ../../pics/sos-2.jpg */ "./src/pics/sos-2.jpg")
-  })))), React.createElement("div", {
+  }), React.createElement("figcaption", null, "The Gretsch electric guitar bought for Children's village in Bergen"))))), React.createElement("div", {
     className: "col-sm-7"
   }, React.createElement("div", {
     className: "row"
   }, React.createElement("div", {
     className: "col"
+  }, React.createElement("figure", {
+    className: "float-img float-left",
+    style: {
+      'width': '100%'
+    }
   }, React.createElement("img", {
     src: __webpack_require__(/*! ../../pics/sos-1.jpg */ "./src/pics/sos-1.jpg")
-  }))), React.createElement("div", {
+  }), React.createElement("figcaption", null, "Delivering the guitar to SOS Children's village central in Oslo")))), React.createElement("div", {
     className: "row"
   }, React.createElement("div", {
     className: "col"
+  }, React.createElement("figure", {
+    className: "float-img float-left",
+    style: {
+      'width': '100%'
+    }
   }, React.createElement("img", {
     src: __webpack_require__(/*! ../../pics/oslo-marco.jpg */ "./src/pics/oslo-marco.jpg")
-  }))), React.createElement("div", {
+  }), React.createElement("figcaption", null, "With Marco, busking in Aker Brygge")))), React.createElement("div", {
     className: "row"
   }, React.createElement("div", {
     className: "col"
+  }, React.createElement("figure", {
+    className: "float-img float-left",
+    style: {
+      'width': '100%'
+    }
   }, React.createElement("img", {
     src: __webpack_require__(/*! ../../pics/oslo-moni.jpg */ "./src/pics/oslo-moni.jpg")
-  }))), React.createElement("div", {
+  }), React.createElement("figcaption", null, "With Moni, busking in Aker Brygge. Check out the ", React.createElement("a", {
+    href: "#my-music/collaborations"
+  }, "collaborations"), " section!")))), React.createElement("div", {
     className: "row"
   }, React.createElement("div", {
     className: "col"
@@ -37274,7 +37867,7 @@ function Home(_ref2) {
     date: "04/2020"
   }, "Check out the ", React.createElement("a", {
     href: "#my-music"
-  }, "ten tracks"), " from album \"Everyday\" that are already near finished! I'm re-recording some of the parts during the Covid-19 self-isolation - so that once the lock-down ceases, I'll be ready to hit the streets and bars again!"));
+  }, "tracks"), " from album \"Everyday\" that are already near finished! I'm re-recording some of the parts during the Covid-19 self-isolation - so that once the lock-down ceases, I'll be ready to hit the streets and bars again!"));
 }
 
 /***/ }),
@@ -37840,12 +38433,345 @@ function Repertoire(_ref7) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Collaborations; });
+/* harmony import */ var _helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../helpers/my-music-helper */ "./src/helpers/my-music-helper.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
 function _objectDestructuringEmpty(obj) { if (obj == null) throw new TypeError("Cannot destructure undefined"); }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+
+
+
+var allTagsAccumulator = [];
+
+function CollabSection(props) {
+  return React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["Section"], _extends({
+    allTagsAccumulator: allTagsAccumulator
+  }, props));
+}
 
 function Collaborations(_ref) {
   _objectDestructuringEmpty(_ref);
 
-  return React.createElement(React.Fragment, null, "Content coming soon!");
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])([]),
+      _useState2 = _slicedToArray(_useState, 2),
+      allTags = _useState2[0],
+      setAllTags = _useState2[1];
+
+  Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
+    setAllTags(allTagsAccumulator);
+  }, []);
+
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])([]),
+      _useState4 = _slicedToArray(_useState3, 2),
+      selectedTags = _useState4[0],
+      setSelectedTags = _useState4[1];
+
+  function updateTags(tag) {
+    var newSelectedTags;
+
+    if (selectedTags.includes(tag)) {
+      newSelectedTags = selectedTags.filter(function (t) {
+        return t != tag;
+      });
+    } else {
+      newSelectedTags = selectedTags.slice();
+      newSelectedTags.push(tag);
+    }
+
+    setSelectedTags(newSelectedTags);
+  }
+
+  return React.createElement(React.Fragment, null, React.createElement("div", {
+    className: "section-title"
+  }, "Collaborations"), React.createElement("div", null, React.createElement("p", null, "A lot of my guitar skills I owe to my former guitar teacher Ali Kovac as well as to ", React.createElement("a", {
+    href: "https://www.justinguitar.com/"
+  }, "Justin's great online content"), ", but I think the quickest way to improve is simply to play with others - not just learning from each and picking up new styles. Cause everyone has a different style."), React.createElement("p", null, "Over the years there was quite a bit of jamming and playing with people, little projects here and there. Some grew to see a studio recording, recorded jam sessions, or an open mic performance. Here's some of the top picks ;-)"), React.createElement("hr", null), "Filter tags: ", allTags.map(function (t, i) {
+    return React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["Tag"], {
+      key: i,
+      tag: t,
+      updateTags: updateTags,
+      selectedTags: selectedTags
+    });
+  })), React.createElement(CollabSection, {
+    name: "With Ben",
+    date: "2019/2020",
+    tags: ["ben jamon", "cardiff"],
+    selectedTags: selectedTags,
+    updateTags: updateTags
+  }, React.createElement("p", null, "Ben's definitely one of the best musicians I've played with. Hard-working, dedicated and talented - and if you consider the fact that he's a ", React.createElement("i", null, "drummer"), ", it's quite a rare thing to find!"), React.createElement("p", null, "Admittedly, my guitar style simply needs someone to \"", React.createElement("a", {
+    href: "https://youtu.be/wTP2RUD_cL0?t=191"
+  }, "bang on those bongos like a chimpanzee"), "\" which is probably not the most fun for a drummer, but in a few jams we had, some good stuff emerged, definitely pushing me to try stuff outside of my ordinary repertoire."), React.createElement("div", {
+    className: "row"
+  }, React.createElement("div", {
+    className: "col-md-12"
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '100%'
+    }
+  }, React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["SoundCloud"], {
+    iframeTag: "<iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/743549404&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true\"></iframe>"
+  })))), React.createElement("div", {
+    className: "row"
+  }, React.createElement("div", {
+    className: "col-md-6"
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '100%'
+    }
+  }, React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["Instagram"], {
+    url: "https://www.instagram.com/p/BysrTdyB0K4/"
+  }))), React.createElement("div", {
+    className: "col-md-6"
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '100%'
+    }
+  }, React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["Instagram"], {
+    url: "https://www.instagram.com/p/B3hXw0KBusl"
+  })))), React.createElement("div", {
+    className: "row"
+  }, React.createElement("div", {
+    className: "col-md-6"
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '100%'
+    }
+  }, React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["Instagram"], {
+    url: "https://www.instagram.com/p/BxQT7YxHplo/"
+  }))), React.createElement("div", {
+    className: "col-md-6"
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '100%'
+    }
+  }, React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["Instagram"], {
+    url: "https://www.instagram.com/p/B6Wh6C9hjoj"
+  }))))), React.createElement(CollabSection, {
+    name: "ONS Choir",
+    date: "2018/2019",
+    tags: ["ons choir", "cardiff"],
+    selectedTags: selectedTags,
+    updateTags: updateTags
+  }, React.createElement("p", null, "I never really thought of myself as a singer (and that holds to this day). But joining a choir at ONS was fantastic for realizing that even with the little singing I can do, there's still lot that can be done! Using harmonies, using the voice in a proper way or improving the technique. There's definitely long way to go, but looking back at some of my old recordings, there's much improvement already!"), React.createElement("p", null, "The bonus was a couple Christmas busking sessions where we raised money for a charity. Check out ", React.createElement("a", {
+    href: "#/busking"
+  }, "busking section"), " for it went!"), React.createElement("div", {
+    className: "row"
+  }, React.createElement("div", {
+    className: "col-md-6"
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '100%'
+    }
+  }, React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "rEIFkwG7Iz8"
+  }))), React.createElement("div", {
+    className: "col-md-6"
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '100%'
+    }
+  }, React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "lDT0HmsCoSo"
+  })))), React.createElement("div", {
+    className: "row"
+  }, React.createElement("div", {
+    className: "col-md-12"
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '100%'
+    }
+  }, React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "tL9XG9F50cQ"
+  }))))), React.createElement(CollabSection, {
+    name: "With Sophie",
+    date: "2018/2019",
+    tags: ["sophie", "cardiff"],
+    selectedTags: selectedTags,
+    updateTags: updateTags
+  }, React.createElement("div", {
+    className: "row col-md-12"
+  }, "The jams with Sophie came as a spin-out of other jams with people from the ONS choir. We wanted to focus on fewer songs, but more thoroughly. With Sophie's piano and beautiful vocals, as well as custom harmonies that we often added, we managed to record quite a few really nice covers, as well as slip in a few open mics!"), React.createElement("div", {
+    className: "row"
+  }, React.createElement("div", {
+    className: "col-md-12"
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '100%'
+    }
+  }, React.createElement("div", {
+    className: "iframe-div"
+  }, React.createElement("iframe", {
+    width: "100%",
+    height: "450",
+    scrolling: "no",
+    frameBorder: "no",
+    allow: "autoplay",
+    src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/755723442&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+  }))))), React.createElement("div", {
+    className: "row"
+  }, React.createElement("div", {
+    className: "col-md-6"
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '100%'
+    }
+  }, React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "YAsS-kElxNg"
+  }))), React.createElement("div", {
+    className: "col-md-6"
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '100%'
+    }
+  }, React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "-DToKaDE_VM"
+  })))), React.createElement("div", {
+    className: "row"
+  }, React.createElement("div", {
+    className: "col-md-6"
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '100%'
+    }
+  }, React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "zQeXbiSlLlo"
+  }))), React.createElement("div", {
+    className: "col-md-6"
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '100%'
+    }
+  }, React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "VyZoL9tP-2Y"
+  }))))), React.createElement(CollabSection, {
+    name: "With Alex and Vika",
+    date: "2019",
+    tags: ["fun stuff", "cardiff"],
+    selectedTags: selectedTags,
+    updateTags: updateTags
+  }, React.createElement("div", {
+    className: "row"
+  }, React.createElement("div", {
+    className: "col-md-4"
+  }, React.createElement("figure", {
+    className: "float-img float-left"
+  }, React.createElement("img", {
+    src: __webpack_require__(/*! ../../../pics/alex-vika.jpg */ "./src/pics/alex-vika.jpg")
+  }), React.createElement("figcaption", null, "Recording \"Kak Tebja Zavut\""))), React.createElement("div", {
+    className: "col-md-8"
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '100%'
+    }
+  }, React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["SoundCloud"], {
+    iframeTag: "<iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/664352564&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true\"></iframe>"
+  })), "Not a perfectly serious entry - but a super fun one. After this accidentally following other songs in my playlist and listening to it a few times, I have to say - this song ROCKS! And we really nailed it. Vika's lyrics (both the initial rap + the middle Russian part is due to her) and Alex's incredible rap + really felt-through vocals make this a hit that's not only worth to publish, but listen to many times! Oh yeah!"))), React.createElement(CollabSection, {
+    name: "With Moni",
+    date: "2014",
+    tags: ["moni", "oslo"],
+    selectedTags: selectedTags,
+    updateTags: updateTags
+  }, React.createElement("div", {
+    className: "row"
+  }, React.createElement("div", {
+    className: "col-md-6"
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '100%'
+    }
+  }, React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "KVP8ZfpweCk"
+  }))), React.createElement("div", {
+    className: "col-md-6"
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '100%'
+    }
+  }, React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "vdJF_Be4580"
+  })))), React.createElement("figure", {
+    className: "float-img float-left",
+    style: {
+      'width': '50%'
+    }
+  }, React.createElement("img", {
+    src: __webpack_require__(/*! ../../../pics/oslo-moni.jpg */ "./src/pics/oslo-moni.jpg")
+  }), React.createElement("figcaption", null, "With Moni, busking in Aker Brygge")), React.createElement("p", null, "I met Moni in one of the Oslo Jam Session meetups. She had an amazing voice and was up for practicing some songs a bit more properly. Layla, More than Words, Let it be..."), React.createElement("p", null, "We ended up doing an open mic, as well as busking at Aker Brygge until she left Oslo. Good times!")), React.createElement(CollabSection, {
+    name: "Brainlive",
+    date: "2013/2014",
+    tags: ["brainlive", "oslo"],
+    selectedTags: selectedTags,
+    updateTags: updateTags
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '100%'
+    }
+  }, React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["SoundCloud"], {
+    iframeTag: "<iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/175703523&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true\"></iframe>"
+  })), React.createElement("figure", {
+    className: "float-img float-left",
+    style: {
+      'width': '47%'
+    }
+  }, React.createElement("img", {
+    src: __webpack_require__(/*! ../../../pics/mada.jpg */ "./src/pics/mada.jpg")
+  }), React.createElement("figcaption", null, "Busking with Mada at Aker Brygge")), React.createElement("figure", {
+    className: "float-img float-right",
+    style: {
+      'width': '46%'
+    }
+  }, React.createElement("img", {
+    src: __webpack_require__(/*! ../../../pics/tom.jpg */ "./src/pics/tom.jpg")
+  }), React.createElement("figcaption", null, "My first ever busking session - with Tom")), React.createElement("p", null, "One of the first collaborations came round in Oslo with a fellow AIESEC intern Mada. Mada liked to sing, I liked to play guitar and so we started to practice some songs. The vision was to do an open mic or two. Eventually we did that, plus recorded a cover of Just my imagination, and Mada (and Tom) were also the people with whom I discovered busking with!")), React.createElement(CollabSection, {
+    name: "Oslo Jam Session",
+    date: "2013/2014",
+    tags: ["oslo"],
+    selectedTags: selectedTags,
+    updateTags: updateTags
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '100%'
+    }
+  }, React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "pEWAgngcc98?start=125"
+  })), React.createElement("figure", {
+    className: "float-img float-left",
+    style: {
+      'width': '50%'
+    }
+  }, React.createElement("img", {
+    src: __webpack_require__(/*! ../../../pics/oslo-jam.jpg */ "./src/pics/oslo-jam.jpg")
+  }), React.createElement("figcaption", null, "With people from the Oslo Jam Session")), React.createElement("p", null, "Not really a serious collaboration - but this holds a special place in my mind and my heart! These little sessions organized by Monika were enjoyable, full of laughter and good times, making my time in Oslo even more memorable. In addition, I also met Moni here whom we teamed up for some more jamming (see above), as well as other awesome people :-)"), React.createElement("p", null, "It was also through one of the meetups here that I got the idea for the very first song of my demo album ", React.createElement("a", {
+    href: "#/my-music/everyday"
+  }, "Everyday"), ". I honestly can't remember the details, but it was a presentation or a play of some sorts. At one point, an idea was presented: we tend to live some days to the fullest, while other times we waste the day away. Fridays we tend to drink after work, Saturdays are for trips, Sunday for relax... But what if we had another day, where we really are our best selves, where we do what we like and do it well. What if we called that day..."), React.createElement("p", null, "Everyday?")));
 }
 
 /***/ }),
@@ -37860,12 +38786,236 @@ function Collaborations(_ref) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Covers; });
+/* harmony import */ var _helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../helpers/my-music-helper */ "./src/helpers/my-music-helper.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
 function _objectDestructuringEmpty(obj) { if (obj == null) throw new TypeError("Cannot destructure undefined"); }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+
+
+
+var allTagsAccumulator = [];
+
+function CoverSection(props) {
+  return React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["Section"], _extends({
+    allTagsAccumulator: allTagsAccumulator
+  }, props));
+}
 
 function Covers(_ref) {
   _objectDestructuringEmpty(_ref);
 
-  return React.createElement(React.Fragment, null, "Content coming soon!");
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])([]),
+      _useState2 = _slicedToArray(_useState, 2),
+      allTags = _useState2[0],
+      setAllTags = _useState2[1];
+
+  Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
+    setAllTags(allTagsAccumulator);
+  }, []);
+
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])([]),
+      _useState4 = _slicedToArray(_useState3, 2),
+      selectedTags = _useState4[0],
+      setSelectedTags = _useState4[1];
+
+  function updateTags(tag) {
+    var newSelectedTags;
+
+    if (selectedTags.includes(tag)) {
+      newSelectedTags = selectedTags.filter(function (t) {
+        return t != tag;
+      });
+    } else {
+      newSelectedTags = selectedTags.slice();
+      newSelectedTags.push(tag);
+    }
+
+    setSelectedTags(newSelectedTags);
+  }
+
+  return React.createElement(React.Fragment, null, React.createElement("div", {
+    className: "section-title"
+  }, "Covers"), React.createElement("div", null, React.createElement("p", null, "Although I am increasingly focusing on (and enjoying) my own work, I would have never gotten to this point without the inspirations of Mark Knopfler, John Mayer or others. Trying to work out what it is that makes their music so appealing and attempting to reproduce that is essentially how one creates their own style."), React.createElement("p", null, "Here is some more complete cover work thatI've done. For more frequent updates, check out my Instagram ", React.createElement("a", {
+    href: "https://www.instagram.com/fero.hajnovic"
+  }, "@fero.hajnovic"), " or the ", React.createElement("a", {
+    href: "https://www.youtube.com/channel/UCbFZJZ1bf8nMcLPJie5-mTA"
+  }, "YouTube channel"), " ."), React.createElement("p", null, "Enjoy :-)"), React.createElement("hr", null), "Filter tags: ", allTags.map(function (t, i) {
+    return React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["Tag"], {
+      key: i,
+      tag: t,
+      updateTags: updateTags,
+      selectedTags: selectedTags
+    });
+  })), React.createElement(CoverSection, {
+    name: "John Mayer - I guess I just feel like",
+    date: "2020-03-30",
+    tags: ["john mayer", "video", "studio", "multicam"],
+    selectedTags: selectedTags,
+    updateTags: updateTags
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '50%'
+    }
+  }, React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "iljOosYxryo"
+  })), "Cover of another gem by John Mayer. Ever since it came out in 2019, it's my go-to song for almost any mood. Simple, beautiful, inspiring. And yes, Covid-19 self-isolation played its part prompting me to record something!"), React.createElement(CoverSection, {
+    name: "John Mayer - Age of worry",
+    date: "2019-12-01",
+    tags: ["john mayer", "video", "studio", "multicam"],
+    selectedTags: selectedTags,
+    updateTags: updateTags
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '50%'
+    }
+  }, React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "XrU3ymYz5i4"
+  })), "Smile in the Age of worry! ", React.createElement("br", null), " ", React.createElement("br", null), "Beautiful song by John Mayer, one that was - for some reason - stuck in my mind for the whole Annapurna circuit trek in Nepal... Maybe it's the \"Sleep where darkness falls!\" - just like we (kind of) did on the trek!"), React.createElement(CoverSection, {
+    name: "Anthony Hamilton - Freedom (Django Unchaind soundtrack)",
+    date: "2019-10-13",
+    tags: ["video", "loop"],
+    selectedTags: selectedTags,
+    updateTags: updateTags
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '50%'
+    }
+  }, React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "hqJ7fK3WvUQ"
+  })), "A song I covered just before leaving for a month in Nepal - \"I'm looking for freedom\"... Awesome energetic song from the Django Unchained soundtrack.  ", React.createElement("br", null), " ", React.createElement("br", null), "Played on Klos electro acoustic travel guitar"), React.createElement(CoverSection, {
+    name: "Mark Knopfler - Heart full of holes",
+    date: "2019-08-11",
+    tags: ["mark knopfler", "video", "studio", "multicam"],
+    selectedTags: selectedTags,
+    updateTags: updateTags
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '50%'
+    }
+  }, React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "0Y9qdeyc61E"
+  })), "A song I covered just after my 30th birthday. Maybe I'm not yet battered and old - but I love this one by Mark and it speaks from the heart, be it full of holes, or not."), React.createElement(CoverSection, {
+    name: "Dire Straits - Going home",
+    date: "2019-06-09",
+    tags: ["dire straits", "video", "live", "cardiff"],
+    selectedTags: selectedTags,
+    updateTags: updateTags
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '50%'
+    }
+  }, React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "kTik4R52nQI"
+  })), "The rocky version of Local Hero, and it really packs a punch this song!  ", React.createElement("br", null), " ", React.createElement("br", null), "Live from busking at Cardiff Queen Street, 9. June 2019 ", React.createElement("br", null), " ", React.createElement("br", null), "Played on Michael Kelly Telecaster 1957, using Wampler Ego compressor."), React.createElement(CoverSection, {
+    name: "Mark Knopfler - Matchstick Man",
+    date: "2019-06-01",
+    tags: ["mark knopfler", "video", "live", "cardiff"],
+    selectedTags: selectedTags,
+    updateTags: updateTags
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '50%'
+    }
+  }, React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "OBuieIN31C0"
+  })), "Beautiful song, for me one of the pinnacles of song-writing - stripped down, minimalistic, yet with atmosphere and a story to tell. True kudos to Mark for this gem. ", React.createElement("br", null), " ", React.createElement("br", null), "Live from busking at Cardiff Queen Street, 1. June 2019 ", React.createElement("br", null), " ", React.createElement("br", null), "Played on Klos electro-acoustic carbon body travel guitar ", React.createElement("br", null), "Wampler Ego compressor"), React.createElement(CoverSection, {
+    name: "John Mayer - Crossroads",
+    date: "2019-05-27",
+    tags: ["john mayer", "video", "studio"],
+    selectedTags: selectedTags,
+    updateTags: updateTags
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '50%'
+    }
+  }, React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "Q5jURpO9H7U"
+  })), "Super jammy and bluesy song. Great to play with some delay and very suitable to do with a loop station. ", React.createElement("br", null), " ", React.createElement("br", null), "Michael Kelly Telecaster 1957 ", React.createElement("br", null), "Wampler Ego compressor ", React.createElement("br", null), "Boss RC-30 loop station"), React.createElement(CoverSection, {
+    name: "Dire Straits - Local Hero",
+    date: "2019-05-27",
+    tags: ["dire straits", "video", "studio"],
+    selectedTags: selectedTags,
+    updateTags: updateTags
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '50%'
+    }
+  }, React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "v0rN2LWYuNw"
+  })), "Definitely one of the most beautiful melodies I've ever heard. Pleasure to listen to, pleasure to play. ", React.createElement("br", null), " ", React.createElement("br", null), "Michael Kelly Telecaster 1957 ", React.createElement("br", null), "Wampler Ego compressor"), React.createElement(CoverSection, {
+    name: "Dire Straits - Sultans of Swing",
+    date: "2019-04-20",
+    tags: ["dire straits", "video", "live", "bristol"],
+    selectedTags: selectedTags,
+    updateTags: updateTags
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '50%'
+    }
+  }, React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "dxoeX1rm2Lk"
+  })), "Likely the most exciting song in my repertoire. An absolute classic by Dire Straits, one always giving me the goosebumps when playing that final solo. ", React.createElement("br", null), " ", React.createElement("br", null), "20. April 2019, Bristol, Broadmead"), React.createElement(CoverSection, {
+    name: "The Greatest Showman - This is me",
+    date: "2019-04-20",
+    tags: ["the greatest showman", "video", "live", "bristol"],
+    selectedTags: selectedTags,
+    updateTags: updateTags
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '50%'
+    }
+  }, React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "oD7RblhuIIY"
+  })), "It was a scorching hot day in Bristol, but SO enjoyable to play on the Millenium square! The nice, chilled tune from The Greatest Showman matched nicely the atmosphere on the square", React.createElement("br", null), " ", React.createElement("br", null), "20. April 2019, Bristol harbour, Millenium square"), React.createElement(CoverSection, {
+    name: "Dire Straits - Telegraph road",
+    date: "2019-04-07",
+    tags: ["dire straits", "video", "live", "cardiff"],
+    selectedTags: selectedTags,
+    updateTags: updateTags
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '50%'
+    }
+  }, React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "bQuox6FGerE"
+  })), "Absolute masterpiece from Mark's Dire Straits days. Love over Gold album is the point in Dire Straits history where things started to get really interesting for me. Telegraph road is also the very first song I heard from Dire Straits - one that \"did it for me\" ( check out ", React.createElement("a", {
+    href: "#/about"
+  }, "about me section"), " where I write about this some more). ", React.createElement("br", null), " ", React.createElement("br", null), "Simply epic song. ", React.createElement("br", null), "7. April 2019, Cardiff, The Hayes"), React.createElement(CoverSection, {
+    name: "A Star is Born - Shallow",
+    date: "2019-03-30",
+    tags: ["a star is born", "video", "live", "cardiff"],
+    selectedTags: selectedTags,
+    updateTags: updateTags
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '50%'
+    }
+  }, React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "2K263TwzKFQ"
+  })), "Spring of 2019 was the best busking period in my life. Somehow, all the stars aligned: weather was nice, there were no restrictions on busking in Cardiff city centre yet, the \"contactless wave\" was still not fully there yet. Finally, some musicals like A Star is born were still fresh in people's minds - and so this was one of the popular ones to play.", React.createElement("br", null), " ", React.createElement("br", null), "30. March 2019, Cardiff, The Hayes"));
 }
 
 /***/ }),
@@ -37881,7 +39031,9 @@ function Covers(_ref) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Everyday; });
 /* harmony import */ var _helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../helpers/combo-helper */ "./src/helpers/combo-helper.js");
+/* harmony import */ var _helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../helpers/my-music-helper */ "./src/helpers/my-music-helper.js");
 function _objectDestructuringEmpty(obj) { if (obj == null) throw new TypeError("Cannot destructure undefined"); }
+
 
 
 
@@ -37904,21 +39056,14 @@ function SoundcloudEmbed(_ref2) {
     'fargo and pelgrim': '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/786320029&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>',
     'calling at newport': '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/764767948&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>',
     'hey dad': '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/770897755&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>',
-    'sticks in the water': '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/745913461&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>',
-    'at the ocean shore': '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/750585031&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>'
+    'sticks in the water': '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/796806931&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>',
+    'at the ocean shore': '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/796809490&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>',
+    'when this is done': '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/796224910&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>'
   };
-  var link = embeds[title.toLowerCase()];
-  link = link.split('src="')[1].split('"></iframe>')[0];
-  return React.createElement("iframe", {
-    width: "100%",
-    height: "150",
-    scrolling: "no",
-    frameBorder: "no",
-    allow: "autoplay",
-    src: link
-  }); // return <a className="soundcloud-embed" href={link}>
-  //     <div>Play <span className="soundcloud-title">{title}</span></div>
-  // </a>
+  var iframeTag = embeds[title.toLowerCase()];
+  return React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_1__["SoundCloud"], {
+    iframeTag: iframeTag
+  });
 }
 
 function Everyday(_ref3) {
@@ -37952,7 +39097,7 @@ function Everyday(_ref3) {
     href: "http://feroafrica.blogspot.com/"
   }, "my time in Ghana"), " and the following ", React.createElement("a", {
     href: "http://ferostreetplay.blogspot.com/"
-  }, "2015 stret play tour"), " of northern Europe, both unforgettable experiences out of the ordinary."), React.createElement("p", null, "Finally, the UK cities of Newport, London, and especially Cardiff, were home to my most recent ideas and work."), React.createElement("p", null, "In loosely chronological order, I hope you enjoy the cut through my life expressed through the songs of this album.")), React.createElement("div", {
+  }, "2015 stret play tour"), " of northern Europe, both unforgettable experiences out of the ordinary."), React.createElement("p", null, "Finally, the UK cities of Newport, London, and especially Cardiff, were home to my most recent ideas and work."), React.createElement("p", null, "The songs on the album are not in chronological order, but below you can enjoy a cut through my life expressed via the songs, as the time went.")), React.createElement("div", {
     className: "clear-float"
   }, React.createElement(Song, {
     name: "Everyday"
@@ -38046,7 +39191,185 @@ function Everyday(_ref3) {
     className: "col-md-5"
   }, React.createElement("figure", null, React.createElement("img", {
     src: __webpack_require__(/*! ../../../pics/llantwit.JPG */ "./src/pics/llantwit.JPG")
-  }), React.createElement("figcaption", null, "The \"jumping cliff\" in Llantwit Major")))))));
+  }), React.createElement("figcaption", null, "The \"jumping cliff\" in Llantwit Major"))))), React.createElement(Song, {
+    name: "When this is done"
+  }, React.createElement("div", {
+    className: "row"
+  }, React.createElement("div", {
+    className: "col-md-3"
+  }, React.createElement("figure", null, React.createElement("img", {
+    src: __webpack_require__(/*! ../../../pics/terrace.jpg */ "./src/pics/terrace.jpg")
+  }), React.createElement("figcaption", null, "Self isolation times in London"))), React.createElement("div", {
+    className: "col-md-9"
+  }, React.createElement(SoundcloudEmbed, {
+    title: "When this is done"
+  }), React.createElement("p", null, "A song made in the tough times of self-isolation. And although tough times, for many, I believe, it has been an opportunity for reflection as to how they would want to change and what kind of world they'd like to see ... When this is done"), React.createElement("a", {
+    href: "https://drive.google.com/file/d/1NtTP0NpnIHD4yHjomHuUEeeAxFCxbpX4/view"
+  }, "Chords and lyrics"))))));
+}
+
+/***/ }),
+
+/***/ "./src/components/mains/my-music/Originals.js":
+/*!****************************************************!*\
+  !*** ./src/components/mains/my-music/Originals.js ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Originals; });
+/* harmony import */ var _helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../helpers/my-music-helper */ "./src/helpers/my-music-helper.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+function _objectDestructuringEmpty(obj) { if (obj == null) throw new TypeError("Cannot destructure undefined"); }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+
+
+
+var allTagsAccumulator = [];
+
+function OriginalsSection(props) {
+  return React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["Section"], _extends({
+    allTagsAccumulator: allTagsAccumulator
+  }, props));
+}
+
+function Originals(_ref) {
+  _objectDestructuringEmpty(_ref);
+
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])([]),
+      _useState2 = _slicedToArray(_useState, 2),
+      allTags = _useState2[0],
+      setAllTags = _useState2[1];
+
+  Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
+    setAllTags(allTagsAccumulator);
+  }, []);
+
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])([]),
+      _useState4 = _slicedToArray(_useState3, 2),
+      selectedTags = _useState4[0],
+      setSelectedTags = _useState4[1];
+
+  function updateTags(tag) {
+    var newSelectedTags;
+
+    if (selectedTags.includes(tag)) {
+      newSelectedTags = selectedTags.filter(function (t) {
+        return t != tag;
+      });
+    } else {
+      newSelectedTags = selectedTags.slice();
+      newSelectedTags.push(tag);
+    }
+
+    setSelectedTags(newSelectedTags);
+  }
+
+  return React.createElement(React.Fragment, null, React.createElement("div", {
+    className: "section-title"
+  }, "Other originals"), React.createElement("div", null, React.createElement("p", null, "Although most of my original stuff is part of my first ", React.createElement("a", {
+    href: "#my-music/everyday"
+  }, "demo album Everyday"), ", there's still some more stuff - other studio songs or live versions of the songs on the demo album. Expect this section to grow substantially :-)"), React.createElement("hr", null), "Filter tags: ", allTags.map(function (t, i) {
+    return React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["Tag"], {
+      key: i,
+      tag: t,
+      updateTags: updateTags,
+      selectedTags: selectedTags
+    });
+  })), React.createElement(OriginalsSection, {
+    name: "When this is done",
+    date: "2020-04-13",
+    tags: ["studio", "video"],
+    selectedTags: selectedTags,
+    updateTags: updateTags
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '100%'
+    }
+  }, React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "NcpmUVzV0Pc"
+  })), "From the studio recording of my recent addition to the ", React.createElement("a", {
+    href: "#my-music/everyday"
+  }, "demo album Everyday"), " - \"When this is done\""), React.createElement(OriginalsSection, {
+    name: "End solos - Sticks in the water, At the ocean shore",
+    date: "2020-04-13",
+    tags: ["studio", "video"],
+    selectedTags: selectedTags,
+    updateTags: updateTags
+  }, React.createElement("div", {
+    className: "row"
+  }, React.createElement("div", {
+    className: "col-md-6"
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '100%'
+    }
+  }, React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "v26XLa1LvFo"
+  }))), React.createElement("div", {
+    className: "col-md-6"
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '100%'
+    }
+  }, React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "4SG7U9Rlt9A"
+  })))), "During the Covid-19 self isolation times, I was re-recording quite a bit of my music. Admittedly, I don't usually record the whole part (vocals, solo, ...) in a single go, but this time that's what I was aiming for."), React.createElement(OriginalsSection, {
+    name: "Hey Dad (live in NosDa)",
+    date: "2019-08-28",
+    tags: ["cardiff", "live", "open-mic", "video"],
+    selectedTags: selectedTags,
+    updateTags: updateTags
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '50%'
+    }
+  }, React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "JIUr4QQPv6s"
+  })), "NosDa is an awesome, chilled place for music, chat or a drink at the bank of Taff in Cardiff. It is no wonder I did my first open mic in Cardiff here, and several more too. I did \"Hey dad\" here a couple months after writing the song, and it was the first time to do it without a backing track and using loop station instead."), React.createElement(OriginalsSection, {
+    name: "Calling at Newport (live in Cardiff :-))",
+    date: "2019-05-12",
+    tags: ["cardiff", "live", "video"],
+    selectedTags: selectedTags,
+    updateTags: updateTags
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '50%'
+    }
+  }, React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "fmxfFekWy8M"
+  })), "There's several great busking spots in Cardiff, but my favorite has to be down in Cardiff Bay. Peraphs not a money-maker spot, but on a nice sunny day it's a true joy to play there. Indeed, perfect for a song about coming to South Wales!"), React.createElement(OriginalsSection, {
+    name: "Kak Tebja Zavut",
+    date: "2019-03-29",
+    tags: ["fun", "studio", "collab"],
+    selectedTags: selectedTags,
+    updateTags: updateTags
+  }, React.createElement("div", {
+    className: "float-img",
+    style: {
+      'width': '50%'
+    }
+  }, React.createElement(_helpers_my_music_helper__WEBPACK_IMPORTED_MODULE_0__["SoundCloud"], {
+    iframeTag: "<iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/664352564&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true\"></iframe>"
+  })), "Not a perfectly serious entry - but a super fun one. After this song accidentally following other songs in my playlist and listening to it a few times, I have to say - this song ROCKS! And we really nailed it. Vika's lyrics (both the initial rap + the middle Russian part is due to her) and Alex's incredible rap + really felt-through vocals make this a hit that's not only worth to publish, but listen to many times! Oh yeah!"));
 }
 
 /***/ }),
@@ -38163,6 +39486,120 @@ function htmlDecode(input) {
 
 /***/ }),
 
+/***/ "./src/helpers/my-music-helper.js":
+/*!****************************************!*\
+  !*** ./src/helpers/my-music-helper.js ***!
+  \****************************************/
+/*! exports provided: Section, Tag, YouTube, SoundCloud, Instagram */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Section", function() { return Section; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Tag", function() { return Tag; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "YouTube", function() { return YouTube; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SoundCloud", function() { return SoundCloud; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Instagram", function() { return Instagram; });
+/* harmony import */ var _combo_helper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./combo-helper */ "./src/helpers/combo-helper.js");
+/* harmony import */ var react_instagram_embed__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-instagram-embed */ "./node_modules/react-instagram-embed/es/index.js");
+
+
+function Section(_ref) {
+  var name = _ref.name,
+      date = _ref.date,
+      tags = _ref.tags,
+      selectedTags = _ref.selectedTags,
+      updateTags = _ref.updateTags,
+      children = _ref.children,
+      allTagsAccumulator = _ref.allTagsAccumulator;
+  tags.forEach(function (tag) {
+    if (!allTagsAccumulator.includes(tag)) {
+      allTagsAccumulator.push(tag);
+    }
+  });
+  var headerExtra = React.createElement(React.Fragment, null, React.createElement("div", {
+    className: "section-extra"
+  }, React.createElement("span", {
+    className: "news-date"
+  }, date)));
+  var showSection = selectedTags.every(function (tag) {
+    return tags.includes(tag);
+  }) || selectedTags.length == 0;
+
+  if (!showSection) {
+    return React.createElement(React.Fragment, null);
+  }
+
+  return React.createElement(React.Fragment, null, React.createElement(_combo_helper__WEBPACK_IMPORTED_MODULE_0__["PageSection"], {
+    name: name,
+    headerExtra: headerExtra
+  }, tags.map(function (t, i) {
+    return React.createElement(Tag, {
+      key: i,
+      tag: t,
+      updateTags: updateTags,
+      selectedTags: selectedTags
+    });
+  }), React.createElement("br", null), React.createElement("hr", null), React.createElement("div", null, children)));
+}
+function Tag(_ref2) {
+  var tag = _ref2.tag,
+      updateTags = _ref2.updateTags,
+      selectedTags = _ref2.selectedTags;
+  var isActiveTag = selectedTags.includes(tag);
+  return React.createElement("div", {
+    className: "inline-flex"
+  }, React.createElement("div", {
+    className: "section-tag" + (isActiveTag ? " is-active" : ''),
+    onClick: function onClick() {
+      return updateTags(tag);
+    },
+    "data-toggle": "tooltip",
+    title: "Filter for items tagged with \"".concat(tag, "\"")
+  }, tag));
+}
+function YouTube(_ref3) {
+  var id = _ref3.id;
+  return React.createElement(React.Fragment, null, React.createElement("div", {
+    className: "iframe-div"
+  }, React.createElement("iframe", {
+    width: "560",
+    height: "315",
+    src: "https://www.youtube.com/embed/".concat(id),
+    frameBorder: "0",
+    allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+    allowFullScreen: true
+  })));
+}
+function SoundCloud(_ref4) {
+  var iframeTag = _ref4.iframeTag;
+  var link = iframeTag.split('src="')[1].split('"></iframe>')[0];
+  return React.createElement("iframe", {
+    width: "100%",
+    height: "150",
+    scrolling: "no",
+    frameBorder: "no",
+    allow: "autoplay",
+    src: link
+  });
+}
+function Instagram(_ref5) {
+  var url = _ref5.url;
+  return React.createElement(React.Fragment, null, React.createElement(react_instagram_embed__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    url: url,
+    hideCaption: false,
+    containerTagName: "div",
+    protocol: "",
+    injectScript: true,
+    onLoading: function onLoading() {},
+    onSuccess: function onSuccess() {},
+    onAfterRender: function onAfterRender() {},
+    onFailure: function onFailure() {}
+  }));
+}
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -38200,6 +39637,17 @@ if (document.getElementById("react-main")) {
 if (document.getElementById("react-footer")) {
   Object(react_dom__WEBPACK_IMPORTED_MODULE_1__["render"])(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_5__["default"], null), document.getElementById("react-footer"));
 }
+
+/***/ }),
+
+/***/ "./src/pics/alex-vika.jpg":
+/*!********************************!*\
+  !*** ./src/pics/alex-vika.jpg ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "8ce8824e2bd4bfd0625ff385d126b12c.jpg";
 
 /***/ }),
 
@@ -38357,6 +39805,17 @@ module.exports = __webpack_require__.p + "96bbad67ab917f3cd4218e581279230e.jpg";
 
 /***/ }),
 
+/***/ "./src/pics/mada.jpg":
+/*!***************************!*\
+  !*** ./src/pics/mada.jpg ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "35772aabc22d8c862b7d3458d1eddda3.jpg";
+
+/***/ }),
+
 /***/ "./src/pics/nepal.jpg":
 /*!****************************!*\
   !*** ./src/pics/nepal.jpg ***!
@@ -38486,6 +39945,28 @@ module.exports = __webpack_require__.p + "8c79690d92d597cc38ca8319a52708b9.jpg";
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "d3ffc20e6d8ad88c5837edf894d1509a.jpg";
+
+/***/ }),
+
+/***/ "./src/pics/terrace.jpg":
+/*!******************************!*\
+  !*** ./src/pics/terrace.jpg ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "22c26f241e6c94f7daee7531a2adccff.jpg";
+
+/***/ }),
+
+/***/ "./src/pics/tom.jpg":
+/*!**************************!*\
+  !*** ./src/pics/tom.jpg ***!
+  \**************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "19891e94bbed7a73c8c3149c9cc8ecf1.jpg";
 
 /***/ }),
 

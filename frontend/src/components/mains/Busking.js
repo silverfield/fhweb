@@ -65,7 +65,6 @@ export default function Busking({
                             mentioned on this page, however other causes I supported included:
                         </p>
                         <ul>
-                            <li>A friend who became a mum in a bit complicated situation</li>
                             <li>Ocean cleanup</li>
                             <li>Alzheimer society</li>
                             <li>School bus for local school</li>
@@ -83,7 +82,12 @@ export default function Busking({
 
                 <div className="row">
                     <div className="col-sm-5">
-                        <img src={require("../../pics/xmas-busk-2.jpg")} />
+                        <figure className="float-img float-left" style={{'width': '100%'}}>
+                            <img src={require("../../pics/xmas-busk-2.jpg")} />
+                            <figcaption>
+                                2nd edition of Christmas choir busking
+                            </figcaption>
+                        </figure>
                     </div>
                     <div className="col-sm-7 center-content-vert">
                         <div className="iframe-div">
@@ -96,7 +100,12 @@ export default function Busking({
             <Causes name="July 2019 - Education trips for kids" sum={150}>
                 <div className="row">
                     <div className="col-sm-4">
-                        <img src={require("../../pics/triathlon.jpg")} />
+                        <figure className="float-img float-left" style={{'width': '100%'}}>
+                            <img src={require("../../pics/triathlon.jpg")} />
+                            <figcaption>
+                                Triathlon done
+                            </figcaption>
+                        </figure>
                     </div>
                     <div className="col-sm-4">
                         <p>
@@ -149,7 +158,14 @@ export default function Busking({
                     <div className="col-sm-6 center-content-vert">
                         <div className="row">
                             <div className="col">
-                                <img src={require("../../pics/prof-pic-1.png")} />
+                                <figure className="float-img float-left" style={{'width': '100%'}}>
+                                    <img src={require("../../pics/prof-pic-1.png")} />
+                                    <figcaption>
+                                        Pic by <a href="https://www.instagram.com/garethsphotography/">Gareth</a>, the best
+                                        photographer I know
+                                    </figcaption>
+                                </figure>
+                                
                             </div>
                         </div>
                     </div>
@@ -209,24 +225,45 @@ export default function Busking({
                         </div>
                         <div className="row">
                             <div className="col">
-                                <img src={require("../../pics/sos-2.jpg")} />
+                                <figure className="float-img float-left" style={{'width': '100%'}}>
+                                    <img src={require("../../pics/sos-2.jpg")} />
+                                    <figcaption>
+                                        The Gretsch electric guitar bought for Children's village in Bergen
+                                    </figcaption>
+                                </figure>
                             </div>
                         </div>
                     </div>
                     <div className="col-sm-7">
                         <div className="row">
                             <div className="col">
-                                <img src={require("../../pics/sos-1.jpg")} />
+                                <figure className="float-img float-left" style={{'width': '100%'}}>
+                                    <img src={require("../../pics/sos-1.jpg")} />
+                                    <figcaption>
+                                        Delivering the guitar to SOS Children's village central in Oslo
+                                    </figcaption>
+                                </figure>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col">
-                                <img src={require("../../pics/oslo-marco.jpg")} />
+                                <figure className="float-img float-left" style={{'width': '100%'}}>
+                                    <img src={require("../../pics/oslo-marco.jpg")} />
+                                    <figcaption>
+                                        With Marco, busking in Aker Brygge
+                                    </figcaption>
+                                </figure>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col">
-                                <img src={require("../../pics/oslo-moni.jpg")} />
+                                <figure className="float-img float-left" style={{'width': '100%'}}>
+                                    <img src={require("../../pics/oslo-moni.jpg")} />
+                                    <figcaption>
+                                    With Moni, busking in Aker Brygge. Check 
+                                    out the <a href="#my-music/collaborations">collaborations</a> section!
+                                    </figcaption>
+                                </figure>
                             </div>
                         </div>
                         <div className="row">
