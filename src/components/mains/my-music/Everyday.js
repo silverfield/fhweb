@@ -29,9 +29,24 @@ function SoundcloudEmbed({
         'when this is done': '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/796224910&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>',
     };
 
-    var iframeTag = embeds[title.toLowerCase()];
+    var slugs = {
+        'everyday': 'everyday',
+        'vices': 'vices',
+        'let\'s go fail': 'lets-go-fail',
+        'daily ride': 'daily-ride',
+        'summer tune': 'summer-tune',
+        'fargo and pelgrim': 'fargo-and-pelgrim',
+        'calling at newport': 'calling-at-newport',
+        'hey dad': 'hey-dad',
+        'sticks in the water': 'sticks-in-the-water',
+        'at the ocean shore': 'at-the-ocean-shore',
+        'when this is done': 'when-this-is-done'
+    }
+    
+    let iframeTag = embeds[title.toLowerCase()];
+    let bckSlug = slugs[title.toLowerCase()]
 
-    return <SoundCloud iframeTag={iframeTag}/>
+    return <SoundCloud iframeTag={iframeTag} bckLink={`https://soundcloud.com/ferohajnovic/${bckSlug}`} />
 }
 
 export default function Everyday({
