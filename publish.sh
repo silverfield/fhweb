@@ -4,7 +4,7 @@ rm -rf dist
 base_dir=~/wspace/fhweb/code
 
 git stash
-git checkout -b gh-pages
+git checkout gh-pages || git checkout -b gh-pages
 git merge master
 cp -r $base_dir/dist/* $base_dir/
 git add -A
