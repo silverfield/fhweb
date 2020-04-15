@@ -47864,7 +47864,7 @@ function _objectDestructuringEmpty(obj) { if (obj == null) throw new TypeError("
 function Footer(_ref) {
   _objectDestructuringEmpty(_ref);
 
-  return React.createElement(React.Fragment, null, "design & development by Frantisek Hajnovic", React.createElement("br", null), "copyright \xA9 2020, all rights reserved ", React.createElement("br", null), "pic credits mainly \xA0", React.createElement("a", {
+  return React.createElement(React.Fragment, null, "design & development by Frantisek Hajnovic", React.createElement("br", null), "copyright \xA9 2020, all rights reserved ", React.createElement("br", null), "pic credit mainly \xA0", React.createElement("a", {
     href: "https://www.instagram.com/eo.lenka/"
   }, "Lenka"), ",", React.createElement("a", {
     href: "https://www.instagram.com/garethsphotography/"
