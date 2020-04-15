@@ -62,7 +62,7 @@ export default function Originals({
                 updateTags={updateTags}
             >
                 <div className="float-img" style={{'width': '100%'}}>
-                    <YouTube id="NcpmUVzV0Pc"/>
+                    <YouTube id="XrrHFIEW-RQ"/>
                 </div>
 
                 From the studio recording of my recent addition to the <a href="#my-music/everyday">demo 
