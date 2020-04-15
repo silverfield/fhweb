@@ -1,6 +1,5 @@
 rmdir /s /q dist
-./node_modules/.bin/webpack
-
+start ./node_modules/.bin/webpack
 git stash
 git checkout gh-pages || git checkout -b gh-pages
 git merge master

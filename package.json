@@ -18,7 +18,7 @@
     "start:prod": "./node_modules/http-server/bin/http-server -c-1 dist/",
     "both": "./node_modules/.bin/webpack --watch & webpack-dev-server --content-base dist",
     "publish": "bash ./publish.sh",
-    "publishwin": "publish-win.bat"
+    "publishw": "publish-win.bat"
   },
   "repository": {
     "type": "git",
