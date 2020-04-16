@@ -1,3 +1,7 @@
+@mixin in-text {
+    padding: 10px;
+}
+
 /* ------------------------------------------------------------ */
 /* General */
 /* ------------------------------------------------------------ */
@@ -214,7 +218,8 @@ main {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 51%;
-    border: solid 2px black;
+    flex-grow: 1;
+    // border: solid 2px black;
 
     iframe {
         position: absolute;
@@ -228,8 +233,16 @@ main {
     margin-bottom: auto;
 }
 
+div.pre-section {
+    margin-bottom: 20px;
+}
+
+.acc-floats {
+    overflow: hidden;
+}
+
 div.page-section {
-    border: 2px solid $color-dark-light;
+    // border: 2px solid $color-dark-light;
     padding: 2%;
     margin-top: 2%;
     overflow: auto;
@@ -250,7 +263,7 @@ div.page-section {
         background-color: $color-inco-medium;
     }
 
-    .page-header {
+    .section-header {
         margin-bottom: 10px
     }
 
@@ -261,29 +274,44 @@ div.page-section {
     }
 }
 
+.flex-part {
+    flex-grow: 1;
+}
+
 img {
-    border: solid $color-dark-strong 2px;
+    // border: solid $color-dark-strong 2px;
     display: block;
     width: 100%;
-    margin: 5px;
+    margin: 0px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.float-img {
-    float: left;
-    width: 30%;
-    min-width: 200px;
-    margin: 10px;
+.in-text {
+    // float: left;
+    // width: 30%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    @include in-text;
 }
 
-.float-right {
-    float: right;
+.text {
+    @include in-text;
 }
 
-.float-left {
-    float: right;
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
 }
+
+// .float-right {
+//     float: right;
+// }
+
+// .float-left {
+//     float: right;
+// }
 
 .about-face {
     font-weight: 1000;
@@ -580,6 +608,10 @@ td.repe-name {
     display: inline-flex;
 }
 
+figure {
+    // padding: 0;
+}
+
 figcaption {
     font-size: 0.8em;
     font-style: italic;
@@ -651,7 +683,7 @@ figcaption {
 }
 
 .soundcloud-wrap {
-    margin-bottom: 10px;
+
 }
 
 .soundcloud-bck {

@@ -89,7 +89,7 @@ export default function Busking({
                             </figcaption>
                         </figure>
                     </div>
-                    <div className="col-sm-7 center-content-vert">
+                    <div className="col-sm-7">
                         <div className="iframe-div">
                             <iframe src="https://www.youtube.com/embed/lDT0HmsCoSo" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>
                         </div>

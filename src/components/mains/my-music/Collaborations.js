@@ -1,4 +1,4 @@
-import {Section, Tag, YouTube, SoundCloud, Instagram} from '../../../helpers/my-music-helper'
+import {TagSection, InText, Image, Tag, YouTube, SoundCloud, Instagram} from '../../../helpers/combo-helper'
 import {useState} from "react"
 import {useEffect} from "react"
 
@@ -7,7 +7,7 @@ var allTagsAccumulator = [];
 function CollabSection(
     props
 ) {
-    return <Section 
+    return <TagSection 
         allTagsAccumulator={allTagsAccumulator} {...props} 
     />
 }
@@ -85,37 +85,30 @@ export default function Collaborations({
 
                 <div className="row">
                     <div className="col-md-12">
-                        <div className="float-img" style={{ 'width': '100%' }}>
+                        <InText>
                             <SoundCloud iframeTag='<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/743549404&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>' />
-                        </div>
+                        </InText>
 
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-md-6">
-                        <div className="float-img" style={{ 'width': '100%' }}>
+                        <InText>
                             <Instagram url="https://www.instagram.com/p/BysrTdyB0K4/" />
-                        </div>
-                    </div>
-                    <div className="col-md-6">
-                        <div className="float-img" style={{ 'width': '100%' }}>
-                            <Instagram url="https://www.instagram.com/p/B3hXw0KBusl" />
-                        </div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-md-6">
-                        <div className="float-img" style={{ 'width': '100%' }}>
+                        </InText>
+                        <InText>
                             <Instagram url="https://www.instagram.com/p/BxQT7YxHplo/" />
-                        </div>
+                        </InText>
                     </div>
                     <div className="col-md-6">
-                        <div className="float-img" style={{ 'width': '100%' }}>
+                        <InText>
                             <Instagram url="https://www.instagram.com/p/B6Wh6C9hjoj" />
-                        </div>
+                        </InText>
+                        <InText>
+                            <Instagram url="https://www.instagram.com/p/B3hXw0KBusl" />
+                        </InText>
                     </div>
-                </div>
-                
+                </div>                
             </CollabSection>
 
             <CollabSection 
@@ -140,21 +133,21 @@ export default function Collaborations({
 
                 <div className="row">
                     <div className="col-md-6">
-                        <div className="float-img" style={{ 'width': '100%' }}>
+                        <InText>
                             <YouTube id="rEIFkwG7Iz8" />
-                        </div>
+                        </InText>
                     </div>
                     <div className="col-md-6">
-                        <div className="float-img" style={{ 'width': '100%' }}>
+                        <InText>
                             <YouTube id="lDT0HmsCoSo" />
-                        </div>
+                        </InText>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-md-12">
-                        <div className="float-img" style={{ 'width': '100%' }}>
+                        <InText>
                             <YouTube id="tL9XG9F50cQ" />
-                        </div>
+                        </InText>
                     </div>
                 </div>
             </CollabSection>
@@ -176,35 +169,35 @@ export default function Collaborations({
 
                 <div className="row">
                     <div className="col-md-12">
-                        <div className="float-img" style={{ 'width': '100%' }}>
+                        <InText>
                             <div className="iframe-div">
                                 <iframe width="100%" height="450" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/755723442&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
                             </div>
-                        </div>
+                        </InText>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-md-6">
-                        <div className="float-img" style={{ 'width': '100%' }}>
+                        <InText>
                             <YouTube id="YAsS-kElxNg" />
-                        </div>
+                        </InText>
                     </div>
                     <div className="col-md-6">
-                        <div className="float-img" style={{ 'width': '100%' }}>
+                        <InText>
                             <YouTube id="-DToKaDE_VM" />
-                        </div>
+                        </InText>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-md-6">
-                        <div className="float-img" style={{ 'width': '100%' }}>
+                        <InText>
                             <YouTube id="zQeXbiSlLlo" />
-                        </div>
+                        </InText>
                     </div>
                     <div className="col-md-6">
-                        <div className="float-img" style={{ 'width': '100%' }}>
+                        <InText>
                             <YouTube id="VyZoL9tP-2Y" />
-                        </div>
+                        </InText>
                     </div>
                 </div>
             </CollabSection>
@@ -218,17 +211,17 @@ export default function Collaborations({
             >
                 <div className="row">
                     <div className="col-md-4">
-                        <figure className="float-img float-left">
-                            <img src={require("../../../pics/alex-vika.jpg")} />
-                            <figcaption>
-                                Recording "Kak Tebja Zavut"
-                    </figcaption>
-                        </figure>
+                        <InText where='left'>
+                            <Image 
+                                imgSrc={require('../../../pics/alex-vika.jpg')} 
+                                caption='Recording "Kak Tebja Zavut"' 
+                            />
+                        </InText>
                     </div>
                     <div className="col-md-8">
-                        <div className="float-img" style={{ 'width': '100%' }}>
+                        <InText>
                             <SoundCloud iframeTag='<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/664352564&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>' />
-                        </div>
+                        </InText>
 
                         Not a perfectly serious entry - but a super fun one. After this accidentally following other
                         songs in my playlist and listening to it a few times, I have to say - this
@@ -248,23 +241,23 @@ export default function Collaborations({
             >
                 <div className="row">
                     <div className="col-md-6">
-                        <div className="float-img" style={{ 'width': '100%' }}>
+                        <InText>
                             <YouTube id="KVP8ZfpweCk" />
-                        </div>
+                        </InText>
                     </div>
                     <div className="col-md-6">
-                        <div className="float-img" style={{ 'width': '100%' }}>
+                        <InText>
                             <YouTube id="vdJF_Be4580" />
-                        </div>
+                        </InText>
                     </div>
                 </div>
 
-                <figure className="float-img float-left" style={{ 'width': '50%' }}>
-                    <img src={require("../../../pics/oslo-moni.jpg")} />
-                    <figcaption>
-                        With Moni, busking in Aker Brygge
-                    </figcaption>
-                </figure>
+                <InText width='40%'>
+                    <Image 
+                        imgSrc={require("../../../pics/oslo-moni.jpg")} 
+                        caption="With Moni, busking in Aker Brygge"
+                    />
+                </InText>
 
                 <p>
                     I met Moni in one of the Oslo Jam Session meetups. She had an amazing voice
@@ -285,30 +278,35 @@ export default function Collaborations({
                 selectedTags={selectedTags}
                 updateTags={updateTags}
             >
-                <div className="float-img" style={{'width': '100%'}}>
+                <InText>
                     <SoundCloud iframeTag='<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/175703523&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>' />
+                </InText>
+
+                <div className="row">
+                    <div className="col-md-6">
+                        <InText>
+                            <Image 
+                                imgSrc={require("../../../pics/mada.jpg")}
+                                caption="Busking with Mada at Aker Brygge"
+                            />
+                        </InText>
+                        <p>
+                            One of the first collaborations came round in Oslo with a fellow AIESEC intern Mada. 
+                            Mada liked to sing, I liked to play
+                            guitar and so we started to practice some songs. The vision was to do 
+                            an open mic or two. Eventually we did that, plus recorded a cover of Just my imagination, 
+                            and Mada (and Tom) were also the people with whom I discovered busking with!
+                        </p>
+                    </div>
+                    <div className="col-md-6">
+                        <InText>
+                            <Image 
+                                imgSrc={require("../../../pics/tom.jpg")}
+                                caption="My first ever busking session - with Tom"
+                            />
+                        </InText>
+                    </div>
                 </div>
-
-                <figure className="float-img float-left" style={{ 'width': '47%' }}>
-                    <img src={require("../../../pics/mada.jpg")} />
-                    <figcaption>
-                        Busking with Mada at Aker Brygge
-                            </figcaption>
-                </figure>
-                <figure className="float-img float-right" style={{ 'width': '46%' }}>
-                    <img src={require("../../../pics/tom.jpg")} />
-                    <figcaption>
-                        My first ever busking session - with Tom
-                    </figcaption>
-                </figure>
-
-                <p>
-                    One of the first collaborations came round in Oslo with a fellow AIESEC intern Mada. 
-                    Mada liked to sing, I liked to play
-                    guitar and so we started to practice some songs. The vision was to do 
-                    an open mic or two. Eventually we did that, plus recorded a cover of Just my imagination, 
-                    and Mada (and Tom) were also the people with whom I discovered busking with!
-                </p>
             </CollabSection>
 
             <CollabSection 
@@ -322,12 +320,12 @@ export default function Collaborations({
                     <YouTube id="pEWAgngcc98?start=125"/>
                 </div>
                 
-                <figure className="float-img float-left" style={{'width': '50%'}}>
-                    <img src={require("../../../pics/oslo-jam.jpg")} />
-                    <figcaption>
-                        With people from the Oslo Jam Session
-                    </figcaption>
-                </figure>
+                <InText width='50%'>
+                    <Image 
+                        imgSrc={require("../../../pics/oslo-jam.jpg")}
+                        caption="With people from the Oslo Jam Session"
+                    />
+                </InText>
 
                 <p>
                     Not really a serious collaboration - but this holds a special place in my 

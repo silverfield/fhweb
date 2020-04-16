@@ -1,5 +1,4 @@
-import {PageSection} from '../../../helpers/combo-helper'
-import {Section, Tag, YouTube, SoundCloud} from '../../../helpers/my-music-helper'
+import {Part, PageSection, InText, Image, Tag, YouTube, SoundCloud, Instagram, Text} from '../../../helpers/combo-helper'
 
 function Song({
     name,
@@ -52,64 +51,72 @@ function SoundcloudEmbed({
 export default function Everyday({
 
 }) {
-    var height = 200;
-
     return (
         <>
             <a className="everyday-album section-title" href="https://soundcloud.com/ferohajnovic/sets/everyday">
                 Everyday - demo album
             </a>
 
-            <div>
-                <div className="float-img" style={{'width': '40%', 'minWidth': '300px'}}>
-                    <div className="iframe-div" style={{'paddingBottom': '100%'}}>
-                        <iframe width="100%" height={height} scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/781852491&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-                    </div>
-                </div>
+            <div className="pre-section flex-container">
+                <Part proportion='0.4' minWidth='250px'>
+                    <InText minHeight='500px'>
+                        <div className="iframe-div">
+                            <iframe width="100%" height='100%' scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/781852491&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                        </div>
+                    </InText>
+                </Part>
 
-                <p>
-                    My first (demo) album is slowly coming together. Named after one of the 
-                    songs - Everyday - its beginnings date to my after-university times in 
-                    Oslo when I made that step from "bedroom guitar playing" and started doing
-                    open mics, jamming, duo-projects and eventually my most favorite 
-                    activity: <a href="#busking">busking</a>.
-                </p>
+                <Part proportion='0.6' minWidth="500px">
+                    <Text>
+                        <p>
+                            My first (demo) album is slowly coming together. Named after one of the 
+                            songs - Everyday - its beginnings date to my after-university times in 
+                            Oslo when I made that step from "bedroom guitar playing" and started doing
+                            open mics, jamming, duo-projects and eventually my most favorite 
+                            activity: <a href="#busking">busking</a>.
+                        </p>
 
-                <p>
-                    It was there in Oslo, where the first of the songs came together, with some 
-                    eventually making my first demo recordings (and some still waiting on
-                    my hard drive to get their chance for some studio time!). 
-                </p>
+                        <p>
+                            It was there in Oslo, where the first of the songs came together, with some 
+                            eventually making my first demo recordings (and some still waiting on
+                            my hard drive to get their chance for some studio time!). 
+                        </p>
 
-                <p>
-                    The next round of inspiration came 
-                    during <a href="http://feroafrica.blogspot.com/">my time in Ghana</a> and the 
-                    following <a href="http://ferostreetplay.blogspot.com/">2015 stret play tour</a> of 
-                    northern Europe, both unforgettable experiences out of the ordinary. 
-                </p>
+                        <p>
+                            The next round of inspiration came 
+                            during <a href="http://feroafrica.blogspot.com/">my time in Ghana</a> and the 
+                            following <a href="http://ferostreetplay.blogspot.com/">2015 stret play tour</a> of 
+                            northern Europe, both unforgettable experiences out of the ordinary. 
+                        </p>
 
-                <p>
-                    Finally, the UK cities of Newport, London, and especially Cardiff, were home
-                    to my most recent ideas and work. 
-                </p>
+                        <p>
+                            Finally, the UK cities of Newport, London, and especially Cardiff, were home
+                            to my most recent ideas and work. 
+                        </p>
 
-                <p>
-                    The songs on the album are not in chronological order, but below you can enjoy a 
-                    cut through my life expressed via the songs, as the time went.
-                </p>
+                        <p>
+                            The songs on the album are not in chronological order, but below you can enjoy a 
+                            cut through my life expressed via the songs, as the time went.
+                        </p>
+                    </Text>
+                </Part>                
             </div>
             <div className="clear-float">
                 <Song name="Everyday">
-                    <div className="row">
-                        <div className="col-md-3">
-                            <figure>
-                                <img src={require("../../../pics/oslo-aker.jpg")} />
-                                <figcaption>Oslo, Aker Brygge</figcaption>
-                            </figure>
-                        </div>
-                        <div className="col-md-9">
+                    <Part proportion='0.3' minWidth="200px">
+                        <InText>
+                            <Image
+                                imgSrc={require("../../../pics/oslo-aker.jpg")}
+                                caption="Oslo, Aker Brygge"
+                            />
+                        </InText>
+                    </Part>
+                    
+                    <Part proportion='0.7' minWidth="200px">
+                        <InText where='right'>
                             <SoundcloudEmbed title="Everyday" />
-
+                        </InText>
+                        <Text>
                             <p>
                                 This song is really about Oslo and some of my experiences there, 
                                 but also about the time I started to focus on music, guitar and 
@@ -117,20 +124,24 @@ export default function Everyday({
                             </p>
 
                             <a href="https://drive.google.com/file/d/1Di-44alLplaT_RoVP9_ZoVCiSLsCgMnc">Chords and lyrics</a>
-                        </div>
-                    </div>
+                        </Text>
+                    </Part>
                 </Song>
 
                 <Song name="Vices">
-                    <SoundcloudEmbed title="Vices" />
+                    <InText>
+                        <SoundcloudEmbed title="Vices" />
+                    </InText>
+                    
+                    <Text>
+                        <p>
+                            This is a song about one of my friends, a quite unique character. 
+                            Not much more is needed to be said, just listen to the song and you'll 
+                            find out more...
+                        </p>
 
-                    <p>
-                        This is a song about one of my friends, a quite unique character. 
-                        Not much more is needed to be said, just listen to the song and you'll 
-                        find out more...
-                    </p>
-
-                    <a href="https://drive.google.com/file/d/1C6uYILWab7q74PpC8gPYo6kyxOgqC8E6">Chords and lyrics</a>
+                        <a href="https://drive.google.com/file/d/1C6uYILWab7q74PpC8gPYo6kyxOgqC8E6">Chords and lyrics</a>
+                    </Text>
                 </Song>
 
                 <Song name="Let's go fail">

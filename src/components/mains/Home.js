@@ -1,4 +1,5 @@
 import {PageSection} from '../../helpers/combo-helper'
+import {TagSection, InText, Image, Tag, YouTube, SoundCloud, Instagram} from '../../helpers/combo-helper'
 
 function News({
     name,
@@ -22,7 +23,11 @@ export default function Home({
             </p>
 
             <div>
-                <img src={require("../../pics/grass-1.jpg")} className="float-img" />
+                <InText width='30%'>
+                    <Image 
+                        imgSrc={require("../../pics/grass-1.jpg")}
+                    />
+                </InText>
 
                 <p>
                     My name is Fero, and I'm a guitarist, song-writer and a busker based in London. 

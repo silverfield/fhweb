@@ -1,4 +1,4 @@
-import {Section, Tag, YouTube, SoundCloud} from '../../../helpers/my-music-helper'
+import {Section, Tag, YouTube, SoundCloud, Instagram} from '../../../helpers/combo-helper'
 import {useState} from "react"
 import {useEffect} from "react"
 
@@ -7,7 +7,7 @@ var allTagsAccumulator = [];
 function OriginalsSection(
     props
 ) {
-    return <Section 
+    return <TagSection 
         allTagsAccumulator={allTagsAccumulator} {...props} 
     />
 }
