@@ -1,5 +1,10 @@
+<<<<<<< HEAD
+rmdir /s /q dist
+cmd "/C ./node_modules/.bin/webpack"
+=======
 rm -r -fo dist
 ./node_modules/.bin/webpack
+>>>>>>> master
 git stash
 git checkout -b gh-pages
 git checkout gh-pages 
