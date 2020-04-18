@@ -163,10 +163,10 @@
         "bt": true,
         "nbt": true,
         "tags": [
+            "relaxed",
             "acoustic",
-            "famous",
             "dsmk",
-            "relaxed"
+            "famous"
         ]
     },
     {
@@ -481,7 +481,7 @@
     {
         "artist": "Dire Straits",
         "name": "Six blade knife",
-        "bt": true,
+        "bt": false,
         "nbt": true,
         "tags": [
             "dsmk",

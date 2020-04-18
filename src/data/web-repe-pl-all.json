@@ -42,21 +42,21 @@
         "bt": true,
         "nbt": true,
         "tags": [
-            "acoustic",
-            "famous",
             "dsmk",
-            "relaxed"
+            "relaxed",
+            "acoustic",
+            "famous"
         ]
     },
     {
         "artist": "Dire Straits",
         "name": "Six blade knife",
-        "bt": true,
+        "bt": false,
         "nbt": true,
         "tags": [
-            "acoustic",
-            "rocky",
             "dsmk",
+            "rocky",
+            "acoustic",
             "guitary"
         ]
     },
@@ -77,7 +77,7 @@
         "artist": "Dire Straits",
         "name": "Telegraph road",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "dsmk",
             "rocky",
@@ -88,7 +88,7 @@
         "artist": "Dire Straits",
         "name": "Tunnel of love",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "dsmk",
             "rocky",
@@ -101,10 +101,10 @@
         "bt": true,
         "nbt": true,
         "tags": [
-            "acoustic",
             "rocky",
-            "guitary",
-            "relaxed"
+            "acoustic",
+            "relaxed",
+            "guitary"
         ]
     },
     {
@@ -114,10 +114,10 @@
         "nbt": true,
         "tags": [
             "famous",
-            "acoustic",
             "rhythm",
-            "guitary",
-            "relaxed"
+            "acoustic",
+            "relaxed",
+            "guitary"
         ]
     },
     {
@@ -128,6 +128,30 @@
         "tags": [
             "relaxed",
             "guitary"
+        ]
+    },
+    {
+        "artist": "Fero Hajnovic",
+        "name": "Ocean shore",
+        "bt": true,
+        "nbt": true,
+        "tags": [
+            "relaxed",
+            "guitary",
+            "acoustic",
+            "songwriter"
+        ]
+    },
+    {
+        "artist": "Fero Hajnovic",
+        "name": "Sticks in the water",
+        "bt": true,
+        "nbt": true,
+        "tags": [
+            "relaxed",
+            "guitary",
+            "acoustic",
+            "songwriter"
         ]
     },
     {
@@ -221,30 +245,6 @@
     },
     {
         "artist": "Fero Hajnovic",
-        "name": "Ocean shore",
-        "bt": true,
-        "nbt": true,
-        "tags": [
-            "relaxed",
-            "guitary",
-            "acoustic",
-            "songwriter"
-        ]
-    },
-    {
-        "artist": "Fero Hajnovic",
-        "name": "Sticks in the water",
-        "bt": true,
-        "nbt": true,
-        "tags": [
-            "relaxed",
-            "guitary",
-            "acoustic",
-            "songwriter"
-        ]
-    },
-    {
-        "artist": "Fero Hajnovic",
         "name": "Summer breeze",
         "bt": true,
         "nbt": true,
@@ -278,6 +278,17 @@
         ]
     },
     {
+        "artist": "Fero Hajnovic",
+        "name": "When this is done",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "acoustic",
+            "relaxed",
+            "guitary"
+        ]
+    },
+    {
         "artist": "Mark Knopfler",
         "name": "Are we in trouble now",
         "bt": true,
@@ -302,11 +313,11 @@
         "artist": "Mark Knopfler",
         "name": "Darling pretty",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
-            "acoustic",
             "rocky",
-            "guitary"
+            "guitary",
+            "acoustic"
         ]
     },
     {
@@ -324,7 +335,7 @@
         "artist": "Mark Knopfler",
         "name": "Going home 96",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "dsmk",
             "rocky",
@@ -337,9 +348,9 @@
         "bt": true,
         "nbt": true,
         "tags": [
-            "acoustic",
+            "relaxed",
             "guitary",
-            "relaxed"
+            "acoustic"
         ]
     },
     {
@@ -348,8 +359,8 @@
         "bt": true,
         "nbt": true,
         "tags": [
-            "acoustic",
-            "relaxed"
+            "relaxed",
+            "acoustic"
         ]
     },
     {
@@ -367,7 +378,7 @@
         "artist": "Mark Knopfler",
         "name": "I dug up a diamon",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "relaxed",
             "guitary",
@@ -402,16 +413,16 @@
         "bt": true,
         "nbt": true,
         "tags": [
-            "acoustic",
+            "relaxed",
             "guitary",
-            "relaxed"
+            "acoustic"
         ]
     },
     {
         "artist": "Mark Knopfler",
         "name": "Speedway At Nazareth",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "rocky",
             "guitary",
@@ -422,7 +433,7 @@
         "artist": "Mark Knopfler",
         "name": "What it is",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "rocky",
             "guitary",
@@ -445,7 +456,7 @@
         "artist": "Pink Floyd",
         "name": "Coming Back To Life",
         "bt": true,
-        "nbt": false,
+        "nbt": true,
         "tags": [
             "relaxed",
             "guitary",
