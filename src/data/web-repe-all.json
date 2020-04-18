@@ -13,6 +13,18 @@
     },
     {
         "artist": "Dire Straits",
+        "name": "Money for nothing",
+        "bt": true,
+        "nbt": true,
+        "tags": [
+            "dsmk",
+            "rocky",
+            "guitary",
+            "famous"
+        ]
+    },
+    {
+        "artist": "Dire Straits",
         "name": "On every street",
         "bt": true,
         "nbt": true,
@@ -77,7 +89,7 @@
         "artist": "Dire Straits",
         "name": "Telegraph road",
         "bt": true,
-        "nbt": true,
+        "nbt": false,
         "tags": [
             "dsmk",
             "rocky",
@@ -88,7 +100,7 @@
         "artist": "Dire Straits",
         "name": "Tunnel of love",
         "bt": true,
-        "nbt": true,
+        "nbt": false,
         "tags": [
             "dsmk",
             "rocky",
@@ -116,6 +128,28 @@
             "famous",
             "rhythm",
             "acoustic",
+            "relaxed",
+            "guitary"
+        ]
+    },
+    {
+        "artist": "Fero Hajnovic",
+        "name": "How I'll remember Cardiff",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "acoustic",
+            "relaxed"
+        ]
+    },
+    {
+        "artist": "Fero Hajnovic",
+        "name": "At the ocean shore",
+        "bt": true,
+        "nbt": true,
+        "tags": [
+            "acoustic",
+            "songwriter",
             "relaxed",
             "guitary"
         ]
@@ -313,7 +347,7 @@
         "artist": "Mark Knopfler",
         "name": "Darling pretty",
         "bt": true,
-        "nbt": true,
+        "nbt": false,
         "tags": [
             "rocky",
             "guitary",
@@ -335,7 +369,7 @@
         "artist": "Mark Knopfler",
         "name": "Going home 96",
         "bt": true,
-        "nbt": true,
+        "nbt": false,
         "tags": [
             "dsmk",
             "rocky",
@@ -378,7 +412,7 @@
         "artist": "Mark Knopfler",
         "name": "I dug up a diamon",
         "bt": true,
-        "nbt": true,
+        "nbt": false,
         "tags": [
             "relaxed",
             "guitary",
@@ -422,7 +456,7 @@
         "artist": "Mark Knopfler",
         "name": "Speedway At Nazareth",
         "bt": true,
-        "nbt": true,
+        "nbt": false,
         "tags": [
             "rocky",
             "guitary",
@@ -433,7 +467,7 @@
         "artist": "Mark Knopfler",
         "name": "What it is",
         "bt": true,
-        "nbt": true,
+        "nbt": false,
         "tags": [
             "rocky",
             "guitary",
@@ -456,7 +490,7 @@
         "artist": "Pink Floyd",
         "name": "Coming Back To Life",
         "bt": true,
-        "nbt": true,
+        "nbt": false,
         "tags": [
             "relaxed",
             "guitary",
