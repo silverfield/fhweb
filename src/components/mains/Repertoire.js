@@ -1,7 +1,7 @@
-import repdataBase from '../../data/web-repe-pl-all.json'
-import repdataBackground from '../../data/web-repe-pl-web-gig-background-nbt.json'
-import repdataFriday from '../../data/web-repe-pl-web-gig-fri-pub-nbt.json'
-import repdataOriginals from '../../data/web-repe-pl-web-gig-originals.json'
+import repdataBase from '../../data/web-repe-all.json'
+import repdataBackground from '../../data/web-repe-gig-background-nbt.json'
+import repdataFriday from '../../data/web-repe-gig-fri-pub-nbt.json'
+import repdataOriginals from '../../data/web-repe-gig-originals.json'
 import {htmlDecode} from '../../helpers/combo-helper'
 import {useState} from "react"
 import {useEffect} from "react"
@@ -60,11 +60,8 @@ function TickCross({
     onClickHandler
 }) {
     var tooltipText = null;
-    if (name === 'bt') {
-        tooltipText = `${yes ? 'Has' : 'Doesn\'t have'} a backing track version`
-    }
     if (name === 'nbt') {
-        tooltipText = `${yes ? 'Has' : 'Doesn\'t have'} a non-backing track version`
+        tooltipText = `${yes ? 'Can be played without' : 'Needs'} a backing track`
     }
     if (name === 'orig') {
         tooltipText = `${yes ? 'Original' : 'Cover'} song`
@@ -108,16 +105,12 @@ function Tag({
 function passFilters(
     filters, 
     artist,
-    bt,
     nbt,
     tags
 ) {
     for (var i in filters) {
         var f = filters[i];
         if (f['name'] === 'artist' && f['value'] !== artist) {
-            return false;
-        }
-        if (f['name'] === 'bt' && bt !== f['value']) {
             return false;
         }
         if (f['name'] === 'nbt' && nbt !== f['value']) {
@@ -137,7 +130,6 @@ function passFilters(
 function Item({
     artist,
     name,
-    bt=false,
     nbt=false,
     tags=[],
     filters=null,
@@ -145,7 +137,7 @@ function Item({
     selection=null,
     updateSelection=null
 }) {
-    if (!passFilters(filters, artist, bt, nbt, tags)) {
+    if (!passFilters(filters, artist, nbt, tags)) {
         return <></>
     }
 
@@ -180,14 +172,6 @@ function Item({
                         filters={filters}
                         onClickHandler={() => updateFilters('orig', artist === 'Fero Hajnovic')}
                     />  
-                </div>
-                <div className="inline-flex">
-                    <TickCross 
-                        yes={bt} 
-                        name="bt" 
-                        filters={filters}
-                        onClickHandler={() => updateFilters('bt', bt)}
-                    />
                 </div>
                 <div className="inline-flex">
                     <TickCross 
@@ -280,11 +264,8 @@ function RepeTop({
                     if (f['name'] === 'orig') {
                         text = value ? 'Only originals' : 'Only covers';
                     }
-                    if (f['name'] === 'bt') {
-                        text = value ? 'Has backing track version' : 'Doesn\'t have a backing track version';
-                    }
                     if (f['name'] === 'nbt') {
-                        text = value ? 'Has non-backing track version' : 'Doesn\'t have a non-backing track version';
+                        text = value ? 'Can be played without a backing track' : 'Needs backing track';
                     }
 
                     return <div key={i} className="active-filter" onClick={() => updateFilters(f['name'], f['value'])}>
@@ -322,7 +303,7 @@ function RepeTable({
     updateSelection
 }) {
     function getFiltered() {
-        var repdataFiltered = repdata.filter((x) => passFilters(filters, x['artist'], x['bt'], x['nbt'], x['tags']));
+        var repdataFiltered = repdata.filter((x) => passFilters(filters, x['artist'], x['nbt'], x['tags']));
         return repdataFiltered;
     }
 
@@ -372,7 +353,7 @@ function RepeTable({
             <tr>
                 <th className="th-artist"><div><span>Artist</span></div></th>
                 <th className="th-song"><div><span>Song</span></div></th>
-                <th className="th-props"><div><span>Attributes</span></div></th>
+                <th className="th-props"><div><span>Props</span></div></th>
                 <th className="th-tags"><div><span>Tags</span></div></th>
             </tr>
             </thead>
@@ -381,7 +362,6 @@ function RepeTable({
                 key={item['name'] + item['artist']}
                 artist={item['artist']} 
                 name={item['name']} 
-                bt={item['bt']} 
                 nbt={item['nbt']} 
                 tags={item['tags']}
                 filters={filters}
@@ -438,7 +418,7 @@ export default function Repertoire({
 
     return (
         <>
-            <div className="section-title">
+            <div className="page-title">
                 This is what I play
             </div>
             <RepeIntro

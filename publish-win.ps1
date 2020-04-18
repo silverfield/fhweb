@@ -1,13 +1,11 @@
-rm -rf dist
+rm -r -fo dist
 ./node_modules/.bin/webpack
-
-base_dir=~/wspace/fhweb/code
-
 git stash
-git checkout gh-pages || git checkout -b gh-pages
+git checkout -b gh-pages
+git checkout gh-pages 
 git merge master
 git pull origin gh-pages
-cp -r $base_dir/dist/* $base_dir/
+robocopy dist . /s /e
 git add -A
 git commit -m "publishing"
 git push -u origin gh-pages
