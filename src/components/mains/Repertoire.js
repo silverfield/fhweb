@@ -438,7 +438,7 @@ export default function Repertoire({
 
     return (
         <>
-            <div className="section-title">
+            <div className="page-title">
                 This is what I play
             </div>
             <RepeIntro

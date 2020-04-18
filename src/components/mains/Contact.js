@@ -25,7 +25,7 @@ export default function Contact({
 
     return (
         <>
-            <div className="section-title">
+            <div className="page-title">
                 I'd like to hear from you
             </div>
             <div className="row">

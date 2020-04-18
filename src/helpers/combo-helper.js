@@ -22,9 +22,7 @@ export function PageSection({
             <div className="section-header">
                 <span className="page-sec-title">{name}</span>{headerExtra}
             </div>
-            <div className="flex-container">
-                {children}
-            </div>
+            {children}
         </div>
     </>
 }
@@ -35,8 +33,9 @@ export function TagSection({
     tags,
     selectedTags,
     updateTags,
+    allTagsAccumulator,
+    flexi=false,
     children,
-    allTagsAccumulator
 }) {
     tags.forEach(tag => {
         if (!allTagsAccumulator.includes(tag)) {
@@ -55,16 +54,31 @@ export function TagSection({
         return <></>
     }
 
+    let bodyTag = children;
+    if (flexi === true) {
+        bodyTag = <div className="flex-container">
+            {bodyTag}
+        </div>
+    }
+
     return <>
         <PageSection name={name} headerExtra={headerExtra}>
-            {tags.map((t, i) => <Tag key={i} tag={t} updateTags={updateTags} selectedTags={selectedTags}/>)}<br/>
-            <hr></hr>
-            <div>
-                {children}
+            <div style={{'display': 'block'}}>
+                {tags.map((t, i) => <Tag key={i} tag={t} updateTags={updateTags} selectedTags={selectedTags}/>)}<br/>
+                <hr></hr>
+                {bodyTag}
             </div>
         </PageSection>
     </>
-}    
+}
+
+export function FlexContainer({
+    children
+}) {
+    return <div className="flex-container">
+        {children}
+    </div>
+}
 
 export function Tag({
     tag,
@@ -86,13 +100,16 @@ export function Tag({
 }
 
 export function InText({
-    where='left',
+    float=null,
     width='100%',
     minWidth=null,
     minHeight=null,
     children
 }) {
     let style = {};
+    if (float) {
+        style['float'] = float;
+    }
     if (width) {
         style['width'] = width;
     }
@@ -114,7 +131,7 @@ export function Image({
 }) {
     let captionTag = <></>
     if (caption !== null) {
-        captionTag = <figcaption>
+        captionTag = <figcaption className="caption">
             {caption}
         </figcaption>
     }
@@ -127,9 +144,13 @@ export function Image({
 
 export function YouTube({
     id,
+    caption=null
 }) {
-    return <div className="iframe-div">
-        <iframe width="560" height="315" src={`https://www.youtube.com/embed/${id}`} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+    return <div>
+        <div className="iframe-div">
+            <iframe width="560" height="315" src={`https://www.youtube.com/embed/${id}`} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        </div>
+        {caption ? <div className='caption'>{caption}</div> : <></>}
     </div>
 }
 

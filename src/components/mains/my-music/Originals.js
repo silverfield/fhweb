@@ -1,4 +1,4 @@
-import {Section, Tag, YouTube, SoundCloud, Instagram} from '../../../helpers/combo-helper'
+import {Part, Text, TagSection, Tag, YouTube, SoundCloud, Instagram, InText} from '../../../helpers/combo-helper'
 import {useState} from "react"
 import {useEffect} from "react"
 
@@ -38,7 +38,7 @@ export default function Originals({
 
     return (
         <>
-            <div className="section-title">
+            <div className="page-title">
                 Other originals
             </div>
 
@@ -61,12 +61,14 @@ export default function Originals({
                 selectedTags={selectedTags}
                 updateTags={updateTags}
             >
-                <div className="float-img" style={{'width': '100%'}}>
+                <InText>
                     <YouTube id="XrrHFIEW-RQ"/>
-                </div>
+                </InText>
 
-                From the studio recording of my recent addition to the <a href="#my-music/everyday">demo 
-                album Everyday</a> - "When this is done"
+                <Text>
+                    From the studio recording of my recent addition to the <a href="#my-music/everyday">demo 
+                    album Everyday</a> - "When this is done"
+                </Text>
             </OriginalsSection>
 
             <OriginalsSection 
@@ -76,22 +78,24 @@ export default function Originals({
                 selectedTags={selectedTags}
                 updateTags={updateTags}
             >
-                <div className="row">
-                    <div className="col-md-6">
-                        <div className="float-img" style={{'width': '100%'}}>
+                <div className="flex-container">
+                    <Part minWidth="300px">
+                        <InText>
                             <YouTube id="v26XLa1LvFo"/>
-                        </div>
-                    </div>
-                    <div className="col-md-6">
-                        <div className="float-img" style={{'width': '100%'}}>
+                        </InText>
+                    </Part>
+                    <Part minWidth="300px">
+                        <InText>
                             <YouTube id="4SG7U9Rlt9A"/>
-                        </div>
-                    </div>
+                        </InText>
+                    </Part>
                 </div>
 
-                During the Covid-19 self isolation times, I was re-recording quite a bit of my 
-                music. Admittedly, I don't usually record the whole part (vocals, solo, ...) in a
-                single go, but this time that's what I was aiming for.
+                <Text>
+                    During the Covid-19 self isolation times, I was re-recording quite a bit of my 
+                    music. Admittedly, I don't usually record the whole part (vocals, solo, ...) in a
+                    single go, but this time that's what I was aiming for.
+                </Text>
             </OriginalsSection>
         
             <OriginalsSection 
@@ -101,14 +105,16 @@ export default function Originals({
                 selectedTags={selectedTags}
                 updateTags={updateTags}
             >
-                <div className="float-img" style={{'width': '50%'}}>
+                <InText width='50%' float='left' minWidth='300px'>
                     <YouTube id="JIUr4QQPv6s"/>
-                </div>
+                </InText>
 
-                NosDa is an awesome, chilled place for music, chat or a drink at the bank of Taff in Cardiff.
-                It is no wonder I did my first open mic in Cardiff here, and several more too. I did 
-                "Hey dad" here a couple months after writing the song, and it was the first time to do it
-                without a backing track and using loop station instead. 
+                <Text>
+                    NosDa is an awesome, chilled place for music, chat or a drink at the bank of Taff in Cardiff.
+                    It is no wonder I did my first open mic in Cardiff here, and several more too. I did 
+                    "Hey dad" here a couple months after writing the song, and it was the first time to do it
+                    without a backing track and using loop station instead. 
+                </Text>
             </OriginalsSection>
 
             <OriginalsSection 
@@ -118,14 +124,17 @@ export default function Originals({
                 selectedTags={selectedTags}
                 updateTags={updateTags}
             >
-                <div className="float-img" style={{'width': '50%'}}>
+                <InText width='50%' float='left' minWidth='300px'>
                     <YouTube id="fmxfFekWy8M"/>
-                </div>
+                </InText>
 
-                There's several great busking spots in Cardiff, but my favorite has to be 
-                down in Cardiff Bay. Peraphs not a money-maker spot, but on a nice sunny day 
-                it's a true joy to play there. Indeed, perfect for a song
-                about coming to South Wales!
+                <Text>
+                    There's several great busking spots in Cardiff, but my favorite has to be 
+                    down in Cardiff Bay. Peraphs not a money-maker spot, but on a nice sunny day 
+                    it's a true joy to play there. Indeed, perfect for a song
+                    about coming to South Wales!
+                </Text>
+                
             </OriginalsSection>
 
             <OriginalsSection 
@@ -135,15 +144,17 @@ export default function Originals({
                 selectedTags={selectedTags}
                 updateTags={updateTags}
             >
-                <div className="float-img" style={{'width': '50%'}}>
+                <InText>
                     <SoundCloud iframeTag='<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/664352564&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>'/>
-                </div>
+                </InText>
 
-                Not a perfectly serious entry - but a super fun one. After this song accidentally following other 
-                songs in my playlist and listening to it a few times, I have to say - this 
-                song ROCKS! And we really nailed it. Vika's lyrics (both the initial rap + the 
-                middle Russian part is due to her) and Alex's incredible rap + really felt-through 
-                vocals make this a hit that's not only worth to publish, but listen to many times! Oh yeah!
+                <Text>
+                    Not a perfectly serious entry - but a super fun one. After this song accidentally following other 
+                    songs in my playlist and listening to it a few times, I have to say - this 
+                    song ROCKS! And we really nailed it. Vika's lyrics (both the initial rap + the 
+                    middle Russian part is due to her) and Alex's incredible rap + really felt-through 
+                    vocals make this a hit that's not only worth to publish, but listen to many times! Oh yeah!
+                </Text>
             </OriginalsSection>
 
         </> 

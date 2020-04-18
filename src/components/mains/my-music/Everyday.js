@@ -6,7 +6,9 @@ function Song({
 }) {
     return <>
         <PageSection name={name}>
-            {children}
+            <div className="flex-container">
+                {children}
+            </div>
         </PageSection>
     </>
 }
@@ -53,7 +55,7 @@ export default function Everyday({
 }) {
     return (
         <>
-            <a className="everyday-album section-title" href="https://soundcloud.com/ferohajnovic/sets/everyday">
+            <a className="everyday-album page-title" href="https://soundcloud.com/ferohajnovic/sets/everyday">
                 Everyday - demo album
             </a>
 
@@ -145,23 +147,28 @@ export default function Everyday({
                 </Song>
 
                 <Song name="Let's go fail">
-                    <SoundcloudEmbed title="Let's go fail" />
+                    <InText>
+                        <SoundcloudEmbed title="Let's go fail" />
+                    </InText>
 
-                    <p>
-                        A song I wrote in a train, returning from a visit to my friend Laco, 
-                        who's the most "yes attitude" person I've ever met. Indeed, saying 
-                        "Laco, let's go fail" is likely to be met with "all right, let's do that!". 
-                        It's just hard NOT to write a song about a person like this!
-                    </p>
+                    <Text>
+                        <p>
+                            A song I wrote in a train, returning from a visit to my friend Laco, 
+                            who's the most "yes attitude" person I've ever met. Indeed, saying 
+                            "Laco, let's go fail" is likely to be met with "all right, let's do that!". 
+                            It's just hard NOT to write a song about a person like this!
+                        </p>
 
-                    <a href="https://drive.google.com/file/d/1uyVyDSwf5BAG6KvRg5Kf6wr4hnmmdghW">Chords and lyrics</a>
+                        <a href="https://drive.google.com/file/d/1uyVyDSwf5BAG6KvRg5Kf6wr4hnmmdghW">Chords and lyrics</a>
+                    </Text>
                 </Song>
 
                 <Song name="Daily ride">
-                    <div className="row">
-                        <div className="col-md-7">
-                            <SoundcloudEmbed title="Daily ride" />
-
+                    <InText>
+                        <SoundcloudEmbed title="Daily ride" />
+                    </InText>
+                    <Part minWidth='300px' proportion='0.6'>                            
+                        <Text>
                             <p>
                                 This song is indeed about my daily ride that I had while in Biriwa, Ghana. 
                                 I was working at the institute of mathematical sciences at the other 
@@ -171,46 +178,58 @@ export default function Everyday({
                             </p>
 
                             <a href="https://drive.google.com/file/d/1yoMogwnQjyaBGwSiJRNHH2TF0sKLRmeQ">Chords and lyrics</a>
-                        </div>
-                        <div className="col-md-5">
-                            <figure>
-                                <img src={require("../../../pics/biriwa.JPG")} />
-                                <figcaption>Biriwa with AIMS - the "castle on the hill" in top right</figcaption>
-                            </figure>
-                        </div>
-                    </div>
+                        </Text>
+                    </Part>
+                    <Part minWidth='150px' proportion='0.4'>
+                        <InText>
+                            <Image 
+                                imgSrc={require("../../../pics/biriwa.JPG")}
+                                caption='Biriwa with AIMS - the "castle on the hill" in top right'
+                            />
+                        </InText>
+                    </Part>
                 </Song>
 
                 <Song name="Summer tune">
-                    <SoundcloudEmbed title="Summer tune" />
+                    <InText>
+                        <SoundcloudEmbed title="Summer tune" />
+                    </InText>
+                    
+                    <Text>
+                        <p>
+                            One of my few purely instrumental tracks. This came together spontaneously one 
+                            sunny day in Prague, just after coming back from Ghana. I liked it straight away, 
+                            named it "Summer tune" and played it ever since.
+                        </p>
 
-                    <p>
-                        One of my few purely instrumental tracks. This came together spontaneously one 
-                        sunny day in Prague, just after coming back from Ghana. I liked it straight away, 
-                        named it "Summer tune" and played it ever since.
-                    </p>
-
-                    <a href="https://drive.google.com/file/d/1KzFUAV5ewzaEHcn-geI7OEYxQsEMZjfi">Chords and lyrics</a>
+                        <a href="https://drive.google.com/file/d/1KzFUAV5ewzaEHcn-geI7OEYxQsEMZjfi">Chords and lyrics</a>
+                    </Text>
                 </Song>
 
                 <Song name="Fargo and Pelgrim">
-                    <SoundcloudEmbed title="Fargo and Pelgrim" />
+                    <InText>
+                        <SoundcloudEmbed title="Fargo and Pelgrim" />
+                    </InText>
+                    
+                    <Text>
+                        <p>
+                            This song is from one moment in Czech republic, when we were watching 
+                            a sunset on a horse pasture and my girlfriend was explaining 
+                            to me how horses communicate and behave. There's no maybes, 
+                            problems are resolved with fights and things are generally more 
+                            black or white. Seems so simple, yet beautiful...
+                        </p>
 
-                    <p>
-                        This song is from one moment in Czech republic, when we were watching 
-                        a sunset on a horse pasture and my girlfriend was explaining 
-                        to me how horses communicate and behave. There's no maybes, 
-                        problems are resolved with fights and things are generally more 
-                        black or white. Seems so simple, yet beautiful...
-                    </p>
-
-                    <a href="https://drive.google.com/file/d/18cNkcaIGDkd_HiWtYIpwmdqQQlWMhgOm">Chords and lyrics</a>
+                        <a href="https://drive.google.com/file/d/18cNkcaIGDkd_HiWtYIpwmdqQQlWMhgOm">Chords and lyrics</a>
+                    </Text>
                 </Song>
 
                 <Song name="Calling at Newport">
-                    <SoundcloudEmbed title="Calling at Newport" />
-                    <div className="row">
-                        <div className="col-md-8">
+                    <InText>
+                        <SoundcloudEmbed title="Calling at Newport" />
+                    </InText>
+                    <Part minWidth='300px' proportion='0.6'>                            
+                        <Text>
                             <p>
                                 One of my favorite songs to play - the time we came to UK, 
                                 south Wales was indeed special. It was October, sun shining every day 
@@ -222,43 +241,56 @@ export default function Everyday({
                             </p>
 
                             <a href="https://drive.google.com/file/d/17H0500WCxY1-izSiqTQFt8XGuX6EXzAb">Chords and lyrics</a>
-                        </div>
-                        <div className="col-md-4">
-                            <figure>
-                                <img src={require("../../../pics/clyffard.JPG")} />
-                                <figcaption>Clyffard Crescent in Newport</figcaption>
-                            </figure>
-                        </div>
-                    </div>
+                        </Text>
+                    </Part>
+                    <Part minWidth='250px' proportion='0.4'>
+                        <InText>
+                            <Image
+                                imgSrc={require("../../../pics/clyffard.JPG")} 
+                                caption="Clyffard Crescent in Newport"
+                            />
+                        </InText>
+                    </Part>
                 </Song>
 
                 <Song name="Hey dad">
-                    <SoundcloudEmbed title="Hey dad" />
+                    <InText>
+                        <SoundcloudEmbed title="Hey dad" />
+                    </InText>
+                    
+                    <Text>
+                        <p>
+                            I made this for my dad's recent birthday. He's a true inspiration ;-)
+                        </p>
 
-                    <p>
-                        I made this for my dad's recent birthday. He's a true inspiration ;-)
-                    </p>
-
-                    <a href="https://drive.google.com/file/d/1KHBDmHPLcmMYg6efRG58HPyiH_aekGWi">Chords and lyrics</a>
+                        <a href="https://drive.google.com/file/d/1KHBDmHPLcmMYg6efRG58HPyiH_aekGWi">Chords and lyrics</a>
+                    </Text>
                 </Song>
 
                 <Song name="Sticks in the water">
-                    <SoundcloudEmbed title="Sticks in the water" />
+                    <InText>
+                        <SoundcloudEmbed title="Sticks in the water" />
+                    </InText>
+                    
+                    <Text>
+                        <p>
+                            This song's lyrics were written mainly by Martin Buckridge, 
+                            a friend from my Toastmasters club back in Cardiff. Martin's take on it is simply 
+                            inspiring and the lyrics send an important message in today's world - there's too 
+                            much rush and not enough time to pause. Give it a listen and find out more!
+                        </p>
 
-                    <p>
-                        This song's lyrics were written mainly by Martin Buckridge, 
-                        a friend from my Toastmasters club back in Cardiff. Martin's take on it is simply 
-                        inspiring and the lyrics send an important message in today's world - there's too 
-                        much rush and not enough time to pause. Give it a listen and find out more!
-                    </p>
-
-                    <a href="https://drive.google.com/open?id=1GPm6GK45xovabba0uAGg3eC_w5CXvAk9">Chords and lyrics</a>
+                        <a href="https://drive.google.com/open?id=1GPm6GK45xovabba0uAGg3eC_w5CXvAk9">Chords and lyrics</a>
+                    </Text>
                 </Song>
 
                 <Song name="At the ocean shore">
-                    <div className="row">
-                        <div className="col-md-7">
-                            <SoundcloudEmbed title="At the ocean shore" />
+                    <InText>
+                        <SoundcloudEmbed title="At the ocean shore" />
+                    </InText>
+
+                    <Part proportion="0.6">
+                        <Text>
                             <p>
                                 A song with roots from Llantwit Major. Here we once saw a bunch of youngsters 
                                 jumping
@@ -269,36 +301,43 @@ export default function Everyday({
                             </p>
 
                             <a href="https://drive.google.com/file/d/1dzi1WxR66otirdY8aVwhw4oyIyQOo6As/view">Chords and lyrics</a>
-                        </div>
-                        <div className="col-md-5">
-                            <figure>
-                                <img src={require("../../../pics/llantwit.JPG")} />
-                                <figcaption>The "jumping cliff" in Llantwit Major</figcaption>
-                            </figure>
-                        </div>
-                    </div>
+                        </Text>
+                    </Part>
+                    <Part minWidth="250px" proportion="0.4">
+                        <InText>
+                            <Image
+                                imgSrc={require("../../../pics/llantwit.JPG")}
+                                caption='The "jumping cliff" in Llantwit Major'
+                            />
+                        </InText>
+                    </Part> 
                 </Song>
 
                 <Song name="When this is done">
-                    <div className="row">
-                        <div className="col-md-3">
-                            <figure>
-                                <img src={require("../../../pics/terrace.jpg")} />
-                                <figcaption>Self isolation times in London</figcaption>
-                            </figure>
-                        </div>
-                        <div className="col-md-9">
+                    <Part proportion="0.6">
+                        <InText>
                             <SoundcloudEmbed title="When this is done" />
+                        </InText>
+                        
+                        <Text>
                             <p>
-                                A song made in the tough times of self-isolation. 
+                            A song made in the tough times of self-isolation. 
                                 And although tough times, for many, I believe, it has been an 
                                 opportunity for reflection as to how they would want to change 
                                 and what kind of world they'd like to see ... When this is done
                             </p>
 
                             <a href="https://drive.google.com/file/d/1NtTP0NpnIHD4yHjomHuUEeeAxFCxbpX4/view">Chords and lyrics</a>
-                        </div>                    
-                    </div>
+                        </Text>
+                    </Part>
+                    <Part minWidth="250px" proportion="0.4">
+                        <InText>
+                            <Image
+                                imgSrc={require("../../../pics/terrace.jpg")}
+                                caption='Self isolation times in London'
+                            />
+                        </InText>
+                    </Part> 
                 </Song>
             </div>            
         </> 

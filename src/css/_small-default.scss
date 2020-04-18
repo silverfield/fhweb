@@ -237,7 +237,7 @@ div.pre-section {
     margin-bottom: 20px;
 }
 
-.acc-floats {
+.float-container {
     overflow: hidden;
 }
 
@@ -342,7 +342,7 @@ img {
     color: $color-bright-light;
 }
 
-.section-title {
+.page-title {
     text-align: center;
     font-size: 1.5em;
     font-weight: 700;
@@ -612,7 +612,7 @@ figure {
     // padding: 0;
 }
 
-figcaption {
+.caption {
     font-size: 0.8em;
     font-style: italic;
     text-align: center;

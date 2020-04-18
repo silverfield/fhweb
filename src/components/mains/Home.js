@@ -1,5 +1,4 @@
-import {PageSection} from '../../helpers/combo-helper'
-import {TagSection, InText, Image, Tag, YouTube, SoundCloud, Instagram} from '../../helpers/combo-helper'
+import {PageSection, Text, InText, Image} from '../../helpers/combo-helper'
 
 function News({
     name,
@@ -18,17 +17,16 @@ export default function Home({
 }) {
     return (
         <>
-            <p className="section-title">
+            <p className="page-title">
                 Welcome to my website, good music lover!
             </p>
 
-            <div>
-                <InText width='30%'>
+            <div className="float-container">
+                <InText float='left' width='40%' minWidth='300px'>
                     <Image 
                         imgSrc={require("../../pics/grass-1.jpg")}
                     />
                 </InText>
-
                 <p>
                     My name is Fero, and I'm a guitarist, song-writer and a busker based in London. 
                     Mainly inspired by the likes of Mark Knopfler or John Mayer, my style is
@@ -55,9 +53,11 @@ export default function Home({
             <span className="news-title">News:</span>
 
             <News name="Demo album reaching completion!" date="04/2020">
-                Check out the <a href="#my-music">tracks</a> from album "Everyday" that are already near finished!
-                I'm re-recording some of the parts during the Covid-19 self-isolation - so that once the
-                lock-down ceases, I'll be ready to hit the streets and bars again! 
+                <Text>
+                    Check out the <a href="#my-music">tracks</a> from album "Everyday" that are already near finished!
+                    I'm re-recording some of the parts during the Covid-19 self-isolation - so that once the
+                    lock-down ceases, I'll be ready to hit the streets and bars again! 
+                </Text>
             </News>
         </>
     );
