@@ -16,6 +16,7 @@ html {
     -ms-text-size-adjust: 100%;
 
     height: 100%;
+    background-color: $color-inco-strong !important;
 }
 
 a {
@@ -88,103 +89,97 @@ body {
 header {
     flex: 0 1 auto;
     padding: $main-padding;
+    background-image: url("./../pics/london-metro.jpg");
+    background-size: cover;
+    position: relative;
 
-    #primary-nav-wrap {
-        background-image: url("./../pics/london-metro.jpg");
-        background-size: cover;
-        position: relative;
-    }
-
-    .primary-nav {
+    .menu {
+        display: flex;
         flex-direction: column;
-        display: flex;
-        padding: 3px;
-    
-        .main-link {
-            border-radius: 0.2em;
-            width: 6em;
-            height: 3em;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 0.2em;
-            background-color: rgba($color-dark-light, .7);
-            color: white;
-            text-decoration: none;
-            text-shadow: 0 0 3px black;
-            margin: 0.2em 0.1em;
-            box-shadow: 0 0 8px 0 rgba($color-dark-light, .7);
-    
-            @media (hover: hover) { 
-                &:hover {
-                    box-shadow: 0 0 8px 4px rgba($color-bright-light, .7);
-                    color: $color-bright-light;
-                    transition: 0.5s;
+
+        .menu-item {
+            display: inline-block;
+            width: 8em;
+
+            .sub-menu {
+                border-radius: 5px;
+                // background-color: $color-bck-menu-hover;
+                // box-shadow: 0 0 5px white;
+                width: 200px;
+                max-height: 0;
+                margin-left: 50px;
+                overflow: hidden;
+                transition-property: max-height;
+                transition: all 1s ease-in-out;
+
+                &.active-sub {
+                    transition-property: max-height;
+                    transition: all 1s ease-in-out;
+                    max-height: 300px;
+                }
+
+                .sub-menu-item {
+                    width: 200px;
                 }
             }
-        }
 
-        .active-link {
-            background-color: rgba($color-bright-light, .7);
-            color: darken(black, 20%);
-            text-shadow: 0 0 3px white;
+            .main-link {
+                border-radius: 5px;
+                font-size: 1.3em;
+                width: 6em;
+                height: 3em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                padding: 0.2em;
+                color: rgba(255, 255, 255, 0.692);
+                text-decoration: none;
+                text-shadow: 0 5px 5px black;
+        
+                @media (hover: hover) { 
+                    &:hover {
+                        color: $color-bright-light;
+                        transition: 0.5s;
+                    }
+                }
 
-            @media (hover: hover) { 
-                &:hover {
-                    color: white;
-                    box-shadow: 0 0 8px 4px rgba(white, .7);
-                    transition: 0.5s;
-                    text-shadow: 0 0 3px black;
+                &.hovering-main {
+                    // background-color: $color-bck-menu-hover;
+                    // box-shadow: 0 0 5px white;
                 }
             }
-        }
-    }
 
-    .secondary-nav {
-        background-color: $color-inco-strongest;
-        padding: 3px;
-        flex-direction: row;
-        display: flex;
-        align-items: stretch;
-
-        .second-link {
-            font-size: 17px;
-            line-height: 17px;
-            border-radius: 0.2em;
-            height: 2.9em;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 0.5em;
-            background-color: rgba($color-inco-strong, .7);
-            color: white;
-            text-decoration: none;
-            text-shadow: 0 0 3px black;
-            margin: 0.2em 0.1em;
-            box-shadow: 0 0 8px 0 rgba($color-dark-light, .7);
-    
-            @media (hover: hover) { 
-                &:hover {
-                    box-shadow: 0 0 8px 4px rgba($color-bright-medium, .7);
-                    color: $color-bright-medium;
-                    transition: 0.5s;
+            .second-link {
+                font-size: 1em;
+                width: 100%;
+                height: 1.5em;
+                display: flex;
+                justify-content: left;
+                align-items: left;
+                text-align: left;
+                padding: 0.2em;
+                color: rgba(255, 255, 255, 0.726);
+                text-decoration: none;
+                text-shadow: 0 5px 5px black;
+                margin: 0.2em 0.1em;
+        
+                @media (hover: hover) { 
+                    &:hover {
+                        color: $color-bright-light;
+                        transition: 0.5s;
+                    }
                 }
             }
-        }
 
-        .active-link {
-            background-color: rgba($color-bright-medium, .7);
-            color: darken(black, 20%);
-            text-shadow: 0 0 3px white;
-            
-            @media (hover: hover) { 
-                &:hover {
-                    color: white;
-                    box-shadow: 0 0 8px 4px rgba(white, .7);
-                    transition: 0.5s;
-                    text-shadow: 0 0 3px black;
+            .active-link {
+                color: $color-bright-light;
+        
+                @media (hover: hover) { 
+                    &:hover {
+                        color: $color-bright-light;
+                        transition: 0.5s;
+                    }
                 }
             }
         }
@@ -193,8 +188,8 @@ header {
     div#header-title {
         font-weight: 600;
         font-size: 10vw;
-        color: $color-dark-strong;
-        text-shadow: 0 0 5px $color-bright-light;
+        color: rgba(255, 255, 255, 0.692);
+        text-shadow: 0 0 5px black;
 
         position: absolute;
         right: $main-padding;

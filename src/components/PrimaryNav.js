@@ -5,6 +5,62 @@ import {
 
 import ScrollToTop from './ScrollToTop.js'
 
+
+function MenuItem({
+    to,
+    title,
+    submenuItems=null
+}) {
+    let submenu = <></>;
+    if (submenuItems) {
+        submenu = <div className="sub-menu">
+            {items.map(i => <SubMenuItem {...i}/>)}
+        </div>
+    }
+
+    return <div className="menu">
+        <div className="menu-item">
+            <NavLink to={to} className="main-link" activeClassName="active-link">{title}</NavLink>
+        </div>
+        {submenu}
+    </div>
+}
+
+function SubMenuItem({
+    to,
+    title,
+}) {
+    return <div className="sub-menu-item">
+        <NavLink to={to} className="second-link" activeClassName="active-link">{title}</NavLink>
+    </div>
+}
+
+function Menu({
+
+}) {
+    return (
+        <nav className="menu">
+            <Router>
+                <ScrollToTop>
+                <MenuItem to="/home" title="home"/>
+                <MenuItem to="/my-music" title="my music" submenuItems={[
+                    {to: '/my-music/everyday', title: 'everyday (demo album)'},
+                    {to: '/my-music/originals', title: 'other originals'},
+                    {to: '/my-music/covers', title: 'covers'},
+                    {to: '/my-music/collaborations', title: 'collaborations'}
+                ]}/>
+                <MenuItem to="/busking" title="busking 4 good"/>
+                <MenuItem to="/repertoire" title="repertoire"/>
+                <MenuItem to="/about" title="about me"/>
+                <MenuItem to="/contact" title="contact me"/>
+                </ScrollToTop>
+            </Router>
+        </nav>
+    );
+  }
+  
+
+
 export default function PrimaryNav({
 
 }) {
