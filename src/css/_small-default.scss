@@ -120,11 +120,15 @@ header {
                 width: fit-content;
                 
                 .sub-menu {
-                    width: 45vw;
+                    width: 200px;
                     border-radius: 0;
                     margin-left: 0;
                     position: absolute;
                     background-color: $color-sticky-menu-bck;
+
+                    &.active-sub {
+                        padding: 10px;
+                    }
 
                     .second-link {
                         font-size: 0.8em;
@@ -133,6 +137,7 @@ header {
             }
 
             .main-link {
+                cursor: pointer;
                 width: auto;
                 font-size: 0.9em;
                 justify-content: center;
@@ -277,7 +282,7 @@ div.page-section {
     // border: 2px solid $color-dark-light;
     padding: 2%;
     margin-top: 2%;
-    overflow: auto;
+    overflow: hidden;
 
     hr {
         margin: 5px;
@@ -405,7 +410,7 @@ img {
     font-weight: 1000;
     float: right;
     color: $color-inco-strongest;
-    text-shadow: 0 0 5px $color-dark-light;
+    text-shadow: 0 0 5px white;
 }
 
 .repertoire-tbl {

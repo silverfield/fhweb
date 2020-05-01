@@ -131,7 +131,7 @@ export default function Everyday({
                         <InText>
                             <Image
                                 imgSrc={require("../../../pics/oslo-aker.jpg")}
-                                caption="Oslo, Aker Brygge"
+                                caption="Oslo, Aker Brygge - the most memorable busking place"
                             />
                         </InText>
                     </Part>

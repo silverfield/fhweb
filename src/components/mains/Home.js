@@ -53,8 +53,14 @@ export default function Home({
             <span className="news-title">News:</span>
 
             <News name="Demo album reaching completion!" date="05/2020">
+                <InText width="40%" float='left' minWidth="350px">
+                    <Image 
+                        imgSrc={require("../../pics/everyday-cover.jpeg")}
+                    />
+                </InText>
+
                 <Text>
-                    Check out the <a href="#my-music">tracks</a> from album "Everyday" that are already near finished!
+                    Check out the <a href="#my-music">11 tracks</a> from album "Everyday" that are already near finished!
                     I'm re-recording some of the parts during the Covid-19 self-isolation - so that once the
                     lock-down ceases, I'll be ready to hit the streets and bars again! 
                 </Text>
