@@ -47,7 +47,7 @@ function MenuItemImp({
     >{title}</a>
 
     return <div className="menu-item" onMouseEnter={() => setInMenu(true)} onMouseLeave={() => setInMenu(false)}>
-        {(isMobile && submenuItems !== null) ? dummyNavLink : navLink }
+        {(isMobile() && (submenuItems !== null)) ? dummyNavLink : navLink }
         {submenu}
     </div>
 }
