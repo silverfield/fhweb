@@ -90,7 +90,7 @@ export default function Everyday({
                     </InText>
                 </Part>
 
-                <Part proportion='0.6' minWidth="400px">
+                <Part proportion='0.6' minWidth="350px">
                     <Text>
                         <p>
                             My first (demo) album is slowly coming together. Named after one of the 

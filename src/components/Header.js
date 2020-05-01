@@ -16,23 +16,31 @@ function MenuItemImp({
     to,
     title,
     submenuItems=null,
+    sticky,
     location
 }) {
     const [inMenu, setInMenu] = useState(false);
     const [inSubMenu, setInSubMenu] = useState(false);
+
+    const setInMenusFalse = () => {
+        setInMenu(false);
+        setInSubMenu(false);
+    }
     
-    const isSticky = useContext(StickyContext);
+    const isStickyShown = useContext(StickyContext);
     let isActive = location.pathname.startsWith(to);
 
     let submenu = <></>
 
     if (submenuItems) {
         submenu = <div 
-            className={'sub-menu' + ((inMenu || inSubMenu || (isActive && !isSticky)) ? ' active-sub' : '')}
-            onMouseEnter={() => setInSubMenu(true)} 
-            onMouseLeave={() => setInSubMenu(false)}
+            className={'sub-menu' + ((inMenu || inSubMenu || (isActive && !sticky)) ? ' active-sub' : '')}
+            onMouseEnter={isMobile() ? null : () => setInSubMenu(true)} 
+            onMouseLeave={isMobile() ? null : () => setInSubMenu(false)}
         >
-            {submenuItems.map((i, ind) => <SubMenuItem key={ind} {...i}/>)}
+            {submenuItems.map((i, ind) => <div key={ind} className="sub-menu-item">
+                <NavLink to={i['to']} className="second-link" activeClassName="active-link">{i['title']}</NavLink>
+            </div>)}
         </div>
     }
 
@@ -46,43 +54,39 @@ function MenuItemImp({
         className={"main-link" + ((inMenu || inSubMenu) ? ' hovering-main' : '') + (isActive ? ' active-link' : '')} 
     >{title}</a>
 
-    return <div className="menu-item" onMouseEnter={() => setInMenu(true)} onMouseLeave={() => setInMenu(false)}>
+    return <div 
+        className="menu-item" 
+        onMouseEnter={isMobile() ? null : () => setInMenu(true)} 
+        onMouseLeave={isMobile() ? null : () => setInMenu(false)}
+        onClick={isMobile() ? () => setInMenu(!inMenu) : null}
+    >
         {(isMobile() && (submenuItems !== null)) ? dummyNavLink : navLink }
         {submenu}
     </div>
 }
 
-function SubMenuItem({
-    to,
-    title,
-}) {
-    return <div className="sub-menu-item">
-        <NavLink to={to} className="second-link" activeClassName="active-link">{title}</NavLink>
-    </div>
-}
-
 function Menu({
-
+    sticky
 }) {
     return <div className="menu">
-        <MenuItem to="/home" title="home" />
+        <MenuItem to="/home" title="home" sticky={sticky} />
         <MenuItem to="/my-music" title="my music" submenuItems={[
             {to: '/my-music/everyday', title: 'everyday (demo album)'},
             {to: '/my-music/originals', title: 'other originals'},
             {to: '/my-music/covers', title: 'covers'},
             {to: '/my-music/collaborations', title: 'collaborations'}
-        ]}/>
-        <MenuItem to="/busking" title="busking 4 good"/>
-        <MenuItem to="/repertoire" title="repertoire"/>
-        <MenuItem to="/about" title="about me"/>
-        <MenuItem to="/contact" title="contact me"/>
+        ]} sticky={sticky}/>
+        <MenuItem to="/busking" title="busking 4 good" sticky={sticky}/>
+        <MenuItem to="/repertoire" title="repertoire" sticky={sticky}/>
+        <MenuItem to="/about" title="about me" sticky={sticky}/>
+        <MenuItem to="/contact" title="contact me" sticky={sticky}/>
     </div>
 }
 
 function NavBar({
 
 }) {
-    const [isSticky, setIsSticky] = useState(false);
+    const [isStickyShown, setIsStickyShown] = useState(false);
 
     useEffect(() => {
         var navbar = document.getElementById("nav");
@@ -98,10 +102,10 @@ function NavBar({
         window.onscroll = function() {
             if (window.pageYOffset >= navbar.clientHeight) {
                 menuSticky.style.display = 'block';
-                setIsSticky(true);
+                setIsStickyShown(true);
             } else {
                 menuSticky.style.display = 'none';
-                setIsSticky(false);
+                setIsStickyShown(false);
             }
         };
 
@@ -111,15 +115,15 @@ function NavBar({
     });
 
     return (
-        <StickyContext.Provider value={isSticky}>  
+        <StickyContext.Provider value={isStickyShown}>  
         <nav id="nav">
             <Router>
                 <ScrollToTop>
                     <div id="menu-std">
-                        <Menu/>
+                        <Menu sticky={false}/>
                     </div>
                     <div id="menu-sticky" style={{'display': 'none'}}>
-                        <Menu/>
+                        <Menu sticky={true}/>
                     </div>
                 </ScrollToTop>
             </Router>

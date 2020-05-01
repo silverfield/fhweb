@@ -247,48 +247,50 @@ function RepeTop({
     allTags.sort();
 
     return <>
-        <div className="repe-top row">
-            <div className="col-sm-4">
-                <hr></hr>
-                <span className="active-filters-heading">Active filters</span>
-                {filters.length === 0 ? <div>No filters</div> : <></>}
-                {filters.map((f, i) => {
-                    var value = f['value'];
-                    var text = value;
-                    if (f['name'] === 'artist') {
-                        text = `Only artist "${value}"`;
-                    }
-                    if (f['name'] === 'tag') {
-                        text = <>Tag <Tag tagMap={tagMap} value={value} filters={filters} updateFilters={updateFilters}/></>
-                    }
-                    if (f['name'] === 'orig') {
-                        text = value ? 'Only originals' : 'Only covers';
-                    }
-                    if (f['name'] === 'nbt') {
-                        text = value ? 'Can be played without a backing track' : 'Needs backing track';
-                    }
+        <div className="container-fluid">
+            <div className="repe-top row">
+                <div className="col-sm-4">
+                    <hr></hr>
+                    <span className="active-filters-heading">Active filters</span>
+                    {filters.length === 0 ? <div>No filters</div> : <></>}
+                    {filters.map((f, i) => {
+                        var value = f['value'];
+                        var text = value;
+                        if (f['name'] === 'artist') {
+                            text = `Only artist "${value}"`;
+                        }
+                        if (f['name'] === 'tag') {
+                            text = <>Tag <Tag tagMap={tagMap} value={value} filters={filters} updateFilters={updateFilters}/></>
+                        }
+                        if (f['name'] === 'orig') {
+                            text = value ? 'Only originals' : 'Only covers';
+                        }
+                        if (f['name'] === 'nbt') {
+                            text = value ? 'Can be played without a backing track' : 'Needs backing track';
+                        }
 
-                    return <div key={i} className="active-filter" onClick={() => updateFilters(f['name'], f['value'])}>
-                        <span>{text}</span>
-                        <span className="remove-filter">{cross}</span>
-                    </div>
-                })}
-            </div>
-            <div className="col-sm-8">
-                <hr></hr>
-                <span className="tags-heading">Tags explained</span>
-                {allTags.map((value, i) => {
-                    return <div key={i} className="tag-div row">
-                        <div className="col-3">
-                            <div className="tag-float-right">
-                                <Tag tagMap={tagMap} value={value} filters={filters} updateFilters={updateFilters}/>
+                        return <div key={i} className="active-filter" onClick={() => updateFilters(f['name'], f['value'])}>
+                            <span>{text}</span>
+                            <span className="remove-filter">{cross}</span>
+                        </div>
+                    })}
+                </div>
+                <div className="col-sm-8">
+                    <hr></hr>
+                    <span className="tags-heading">Tags explained</span>
+                    {allTags.map((value, i) => {
+                        return <div key={i} className="tag-div row">
+                            <div className="col-3">
+                                <div className="tag-float-right">
+                                    <Tag tagMap={tagMap} value={value} filters={filters} updateFilters={updateFilters}/>
+                                </div>
+                            </div>
+                            <div className="col-9">
+                                {tagMap[value]['full']}
                             </div>
                         </div>
-                        <div className="col-9">
-                            {tagMap[value]['full']}
-                        </div>
-                    </div>
-                })}
+                    })}
+                </div>
             </div>
         </div>
     </>
