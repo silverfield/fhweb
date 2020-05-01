@@ -67,6 +67,30 @@ export default function Covers({
             </div>
             
             <CoverSection 
+                name="Mark Knopfler - Sailing to Philadelphia"
+                date="2020-04-27"
+                tags={["mark knopfler", "video", "studio", "multicam"]}
+                selectedTags={selectedTags}
+                updateTags={updateTags}
+            >
+                <InText float='left' width='50%' minWidth='300px'>
+                    <YouTube id="8aCJvAg_MAQ"/>
+                </InText>
+
+                <Text>
+                    In the middle of the Covid-19 quarantine, we sailed to Philadelphia :-)
+
+                    A beautiful song, made even more beautiful with Ruth's, Ellie's and 
+                    Matt's vocals and harmonies.
+
+                    I've always wanted to record this one with them, but it was 
+                    difficult to find a time everyone would be free. 
+                    Well, a dream came true during the quarantine - 
+                    who says we need to be at the same place recording? ;-)
+                </Text>
+            </CoverSection>
+
+            <CoverSection 
                 name="John Mayer - I guess I just feel like"
                 date="2020-03-30"
                 tags={["john mayer", "video", "studio", "multicam"]}

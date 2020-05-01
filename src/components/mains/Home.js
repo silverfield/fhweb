@@ -28,7 +28,7 @@ export default function Home({
                     />
                 </InText>
                 <p>
-                    I'm a guitarist, song-writer and a busker based in London. 
+                    Hi! I'm Fero, and I'm a guitarist, song-writer and a busker based in London. 
                     Mainly inspired by the likes of Mark Knopfler or John Mayer, my style is
                     very much "the guitar music": from melodic, at times ambient lead guitar, through
                     rocky or bluesy vibes, all the way to acoustic and folky type of 
@@ -52,11 +52,18 @@ export default function Home({
             
             <span className="news-title">News:</span>
 
-            <News name="Demo album reaching completion!" date="04/2020">
+            <News name="Demo album reaching completion!" date="05/2020">
                 <Text>
                     Check out the <a href="#my-music">tracks</a> from album "Everyday" that are already near finished!
                     I'm re-recording some of the parts during the Covid-19 self-isolation - so that once the
                     lock-down ceases, I'll be ready to hit the streets and bars again! 
+                </Text>
+            </News>
+
+            <News name="Website is live!" date="05/2020">
+                <Text>
+                    Aand the website is live! You should be probably aware of that as you 
+                    are just looking at it, but it's a milestone that deserves to be here!
                 </Text>
             </News>
         </>
