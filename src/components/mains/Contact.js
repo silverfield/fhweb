@@ -1,3 +1,5 @@
+import {InText, Image, YouTube} from '../../helpers/combo-helper'
+
 export default function Contact({
 
 }) {

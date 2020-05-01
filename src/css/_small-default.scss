@@ -16,6 +16,7 @@ html {
     -ms-text-size-adjust: 100%;
 
     height: 100%;
+    background-color: $color-inco-strong !important;
 }
 
 a {
@@ -88,119 +89,155 @@ body {
 header {
     flex: 0 1 auto;
     padding: $main-padding;
-
-    #primary-nav-wrap {
-        background-image: url("./../pics/london-metro.jpg");
-        background-size: cover;
-        position: relative;
-    }
-
-    .primary-nav {
-        flex-direction: column;
-        display: flex;
-        padding: 3px;
-    
-        .main-link {
-            border-radius: 0.2em;
-            width: 6em;
-            height: 3em;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 0.2em;
-            background-color: rgba($color-dark-light, .7);
-            color: white;
-            text-decoration: none;
-            text-shadow: 0 0 3px black;
-            margin: 0.2em 0.1em;
-            box-shadow: 0 0 8px 0 rgba($color-dark-light, .7);
-    
-            @media (hover: hover) { 
-                &:hover {
-                    box-shadow: 0 0 8px 4px rgba($color-bright-light, .7);
-                    color: $color-bright-light;
-                    transition: 0.5s;
-                }
-            }
-        }
-
-        .active-link {
-            background-color: rgba($color-bright-light, .7);
-            color: darken(black, 20%);
-            text-shadow: 0 0 3px white;
-
-            @media (hover: hover) { 
-                &:hover {
-                    color: white;
-                    box-shadow: 0 0 8px 4px rgba(white, .7);
-                    transition: 0.5s;
-                    text-shadow: 0 0 3px black;
-                }
-            }
-        }
-    }
-
-    .secondary-nav {
-        background-color: $color-inco-strongest;
-        padding: 3px;
-        flex-direction: row;
-        display: flex;
-        align-items: stretch;
-
-        .second-link {
-            font-size: 17px;
-            line-height: 17px;
-            border-radius: 0.2em;
-            height: 2.9em;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 0.5em;
-            background-color: rgba($color-inco-strong, .7);
-            color: white;
-            text-decoration: none;
-            text-shadow: 0 0 3px black;
-            margin: 0.2em 0.1em;
-            box-shadow: 0 0 8px 0 rgba($color-dark-light, .7);
-    
-            @media (hover: hover) { 
-                &:hover {
-                    box-shadow: 0 0 8px 4px rgba($color-bright-medium, .7);
-                    color: $color-bright-medium;
-                    transition: 0.5s;
-                }
-            }
-        }
-
-        .active-link {
-            background-color: rgba($color-bright-medium, .7);
-            color: darken(black, 20%);
-            text-shadow: 0 0 3px white;
-            
-            @media (hover: hover) { 
-                &:hover {
-                    color: white;
-                    box-shadow: 0 0 8px 4px rgba(white, .7);
-                    transition: 0.5s;
-                    text-shadow: 0 0 3px black;
-                }
-            }
-        }
-    }
+    background-image: url("./../pics/london-metro.jpg");
+    background-size: cover;
+    position: relative;
 
     div#header-title {
         font-weight: 600;
         font-size: 10vw;
-        color: $color-dark-strong;
-        text-shadow: 0 0 5px $color-bright-light;
+        text-align: right;
+        line-height: 10vw;
+        color: rgba(255, 255, 255, 0.692);
+        text-shadow: 0 0 5px black;
 
         position: absolute;
         right: $main-padding;
-        bottom: 5vw;
+        bottom: 20px;
+    }
+
+    #menu-sticky {
+        z-index: 99999;
+        position: fixed;
+        top: 0;
+        background-color: $color-sticky-menu-bck;
+        
+        .menu {
+            flex-direction: row;
+
+            .menu-item {
+                flex: 1 1 0px;
+                width: fit-content;
+                
+                .sub-menu {
+                    width: 200px;
+                    border-radius: 0;
+                    margin-left: 0;
+                    position: absolute;
+                    background-color: $color-sticky-menu-bck;
+
+                    &.active-sub {
+                        padding: 10px;
+                    }
+
+                    .second-link {
+                        font-size: 0.8em;
+                    }
+                }
+            }
+
+            .main-link {
+                cursor: pointer;
+                width: auto;
+                font-size: 0.9em;
+                justify-content: center;
+            }
+        }
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+
+        .menu-item {
+            display: inline-block;
+            width: 8em;
+
+            .sub-menu {
+                border-radius: 5px;
+                // background-color: $color-bck-menu-hover;
+                // box-shadow: 0 0 5px white;
+                width: 250px;
+                max-height: 0;
+                margin-left: 30px;
+                overflow: hidden;
+                transition-property: max-height;
+                transition: all 1s ease-in-out;
+
+                &.active-sub {
+                    transition-property: max-height;
+                    transition: all 1s ease-in-out;
+                    max-height: 300px;
+                }
+
+                .sub-menu-item {
+                    width: 250px;
+                }
+            }
+
+            .main-link {
+                border-radius: 5px;
+                font-size: 1.3em;
+                width: 6em;
+                height: 3em;
+                display: flex;
+                justify-content: left;
+                align-items: center;
+                text-align: left;
+                padding: 0.2em;
+                color: rgba(255, 255, 255, 0.692);
+                text-decoration: none;
+                text-shadow: 0 5px 5px black;
+        
+                @media (hover: hover) { 
+                    &:hover {
+                        color: $color-bright-light;
+                        transition: 0.5s;
+                    }
+                }
+
+                &.hovering-main {
+                    // background-color: $color-bck-menu-hover;
+                    // box-shadow: 0 0 5px white;
+                }
+            }
+
+            .second-link {
+                font-size: 1em;
+                width: 100%;
+                height: 1.5em;
+                display: flex;
+                justify-content: left;
+                align-items: left;
+                text-align: left;
+                padding: 0.2em;
+                color: rgba(255, 255, 255, 0.726);
+                text-decoration: none;
+                text-shadow: 0 5px 5px black;
+                margin: 0.2em 0.1em;
+        
+                @media (hover: hover) { 
+                    &:hover {
+                        color: $color-bright-light;
+                        transition: 0.5s;
+                    }
+                }
+            }
+
+            .active-link {
+                color: $color-bright-light;
+        
+                @media (hover: hover) { 
+                    &:hover {
+                        color: $color-bright-light;
+                        transition: 0.5s;
+                    }
+                }
+            }
+        }
     }
 }
+  
 
 /* ------------------------------------------------------------ */
 /* Main */
@@ -245,7 +282,7 @@ div.page-section {
     // border: 2px solid $color-dark-light;
     padding: 2%;
     margin-top: 2%;
-    overflow: auto;
+    overflow: hidden;
 
     hr {
         margin: 5px;
@@ -373,7 +410,7 @@ img {
     font-weight: 1000;
     float: right;
     color: $color-inco-strongest;
-    text-shadow: 0 0 5px $color-dark-light;
+    text-shadow: 0 0 5px white;
 }
 
 .repertoire-tbl {

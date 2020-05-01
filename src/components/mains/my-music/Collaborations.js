@@ -65,6 +65,40 @@ export default function Collaborations({
 
                 Filter tags: {allTags.map((t, i) => <Tag key={i} tag={t} updateTags={updateTags} selectedTags={selectedTags} />)}
             </div>
+
+            <CollabSection 
+                name="El-Ru-Fe-Ma"
+                date="2019/2020"
+                tags={["cardiff"]}
+                selectedTags={selectedTags}
+                updateTags={updateTags}
+            >
+                <Text>
+                    <p>
+                        Jams with Ellie, Matt and Ruth was another spin-off from the ONS choir. I was keen
+                        to try more harmonies and, honestly, I couldn't have asked for more accomplished 
+                        people here, with all three having lots of experience singing in the church. My first
+                        memory of Matt is at the ONS choir, me trying to hit the right notes of the tune and 
+                        Matt singing something completely different. When I asked him which line does he sing, 
+                        his response was "I just make it up on the spot". That kind of level.
+                    </p>
+
+                    <p>
+                        The jams were always super nice, though quite infrequent. We thus never performed
+                        or recorded anything - until the Covid-19 quarantine came and I got the idea: "why 
+                        not record something now". 
+                    </p>
+
+                    <p>
+                        The result is one of my dreams coming true - a recording of Sailing to Philadelphia
+                        with beautiful vocals and harmonies in it. Thanks again guys :-)
+                    </p>
+                </Text>
+                
+                <InText>
+                    <YouTube id='8aCJvAg_MAQ'/>
+                </InText>
+            </CollabSection>
             
             <CollabSection 
                 name="With Ben"

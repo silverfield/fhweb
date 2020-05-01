@@ -93,6 +93,15 @@ export default function About({
                         />
                     </InText>
 
+
+                    <InText width='40%' minWidth="300px" float='right'>
+                        <Image 
+                            imgSrc={require("../../pics/guitars.jpg")}
+                            caption="The guitar family as of 2020 - still happyily growing!"
+                        />
+                    </InText>
+                    
+
                     <Text>
                         <p>
                             To mention a few more, Tommy Emmanuel's energy, technique and beautiful acoustic 
