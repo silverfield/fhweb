@@ -192,7 +192,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ./../pics/london-met
 exports = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-exports.push([module.i, "/* \nhtml5doctor.com Reset Stylesheet\nv1.6.1\nLast Updated: 2010-09-17\nAuthor: Richard Clark - http://richclarkdesign.com \nTwitter: @rich_clark\n*/\nhtml, body, div, span, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\nabbr, address, cite, code,\ndel, dfn, em, img, ins, kbd, q, samp,\nsmall, strong, sub, sup, var,\nb, i,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section, summary,\ntime, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  outline: 0;\n  font-size: 100%;\n  vertical-align: baseline;\n  background: transparent; }\n\nbody {\n  line-height: 1; }\n\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n  display: block; }\n\nnav ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after,\nq:before, q:after {\n  content: '';\n  content: none; }\n\na {\n  margin: 0;\n  padding: 0;\n  font-size: 100%;\n  vertical-align: baseline;\n  background: transparent; }\n\n/* change colours to suit your needs */\nins {\n  background-color: #ff9;\n  color: #000;\n  text-decoration: none; }\n\n/* change colours to suit your needs */\nmark {\n  background-color: #ff9;\n  color: #000;\n  font-style: italic;\n  font-weight: bold; }\n\ndel {\n  text-decoration: line-through; }\n\nabbr[title], dfn[title] {\n  border-bottom: 1px dotted;\n  cursor: help; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\n/* change border colour to suit your needs */\nhr {\n  display: block;\n  height: 1px;\n  border: 0;\n  border-top: 1px solid #cccccc;\n  margin: 1em 0;\n  padding: 0; }\n\ninput, select {\n  vertical-align: middle; }\n\n/* ------------------------------------------------------------ */\n/* General */\n/* ------------------------------------------------------------ */\nbody {\n  min-width: 300px; }\n\nhtml {\n  /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */\n  -webkit-text-size-adjust: 100%;\n  -ms-text-size-adjust: 100%;\n  height: 100%; }\n\na {\n  color: #331f3b;\n  font-weight: 700;\n  text-shadow: 0 0 3px white; }\n\nul {\n  margin-left: 20px; }\n\n.no-flex-grow {\n  flex-grow: 0; }\n\np {\n  margin-bottom: 10px; }\n\n/*  apply a natural box layout model to all elements  */\n* {\n  -moz-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box; }\n\nbody {\n  font-family: 'Didact Gothic', 'Lucida Grande', Tahoma, Sans-Serif;\n  background-color: #9d8d8f;\n  font-size: 19px;\n  line-height: 1.3em;\n  min-height: 100%;\n  display: flex;\n  flex-flow: column; }\n\n.fa {\n  text-shadow: none;\n  padding: 0.4em;\n  font-size: 1.5em;\n  width: 2em;\n  margin: 0.2em;\n  border-radius: 20%;\n  text-align: center;\n  text-decoration: none;\n  background: #5a5560;\n  color: white; }\n  @media (hover: hover) {\n    .fa:hover {\n      opacity: 0.7;\n      color: #331f3b;\n      background-color: #dd551f;\n      -webkit-transition: 0.5s;\n      -moz-transition: 0.5s;\n      -ms-transition: 0.5s;\n      -o-transition: 0.5s;\n      transition: 0.5s; } }\n\n/* ------------------------------------------------------------ */\n/* Header */\n/* ------------------------------------------------------------ */\nheader {\n  flex: 0 1 auto;\n  padding: 1.5%; }\n  header #primary-nav-wrap {\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    background-size: cover;\n    position: relative; }\n  header .primary-nav {\n    flex-direction: column;\n    display: flex;\n    padding: 3px; }\n    header .primary-nav .main-link {\n      border-radius: 0.2em;\n      width: 6em;\n      height: 3em;\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      text-align: center;\n      padding: 0.2em;\n      background-color: rgba(90, 85, 96, 0.7);\n      color: white;\n      text-decoration: none;\n      text-shadow: 0 0 3px black;\n      margin: 0.2em 0.1em;\n      box-shadow: 0 0 8px 0 rgba(90, 85, 96, 0.7); }\n      @media (hover: hover) {\n        header .primary-nav .main-link:hover {\n          box-shadow: 0 0 8px 4px rgba(250, 237, 38, 0.7);\n          color: #faed26;\n          transition: 0.5s; } }\n    header .primary-nav .active-link {\n      background-color: rgba(250, 237, 38, 0.7);\n      color: black;\n      text-shadow: 0 0 3px white; }\n      @media (hover: hover) {\n        header .primary-nav .active-link:hover {\n          color: white;\n          box-shadow: 0 0 8px 4px rgba(255, 255, 255, 0.7);\n          transition: 0.5s;\n          text-shadow: 0 0 3px black; } }\n  header .secondary-nav {\n    background-color: #744236;\n    padding: 3px;\n    flex-direction: row;\n    display: flex;\n    align-items: stretch; }\n    header .secondary-nav .second-link {\n      font-size: 17px;\n      line-height: 17px;\n      border-radius: 0.2em;\n      height: 2.9em;\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      text-align: center;\n      padding: 0.5em;\n      background-color: rgba(134, 87, 75, 0.7);\n      color: white;\n      text-decoration: none;\n      text-shadow: 0 0 3px black;\n      margin: 0.2em 0.1em;\n      box-shadow: 0 0 8px 0 rgba(90, 85, 96, 0.7); }\n      @media (hover: hover) {\n        header .secondary-nav .second-link:hover {\n          box-shadow: 0 0 8px 4px rgba(221, 85, 31, 0.7);\n          color: #dd551f;\n          transition: 0.5s; } }\n    header .secondary-nav .active-link {\n      background-color: rgba(221, 85, 31, 0.7);\n      color: black;\n      text-shadow: 0 0 3px white; }\n      @media (hover: hover) {\n        header .secondary-nav .active-link:hover {\n          color: white;\n          box-shadow: 0 0 8px 4px rgba(255, 255, 255, 0.7);\n          transition: 0.5s;\n          text-shadow: 0 0 3px black; } }\n  header div#header-title {\n    font-weight: 600;\n    font-size: 10vw;\n    color: #331f3b;\n    text-shadow: 0 0 5px #faed26;\n    position: absolute;\n    right: 1.5%;\n    bottom: 5vw; }\n\n/* ------------------------------------------------------------ */\n/* Main */\n/* ------------------------------------------------------------ */\nmain {\n  flex: 1 1 auto;\n  padding: 1.5%; }\n\n.iframe-div {\n  position: relative;\n  width: 100%;\n  height: 0;\n  margin-left: auto;\n  margin-right: auto;\n  padding-bottom: 51%;\n  flex-grow: 1; }\n  .iframe-div iframe {\n    position: absolute;\n    width: 100%;\n    height: 100%; }\n\n.center-content-vert {\n  margin-top: auto;\n  margin-bottom: auto; }\n\ndiv.pre-section {\n  margin-bottom: 20px; }\n\n.float-container {\n  overflow: hidden; }\n\ndiv.page-section {\n  padding: 2%;\n  margin-top: 2%;\n  overflow: auto; }\n  div.page-section hr {\n    margin: 5px; }\n  div.page-section:nth-child(1) {\n    margin-top: 0; }\n  div.page-section:nth-child(odd) {\n    background-color: #86574b; }\n  div.page-section:nth-child(even) {\n    background-color: #9b786f; }\n  div.page-section .section-header {\n    margin-bottom: 10px; }\n  div.page-section .page-sec-title {\n    font-size: 20px;\n    font-weight: 800;\n    display: inline-block; }\n\n.flex-part {\n  flex-grow: 1; }\n\nimg {\n  display: block;\n  width: 100%;\n  margin: 0px;\n  margin-left: auto;\n  margin-right: auto; }\n\n.in-text {\n  box-sizing: border-box;\n  display: flex;\n  flex-direction: column;\n  padding: 10px; }\n\n.text {\n  padding: 10px; }\n\n.flex-container {\n  display: flex;\n  flex-wrap: wrap; }\n\n.about-face {\n  font-weight: 1000;\n  color: #331f3b;\n  font-variant: small-caps; }\n\n.cause-sum {\n  font-size: 25px;\n  font-weight: 1000;\n  float: right;\n  color: #faed26;\n  text-shadow: 0 0 5px #5a5560; }\n\n.contact-section #captcha-image {\n  margin: 0; }\n\n.contact-section #powered-by-snap {\n  display: inline-block;\n  font-size: 0.8em; }\n\n.raised-sum {\n  color: #faed26; }\n\n.page-title {\n  text-align: center;\n  font-size: 1.5em;\n  font-weight: 700;\n  color: #744236;\n  font-variant: small-caps;\n  text-shadow: 0 0 10px white;\n  margin-bottom: 10px; }\n\n.everyday-album {\n  display: block;\n  margin-bottom: 10px;\n  padding: 10px; }\n\n.clear-float {\n  clear: both; }\n\n.news-title {\n  display: block;\n  margin-top: 20px;\n  font-size: 1.5em; }\n\n.news-date {\n  font-size: 20px;\n  font-weight: 1000;\n  float: right;\n  color: #744236;\n  text-shadow: 0 0 5px #5a5560; }\n\n.repertoire-tbl {\n  width: 100%;\n  table-layout: fixed; }\n  .repertoire-tbl th {\n    font-size: 0.9em;\n    vertical-align: bottom; }\n  .repertoire-tbl .th-artist {\n    width: 25%; }\n  .repertoire-tbl .th-name {\n    width: 23%; }\n  .repertoire-tbl .th-props {\n    width: 12%; }\n  .repertoire-tbl .th-tags {\n    width: 35%; }\n  .repertoire-tbl th.rotate {\n    width: 20px;\n    vertical-align: middle;\n    text-align: left;\n    white-space: nowrap; }\n  .repertoire-tbl th.rotate > div {\n    transform: translate(0px, 30px) rotate(-45deg);\n    width: 20px; }\n\n.repe-item {\n  font-size: 0.8em;\n  height: 3em; }\n  .repe-item td {\n    padding: 5px; }\n  .repe-item td.repe-props {\n    text-align: center; }\n  .repe-item:nth-child(odd) td:nth-child(1) {\n    background-color: #86574b; }\n  .repe-item:nth-child(odd) td:nth-child(2) {\n    background-color: #966a5f; }\n  .repe-item:nth-child(odd) td:nth-child(3) {\n    background-color: #86574b; }\n  .repe-item:nth-child(odd) td:nth-child(4) {\n    background-color: #966a5f; }\n  .repe-item:nth-child(even) td:nth-child(1) {\n    background-color: #9b786f; }\n  .repe-item:nth-child(even) td:nth-child(2) {\n    background-color: #b18f86; }\n  .repe-item:nth-child(even) td:nth-child(3) {\n    background-color: #9b786f; }\n  .repe-item:nth-child(even) td:nth-child(4) {\n    background-color: #b18f86; }\n  .repe-item.repe-selected td.repe-name {\n    color: black;\n    background-color: white; }\n\n.repe-top {\n  font-size: 0.8em; }\n\n.repe-artist {\n  cursor: pointer; }\n  @media (hover: hover) {\n    .repe-artist:hover {\n      font-weight: 1000;\n      text-shadow: 0 0 3px white; } }\n  .repe-artist.is-active {\n    border: 1px solid #faed26; }\n\ntd.repe-name {\n  cursor: pointer; }\n  @media (hover: hover) {\n    td.repe-name:hover {\n      color: black;\n      background-color: white !important; } }\n\n.tickcross {\n  background-color: #744236;\n  display: inline-block;\n  border-radius: 2px;\n  font-weight: 1000;\n  font-size: 1.2em;\n  padding: 0 5px;\n  margin: 0 1px;\n  cursor: pointer; }\n  .tickcross.tick {\n    color: #6fda4f71; }\n  .tickcross.cross {\n    color: #e2485a93; }\n  .tickcross.is-active {\n    border: 1px solid #faed26; }\n\n.repe-tag {\n  border-radius: 2px;\n  padding: 1px 3px;\n  background-color: #1d1a1a48;\n  margin-left: 3px;\n  margin-top: 1px;\n  margin-bottom: 1px;\n  cursor: pointer; }\n  .repe-tag.is-active {\n    border: 2px solid #faed26; }\n\n.repe-buttons {\n  align-items: stretch;\n  flex-direction: row;\n  display: flex; }\n\n.repe-button {\n  flex-grow: 1;\n  justify-content: center;\n  border: solid 1px white;\n  cursor: pointer;\n  display: inline-flex;\n  padding: 5px;\n  margin: 4px;\n  border-radius: 4px;\n  background-color: #966a5f; }\n  @media (hover: hover) {\n    .repe-button:hover {\n      background-color: #dd551f; } }\n\n.tag-div {\n  margin-top: 8px;\n  margin-bottom: 8px; }\n\n.active-filters-heading {\n  font-weight: bold;\n  font-size: 1.1em;\n  text-align: center;\n  display: block; }\n\n.tags-heading {\n  font-weight: bold;\n  font-size: 1.1em;\n  text-align: center;\n  display: block; }\n\n.active-filter {\n  cursor: pointer;\n  display: inline-block;\n  background-color: #b18f86;\n  border-radius: 2px;\n  padding: 3px;\n  margin: 3px;\n  width: 100%; }\n\n.remove-filter {\n  float: right; }\n\n@media only screen and (min-width: 576px) {\n  .tag-float-right {\n    float: right; } }\n\n.inline-flex {\n  display: inline-flex; }\n\n.caption {\n  font-size: 0.8em;\n  font-style: italic;\n  text-align: center; }\n\n.predef-set {\n  border-radius: 2px;\n  border: solid black 1px;\n  display: inline-block;\n  margin: 3px;\n  padding: 3px;\n  background-color: #b18f86; }\n  .predef-set.last {\n    background-color: #9d8d8f; }\n  @media (hover: hover) {\n    .predef-set:hover {\n      cursor: pointer;\n      background-color: #966a5f; } }\n\n.soundcloud-embed {\n  font-size: 1.5em;\n  width: 100%;\n  height: 50px;\n  border-radius: 2px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background-color: #b6694a; }\n  @media (hover: hover) {\n    .soundcloud-embed:hover {\n      cursor: pointer;\n      background-color: #dd551f;\n      box-shadow: 0 0 8px 4px rgba(51, 31, 59, 0.7);\n      transition: 0.5s; } }\n  .soundcloud-embed .soundcloud-title {\n    font-style: italic; }\n\n.section-tag {\n  border-radius: 2px;\n  border: 1px solid #5a5560;\n  padding: 1px 3px;\n  background-color: #6e9e2e48;\n  margin-left: 3px;\n  margin-top: 1px;\n  margin-bottom: 1px;\n  cursor: pointer; }\n  .section-tag.is-active {\n    border: 2px solid #faed26; }\n\n.section-extra {\n  float: right; }\n\n.soundcloud-bck {\n  font-size: 0.8em;\n  color: #331f3b;\n  font-style: italic;\n  background-color: white;\n  border-radius: 3px; }\n\n/* ------------------------------------------------------------ */\n/* Footer */\n/* ------------------------------------------------------------ */\nfooter {\n  color: #9d8d8f;\n  flex: 0 1 100px;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  font-size: 0.7em;\n  text-align: center;\n  background-color: #744236; }\n\n@media only screen and (min-width: 540px) {\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  header .primary-nav {\n    flex-direction: row;\n    height: 16em; }\n  header div#header-title {\n    font-size: 8vw;\n    bottom: 5vw; }\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  .contact-main {\n    display: flex;\n    flex-direction: row; }\n    .contact-main .contact-section {\n      margin-right: 10px; }\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */ }\n\n@media only screen and (min-width: 960px) {\n  html {\n    background-color: white; }\n  header div#header-title {\n    font-size: 80px;\n    bottom: 40px; }\n  body {\n    margin: auto;\n    max-width: 1000px;\n    box-shadow: 0 4px 8px 0 #331f3b, 0 6px 20px 0 #331f3b; } }\n", ""]);
+exports.push([module.i, "/* \nhtml5doctor.com Reset Stylesheet\nv1.6.1\nLast Updated: 2010-09-17\nAuthor: Richard Clark - http://richclarkdesign.com \nTwitter: @rich_clark\n*/\nhtml, body, div, span, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\nabbr, address, cite, code,\ndel, dfn, em, img, ins, kbd, q, samp,\nsmall, strong, sub, sup, var,\nb, i,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section, summary,\ntime, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  outline: 0;\n  font-size: 100%;\n  vertical-align: baseline;\n  background: transparent; }\n\nbody {\n  line-height: 1; }\n\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n  display: block; }\n\nnav ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after,\nq:before, q:after {\n  content: '';\n  content: none; }\n\na {\n  margin: 0;\n  padding: 0;\n  font-size: 100%;\n  vertical-align: baseline;\n  background: transparent; }\n\n/* change colours to suit your needs */\nins {\n  background-color: #ff9;\n  color: #000;\n  text-decoration: none; }\n\n/* change colours to suit your needs */\nmark {\n  background-color: #ff9;\n  color: #000;\n  font-style: italic;\n  font-weight: bold; }\n\ndel {\n  text-decoration: line-through; }\n\nabbr[title], dfn[title] {\n  border-bottom: 1px dotted;\n  cursor: help; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\n/* change border colour to suit your needs */\nhr {\n  display: block;\n  height: 1px;\n  border: 0;\n  border-top: 1px solid #cccccc;\n  margin: 1em 0;\n  padding: 0; }\n\ninput, select {\n  vertical-align: middle; }\n\n/* ------------------------------------------------------------ */\n/* General */\n/* ------------------------------------------------------------ */\nbody {\n  min-width: 300px; }\n\nhtml {\n  /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */\n  -webkit-text-size-adjust: 100%;\n  -ms-text-size-adjust: 100%;\n  height: 100%;\n  background-color: #86574b !important; }\n\na {\n  color: #331f3b;\n  font-weight: 700;\n  text-shadow: 0 0 3px white; }\n\nul {\n  margin-left: 20px; }\n\n.no-flex-grow {\n  flex-grow: 0; }\n\np {\n  margin-bottom: 10px; }\n\n/*  apply a natural box layout model to all elements  */\n* {\n  -moz-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box; }\n\nbody {\n  font-family: 'Didact Gothic', 'Lucida Grande', Tahoma, Sans-Serif;\n  background-color: #9d8d8f;\n  font-size: 19px;\n  line-height: 1.3em;\n  min-height: 100%;\n  display: flex;\n  flex-flow: column; }\n\n.fa {\n  text-shadow: none;\n  padding: 0.4em;\n  font-size: 1.5em;\n  width: 2em;\n  margin: 0.2em;\n  border-radius: 20%;\n  text-align: center;\n  text-decoration: none;\n  background: #5a5560;\n  color: white; }\n  @media (hover: hover) {\n    .fa:hover {\n      opacity: 0.7;\n      color: #331f3b;\n      background-color: #dd551f;\n      -webkit-transition: 0.5s;\n      -moz-transition: 0.5s;\n      -ms-transition: 0.5s;\n      -o-transition: 0.5s;\n      transition: 0.5s; } }\n\n/* ------------------------------------------------------------ */\n/* Header */\n/* ------------------------------------------------------------ */\nheader {\n  flex: 0 1 auto;\n  padding: 1.5%;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: cover;\n  position: relative; }\n  header div#header-title {\n    font-weight: 600;\n    font-size: 10vw;\n    text-align: right;\n    line-height: 10vw;\n    color: rgba(255, 255, 255, 0.692);\n    text-shadow: 0 0 5px black;\n    position: absolute;\n    right: 1.5%;\n    bottom: 20px; }\n  header #menu-sticky {\n    z-index: 99999;\n    position: fixed;\n    top: 0;\n    background-color: #0a0a0388; }\n    header #menu-sticky .menu {\n      flex-direction: row; }\n      header #menu-sticky .menu .menu-item {\n        flex: 1 1 0px;\n        width: fit-content; }\n        header #menu-sticky .menu .menu-item .sub-menu {\n          width: 200px;\n          border-radius: 0;\n          margin-left: 0;\n          position: absolute;\n          background-color: #0a0a0388; }\n          header #menu-sticky .menu .menu-item .sub-menu.active-sub {\n            padding: 10px; }\n          header #menu-sticky .menu .menu-item .sub-menu .second-link {\n            font-size: 0.8em; }\n      header #menu-sticky .menu .main-link {\n        cursor: pointer;\n        width: auto;\n        font-size: 0.9em;\n        justify-content: center; }\n  header .menu {\n    display: flex;\n    flex-direction: column; }\n    header .menu .menu-item {\n      display: inline-block;\n      width: 8em; }\n      header .menu .menu-item .sub-menu {\n        border-radius: 5px;\n        width: 250px;\n        max-height: 0;\n        margin-left: 30px;\n        overflow: hidden;\n        transition-property: max-height;\n        transition: all 1s ease-in-out; }\n        header .menu .menu-item .sub-menu.active-sub {\n          transition-property: max-height;\n          transition: all 1s ease-in-out;\n          max-height: 300px; }\n        header .menu .menu-item .sub-menu .sub-menu-item {\n          width: 250px; }\n      header .menu .menu-item .main-link {\n        border-radius: 5px;\n        font-size: 1.3em;\n        width: 6em;\n        height: 3em;\n        display: flex;\n        justify-content: left;\n        align-items: center;\n        text-align: left;\n        padding: 0.2em;\n        color: rgba(255, 255, 255, 0.692);\n        text-decoration: none;\n        text-shadow: 0 5px 5px black; }\n        @media (hover: hover) {\n          header .menu .menu-item .main-link:hover {\n            color: #faed26;\n            transition: 0.5s; } }\n      header .menu .menu-item .second-link {\n        font-size: 1em;\n        width: 100%;\n        height: 1.5em;\n        display: flex;\n        justify-content: left;\n        align-items: left;\n        text-align: left;\n        padding: 0.2em;\n        color: rgba(255, 255, 255, 0.726);\n        text-decoration: none;\n        text-shadow: 0 5px 5px black;\n        margin: 0.2em 0.1em; }\n        @media (hover: hover) {\n          header .menu .menu-item .second-link:hover {\n            color: #faed26;\n            transition: 0.5s; } }\n      header .menu .menu-item .active-link {\n        color: #faed26; }\n        @media (hover: hover) {\n          header .menu .menu-item .active-link:hover {\n            color: #faed26;\n            transition: 0.5s; } }\n\n/* ------------------------------------------------------------ */\n/* Main */\n/* ------------------------------------------------------------ */\nmain {\n  flex: 1 1 auto;\n  padding: 1.5%; }\n\n.iframe-div {\n  position: relative;\n  width: 100%;\n  height: 0;\n  margin-left: auto;\n  margin-right: auto;\n  padding-bottom: 51%;\n  flex-grow: 1; }\n  .iframe-div iframe {\n    position: absolute;\n    width: 100%;\n    height: 100%; }\n\n.center-content-vert {\n  margin-top: auto;\n  margin-bottom: auto; }\n\ndiv.pre-section {\n  margin-bottom: 20px; }\n\n.float-container {\n  overflow: hidden; }\n\ndiv.page-section {\n  padding: 2%;\n  margin-top: 2%;\n  overflow: hidden; }\n  div.page-section hr {\n    margin: 5px; }\n  div.page-section:nth-child(1) {\n    margin-top: 0; }\n  div.page-section:nth-child(odd) {\n    background-color: #86574b; }\n  div.page-section:nth-child(even) {\n    background-color: #9b786f; }\n  div.page-section .section-header {\n    margin-bottom: 10px; }\n  div.page-section .page-sec-title {\n    font-size: 20px;\n    font-weight: 800;\n    display: inline-block; }\n\n.flex-part {\n  flex-grow: 1; }\n\nimg {\n  display: block;\n  width: 100%;\n  margin: 0px;\n  margin-left: auto;\n  margin-right: auto; }\n\n.in-text {\n  box-sizing: border-box;\n  display: flex;\n  flex-direction: column;\n  padding: 10px; }\n\n.text {\n  padding: 10px; }\n\n.flex-container {\n  display: flex;\n  flex-wrap: wrap; }\n\n.about-face {\n  font-weight: 1000;\n  color: #331f3b;\n  font-variant: small-caps; }\n\n.cause-sum {\n  font-size: 25px;\n  font-weight: 1000;\n  float: right;\n  color: #faed26;\n  text-shadow: 0 0 5px #5a5560; }\n\n.contact-section #captcha-image {\n  margin: 0; }\n\n.contact-section #powered-by-snap {\n  display: inline-block;\n  font-size: 0.8em; }\n\n.raised-sum {\n  color: #faed26; }\n\n.page-title {\n  text-align: center;\n  font-size: 1.5em;\n  font-weight: 700;\n  color: #744236;\n  font-variant: small-caps;\n  text-shadow: 0 0 10px white;\n  margin-bottom: 10px; }\n\n.everyday-album {\n  display: block;\n  margin-bottom: 10px;\n  padding: 10px; }\n\n.clear-float {\n  clear: both; }\n\n.news-title {\n  display: block;\n  margin-top: 20px;\n  font-size: 1.5em; }\n\n.news-date {\n  font-size: 20px;\n  font-weight: 1000;\n  float: right;\n  color: #744236;\n  text-shadow: 0 0 5px white; }\n\n.repertoire-tbl {\n  width: 100%;\n  table-layout: fixed; }\n  .repertoire-tbl th {\n    font-size: 0.9em;\n    vertical-align: bottom; }\n  .repertoire-tbl .th-artist {\n    width: 25%; }\n  .repertoire-tbl .th-name {\n    width: 23%; }\n  .repertoire-tbl .th-props {\n    width: 12%; }\n  .repertoire-tbl .th-tags {\n    width: 35%; }\n  .repertoire-tbl th.rotate {\n    width: 20px;\n    vertical-align: middle;\n    text-align: left;\n    white-space: nowrap; }\n  .repertoire-tbl th.rotate > div {\n    transform: translate(0px, 30px) rotate(-45deg);\n    width: 20px; }\n\n.repe-item {\n  font-size: 0.8em;\n  height: 3em; }\n  .repe-item td {\n    padding: 5px; }\n  .repe-item td.repe-props {\n    text-align: center; }\n  .repe-item:nth-child(odd) td:nth-child(1) {\n    background-color: #86574b; }\n  .repe-item:nth-child(odd) td:nth-child(2) {\n    background-color: #966a5f; }\n  .repe-item:nth-child(odd) td:nth-child(3) {\n    background-color: #86574b; }\n  .repe-item:nth-child(odd) td:nth-child(4) {\n    background-color: #966a5f; }\n  .repe-item:nth-child(even) td:nth-child(1) {\n    background-color: #9b786f; }\n  .repe-item:nth-child(even) td:nth-child(2) {\n    background-color: #b18f86; }\n  .repe-item:nth-child(even) td:nth-child(3) {\n    background-color: #9b786f; }\n  .repe-item:nth-child(even) td:nth-child(4) {\n    background-color: #b18f86; }\n  .repe-item.repe-selected td.repe-name {\n    color: black;\n    background-color: white; }\n\n.repe-top {\n  font-size: 0.8em; }\n\n.repe-artist {\n  cursor: pointer; }\n  @media (hover: hover) {\n    .repe-artist:hover {\n      font-weight: 1000;\n      text-shadow: 0 0 3px white; } }\n  .repe-artist.is-active {\n    border: 1px solid #faed26; }\n\ntd.repe-name {\n  cursor: pointer; }\n  @media (hover: hover) {\n    td.repe-name:hover {\n      color: black;\n      background-color: white !important; } }\n\n.tickcross {\n  background-color: #744236;\n  display: inline-block;\n  border-radius: 2px;\n  font-weight: 1000;\n  font-size: 1.2em;\n  padding: 0 5px;\n  margin: 0 1px;\n  cursor: pointer; }\n  .tickcross.tick {\n    color: #6fda4f71; }\n  .tickcross.cross {\n    color: #e2485a93; }\n  .tickcross.is-active {\n    border: 1px solid #faed26; }\n\n.repe-tag {\n  border-radius: 2px;\n  padding: 1px 3px;\n  background-color: #1d1a1a48;\n  margin-left: 3px;\n  margin-top: 1px;\n  margin-bottom: 1px;\n  cursor: pointer; }\n  .repe-tag.is-active {\n    border: 2px solid #faed26; }\n\n.repe-buttons {\n  align-items: stretch;\n  flex-direction: row;\n  display: flex; }\n\n.repe-button {\n  flex-grow: 1;\n  justify-content: center;\n  border: solid 1px white;\n  cursor: pointer;\n  display: inline-flex;\n  padding: 5px;\n  margin: 4px;\n  border-radius: 4px;\n  background-color: #966a5f; }\n  @media (hover: hover) {\n    .repe-button:hover {\n      background-color: #dd551f; } }\n\n.tag-div {\n  margin-top: 8px;\n  margin-bottom: 8px; }\n\n.active-filters-heading {\n  font-weight: bold;\n  font-size: 1.1em;\n  text-align: center;\n  display: block; }\n\n.tags-heading {\n  font-weight: bold;\n  font-size: 1.1em;\n  text-align: center;\n  display: block; }\n\n.active-filter {\n  cursor: pointer;\n  display: inline-block;\n  background-color: #b18f86;\n  border-radius: 2px;\n  padding: 3px;\n  margin: 3px;\n  width: 100%; }\n\n.remove-filter {\n  float: right; }\n\n@media only screen and (min-width: 576px) {\n  .tag-float-right {\n    float: right; } }\n\n.inline-flex {\n  display: inline-flex; }\n\n.caption {\n  font-size: 0.8em;\n  font-style: italic;\n  text-align: center; }\n\n.predef-set {\n  border-radius: 2px;\n  border: solid black 1px;\n  display: inline-block;\n  margin: 3px;\n  padding: 3px;\n  background-color: #b18f86; }\n  .predef-set.last {\n    background-color: #9d8d8f; }\n  @media (hover: hover) {\n    .predef-set:hover {\n      cursor: pointer;\n      background-color: #966a5f; } }\n\n.soundcloud-embed {\n  font-size: 1.5em;\n  width: 100%;\n  height: 50px;\n  border-radius: 2px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background-color: #b6694a; }\n  @media (hover: hover) {\n    .soundcloud-embed:hover {\n      cursor: pointer;\n      background-color: #dd551f;\n      box-shadow: 0 0 8px 4px rgba(51, 31, 59, 0.7);\n      transition: 0.5s; } }\n  .soundcloud-embed .soundcloud-title {\n    font-style: italic; }\n\n.section-tag {\n  border-radius: 2px;\n  border: 1px solid #5a5560;\n  padding: 1px 3px;\n  background-color: #6e9e2e48;\n  margin-left: 3px;\n  margin-top: 1px;\n  margin-bottom: 1px;\n  cursor: pointer; }\n  .section-tag.is-active {\n    border: 2px solid #faed26; }\n\n.section-extra {\n  float: right; }\n\n.soundcloud-bck {\n  font-size: 0.8em;\n  color: #331f3b;\n  font-style: italic;\n  background-color: white;\n  border-radius: 3px; }\n\n/* ------------------------------------------------------------ */\n/* Footer */\n/* ------------------------------------------------------------ */\nfooter {\n  color: #9d8d8f;\n  flex: 0 1 100px;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  font-size: 0.7em;\n  text-align: center;\n  background-color: #744236; }\n\n@media only screen and (min-width: 540px) {\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  header .primary-nav {\n    flex-direction: row;\n    height: 16em; }\n  header div#header-title {\n    font-size: 7vw;\n    line-height: 7vw; }\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  .contact-main {\n    display: flex;\n    flex-direction: row; }\n    .contact-main .contact-section {\n      margin-right: 10px; }\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */ }\n\n@media only screen and (min-width: 960px) {\n  html {\n    background-color: white; }\n  header div#header-title {\n    font-size: 5vw;\n    line-height: 5vw; }\n  body {\n    margin: auto;\n    max-width: 1000px;\n    box-shadow: 0 4px 8px 0 #331f3b, 0 6px 20px 0 #331f3b; } }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -47895,16 +47895,196 @@ function Footer(_ref) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Header; });
-/* harmony import */ var _PrimaryNav__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./PrimaryNav */ "./src/components/PrimaryNav.js");
-/* harmony import */ var _SecondaryNav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SecondaryNav */ "./src/components/SecondaryNav.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _helpers_combo_helper__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../helpers/combo-helper */ "./src/helpers/combo-helper.js");
+/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/esm/react-router.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _ScrollToTop_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ScrollToTop.js */ "./src/components/ScrollToTop.js");
 function _objectDestructuringEmpty(obj) { if (obj == null) throw new TypeError("Cannot destructure undefined"); }
 
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
-function Header(_ref) {
-  _objectDestructuringEmpty(_ref);
 
-  return React.createElement(React.Fragment, null, React.createElement(_PrimaryNav__WEBPACK_IMPORTED_MODULE_0__["default"], null), React.createElement(_SecondaryNav__WEBPACK_IMPORTED_MODULE_1__["default"], null));
+
+
+
+var MenuItem = Object(react_router__WEBPACK_IMPORTED_MODULE_2__["withRouter"])(MenuItemImp);
+var StickyContext = Object(react__WEBPACK_IMPORTED_MODULE_3__["createContext"])(false);
+
+function MenuItemImp(_ref) {
+  var to = _ref.to,
+      title = _ref.title,
+      _ref$submenuItems = _ref.submenuItems,
+      submenuItems = _ref$submenuItems === void 0 ? null : _ref$submenuItems,
+      location = _ref.location;
+
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])(false),
+      _useState2 = _slicedToArray(_useState, 2),
+      inMenu = _useState2[0],
+      setInMenu = _useState2[1];
+
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])(false),
+      _useState4 = _slicedToArray(_useState3, 2),
+      inSubMenu = _useState4[0],
+      setInSubMenu = _useState4[1];
+
+  var isSticky = Object(react__WEBPACK_IMPORTED_MODULE_3__["useContext"])(StickyContext);
+  var isActive = location.pathname.startsWith(to);
+  var submenu = React.createElement(React.Fragment, null);
+
+  if (submenuItems) {
+    submenu = React.createElement("div", {
+      className: 'sub-menu' + (inMenu || inSubMenu || isActive && !isSticky ? ' active-sub' : ''),
+      onMouseEnter: function onMouseEnter() {
+        return setInSubMenu(true);
+      },
+      onMouseLeave: function onMouseLeave() {
+        return setInSubMenu(false);
+      }
+    }, submenuItems.map(function (i, ind) {
+      return React.createElement(SubMenuItem, _extends({
+        key: ind
+      }, i));
+    }));
+  }
+
+  var navLink = React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["NavLink"], {
+    to: to,
+    className: "main-link" + (inMenu || inSubMenu ? ' hovering-main' : ''),
+    activeClassName: "active-link"
+  }, title);
+  var dummyNavLink = React.createElement("a", {
+    className: "main-link" + (inMenu || inSubMenu ? ' hovering-main' : '') + (isActive ? ' active-link' : '')
+  }, title);
+  return React.createElement("div", {
+    className: "menu-item",
+    onMouseEnter: function onMouseEnter() {
+      return setInMenu(true);
+    },
+    onMouseLeave: function onMouseLeave() {
+      return setInMenu(false);
+    }
+  }, _helpers_combo_helper__WEBPACK_IMPORTED_MODULE_1__["isMobile"] && submenuItems !== null ? dummyNavLink : navLink, submenu);
+}
+
+function SubMenuItem(_ref2) {
+  var to = _ref2.to,
+      title = _ref2.title;
+  return React.createElement("div", {
+    className: "sub-menu-item"
+  }, React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["NavLink"], {
+    to: to,
+    className: "second-link",
+    activeClassName: "active-link"
+  }, title));
+}
+
+function Menu(_ref3) {
+  _objectDestructuringEmpty(_ref3);
+
+  return React.createElement("div", {
+    className: "menu"
+  }, React.createElement(MenuItem, {
+    to: "/home",
+    title: "home"
+  }), React.createElement(MenuItem, {
+    to: "/my-music",
+    title: "my music",
+    submenuItems: [{
+      to: '/my-music/everyday',
+      title: 'everyday (demo album)'
+    }, {
+      to: '/my-music/originals',
+      title: 'other originals'
+    }, {
+      to: '/my-music/covers',
+      title: 'covers'
+    }, {
+      to: '/my-music/collaborations',
+      title: 'collaborations'
+    }]
+  }), React.createElement(MenuItem, {
+    to: "/busking",
+    title: "busking 4 good"
+  }), React.createElement(MenuItem, {
+    to: "/repertoire",
+    title: "repertoire"
+  }), React.createElement(MenuItem, {
+    to: "/about",
+    title: "about me"
+  }), React.createElement(MenuItem, {
+    to: "/contact",
+    title: "contact me"
+  }));
+}
+
+function NavBar(_ref4) {
+  _objectDestructuringEmpty(_ref4);
+
+  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])(false),
+      _useState6 = _slicedToArray(_useState5, 2),
+      isSticky = _useState6[0],
+      setIsSticky = _useState6[1];
+
+  Object(react__WEBPACK_IMPORTED_MODULE_3__["useEffect"])(function () {
+    var navbar = document.getElementById("nav");
+    var menuSticky = document.getElementById("menu-sticky");
+    var body = $('#body');
+
+    function resizeStickyMenu() {
+      menuSticky.style.left = body.css('marginLeft');
+      menuSticky.style.right = body.css('marginRight');
+    }
+
+    ;
+    resizeStickyMenu();
+
+    window.onscroll = function () {
+      if (window.pageYOffset >= navbar.clientHeight) {
+        menuSticky.style.display = 'block';
+        setIsSticky(true);
+      } else {
+        menuSticky.style.display = 'none';
+        setIsSticky(false);
+      }
+    };
+
+    window.onresize = function () {
+      resizeStickyMenu();
+    };
+  });
+  return React.createElement(StickyContext.Provider, {
+    value: isSticky
+  }, React.createElement("nav", {
+    id: "nav"
+  }, React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["HashRouter"], null, React.createElement(_ScrollToTop_js__WEBPACK_IMPORTED_MODULE_4__["default"], null, React.createElement("div", {
+    id: "menu-std"
+  }, React.createElement(Menu, null)), React.createElement("div", {
+    id: "menu-sticky",
+    style: {
+      'display': 'none'
+    }
+  }, React.createElement(Menu, null))))));
+}
+
+function Header(_ref5) {
+  _objectDestructuringEmpty(_ref5);
+
+  return React.createElement(React.Fragment, null, React.createElement("div", {
+    className: "header"
+  }, React.createElement(NavBar, null), React.createElement("div", {
+    id: "header-title"
+  }, "Fero ", React.createElement("br", null), "Hajnovi\u010D ", React.createElement("br", null), "Music")));
 }
 
 /***/ }),
@@ -47981,60 +48161,6 @@ function Main(_ref) {
 
 /***/ }),
 
-/***/ "./src/components/PrimaryNav.js":
-/*!**************************************!*\
-  !*** ./src/components/PrimaryNav.js ***!
-  \**************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return PrimaryNav; });
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var _ScrollToTop_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ScrollToTop.js */ "./src/components/ScrollToTop.js");
-function _objectDestructuringEmpty(obj) { if (obj == null) throw new TypeError("Cannot destructure undefined"); }
-
-
-
-function PrimaryNav(_ref) {
-  _objectDestructuringEmpty(_ref);
-
-  return React.createElement("div", {
-    id: "primary-nav-wrap"
-  }, React.createElement("nav", {
-    className: "primary-nav"
-  }, React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["HashRouter"], null, React.createElement(_ScrollToTop_js__WEBPACK_IMPORTED_MODULE_1__["default"], null, React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["NavLink"], {
-    to: "/home",
-    className: "main-link",
-    activeClassName: "active-link"
-  }, "home"), React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["NavLink"], {
-    to: "/my-music",
-    className: "main-link",
-    activeClassName: "active-link"
-  }, "my music"), React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["NavLink"], {
-    to: "/busking",
-    className: "main-link",
-    activeClassName: "active-link"
-  }, "busking 4 good"), React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["NavLink"], {
-    to: "/repertoire",
-    className: "main-link",
-    activeClassName: "active-link"
-  }, "repertoire"), React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["NavLink"], {
-    to: "/about",
-    className: "main-link",
-    activeClassName: "active-link"
-  }, "about me"), React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["NavLink"], {
-    to: "/contact",
-    className: "main-link",
-    activeClassName: "active-link"
-  }, "contact me")))), React.createElement("div", {
-    id: "header-title"
-  }, "Fero Hajnovi\u010D"));
-}
-
-/***/ }),
-
 /***/ "./src/components/ScrollToTop.js":
 /*!***************************************!*\
   !*** ./src/components/ScrollToTop.js ***!
@@ -48065,57 +48191,6 @@ function ScrollToTop(_ref) {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["withRouter"])(ScrollToTop));
-
-/***/ }),
-
-/***/ "./src/components/SecondaryNav.js":
-/*!****************************************!*\
-  !*** ./src/components/SecondaryNav.js ***!
-  \****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return SecondaryNav; });
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var history__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! history */ "./node_modules/history/esm/history.js");
-/* harmony import */ var _ScrollToTop_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ScrollToTop.js */ "./src/components/ScrollToTop.js");
-function _objectDestructuringEmpty(obj) { if (obj == null) throw new TypeError("Cannot destructure undefined"); }
-
-
-
-
-function SecondaryNav(_ref) {
-  _objectDestructuringEmpty(_ref);
-
-  return React.createElement(React.Fragment, null, React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["HashRouter"], {
-    onUpdate: function onUpdate() {
-      return window.scrollTo(0, 0);
-    },
-    history: Object(history__WEBPACK_IMPORTED_MODULE_1__["createBrowserHistory"])()
-  }, React.createElement(_ScrollToTop_js__WEBPACK_IMPORTED_MODULE_2__["default"], null, React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["Switch"], null, React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["Route"], {
-    path: "/my-music"
-  }, React.createElement("nav", {
-    className: "secondary-nav"
-  }, React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["NavLink"], {
-    to: "/my-music/everyday",
-    className: "second-link",
-    activeClassName: "active-link"
-  }, "everyday (demo album)"), React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["NavLink"], {
-    to: "/my-music/originals",
-    className: "second-link",
-    activeClassName: "active-link"
-  }, "other originals"), React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["NavLink"], {
-    to: "/my-music/covers",
-    className: "second-link",
-    activeClassName: "active-link"
-  }, "covers"), React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["NavLink"], {
-    to: "/my-music/collaborations",
-    className: "second-link",
-    activeClassName: "active-link"
-  }, "collaborations")))))));
-}
 
 /***/ }),
 
@@ -48166,6 +48241,13 @@ function About(_ref) {
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Image"], {
     imgSrc: __webpack_require__(/*! ../../pics/with-roman.jpg */ "./src/pics/with-roman.jpg"),
     caption: "With Roman in Oslo, 2015"
+  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], {
+    width: "40%",
+    minWidth: "300px",
+    "float": "right"
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Image"], {
+    imgSrc: __webpack_require__(/*! ../../pics/guitars.jpg */ "./src/pics/guitars.jpg"),
+    caption: "The guitar family as of 2020 - still happyily growing!"
   })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "To mention a few more, Tommy Emmanuel's energy, technique and beautiful acoustic melodies are frequently seen on my playlists, and so are some of the more David Gilmour inspired Pink Floyd songs (e.g. Coming back to life). Bruce Springsteen, Gary Moore, Eric Clapton, Simon & Garfunkel and others further shaped my taste in music and playing."), React.createElement("p", null, "Finally, I am definitely a sucker for mainstream stuff too - simple, melodic songs that render themselves nicely to duo-projects, harmonizing, perhaps a simple loop with a solo on top. Ed Sheeran, Katie Melua or soundtracks from musicals form considerable chunks of my songbook and ocassional jam-times with singers."))), React.createElement("div", {
     className: "page-section clear-float"
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], {
@@ -48475,7 +48557,9 @@ function Busking(_ref2) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Contact; });
+/* harmony import */ var _helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../helpers/combo-helper */ "./src/helpers/combo-helper.js");
 function _objectDestructuringEmpty(obj) { if (obj == null) throw new TypeError("Cannot destructure undefined"); }
+
 
 function Contact(_ref) {
   _objectDestructuringEmpty(_ref);
@@ -48703,24 +48787,33 @@ function Home(_ref2) {
     minWidth: "300px"
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Image"], {
     imgSrc: __webpack_require__(/*! ../../pics/grass-1.jpg */ "./src/pics/grass-1.jpg")
-  })), React.createElement("p", null, "My name is Fero, and I'm a guitarist, song-writer and a busker based in London. Mainly inspired by the likes of Mark Knopfler or John Mayer, my style is very much \"the guitar music\": from melodic, at times ambient lead guitar, through rocky or bluesy vibes, all the way to acoustic, folky and song-writer type of songs."), React.createElement("p", null, "If you're looking for a musician to get that nice vibe going at your venue, pick what works for you from my ", React.createElement("a", {
+  })), React.createElement("p", null, "Hi! I'm Fero, and I'm a guitarist, song-writer and a busker based in London. Mainly inspired by the likes of Mark Knopfler or John Mayer, my style is very much \"the guitar music\": from melodic, at times ambient lead guitar, through rocky or bluesy vibes, all the way to acoustic and folky type of songs."), React.createElement("p", null, "If you're looking for a musician to get some nice vibes going at your venue, check out my ", React.createElement("a", {
     href: "#repertoire"
-  }, "repertoire"), " page or just ", React.createElement("a", {
+  }, "repertoire"), " and ", React.createElement("a", {
     href: "#contact"
-  }, "get in touch"), ". For my original stuff or other music I do, check out ", React.createElement("a", {
+  }, "get in touch"), ". For my original songs, collaborative works or covers, see ", React.createElement("a", {
     href: "#my-music"
   }, "my music"), " page. Finally, don't forget to visit the ", React.createElement("a", {
     href: "#busking"
-  }, "busking for good"), " section and see why busking should be supported!"), React.createElement("p", null, "And if you're just wondering who the hell I am, you may find some answers ", React.createElement("a", {
+  }, "busking for good"), " section and see why busking should be supported!"), React.createElement("p", null, "And if you'd just like to find out more about me, there will be some answers ", React.createElement("a", {
     href: "#about"
   }, "here"), ".")), React.createElement("span", {
     className: "news-title"
   }, "News:"), React.createElement(News, {
     name: "Demo album reaching completion!",
-    date: "04/2020"
-  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, "Check out the ", React.createElement("a", {
+    date: "05/2020"
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], {
+    width: "40%",
+    "float": "left",
+    minWidth: "350px"
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Image"], {
+    imgSrc: __webpack_require__(/*! ../../pics/everyday-cover.jpeg */ "./src/pics/everyday-cover.jpeg")
+  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, "Check out the ", React.createElement("a", {
     href: "#my-music"
-  }, "tracks"), " from album \"Everyday\" that are already near finished! I'm re-recording some of the parts during the Covid-19 self-isolation - so that once the lock-down ceases, I'll be ready to hit the streets and bars again!")));
+  }, "11 tracks"), " from album \"Everyday\" that are already near finished! I'm re-recording some of the parts during the Covid-19 self-isolation - so that once the lock-down ceases, I'll be ready to hit the streets and bars again!")), React.createElement(News, {
+    name: "Website is live!",
+    date: "05/2020"
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, "Aand the website is live! You should be probably aware of that as you are just looking at it, but it's a milestone that deserves to be here!")));
 }
 
 /***/ }),
@@ -49332,6 +49425,14 @@ function Collaborations(_ref) {
       selectedTags: selectedTags
     });
   })), React.createElement(CollabSection, {
+    name: "El-Ru-Fe-Ma",
+    date: "2019/2020",
+    tags: ["cardiff"],
+    selectedTags: selectedTags,
+    updateTags: updateTags
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "Jams with Ellie, Matt and Ruth was another spin-off from the ONS choir. I was keen to try more harmonies and, honestly, I couldn't have asked for more accomplished people here, with all three having lots of experience singing in the church. My first memory of Matt is at the ONS choir, me trying to hit the right notes of the tune and Matt singing something completely different. When I asked him which line does he sing, his response was \"I just make it up on the spot\". That kind of level."), React.createElement("p", null, "The jams were always super nice, though quite infrequent. We thus never performed or recorded anything - until the Covid-19 quarantine came and I got the idea: \"why not record something now\"."), React.createElement("p", null, "The result is one of my dreams coming true - a recording of Sailing to Philadelphia with beautiful vocals and harmonies in it. Thanks again guys :-)")), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "8aCJvAg_MAQ"
+  }))), React.createElement(CollabSection, {
     name: "With Ben",
     date: "2019/2020",
     tags: ["ben jamon", "cardiff"],
@@ -49585,6 +49686,18 @@ function Covers(_ref) {
       selectedTags: selectedTags
     });
   })), React.createElement(CoverSection, {
+    name: "Mark Knopfler - Sailing to Philadelphia",
+    date: "2020-04-27",
+    tags: ["mark knopfler", "video", "studio", "multicam"],
+    selectedTags: selectedTags,
+    updateTags: updateTags
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], {
+    "float": "left",
+    width: "50%",
+    minWidth: "300px"
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "8aCJvAg_MAQ"
+  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, "In the middle of the Covid-19 quarantine, we sailed to Philadelphia :-) A beautiful song, made even more beautiful with Ruth's, Ellie's and Matt's vocals and harmonies. I've always wanted to record this one with them, but it was difficult to find a time everyone would be free. Well, a dream came true during the quarantine - who says we need to be at the same place recording? ;-)")), React.createElement(CoverSection, {
     name: "John Mayer - I guess I just feel like",
     date: "2020-03-30",
     tags: ["john mayer", "video", "studio", "multicam"],
@@ -49770,10 +49883,10 @@ function SoundcloudEmbed(_ref2) {
     'summer tune': "\n            <iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/764998177&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true\"></iframe>\n        ",
     'fargo and pelgrim': "\n            <iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/786320029&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true\"></iframe>\n        ",
     'calling at newport': "\n            <iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/764767948&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true\"></iframe>\n        ",
-    'hey dad': "\n            <iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/770897755&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true\"></iframe>\n        ",
+    'hey dad': "\n            <iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/801596476&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true\"></iframe><div style=\"font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;\"><a href=\"https://soundcloud.com/ferohajnovic\" title=\"Fero Hajnovic\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">Fero Hajnovic</a> \xB7 <a href=\"https://soundcloud.com/ferohajnovic/hey-dad\" title=\"Hey dad\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">Hey dad</a></div>\n        ",
     'sticks in the water': "\n            <iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/796806931&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true\"></iframe>\n        ",
-    'at the ocean shore': "\n            <iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/796809490&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true\"></iframe>\n        ",
-    'when this is done': "\n            <iframe width=\"100%\" height=\"300\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/799516786&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\"></iframe>\n        "
+    'at the ocean shore': "\n            <iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/801596386&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true\"></iframe><div style=\"font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;\"><a href=\"https://soundcloud.com/ferohajnovic\" title=\"Fero Hajnovic\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">Fero Hajnovic</a> \xB7 <a href=\"https://soundcloud.com/ferohajnovic/at-the-ocean-shore\" title=\"At the ocean shore\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">At the ocean shore</a></div>\n        ",
+    'when this is done': "\n            <iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/801596623&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true\"></iframe><div style=\"font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;\"><a href=\"https://soundcloud.com/ferohajnovic\" title=\"Fero Hajnovic\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">Fero Hajnovic</a> \xB7 <a href=\"https://soundcloud.com/ferohajnovic/when-this-is-done\" title=\"When this is done\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">When this is done</a></div>        \n        "
   };
   var slugs = {
     'everyday': 'everyday',
@@ -49820,7 +49933,7 @@ function Everyday(_ref3) {
     src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/781852491&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
   })))), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
     proportion: "0.6",
-    minWidth: "500px"
+    minWidth: "400px"
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "My first (demo) album is slowly coming together. Named after one of the songs - Everyday - its beginnings date to my after-university times in Oslo when I made that step from \"bedroom guitar playing\" and started doing open mics, jamming, duo-projects and eventually my most favorite activity: ", React.createElement("a", {
     href: "#busking"
   }, "busking"), "."), React.createElement("p", null, "It was there in Oslo, where the first of the songs came together, with some eventually making my first demo recordings (and some still waiting on my hard drive to get their chance for some studio time!)."), React.createElement("p", null, "The next round of inspiration came during ", React.createElement("a", {
@@ -49836,7 +49949,7 @@ function Everyday(_ref3) {
     minWidth: "200px"
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Image"], {
     imgSrc: __webpack_require__(/*! ../../../pics/oslo-aker.jpg */ "./src/pics/oslo-aker.jpg"),
-    caption: "Oslo, Aker Brygge"
+    caption: "Oslo, Aker Brygge - the most memorable busking place"
   }))), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
     proportion: "0.7",
     minWidth: "200px"
@@ -50166,11 +50279,12 @@ module.exports = JSON.parse("[{\"artist\":\"Fero Hajnovic\",\"name\":\"Everyday\
 /*!*************************************!*\
   !*** ./src/helpers/combo-helper.js ***!
   \*************************************/
-/*! exports provided: randomId, htmlDecode, PageSection, TagSection, FlexContainer, Tag, InText, Image, YouTube, SoundCloud, Instagram, Text, Part */
+/*! exports provided: isMobile, randomId, htmlDecode, PageSection, TagSection, FlexContainer, Tag, InText, Image, YouTube, SoundCloud, Instagram, Text, Part */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "isMobile", function() { return isMobile; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "randomId", function() { return randomId; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "htmlDecode", function() { return htmlDecode; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PageSection", function() { return PageSection; });
@@ -50189,6 +50303,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_1__);
 
 
+function isMobile() {
+  var check = false;
+
+  (function (a) {
+    if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino|android|ipad|playbook|silk/i.test(a) || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0, 4))) check = true;
+  })(navigator.userAgent || navigator.vendor || window.opera);
+
+  return check;
+}
+;
 function randomId() {
   return 'a' + Math.random().toString(36).substr(2, 9);
 }
@@ -50521,6 +50645,17 @@ module.exports = __webpack_require__.p + "6285a68502128018b28ff31fd8274bd5.JPG";
 
 /***/ }),
 
+/***/ "./src/pics/everyday-cover.jpeg":
+/*!**************************************!*\
+  !*** ./src/pics/everyday-cover.jpeg ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "321fe7f6a8cba328877a0ed87347a365.jpeg";
+
+/***/ }),
+
 /***/ "./src/pics/first-pizza-hunt.png":
 /*!***************************************!*\
   !*** ./src/pics/first-pizza-hunt.png ***!
@@ -50562,6 +50697,17 @@ module.exports = __webpack_require__.p + "56cde233b0c3da05facb5ea2d815ebe7.jpg";
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "bb00f09e6367281ffa24daac606c12e6.jpg";
+
+/***/ }),
+
+/***/ "./src/pics/guitars.jpg":
+/*!******************************!*\
+  !*** ./src/pics/guitars.jpg ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "bf86db6e3151b0c1b1ff5c9095e4fdf1.jpg";
 
 /***/ }),
 
