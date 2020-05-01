@@ -22,12 +22,6 @@ function MenuItemImp({
     const [inMenu, setInMenu] = useState(false);
     const [inSubMenu, setInSubMenu] = useState(false);
 
-    const setInMenusFalse = () => {
-        setInMenu(false);
-        setInSubMenu(false);
-    }
-    
-    const isStickyShown = useContext(StickyContext);
     let isActive = location.pathname.startsWith(to);
 
     let submenu = <></>
