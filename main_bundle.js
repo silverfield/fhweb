@@ -47903,8 +47903,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ScrollToTop_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ScrollToTop.js */ "./src/components/ScrollToTop.js");
 function _objectDestructuringEmpty(obj) { if (obj == null) throw new TypeError("Cannot destructure undefined"); }
 
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
@@ -47926,6 +47924,7 @@ function MenuItemImp(_ref) {
       title = _ref.title,
       _ref$submenuItems = _ref.submenuItems,
       submenuItems = _ref$submenuItems === void 0 ? null : _ref$submenuItems,
+      sticky = _ref.sticky,
       location = _ref.location;
 
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])(false),
@@ -47938,23 +47937,33 @@ function MenuItemImp(_ref) {
       inSubMenu = _useState4[0],
       setInSubMenu = _useState4[1];
 
-  var isSticky = Object(react__WEBPACK_IMPORTED_MODULE_3__["useContext"])(StickyContext);
+  var setInMenusFalse = function setInMenusFalse() {
+    setInMenu(false);
+    setInSubMenu(false);
+  };
+
+  var isStickyShown = Object(react__WEBPACK_IMPORTED_MODULE_3__["useContext"])(StickyContext);
   var isActive = location.pathname.startsWith(to);
   var submenu = React.createElement(React.Fragment, null);
 
   if (submenuItems) {
     submenu = React.createElement("div", {
-      className: 'sub-menu' + (inMenu || inSubMenu || isActive && !isSticky ? ' active-sub' : ''),
-      onMouseEnter: function onMouseEnter() {
+      className: 'sub-menu' + (inMenu || inSubMenu || isActive && !sticky ? ' active-sub' : ''),
+      onMouseEnter: Object(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_1__["isMobile"])() ? null : function () {
         return setInSubMenu(true);
       },
-      onMouseLeave: function onMouseLeave() {
+      onMouseLeave: Object(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_1__["isMobile"])() ? null : function () {
         return setInSubMenu(false);
       }
     }, submenuItems.map(function (i, ind) {
-      return React.createElement(SubMenuItem, _extends({
-        key: ind
-      }, i));
+      return React.createElement("div", {
+        key: ind,
+        className: "sub-menu-item"
+      }, React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["NavLink"], {
+        to: i['to'],
+        className: "second-link",
+        activeClassName: "active-link"
+      }, i['title']));
     }));
   }
 
@@ -47968,35 +47977,26 @@ function MenuItemImp(_ref) {
   }, title);
   return React.createElement("div", {
     className: "menu-item",
-    onMouseEnter: function onMouseEnter() {
+    onMouseEnter: Object(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_1__["isMobile"])() ? null : function () {
       return setInMenu(true);
     },
-    onMouseLeave: function onMouseLeave() {
+    onMouseLeave: Object(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_1__["isMobile"])() ? null : function () {
       return setInMenu(false);
-    }
+    },
+    onClick: Object(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_1__["isMobile"])() ? function () {
+      return setInMenu(!inMenu);
+    } : null
   }, Object(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_1__["isMobile"])() && submenuItems !== null ? dummyNavLink : navLink, submenu);
 }
 
-function SubMenuItem(_ref2) {
-  var to = _ref2.to,
-      title = _ref2.title;
-  return React.createElement("div", {
-    className: "sub-menu-item"
-  }, React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["NavLink"], {
-    to: to,
-    className: "second-link",
-    activeClassName: "active-link"
-  }, title));
-}
-
-function Menu(_ref3) {
-  _objectDestructuringEmpty(_ref3);
-
+function Menu(_ref2) {
+  var sticky = _ref2.sticky;
   return React.createElement("div", {
     className: "menu"
   }, React.createElement(MenuItem, {
     to: "/home",
-    title: "home"
+    title: "home",
+    sticky: sticky
   }), React.createElement(MenuItem, {
     to: "/my-music",
     title: "my music",
@@ -48012,29 +48012,34 @@ function Menu(_ref3) {
     }, {
       to: '/my-music/collaborations',
       title: 'collaborations'
-    }]
+    }],
+    sticky: sticky
   }), React.createElement(MenuItem, {
     to: "/busking",
-    title: "busking 4 good"
+    title: "busking 4 good",
+    sticky: sticky
   }), React.createElement(MenuItem, {
     to: "/repertoire",
-    title: "repertoire"
+    title: "repertoire",
+    sticky: sticky
   }), React.createElement(MenuItem, {
     to: "/about",
-    title: "about me"
+    title: "about me",
+    sticky: sticky
   }), React.createElement(MenuItem, {
     to: "/contact",
-    title: "contact me"
+    title: "contact me",
+    sticky: sticky
   }));
 }
 
-function NavBar(_ref4) {
-  _objectDestructuringEmpty(_ref4);
+function NavBar(_ref3) {
+  _objectDestructuringEmpty(_ref3);
 
   var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])(false),
       _useState6 = _slicedToArray(_useState5, 2),
-      isSticky = _useState6[0],
-      setIsSticky = _useState6[1];
+      isStickyShown = _useState6[0],
+      setIsStickyShown = _useState6[1];
 
   Object(react__WEBPACK_IMPORTED_MODULE_3__["useEffect"])(function () {
     var navbar = document.getElementById("nav");
@@ -48052,10 +48057,10 @@ function NavBar(_ref4) {
     window.onscroll = function () {
       if (window.pageYOffset >= navbar.clientHeight) {
         menuSticky.style.display = 'block';
-        setIsSticky(true);
+        setIsStickyShown(true);
       } else {
         menuSticky.style.display = 'none';
-        setIsSticky(false);
+        setIsStickyShown(false);
       }
     };
 
@@ -48064,21 +48069,25 @@ function NavBar(_ref4) {
     };
   });
   return React.createElement(StickyContext.Provider, {
-    value: isSticky
+    value: isStickyShown
   }, React.createElement("nav", {
     id: "nav"
   }, React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_0__["HashRouter"], null, React.createElement(_ScrollToTop_js__WEBPACK_IMPORTED_MODULE_4__["default"], null, React.createElement("div", {
     id: "menu-std"
-  }, React.createElement(Menu, null)), React.createElement("div", {
+  }, React.createElement(Menu, {
+    sticky: false
+  })), React.createElement("div", {
     id: "menu-sticky",
     style: {
       'display': 'none'
     }
-  }, React.createElement(Menu, null))))));
+  }, React.createElement(Menu, {
+    sticky: true
+  }))))));
 }
 
-function Header(_ref5) {
-  _objectDestructuringEmpty(_ref5);
+function Header(_ref4) {
+  _objectDestructuringEmpty(_ref4);
 
   return React.createElement(React.Fragment, null, React.createElement("div", {
     className: "header"
@@ -48615,6 +48624,8 @@ function Contact(_ref) {
 
   var thankYouUrl = window.location.href.split('#/contact')[0] + 'thank-you.html';
   return React.createElement(React.Fragment, null, React.createElement("div", {
+    className: "container-fluid"
+  }, React.createElement("div", {
     className: "page-title"
   }, "I'd like to hear from you"), React.createElement("div", {
     className: "row"
@@ -48742,7 +48753,7 @@ function Contact(_ref) {
     href: "http://www.snaphost.com/captcha/CaptchaGuestbook.aspx",
     alt: "guestbook html",
     title: "guestbook html"
-  }, "SnapHost"))))));
+  }, "SnapHost")))))));
 }
 
 /***/ }),
@@ -49103,6 +49114,8 @@ function RepeTop(_ref5) {
 
   allTags.sort();
   return React.createElement(React.Fragment, null, React.createElement("div", {
+    className: "container-fluid"
+  }, React.createElement("div", {
     className: "repe-top row"
   }, React.createElement("div", {
     className: "col-sm-4"
@@ -49162,7 +49175,7 @@ function RepeTop(_ref5) {
     }))), React.createElement("div", {
       className: "col-9"
     }, tagMap[value]['full']));
-  }))));
+  })))));
 }
 
 function RepeTable(_ref6) {
@@ -49933,7 +49946,7 @@ function Everyday(_ref3) {
     src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/781852491&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
   })))), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
     proportion: "0.6",
-    minWidth: "400px"
+    minWidth: "350px"
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "My first (demo) album is slowly coming together. Named after one of the songs - Everyday - its beginnings date to my after-university times in Oslo when I made that step from \"bedroom guitar playing\" and started doing open mics, jamming, duo-projects and eventually my most favorite activity: ", React.createElement("a", {
     href: "#busking"
   }, "busking"), "."), React.createElement("p", null, "It was there in Oslo, where the first of the songs came together, with some eventually making my first demo recordings (and some still waiting on my hard drive to get their chance for some studio time!)."), React.createElement("p", null, "The next round of inspiration came during ", React.createElement("a", {
