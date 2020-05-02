@@ -42456,7 +42456,7 @@ if (false) {} else {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, __RouterContext, generatePath, matchPath, useHistory, useLocation, useParams, useRouteMatch, withRouter, BrowserRouter, HashRouter, Link, NavLink */
+/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, __RouterContext, generatePath, matchPath, useHistory, useLocation, useParams, useRouteMatch, withRouter */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -49692,6 +49692,18 @@ function Covers(_ref) {
       selectedTags: selectedTags
     });
   })), React.createElement(CoverSection, {
+    name: "Dire Straits - Telegraph road (outro)",
+    date: "2020-05-02",
+    tags: ["dire straits", "video", "studio"],
+    selectedTags: selectedTags,
+    updateTags: updateTags
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], {
+    "float": "left",
+    width: "50%",
+    minWidth: "300px"
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "dlPK0Jfjtbo"
+  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "Absolutely epic outro of incredible song - the most exciting solo that I know of. Mark played this version in 2005. The licks he put in there are simply ingenious. Hope you enjoy my humble attempt at reproducing the maestro."), React.createElement("p", null, "Played on Michael Kelly Telecaster 1957, using Wampler Ego compressor, Boss OD-3 overdrive and Boss Rv-6 reverb"))), React.createElement(CoverSection, {
     name: "Mark Knopfler - Sailing to Philadelphia",
     date: "2020-04-27",
     tags: ["mark knopfler", "video", "studio", "multicam"],
