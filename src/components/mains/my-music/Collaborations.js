@@ -58,7 +58,7 @@ export default function Collaborations({
                     Over the years there was quite a bit of jamming and playing with people, little projects
                     here and there. Some grew to see a studio recording, recorded jam sessions, 
                     or an open mic performance. Here's some
-                    of the top picks ;-)
+                    of the top picks.
                 </p>
 
                 <hr></hr>
@@ -75,10 +75,14 @@ export default function Collaborations({
             >
                 <Text>
                     <p>
-                        Jams with Ellie, Matt and Ruth was another spin-off from the ONS choir. I was keen
-                        to try more harmonies and, honestly, I couldn't have asked for more accomplished 
-                        people here, with all three having lots of experience singing in the church. My first
-                        memory of Matt is at the ONS choir, me trying to hit the right notes of the tune and 
+                        Jams with Ellie, Ruth and Matt (thus the name El-Ru-Fe-Ma) was another spin-off 
+                        from the ONS choir. I was keen
+                        to try including more harmonies in the songs and, honestly, 
+                        I couldn't have asked for more accomplished 
+                        people here, with all three having lots of experience singing in the church. 
+                        
+                        Actually, my first
+                        memory of Matt is singing at the ONS choir, me trying to hit the right notes of the tune and 
                         Matt singing something completely different. When I asked him which line does he sing, 
                         his response was "I just make it up on the spot". That kind of level.
                     </p>
@@ -160,16 +164,16 @@ export default function Collaborations({
             >
                 <Text>
                     <p>
-                        I never really thought of myself as a singer (and that holds to this day). But joining
+                        I never really thought of myself as a singer, but joining
                         a choir at ONS was fantastic for realizing that even with the little singing I can do, 
-                        there's still lot that can be done! Using harmonies, using the voice in a proper way or
-                        improving the technique. There's definitely long way to go, but looking back at some of 
+                        there's still lot that can be done: harmonizing, using the voice in a proper way or
+                        just improving the technique. There's definitely long way to go, but looking back at some of 
                         my old recordings, there's much improvement already!
                     </p>
 
                     <p>
                         The bonus was a couple Christmas busking sessions where we raised money for a charity. 
-                        Check out <a href="#/busking">busking section</a> for it went!
+                        Check out <a href="#/busking">busking section</a> for how it went!
                     </p>
                 </Text>
 
@@ -198,11 +202,11 @@ export default function Collaborations({
                 updateTags={updateTags}
             >
                 <Text>
-                    The jams with Sophie came as a spin-out of other jams with people from the 
+                    The jams with Sophie came as a spin-off from other jams with people from the 
                     ONS choir. We wanted to focus on fewer songs, but more thoroughly. With Sophie's 
                     piano and beautiful vocals, as well as custom harmonies that we often added, we 
                     managed to record quite a few really nice covers, as well as slip in a few open 
-                    mics!
+                    mics.
                 </Text>
 
                 <InText minHeight="350px">
@@ -261,7 +265,8 @@ export default function Collaborations({
                         songs in my playlist and listening to it a few times, I have to say - this
                         song ROCKS! And we really nailed it. Vika's lyrics (both the initial rap + the
                         middle Russian part is due to her) and Alex's incredible rap + really felt-through
-                        vocals make this a hit that's not only worth to publish, but listen to many times! Oh yeah!
+                        vocals make this a hit that's not only worth to publish, but listen to many times, 
+                        be it perfectly clean vocals or not. Oh yeah!
                     </Text>
                 </Part>
             </CollabSection>
@@ -297,12 +302,12 @@ export default function Collaborations({
                     <p>
                         I met Moni in one of the Oslo Jam Session meetups. She had an amazing voice
                         and was up for practicing some songs a bit more properly. Layla, More than Words, 
-                        Let it be... 
+                        Let it be - the usual songs that work nicely for a duo.
                     </p>
                     
                     <p>
                         We ended up doing an open mic, as well as busking at Aker Brygge until she 
-                        left Oslo. Good times!
+                        left Oslo.
                     </p>
                 </Text>
             </CollabSection>

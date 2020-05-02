@@ -293,11 +293,11 @@ div.page-section {
     }
 
     &:nth-child(odd) {
-        background-color: $color-inco-strong;
+        background-color: $color-inco-medstrong;
     }
 
     &:nth-child(even) {
-        background-color: $color-inco-medium;
+        background-color: $color-inco-medlight;
     }
 
     .section-header {

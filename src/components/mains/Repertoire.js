@@ -199,27 +199,25 @@ function RepeIntro({
     return <>
         <div className="repe-intro">
             <p>
-                Below is a (rather long) list of songs I play, have played, or are
-                planning to play - on open mics, gigs or when busking. 
+                Below is a list of songs I tend to play when busking, on open mics etc, with 
+                extensions on demand very much possible. 
             </p>
             <p>
-                Some of the songs need a backing track or accompaniment, but for most 
-                I have a version which does not require a backing track, so singing and guitar with a
-                loop station are enough. Many of the songs can be also done in a pure acoustic
-                version.
+                I tend to play plugged in, and using a loop station, but pure acoustic mode is
+                an option for most of the songs. 
             </p>
             <p>
                 Explore and build the repertoire you'd like me to play! 
-                <li>Filter by (clicking the song's) artist, tags or attributes</li>
-                <li>Build a selection by clicking the names of the song</li>
-                <li>Finally, export the selection and send it to me by email</li>
+                <li>Filter by artist or tags (click the tag/artist)</li>
+                <li>Build a selection by clicking the names of the songs</li>
+                <li>Export the selection and send it to me by email</li>
             </p>
             <p>
                 Or check out these predefined setlists aimed at different situations and venues:
             </p>
             <div className="predef-setlists">
                 <div className="predef-set" onClick={()=>setRepdata(repdataOriginals)}>
-                    The originals
+                    The Originals
                 </div>
 
                 <div className="predef-set" onClick={()=>setRepdata(repdataFriday)}>
@@ -227,7 +225,7 @@ function RepeIntro({
                 </div>
 
                 <div className="predef-set" onClick={()=>setRepdata(repdataBackground)}>
-                    Relaxed restaurant
+                    Relaxed atmopshere
                 </div>
 
                 <div className="predef-set last" onClick={()=>setRepdata(repdataBase)}>

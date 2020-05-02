@@ -39,16 +39,16 @@ export default function Busking({
                 </InText>
                 <Text>
                     <p>
-                        I started to busk in 2014 and I love it ever since. 
-                        For me, it's not about money - I enjoy playing for people, connecting 
+                        I started to busk in 2014 and I've loved it ever since. 
+                        It's not really about money - I enjoy playing for people, connecting 
                         with the street and seeing how people react. When busking, I feel alive and 
                         the instant feedback, be it a small donation or just a thumb up from the passers
                         by, is simply irreplaceable. 
                     </p>
                     <p>
                         When busking, I have a "<b>50% for good</b>" rule. This means that 50% of what
-                        I raise goes for a good cause - check out the causes I supported over the years below.
-                        And if this is not a good enough reason to support me busking, watch this video :-)
+                        I raise goes for a good cause. Check out the causes I supported over the years below.
+                        And if that is not a good enough reason to support busking, watch the video!
                     </p>
                 </Text>
             </div>
@@ -63,7 +63,7 @@ export default function Busking({
                     <p>
                         Throughout the year of 2019, I've used the ever increasing "busking fund" 
                         to support various causes, donating in total over £1000. Much of this is 
-                        mentioned on this page, however other causes I supported included:
+                        mentioned on this page, however some other causes that I supported include:
                     </p>
                     <p>
                         <li>Ocean cleanup</li>
@@ -78,7 +78,7 @@ export default function Busking({
             <Causes name="Dec 2019 - Christmas busking choir" sum={112}>
                 <Text>
                     A repeat of the successfuly Christmas choir busking, this time in front of
-                    Cardiff's Central market, again with all donations going to homelessness 
+                    Cardiff's Central market, again with all the raised donations going to homelessness 
                     charity Llamau.
                 </Text>
 
@@ -111,7 +111,7 @@ export default function Busking({
                         contributed £150 to the fund, eventually reaching the target of £500.
                     </p>
                     <p>
-                        Even better, I finished the triathlon! Read more about this experience
+                        Even better, I finished the triathlon! If interested, read more about this experience
                         on <a href="http://ferowrites.blogspot.com/2019/07/cardiff-bay-triathlon.html">this blog post.</a>
                     </p>
                 </Text>
@@ -146,7 +146,7 @@ export default function Busking({
 
                     <Text>
                         As a busker, I witnessed first hand the deteriorating state of homelessness on 
-                        the streets of Cardiff. This prompted me to donate some more of the raised money to 
+                        the streets of Cardiff. This prompted me to donate chunk of the raised money to 
                         the homelessness charity Llamau, which works with young and vulnerable people
                         at the risk of becoming homeless. 
                     </Text>
@@ -186,7 +186,7 @@ export default function Busking({
                 <Text>
                     In December 2018, I organized a busking performance with the choir
                     I've been attending at my former workplace (Office for National Statistics). The performances
-                    took place at The Hayes in Cardiff and all raised money
+                    took place at The Hayes in Cardiff and all of the raised money
                     was donated to a homelessness charity Llamau.
                 </Text>
                 
@@ -231,7 +231,7 @@ export default function Busking({
                         <p>
                             I got in touch with a few charities and the SOS Childrens' Village
                             responded - they would love if I could "busk out" a new guitar for their centre
-                            in Bergen, where music is used as a means of therapy. 
+                            in Bergen, where music was used as a means of therapy. 
                         </p>
 
                         <p>
@@ -240,7 +240,7 @@ export default function Busking({
                         </p>
                         
                         <p>
-                            For more on the journey of my busking in Norway, 
+                            For more about the busking time in Norway, 
                             check out <a href="http://zivotvosle.blogspot.com/">my blog post</a>.
                         </p>
                     </Text>

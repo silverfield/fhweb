@@ -44,7 +44,7 @@ export default function Covers({
 
             <div>
                 <p>
-                    Although I am increasingly focusing on (and enjoying) my own work, I would 
+                    Although I am increasingly focusing on my own work, I would 
                     have never gotten to this point without the inspirations of Mark Knopfler, 
                     John Mayer or others. Trying to work out what it is that makes their music
                     so appealing and attempting to reproduce that is essentially how one creates
@@ -55,10 +55,6 @@ export default function Covers({
                     For more frequent updates, check out my 
                     Instagram <a href="https://www.instagram.com/fero.hajnovic">@fero.hajnovic</a> or 
                     the <a href="https://www.youtube.com/channel/UCbFZJZ1bf8nMcLPJie5-mTA">YouTube channel</a> .
-                </p>
-
-                <p>
-                    Enjoy :-)
                 </p>
 
                 <hr></hr>
@@ -78,7 +74,7 @@ export default function Covers({
                 </InText>
 
                 <Text>
-                    In the middle of the Covid-19 quarantine, we sailed to Philadelphia :-)
+                    In the middle of the Covid-19 quarantine, we sailed to Philadelphia.
 
                     A beautiful song, made even more beautiful with Ruth's, Ellie's and 
                     Matt's vocals and harmonies.
