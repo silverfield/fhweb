@@ -61,6 +61,31 @@ export default function Covers({
 
                 Filter tags: {allTags.map((t, i) => <Tag key={i} tag={t} updateTags={updateTags} selectedTags={selectedTags} />)}
             </div>
+
+            <CoverSection 
+                name="Dire Straits - Telegraph road (outro)"
+                date="2020-05-02"
+                tags={["dire straits", "video", "studio"]}
+                selectedTags={selectedTags}
+                updateTags={updateTags}
+            >
+                <InText float='left' width='50%' minWidth='300px'>
+                    <YouTube id="dlPK0Jfjtbo"/>
+                </InText>
+
+                <Text>
+                    <p>
+                        Absolutely epic outro of incredible song - the most exciting solo that I know of. 
+                        Mark played this version in 2005. The licks he put in there are simply ingenious. 
+                        Hope you enjoy my humble attempt at reproducing the maestro.
+                    </p>
+                    
+                    <p>
+                        Played on Michael Kelly Telecaster 1957, using Wampler Ego compressor, 
+                        Boss OD-3 overdrive and Boss Rv-6 reverb
+                    </p>
+                </Text>
+            </CoverSection>
             
             <CoverSection 
                 name="Mark Knopfler - Sailing to Philadelphia"
