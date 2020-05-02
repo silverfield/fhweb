@@ -46,7 +46,7 @@ export default function Originals({
                 <p>
                     Although most of my original stuff is part of my first <a href="#my-music/everyday">demo 
                     album Everyday</a>, there's still some more stuff - other studio songs or 
-                    live versions of the songs on the demo album. Expect this section to grow substantially :-)
+                    live versions of the songs on the demo album. Expect this section to grow substantially!
                 </p>
 
                 <hr></hr>
@@ -111,7 +111,7 @@ export default function Originals({
 
                 <Text>
                     NosDa is an awesome, chilled place for music, chat or a drink at the bank of Taff in Cardiff.
-                    It is no wonder I did my first open mic in Cardiff here, and several more too. I did 
+                    It is no wonder I did my first open mic in Cardiff here, with several more after that too. I did 
                     "Hey dad" here a couple months after writing the song, and it was the first time to do it
                     without a backing track and using loop station instead. 
                 </Text>

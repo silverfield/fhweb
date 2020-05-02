@@ -13,7 +13,8 @@ export default function About({
                 <p>
                     As written at the home page, "my name is Fero, and I'm a guitarist, 
                     song-writer and a busker based in London". But my friend Alex once said 
-                    "London has many faces". And just like London, I too, have many faces.
+                    "London has many faces". And just like London, I too, have many faces. 
+                    Let's go through them.
                 </p>
 
                 <div className="page-section">
@@ -25,11 +26,11 @@ export default function About({
 
                     <Text>
                         <p>
-                            <span className="about-face">The guitar face</span>. But let's start with this one.
+                            <span className="about-face">The guitar face</span>. Let's start with this one.
                             Unlike many people, who
                             start playing in their childhood and often drop the instrument when starting uni, 
                             I did the opposite and made my first strums on a classical guitar when I was
-                            18. I soon realized that I enjoy improvising (or at least trying it) 
+                            18. I soon realized that I enjoy improvising (or at least trying it that time) 
                             and after the obligatory pentatonics, I started to explore
                             more of the music theory. Luckily, my teacher - Ali Kovac - was one of the more
                             progressive ones and after a couple years of improving my technique through 
@@ -40,8 +41,8 @@ export default function About({
                         <p>
                             One of the breakthroughs for me was discovering the music of Dire Straits and
                             Mark Knopfler. I still remember that moment. We were in London over the summer of 2008, 
-                            sort of Work &amp; Travel thing. One day, we were in our shitty room in Walthamstow, 
-                            as usual bitching 
+                            sort of Work &amp; Travel thing. One day, we were in our messy room in Walthamstow, 
+                            as usual complaining 
                             about not earning enough money through our minimum-wage jobs. At some point, 
                             when we had enough, my friend Roman (a long-standing Dire Straits fan) played me 
                             the <a href="https://www.youtube.com/watch?v=_4E_924b9SU&feature=youtu.be&t=250">first solo from Telegraph road </a>.
@@ -58,21 +59,21 @@ export default function About({
                     </Text>
                     
                     <InText width='40%' minWidth="300px" float='right'>
-                        <Image 
-                            imgSrc={require("../../pics/london-room.jpg")}
-                            caption="Roman told me about Dire Straits in this (rather messy) room in London in 2008"
+                        <Image
+                            imgSrc={require("../../pics/with-roman.jpg")}
+                            caption="With Roman in Oslo, 2015"
                         />
                     </InText>
 
                     <Text>
                         <p>
                             By that time though, I was hooked enough, and I went on to listen to anything that 
-                            Mark Knopfler (frontman of Dire Straits) touched, 
+                            Mark Knopfler (former frontman of Dire Straits) touched, 
                             learned countless of the songs, seen him live five times and 
-                            tried to unravel the beauty of his playing. If there's one thing that I know for sure
-                            that I'll never get tired of, it is Mark's music. For although it has been now 
+                            tried to unravel the beauty of his playing. If there's one thing that I know for sure,
+                            it's that I'll never get tired of his music. For although it has been now 
                             close to 12 years since that moment in Walthamstow, I still listen to Telegraph road
-                            with the same enthusiasm and the first solo of the song is, if anything, 
+                            with the same enthusiasm and that first solo of the song is, if anything, 
                             even more beautiful than
                             it was back then.
                         </p>
@@ -85,16 +86,9 @@ export default function About({
                             easily be deemed "cool" by any guitarist's standards.
                         </p>
                     </Text>
-                    
+
+
                     <InText width='40%' minWidth="300px" float='left'>
-                        <Image
-                            imgSrc={require("../../pics/with-roman.jpg")}
-                            caption="With Roman in Oslo, 2015"
-                        />
-                    </InText>
-
-
-                    <InText width='40%' minWidth="300px" float='right'>
                         <Image 
                             imgSrc={require("../../pics/guitars.jpg")}
                             caption="The guitar family as of 2020 - still happyily growing!"
@@ -158,10 +152,8 @@ export default function About({
                         <p>
                             People sometimes ask me if I consider dropping the "data career" and going fulltime with
                             music. There were times when I played with the idea. And there may be those times again. But 
-                            at the moment I consider myself lucky to have a job I actually like to do - not just
-                            <i>"doing"</i> the programming/tech work, but mainly showing others what is possible and 
-                            helping organizations getting more efficient - automating the "boring stuff" and creating 
-                            space for innovation. Combined with my job being in UK's Civil service, it not only 
+                            at the moment I enjoy doing the field of data science/engineering too much. 
+                            Combined with my job being in UK's Civil service, it not only 
                             drives my motivation to see my work benefit public good, but it also provides for a 
                             good work-life balanced role - one that leaves lots of energy and time for music... And 
                             the other "faces" of mine, like...
@@ -198,7 +190,7 @@ export default function About({
 
                         <p>
                             Or is it? Arun once showed me his Klos travel guitar - a carbon-fibre 
-                            3/4-sized acoustic marvel that is not only lightweight enough to add to clip on to
+                            3/4-sized acoustic marvel that is not only lightweight enough to clip on to
                             the backpack, but which is also near-indestructible thanks to the materials used. 
                             A week later, I ordered mine and it has been an excellent companion on many hikes, 
                             or simply the extra acoustic guitar I'd take when going busking.
@@ -318,14 +310,14 @@ export default function About({
                             yet again before finally realizing I just need something generic where
                             I can keep writing about anything I want - leading 
                             to <a href="http://ferowrites.blogspot.com/">Fero writes</a> (kicked off 
-                            with my most-read blog post ever - albeit one that I wish I wouldn't have needed 
-                            to write) . 
+                            with my most-read blog post ever - albeit one that I wish I would never have needed 
+                            to write). 
                         </p>
                         
                         <p>
                             Writing, song-writing, composing, creating. The first step may seem hard. 
                             It may take time. But the end result is worth it. For once it's there, it is 
-                            there forever - a bit of you engraved in the world... ;-)
+                            there forever - a bit of you engraved in the world.
                         </p>
                     </Text>
                 </div>

@@ -1,4 +1,4 @@
-import {PageSection, Text, InText, Image} from '../../helpers/combo-helper'
+import {Part, PageSection, Text, InText, Image} from '../../helpers/combo-helper'
 
 function News({
     name,
@@ -38,7 +38,7 @@ export default function Home({
                 <p>
                     If you're looking for a musician to get some nice vibes going at your venue, 
                     check out my <a href="#repertoire">repertoire</a> and <a href="#contact">get in touch</a>. 
-                    For my original songs, collaborative works or covers, see <a href="#my-music">my music</a> page. 
+                    For my original songs, collaborations or covers, see <a href="#my-music">my music</a> page. 
                     Finally, 
                     don't forget to visit the <a href="#busking">busking for good</a> section and see
                     why busking should be supported!
@@ -46,24 +46,29 @@ export default function Home({
 
                 <p>
                     And if you'd just like to find out more about me, there will be some 
-                    answers <a href="#about">here</a>.
+                    answers <a href="#about">here</a> :-)
                 </p>
             </div>
             
             <span className="news-title">News:</span>
 
             <News name="Demo album reaching completion!" date="05/2020">
-                <InText width="40%" float='left' minWidth="350px">
-                    <Image 
-                        imgSrc={require("../../pics/everyday-cover.jpeg")}
-                    />
-                </InText>
-
-                <Text>
-                    Check out the <a href="#my-music">11 tracks</a> from album "Everyday" that are already near finished!
-                    I'm re-recording some of the parts during the Covid-19 self-isolation - so that once the
-                    lock-down ceases, I'll be ready to hit the streets and bars again! 
-                </Text>
+                <div className="flex-container">
+                    <Part proportion='0.4' minWidth="200px">
+                        <InText>
+                            <Image 
+                                imgSrc={require("../../pics/everyday-cover.jpeg")}
+                            />
+                        </InText>
+                    </Part>
+                    <Part proportion='0.6' minWidth="200px">
+                        <Text>
+                            Check out the <a href="#my-music">11 tracks</a> from album "Everyday" that are already near finished!
+                            I'm re-recording some of the parts during the Covid-19 self-isolation - so that once the
+                            lock-down ceases, I'll be ready to hit the streets and bars again! 
+                        </Text>
+                    </Part>
+                </div>
             </News>
 
             <News name="Website is live!" date="05/2020">

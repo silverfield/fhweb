@@ -95,22 +95,23 @@ export default function Everyday({
                         <p>
                             My first (demo) album is slowly coming together. Named after one of the 
                             songs - Everyday - its beginnings date to my after-university times in 
-                            Oslo when I made that step from "bedroom guitar playing" and started doing
-                            open mics, jamming, duo-projects and eventually my most favorite 
+                            Oslo when I made that step from "bedroom guitar playing" to doing
+                            open mics, jamming, <a href="#my-music/collaborations">collaborative</a> projects 
+                            and eventually my most favorite 
                             activity: <a href="#busking">busking</a>.
                         </p>
 
                         <p>
-                            It was there in Oslo, where the first of the songs came together, with some 
-                            eventually making my first demo recordings (and some still waiting on
+                            It was there in Oslo, where the first of my songs came together, with some 
+                            eventually being my first demo recordings (and some still waiting on
                             my hard drive to get their chance for some studio time!). 
                         </p>
 
                         <p>
                             The next round of inspiration came 
-                            during <a href="http://feroafrica.blogspot.com/">my time in Ghana</a> and the 
+                            during my unforgettable <a href="http://feroafrica.blogspot.com/">time in Ghana</a> and the 
                             following <a href="http://ferostreetplay.blogspot.com/">2015 stret play tour</a> of 
-                            northern Europe, both unforgettable experiences out of the ordinary. 
+                            northern Europe, both completely life-changing experiences. 
                         </p>
 
                         <p>
@@ -144,7 +145,7 @@ export default function Everyday({
                             <p>
                                 This song is really about Oslo and some of my experiences there, 
                                 but also about the time I started to focus on music, guitar and 
-                                songwriting a bit more seriously than before...
+                                songwriting a bit more seriously than before.
                             </p>
 
                             <a href="https://drive.google.com/file/d/1Di-44alLplaT_RoVP9_ZoVCiSLsCgMnc">Chords and lyrics</a>
@@ -159,9 +160,9 @@ export default function Everyday({
                     
                     <Text>
                         <p>
-                            This is a song about one of my friends, a quite unique character. 
+                            A song about one of my friends from back home, a quite unique character. 
                             Not much more is needed to be said, just listen to the song and you'll 
-                            find out more...
+                            find out more ;-)
                         </p>
 
                         <a href="https://drive.google.com/file/d/1C6uYILWab7q74PpC8gPYo6kyxOgqC8E6">Chords and lyrics</a>
@@ -169,20 +170,33 @@ export default function Everyday({
                 </Song>
 
                 <Song name="Let's go fail">
-                    <InText>
-                        <SoundcloudEmbed title="Let's go fail" />
-                    </InText>
+                    <Part proportion='0.65' minWidth="200px">
+                        <InText>
+                            <SoundcloudEmbed title="Let's go fail" />
+                        </InText>
 
-                    <Text>
-                        <p>
-                            A song I wrote in a train, returning from a visit to my friend Laco, 
-                            who's the most "yes attitude" person I've ever met. Indeed, saying 
-                            "Laco, let's go fail" is likely to be met with "all right, let's do that!". 
-                            It's just hard NOT to write a song about a person like this!
-                        </p>
+                        <Text>
+                            <p>
+                                I wrote this one in a train, returning from a visit of my friend Laco, 
+                                who's the most "yes attitude" person I've ever met. Indeed, saying 
+                                "Laco, let's go fail" is likely to be met with "all right, let's do that!". 
+                                It's just hard NOT to write a song about someone like this!
+                            </p>
 
-                        <a href="https://drive.google.com/file/d/1uyVyDSwf5BAG6KvRg5Kf6wr4hnmmdghW">Chords and lyrics</a>
-                    </Text>
+                            <a href="https://drive.google.com/file/d/1uyVyDSwf5BAG6KvRg5Kf6wr4hnmmdghW">Chords and lyrics</a>
+                        </Text>
+                    </Part>
+
+                    <Part proportion='0.35' minWidth="200px">
+                        <InText>
+                            <Image
+                                imgSrc={require("../../../pics/laco.jpg")}
+                                caption={<>A rather old pic, but I love it. Did I say that other than 
+                                YES attitude master, Laco is also accomplished musician having his 
+                                own <a href="http://www.lafamiliasalsaband.com/">Salsa Band</a>?</>}
+                            />
+                        </InText>
+                    </Part>
                 </Song>
 
                 <Song name="Daily ride">
@@ -192,11 +206,11 @@ export default function Everyday({
                     <Part minWidth='300px' proportion='0.6'>                            
                         <Text>
                             <p>
-                                This song is indeed about my daily ride that I had while in Biriwa, Ghana. 
-                                I was working at the institute of mathematical sciences at the other 
-                                end of the village. The ride on my bicycle through the hot night 
-                                amidst frequent power cut in total darkness was simply unique and ultimately 
-                                prompted me to write this song...
+                                When I was in Biriwa, Ghana, I used to do a daily ride on my bike to and from work,
+                                the Institute of Mathematical Sciences at the other 
+                                end of the village. The ride, especially back home, often through the hot night 
+                                amidst frequent power cuts and in total darkness was simply surreal and ultimately 
+                                prompted me to write this song.
                             </p>
 
                             <a href="https://drive.google.com/file/d/1yoMogwnQjyaBGwSiJRNHH2TF0sKLRmeQ">Chords and lyrics</a>
@@ -220,8 +234,8 @@ export default function Everyday({
                     <Text>
                         <p>
                             One of my few purely instrumental tracks. This came together spontaneously one 
-                            sunny day in Prague, just after coming back from Ghana. I liked it straight away, 
-                            named it "Summer tune" and played it ever since.
+                            sunny day in Prague, just after coming back from Ghana. I liked the tune straight away, 
+                            and since it was summer at its best, I named it "Summer tune" and played it ever since.
                         </p>
 
                         <a href="https://drive.google.com/file/d/1KzFUAV5ewzaEHcn-geI7OEYxQsEMZjfi">Chords and lyrics</a>
@@ -239,7 +253,7 @@ export default function Everyday({
                             a sunset on a horse pasture and my girlfriend was explaining 
                             to me how horses communicate and behave. There's no maybes, 
                             problems are resolved with fights and things are generally more 
-                            black or white. Seems so simple, yet beautiful...
+                            black or white. Simple, but inspiring.
                         </p>
 
                         <a href="https://drive.google.com/file/d/18cNkcaIGDkd_HiWtYIpwmdqQQlWMhgOm">Chords and lyrics</a>
@@ -253,13 +267,13 @@ export default function Everyday({
                     <Part minWidth='300px' proportion='0.6'>                            
                         <Text>
                             <p>
-                                One of my favorite songs to play - the time we came to UK, 
-                                south Wales was indeed special. It was October, sun shining every day 
+                                One of my favorite songs to play, about the time we came to South Wales
+                                . A special time indeed. It was October, but sun was shining every day 
                                 and I was asking myself if the "rainy UK" is just a myth. 
                                 Shortly after writing the lyrics and the music, the winter kicked in 
                                 along with the many storms. But still, nothing can take away those sunny 
-                                days from my memory - journeys on Arriva Trains Wales to Cardiff 
-                                or the vibrant rugby days of World cup 2015...
+                                days from my memory - journeys on the Arriva Trains Wales to Cardiff 
+                                or the vibrant rugby days of World cup, that was the autumn of 2015...
                             </p>
 
                             <a href="https://drive.google.com/file/d/17H0500WCxY1-izSiqTQFt8XGuX6EXzAb">Chords and lyrics</a>
@@ -276,13 +290,23 @@ export default function Everyday({
                 </Song>
 
                 <Song name="Hey dad">
+                    <Part minWidth='250px' proportion='0.65'>
+                        <InText>
+                            <SoundcloudEmbed title="Hey dad" />
+                        </InText>
+                    </Part>
+                    <Part minWidth='250px' proportion='0.35'>
                     <InText>
-                        <SoundcloudEmbed title="Hey dad" />
-                    </InText>
-                    
+                            <Image
+                                imgSrc={require("../../../pics/tato.jpg")} 
+                            />
+                        </InText>
+                    </Part>
                     <Text>
                         <p>
-                            I made this for my dad's recent birthday. He's a true inspiration ;-)
+                            I made this one for my dad's round birthday, and I was surprised how smoothly 
+                            it came together once I started. But then, I should not be surprised, he's 
+                            a true inspiration, a dad I'll always be grateful for.
                         </p>
 
                         <a href="https://drive.google.com/file/d/1KHBDmHPLcmMYg6efRG58HPyiH_aekGWi">Chords and lyrics</a>
@@ -299,7 +323,7 @@ export default function Everyday({
                             This song's lyrics were written mainly by Martin Buckridge, 
                             a friend from my Toastmasters club back in Cardiff. Martin's take on it is simply 
                             inspiring and the lyrics send an important message in today's world - there's too 
-                            much rush and not enough time to pause. Give it a listen and find out more!
+                            much rush and not enough time to pause. Give it a listen and find out more ;-)
                         </p>
 
                         <a href="https://drive.google.com/open?id=1GPm6GK45xovabba0uAGg3eC_w5CXvAk9">Chords and lyrics</a>
@@ -343,10 +367,11 @@ export default function Everyday({
                         
                         <Text>
                             <p>
-                            A song made in the tough times of self-isolation. 
-                                And although tough times, for many, I believe, it has been an 
-                                opportunity for reflection as to how they would want to change 
-                                and what kind of world they'd like to see ... When this is done
+                                A song made in the tough times of self-isolation. 
+                                And although tough times for many, I believe, it has been an 
+                                opportunity for reflection as to how one wants to change 
+                                and what kind of world they'd like to see on the other side... 
+                                When this is done
                             </p>
 
                             <a href="https://drive.google.com/file/d/1NtTP0NpnIHD4yHjomHuUEeeAxFCxbpX4/view">Chords and lyrics</a>
