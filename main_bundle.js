@@ -194,7 +194,7 @@ exports = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
 // Module
-exports.push([module.i, "/* \nhtml5doctor.com Reset Stylesheet\nv1.6.1\nLast Updated: 2010-09-17\nAuthor: Richard Clark - http://richclarkdesign.com \nTwitter: @rich_clark\n*/\nhtml, body, div, span, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\nabbr, address, cite, code,\ndel, dfn, em, img, ins, kbd, q, samp,\nsmall, strong, sub, sup, var,\nb, i,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section, summary,\ntime, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  outline: 0;\n  font-size: 100%;\n  vertical-align: baseline;\n  background: transparent; }\n\nbody {\n  line-height: 1; }\n\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n  display: block; }\n\nnav ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after,\nq:before, q:after {\n  content: '';\n  content: none; }\n\na {\n  margin: 0;\n  padding: 0;\n  font-size: 100%;\n  vertical-align: baseline;\n  background: transparent; }\n\n/* change colours to suit your needs */\nins {\n  background-color: #ff9;\n  color: #000;\n  text-decoration: none; }\n\n/* change colours to suit your needs */\nmark {\n  background-color: #ff9;\n  color: #000;\n  font-style: italic;\n  font-weight: bold; }\n\ndel {\n  text-decoration: line-through; }\n\nabbr[title], dfn[title] {\n  border-bottom: 1px dotted;\n  cursor: help; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\n/* change border colour to suit your needs */\nhr {\n  display: block;\n  height: 1px;\n  border: 0;\n  border-top: 1px solid #cccccc;\n  margin: 1em 0;\n  padding: 0; }\n\ninput, select {\n  vertical-align: middle; }\n\n/* ------------------------------------------------------------ */\n/* General */\n/* ------------------------------------------------------------ */\nbody {\n  min-width: 300px; }\n\nhtml {\n  /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */\n  -webkit-text-size-adjust: 100%;\n  -ms-text-size-adjust: 100%;\n  height: 100%;\n  background-color: #86574b !important; }\n\na {\n  color: #331f3b;\n  font-weight: 700;\n  text-shadow: 0 0 3px white; }\n\nul {\n  margin-left: 20px; }\n\n.no-flex-grow {\n  flex-grow: 0; }\n\np {\n  margin-bottom: 10px; }\n\n/*  apply a natural box layout model to all elements  */\n* {\n  -moz-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box; }\n\nbody {\n  font-family: 'Didact Gothic', 'Lucida Grande', Tahoma, Sans-Serif;\n  background-color: #9d8d8f;\n  font-size: 19px;\n  line-height: 1.3em;\n  min-height: 100%;\n  display: flex;\n  flex-flow: column; }\n\n.fa {\n  text-shadow: none;\n  padding: 0.4em;\n  font-size: 1.5em;\n  width: 2em;\n  margin: 0.2em;\n  border-radius: 20%;\n  text-align: center;\n  text-decoration: none;\n  background: #5a5560;\n  color: white; }\n  @media (hover: hover) {\n    .fa:hover {\n      opacity: 0.7;\n      color: #331f3b;\n      background-color: #dd551f;\n      -webkit-transition: 0.5s;\n      -moz-transition: 0.5s;\n      -ms-transition: 0.5s;\n      -o-transition: 0.5s;\n      transition: 0.5s; } }\n\n/* ------------------------------------------------------------ */\n/* Header */\n/* ------------------------------------------------------------ */\nheader {\n  flex: 0 1 auto;\n  padding: 1.5%;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: cover;\n  position: relative; }\n  header div#header-title {\n    font-weight: 600;\n    font-size: 10vw;\n    text-align: right;\n    line-height: 10vw;\n    color: rgba(255, 255, 255, 0.692);\n    text-shadow: 0 0 5px black;\n    position: absolute;\n    right: 1.5%;\n    bottom: 20px; }\n  header #menu-sticky {\n    z-index: 99999;\n    position: fixed;\n    top: 0;\n    background-color: #0a0a0388; }\n    header #menu-sticky .menu {\n      flex-direction: row; }\n      header #menu-sticky .menu .menu-item {\n        flex: 1 1 0px;\n        width: fit-content; }\n        header #menu-sticky .menu .menu-item .sub-menu {\n          width: 200px;\n          border-radius: 0;\n          margin-left: 0;\n          position: absolute;\n          background-color: #0a0a0388; }\n          header #menu-sticky .menu .menu-item .sub-menu.active-sub {\n            padding: 10px; }\n          header #menu-sticky .menu .menu-item .sub-menu .second-link {\n            font-size: 0.8em; }\n      header #menu-sticky .menu .main-link {\n        width: auto;\n        font-size: 0.9em;\n        justify-content: center; }\n  header .menu {\n    display: flex;\n    flex-direction: column; }\n    header .menu .menu-item {\n      display: inline-block;\n      width: 8em; }\n      header .menu .menu-item .sub-menu {\n        border-radius: 5px;\n        width: 250px;\n        max-height: 0;\n        margin-left: 30px;\n        overflow: hidden;\n        transition-property: max-height;\n        transition: all 1s ease-in-out; }\n        header .menu .menu-item .sub-menu.active-sub {\n          transition-property: max-height;\n          transition: all 1s ease-in-out;\n          max-height: 300px; }\n        header .menu .menu-item .sub-menu .sub-menu-item {\n          width: 250px; }\n      header .menu .menu-item .main-link {\n        cursor: pointer;\n        border-radius: 5px;\n        font-size: 1.3em;\n        width: 6em;\n        height: 3em;\n        display: flex;\n        justify-content: left;\n        align-items: center;\n        text-align: left;\n        padding: 0.2em;\n        color: rgba(255, 255, 255, 0.692);\n        text-decoration: none;\n        text-shadow: 0 5px 5px black; }\n        @media (hover: hover) {\n          header .menu .menu-item .main-link:hover {\n            color: #faed26;\n            transition: 0.5s; } }\n      header .menu .menu-item .second-link {\n        font-size: 1em;\n        width: 100%;\n        height: 1.5em;\n        display: flex;\n        justify-content: left;\n        align-items: left;\n        text-align: left;\n        padding: 0.2em;\n        color: rgba(255, 255, 255, 0.726);\n        text-decoration: none;\n        text-shadow: 0 5px 5px black;\n        margin: 0.2em 0.1em; }\n        @media (hover: hover) {\n          header .menu .menu-item .second-link:hover {\n            color: #faed26;\n            transition: 0.5s; } }\n      header .menu .menu-item .active-link {\n        color: #faed26; }\n        @media (hover: hover) {\n          header .menu .menu-item .active-link:hover {\n            color: #faed26;\n            transition: 0.5s; } }\n\n/* ------------------------------------------------------------ */\n/* Main */\n/* ------------------------------------------------------------ */\nmain {\n  flex: 1 1 auto;\n  padding: 1.5%; }\n\n.iframe-div {\n  position: relative;\n  width: 100%;\n  height: 0;\n  margin-left: auto;\n  margin-right: auto;\n  padding-bottom: 51%;\n  flex-grow: 1; }\n  .iframe-div iframe {\n    position: absolute;\n    width: 100%;\n    height: 100%; }\n\n.center-content-vert {\n  margin-top: auto;\n  margin-bottom: auto; }\n\ndiv.pre-section {\n  margin-bottom: 20px; }\n\n.float-container {\n  overflow: hidden; }\n\ndiv.page-section {\n  padding: 2%;\n  margin-top: 2%;\n  overflow: hidden; }\n  div.page-section hr {\n    margin: 5px; }\n  div.page-section:nth-child(1) {\n    margin-top: 0; }\n  div.page-section:nth-child(odd) {\n    background-color: #86574b; }\n  div.page-section:nth-child(even) {\n    background-color: #9b786f; }\n  div.page-section .section-header {\n    margin-bottom: 10px; }\n  div.page-section .page-sec-title {\n    font-size: 20px;\n    font-weight: 800;\n    display: inline-block; }\n\n.flex-part {\n  flex-grow: 1; }\n\nimg {\n  display: block;\n  width: 100%;\n  margin: 0px;\n  margin-left: auto;\n  margin-right: auto; }\n\n.in-text {\n  box-sizing: border-box;\n  display: flex;\n  flex-direction: column;\n  padding: 10px; }\n\n.text {\n  padding: 10px; }\n\n.flex-container {\n  display: flex;\n  flex-wrap: wrap; }\n\n.about-face {\n  font-weight: 1000;\n  color: #331f3b;\n  font-variant: small-caps; }\n\n.cause-sum {\n  font-size: 25px;\n  font-weight: 1000;\n  float: right;\n  color: #faed26;\n  text-shadow: 0 0 5px #5a5560; }\n\n.contact-section #captcha-image {\n  margin: 0; }\n\n.contact-section #powered-by-snap {\n  display: inline-block;\n  font-size: 0.8em; }\n\n.raised-sum {\n  color: #faed26; }\n\n.page-title {\n  text-align: center;\n  font-size: 1.5em;\n  font-weight: 700;\n  color: #744236;\n  font-variant: small-caps;\n  text-shadow: 0 0 10px white;\n  margin-bottom: 10px; }\n\n.everyday-album {\n  display: block;\n  margin-bottom: 10px;\n  padding: 10px; }\n\n.clear-float {\n  clear: both; }\n\n.news-title {\n  display: block;\n  margin-top: 20px;\n  font-size: 1.5em; }\n\n.news-date {\n  font-size: 20px;\n  font-weight: 1000;\n  float: right;\n  color: #744236;\n  text-shadow: 0 0 5px white; }\n\n.repertoire-tbl {\n  width: 100%;\n  table-layout: fixed; }\n  .repertoire-tbl th {\n    font-size: 0.9em;\n    vertical-align: bottom; }\n  .repertoire-tbl .th-artist {\n    width: 25%; }\n  .repertoire-tbl .th-name {\n    width: 23%; }\n  .repertoire-tbl .th-props {\n    width: 12%; }\n  .repertoire-tbl .th-tags {\n    width: 35%; }\n  .repertoire-tbl th.rotate {\n    width: 20px;\n    vertical-align: middle;\n    text-align: left;\n    white-space: nowrap; }\n  .repertoire-tbl th.rotate > div {\n    transform: translate(0px, 30px) rotate(-45deg);\n    width: 20px; }\n\n.repe-item {\n  font-size: 0.8em;\n  height: 3em; }\n  .repe-item td {\n    padding: 5px; }\n  .repe-item td.repe-props {\n    text-align: center; }\n  .repe-item:nth-child(odd) td:nth-child(1) {\n    background-color: #86574b; }\n  .repe-item:nth-child(odd) td:nth-child(2) {\n    background-color: #966a5f; }\n  .repe-item:nth-child(odd) td:nth-child(3) {\n    background-color: #86574b; }\n  .repe-item:nth-child(odd) td:nth-child(4) {\n    background-color: #966a5f; }\n  .repe-item:nth-child(even) td:nth-child(1) {\n    background-color: #9b786f; }\n  .repe-item:nth-child(even) td:nth-child(2) {\n    background-color: #b18f86; }\n  .repe-item:nth-child(even) td:nth-child(3) {\n    background-color: #9b786f; }\n  .repe-item:nth-child(even) td:nth-child(4) {\n    background-color: #b18f86; }\n  .repe-item.repe-selected td.repe-name {\n    color: black;\n    background-color: white; }\n\n.repe-top {\n  font-size: 0.8em; }\n\n.repe-artist {\n  cursor: pointer; }\n  @media (hover: hover) {\n    .repe-artist:hover {\n      font-weight: 1000;\n      text-shadow: 0 0 3px white; } }\n  .repe-artist.is-active {\n    border: 1px solid #faed26; }\n\ntd.repe-name {\n  cursor: pointer; }\n  @media (hover: hover) {\n    td.repe-name:hover {\n      color: black;\n      background-color: white !important; } }\n\n.tickcross {\n  background-color: #744236;\n  display: inline-block;\n  border-radius: 2px;\n  font-weight: 1000;\n  font-size: 1.2em;\n  padding: 0 5px;\n  margin: 0 1px;\n  cursor: pointer; }\n  .tickcross.tick {\n    color: #6fda4f71; }\n  .tickcross.cross {\n    color: #e2485a93; }\n  .tickcross.is-active {\n    border: 1px solid #faed26; }\n\n.repe-tag {\n  border-radius: 2px;\n  padding: 1px 3px;\n  background-color: #1d1a1a48;\n  margin-left: 3px;\n  margin-top: 1px;\n  margin-bottom: 1px;\n  cursor: pointer; }\n  .repe-tag.is-active {\n    border: 2px solid #faed26; }\n\n.repe-buttons {\n  align-items: stretch;\n  flex-direction: row;\n  display: flex; }\n\n.repe-button {\n  flex-grow: 1;\n  justify-content: center;\n  border: solid 1px white;\n  cursor: pointer;\n  display: inline-flex;\n  padding: 5px;\n  margin: 4px;\n  border-radius: 4px;\n  background-color: #966a5f; }\n  @media (hover: hover) {\n    .repe-button:hover {\n      background-color: #dd551f; } }\n\n.tag-div {\n  margin-top: 8px;\n  margin-bottom: 8px; }\n\n.active-filters-heading {\n  font-weight: bold;\n  font-size: 1.1em;\n  text-align: center;\n  display: block; }\n\n.tags-heading {\n  font-weight: bold;\n  font-size: 1.1em;\n  text-align: center;\n  display: block; }\n\n.active-filter {\n  cursor: pointer;\n  display: inline-block;\n  background-color: #b18f86;\n  border-radius: 2px;\n  padding: 3px;\n  margin: 3px;\n  width: 100%; }\n\n.remove-filter {\n  float: right; }\n\n@media only screen and (min-width: 576px) {\n  .tag-float-right {\n    float: right; } }\n\n.inline-flex {\n  display: inline-flex; }\n\n.caption {\n  font-size: 0.8em;\n  font-style: italic;\n  text-align: center; }\n\n.predef-set {\n  border-radius: 2px;\n  border: solid black 1px;\n  display: inline-block;\n  margin: 3px;\n  padding: 3px;\n  background-color: #b18f86; }\n  .predef-set.last {\n    background-color: #9d8d8f; }\n  @media (hover: hover) {\n    .predef-set:hover {\n      cursor: pointer;\n      background-color: #966a5f; } }\n\n.soundcloud-embed {\n  font-size: 1.5em;\n  width: 100%;\n  height: 50px;\n  border-radius: 2px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background-color: #b6694a; }\n  @media (hover: hover) {\n    .soundcloud-embed:hover {\n      cursor: pointer;\n      background-color: #dd551f;\n      box-shadow: 0 0 8px 4px rgba(51, 31, 59, 0.7);\n      transition: 0.5s; } }\n  .soundcloud-embed .soundcloud-title {\n    font-style: italic; }\n\n.section-tag {\n  border-radius: 2px;\n  border: 1px solid #5a5560;\n  padding: 1px 3px;\n  background-color: #6e9e2e48;\n  margin-left: 3px;\n  margin-top: 1px;\n  margin-bottom: 1px;\n  cursor: pointer; }\n  .section-tag.is-active {\n    border: 2px solid #faed26; }\n\n.section-extra {\n  float: right; }\n\n.soundcloud-bck {\n  font-size: 0.8em;\n  color: #331f3b;\n  font-style: italic;\n  background-color: white;\n  border-radius: 3px; }\n\n/* ------------------------------------------------------------ */\n/* Footer */\n/* ------------------------------------------------------------ */\nfooter {\n  color: #9d8d8f;\n  flex: 0 1 100px;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  font-size: 0.7em;\n  text-align: center;\n  background-color: #744236; }\n\n@media only screen and (min-width: 540px) {\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  header {\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + "); }\n    header .primary-nav {\n      flex-direction: row;\n      height: 16em; }\n    header div#header-title {\n      font-size: 7vw;\n      line-height: 7vw; }\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  .contact-main {\n    display: flex;\n    flex-direction: row; }\n    .contact-main .contact-section {\n      margin-right: 10px; }\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */ }\n\n@media only screen and (min-width: 960px) {\n  html {\n    background-color: white; }\n  header div#header-title {\n    font-size: 5vw;\n    line-height: 5vw; }\n  body {\n    margin: auto;\n    max-width: 1000px;\n    box-shadow: 0 4px 8px 0 #331f3b, 0 6px 20px 0 #331f3b; } }\n", ""]);
+exports.push([module.i, "/* \nhtml5doctor.com Reset Stylesheet\nv1.6.1\nLast Updated: 2010-09-17\nAuthor: Richard Clark - http://richclarkdesign.com \nTwitter: @rich_clark\n*/\nhtml, body, div, span, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\nabbr, address, cite, code,\ndel, dfn, em, img, ins, kbd, q, samp,\nsmall, strong, sub, sup, var,\nb, i,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section, summary,\ntime, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  outline: 0;\n  font-size: 100%;\n  vertical-align: baseline;\n  background: transparent; }\n\nbody {\n  line-height: 1; }\n\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n  display: block; }\n\nnav ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after,\nq:before, q:after {\n  content: '';\n  content: none; }\n\na {\n  margin: 0;\n  padding: 0;\n  font-size: 100%;\n  vertical-align: baseline;\n  background: transparent; }\n\n/* change colours to suit your needs */\nins {\n  background-color: #ff9;\n  color: #000;\n  text-decoration: none; }\n\n/* change colours to suit your needs */\nmark {\n  background-color: #ff9;\n  color: #000;\n  font-style: italic;\n  font-weight: bold; }\n\ndel {\n  text-decoration: line-through; }\n\nabbr[title], dfn[title] {\n  border-bottom: 1px dotted;\n  cursor: help; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\n/* change border colour to suit your needs */\nhr {\n  display: block;\n  height: 1px;\n  border: 0;\n  border-top: 1px solid #cccccc;\n  margin: 1em 0;\n  padding: 0; }\n\ninput, select {\n  vertical-align: middle; }\n\n/* ------------------------------------------------------------ */\n/* General */\n/* ------------------------------------------------------------ */\nbody {\n  min-width: 300px; }\n\nhtml {\n  /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */\n  -webkit-text-size-adjust: 100%;\n  -ms-text-size-adjust: 100%;\n  height: 100%;\n  background-color: #86574b !important; }\n\na {\n  color: #331f3b;\n  font-weight: 700;\n  text-shadow: 0 0 3px white; }\n\nul {\n  margin-left: 20px; }\n\n.no-flex-grow {\n  flex-grow: 0; }\n\np {\n  margin-bottom: 10px; }\n\n/*  apply a natural box layout model to all elements  */\n* {\n  -moz-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box; }\n\nbody {\n  font-family: 'Didact Gothic', 'Lucida Grande', Tahoma, Sans-Serif;\n  background-color: #9d8d8f;\n  font-size: 19px;\n  line-height: 1.3em;\n  min-height: 100%;\n  display: flex;\n  flex-flow: column; }\n\n.fa {\n  text-shadow: none;\n  padding: 0.4em;\n  font-size: 1.5em;\n  width: 2em;\n  margin: 0.2em;\n  border-radius: 20%;\n  text-align: center;\n  text-decoration: none;\n  background: #5a5560;\n  color: white; }\n  @media (hover: hover) {\n    .fa:hover {\n      opacity: 0.7;\n      color: #331f3b;\n      background-color: #dd551f;\n      -webkit-transition: 0.5s;\n      -moz-transition: 0.5s;\n      -ms-transition: 0.5s;\n      -o-transition: 0.5s;\n      transition: 0.5s; } }\n\n/* ------------------------------------------------------------ */\n/* Header */\n/* ------------------------------------------------------------ */\nheader {\n  flex: 0 1 auto;\n  padding: 1.5%;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: cover;\n  position: relative; }\n  header div#header-title {\n    font-weight: 600;\n    font-size: 10vw;\n    text-align: right;\n    line-height: 10vw;\n    color: rgba(255, 255, 255, 0.692);\n    text-shadow: 0 0 5px black;\n    position: absolute;\n    right: 1.5%;\n    bottom: 20px; }\n  header #menu-sticky {\n    z-index: 99999;\n    position: fixed;\n    top: 0;\n    background-color: #0a0a0388; }\n    header #menu-sticky .menu {\n      flex-direction: row; }\n      header #menu-sticky .menu .menu-item {\n        flex: 1 1 0px;\n        width: fit-content; }\n        header #menu-sticky .menu .menu-item .sub-menu {\n          width: 200px;\n          border-radius: 0;\n          margin-left: 0;\n          position: absolute;\n          background-color: #0a0a0388; }\n          header #menu-sticky .menu .menu-item .sub-menu.active-sub {\n            padding: 10px; }\n          header #menu-sticky .menu .menu-item .sub-menu .second-link {\n            font-size: 0.8em; }\n      header #menu-sticky .menu .main-link {\n        width: auto;\n        font-size: 0.9em;\n        justify-content: center; }\n  header .menu {\n    display: flex;\n    flex-direction: column; }\n    header .menu .menu-item {\n      display: inline-block;\n      width: 8em; }\n      header .menu .menu-item .sub-menu {\n        border-radius: 5px;\n        width: 250px;\n        max-height: 0;\n        margin-left: 30px;\n        overflow: hidden;\n        transition-property: max-height;\n        transition: all 1s ease-in-out; }\n        header .menu .menu-item .sub-menu.active-sub {\n          transition-property: max-height;\n          transition: all 1s ease-in-out;\n          max-height: 300px; }\n        header .menu .menu-item .sub-menu .sub-menu-item {\n          width: 250px; }\n      header .menu .menu-item .main-link {\n        cursor: pointer;\n        border-radius: 5px;\n        font-size: 1.3em;\n        width: 6em;\n        height: 3em;\n        display: flex;\n        justify-content: left;\n        align-items: center;\n        text-align: left;\n        padding: 0.2em;\n        color: rgba(255, 255, 255, 0.692);\n        text-decoration: none;\n        text-shadow: 0 5px 5px black; }\n        @media (hover: hover) {\n          header .menu .menu-item .main-link:hover {\n            color: #faed26;\n            transition: 0.5s; } }\n      header .menu .menu-item .second-link {\n        font-size: 1em;\n        width: 100%;\n        height: 1.5em;\n        display: flex;\n        justify-content: left;\n        align-items: left;\n        text-align: left;\n        padding: 0.2em;\n        color: rgba(255, 255, 255, 0.726);\n        text-decoration: none;\n        text-shadow: 0 5px 5px black;\n        margin: 0.2em 0.1em; }\n        @media (hover: hover) {\n          header .menu .menu-item .second-link:hover {\n            color: #faed26;\n            transition: 0.5s; } }\n      header .menu .menu-item .active-link {\n        color: #faed26; }\n        @media (hover: hover) {\n          header .menu .menu-item .active-link:hover {\n            color: #faed26;\n            transition: 0.5s; } }\n\n/* ------------------------------------------------------------ */\n/* Main */\n/* ------------------------------------------------------------ */\nmain {\n  flex: 1 1 auto;\n  padding: 1.5%; }\n\n.iframe-div {\n  position: relative;\n  width: 100%;\n  height: 0;\n  margin-left: auto;\n  margin-right: auto;\n  padding-bottom: 51%;\n  flex-grow: 1; }\n  .iframe-div iframe {\n    position: absolute;\n    width: 100%;\n    height: 100%; }\n\n.center-content-vert {\n  margin-top: auto;\n  margin-bottom: auto; }\n\ndiv.pre-section {\n  margin-bottom: 20px; }\n\n.float-container {\n  overflow: hidden; }\n\ndiv.page-section {\n  padding: 2%;\n  margin-top: 2%;\n  overflow: hidden; }\n  div.page-section hr {\n    margin: 5px; }\n  div.page-section:nth-child(1) {\n    margin-top: 0; }\n  div.page-section:nth-child(odd) {\n    background-color: #966a5f; }\n  div.page-section:nth-child(even) {\n    background-color: #b18f86; }\n  div.page-section .section-header {\n    margin-bottom: 10px; }\n  div.page-section .page-sec-title {\n    font-size: 20px;\n    font-weight: 800;\n    display: inline-block; }\n\n.flex-part {\n  flex-grow: 1; }\n\nimg {\n  display: block;\n  width: 100%;\n  margin: 0px;\n  margin-left: auto;\n  margin-right: auto; }\n\n.in-text {\n  box-sizing: border-box;\n  display: flex;\n  flex-direction: column;\n  padding: 10px; }\n\n.text {\n  padding: 10px; }\n\n.flex-container {\n  display: flex;\n  flex-wrap: wrap; }\n\n.about-face {\n  font-weight: 1000;\n  color: #331f3b;\n  font-variant: small-caps; }\n\n.cause-sum {\n  font-size: 25px;\n  font-weight: 1000;\n  float: right;\n  color: #faed26;\n  text-shadow: 0 0 5px #5a5560; }\n\n.contact-section #captcha-image {\n  margin: 0; }\n\n.contact-section #powered-by-snap {\n  display: inline-block;\n  font-size: 0.8em; }\n\n.raised-sum {\n  color: #faed26; }\n\n.page-title {\n  text-align: center;\n  font-size: 1.5em;\n  font-weight: 700;\n  color: #744236;\n  font-variant: small-caps;\n  text-shadow: 0 0 10px white;\n  margin-bottom: 10px; }\n\n.everyday-album {\n  display: block;\n  margin-bottom: 10px;\n  padding: 10px; }\n\n.clear-float {\n  clear: both; }\n\n.news-title {\n  display: block;\n  margin-top: 20px;\n  font-size: 1.5em; }\n\n.news-date {\n  font-size: 20px;\n  font-weight: 1000;\n  float: right;\n  color: #744236;\n  text-shadow: 0 0 5px white; }\n\n.repertoire-tbl {\n  width: 100%;\n  table-layout: fixed; }\n  .repertoire-tbl th {\n    font-size: 0.9em;\n    vertical-align: bottom; }\n  .repertoire-tbl .th-artist {\n    width: 25%; }\n  .repertoire-tbl .th-name {\n    width: 23%; }\n  .repertoire-tbl .th-props {\n    width: 12%; }\n  .repertoire-tbl .th-tags {\n    width: 35%; }\n  .repertoire-tbl th.rotate {\n    width: 20px;\n    vertical-align: middle;\n    text-align: left;\n    white-space: nowrap; }\n  .repertoire-tbl th.rotate > div {\n    transform: translate(0px, 30px) rotate(-45deg);\n    width: 20px; }\n\n.repe-item {\n  font-size: 0.8em;\n  height: 3em; }\n  .repe-item td {\n    padding: 5px; }\n  .repe-item td.repe-props {\n    text-align: center; }\n  .repe-item:nth-child(odd) td:nth-child(1) {\n    background-color: #86574b; }\n  .repe-item:nth-child(odd) td:nth-child(2) {\n    background-color: #966a5f; }\n  .repe-item:nth-child(odd) td:nth-child(3) {\n    background-color: #86574b; }\n  .repe-item:nth-child(odd) td:nth-child(4) {\n    background-color: #966a5f; }\n  .repe-item:nth-child(even) td:nth-child(1) {\n    background-color: #9b786f; }\n  .repe-item:nth-child(even) td:nth-child(2) {\n    background-color: #b18f86; }\n  .repe-item:nth-child(even) td:nth-child(3) {\n    background-color: #9b786f; }\n  .repe-item:nth-child(even) td:nth-child(4) {\n    background-color: #b18f86; }\n  .repe-item.repe-selected td.repe-name {\n    color: black;\n    background-color: white; }\n\n.repe-top {\n  font-size: 0.8em; }\n\n.repe-artist {\n  cursor: pointer; }\n  @media (hover: hover) {\n    .repe-artist:hover {\n      font-weight: 1000;\n      text-shadow: 0 0 3px white; } }\n  .repe-artist.is-active {\n    border: 1px solid #faed26; }\n\ntd.repe-name {\n  cursor: pointer; }\n  @media (hover: hover) {\n    td.repe-name:hover {\n      color: black;\n      background-color: white !important; } }\n\n.tickcross {\n  background-color: #744236;\n  display: inline-block;\n  border-radius: 2px;\n  font-weight: 1000;\n  font-size: 1.2em;\n  padding: 0 5px;\n  margin: 0 1px;\n  cursor: pointer; }\n  .tickcross.tick {\n    color: #6fda4f71; }\n  .tickcross.cross {\n    color: #e2485a93; }\n  .tickcross.is-active {\n    border: 1px solid #faed26; }\n\n.repe-tag {\n  border-radius: 2px;\n  padding: 1px 3px;\n  background-color: #1d1a1a48;\n  margin-left: 3px;\n  margin-top: 1px;\n  margin-bottom: 1px;\n  cursor: pointer; }\n  .repe-tag.is-active {\n    border: 2px solid #faed26; }\n\n.repe-buttons {\n  align-items: stretch;\n  flex-direction: row;\n  display: flex; }\n\n.repe-button {\n  flex-grow: 1;\n  justify-content: center;\n  border: solid 1px white;\n  cursor: pointer;\n  display: inline-flex;\n  padding: 5px;\n  margin: 4px;\n  border-radius: 4px;\n  background-color: #966a5f; }\n  @media (hover: hover) {\n    .repe-button:hover {\n      background-color: #dd551f; } }\n\n.tag-div {\n  margin-top: 8px;\n  margin-bottom: 8px; }\n\n.active-filters-heading {\n  font-weight: bold;\n  font-size: 1.1em;\n  text-align: center;\n  display: block; }\n\n.tags-heading {\n  font-weight: bold;\n  font-size: 1.1em;\n  text-align: center;\n  display: block; }\n\n.active-filter {\n  cursor: pointer;\n  display: inline-block;\n  background-color: #b18f86;\n  border-radius: 2px;\n  padding: 3px;\n  margin: 3px;\n  width: 100%; }\n\n.remove-filter {\n  float: right; }\n\n@media only screen and (min-width: 576px) {\n  .tag-float-right {\n    float: right; } }\n\n.inline-flex {\n  display: inline-flex; }\n\n.caption {\n  font-size: 0.8em;\n  font-style: italic;\n  text-align: center; }\n\n.predef-set {\n  border-radius: 2px;\n  border: solid black 1px;\n  display: inline-block;\n  margin: 3px;\n  padding: 3px;\n  background-color: #b18f86; }\n  .predef-set.last {\n    background-color: #9d8d8f; }\n  @media (hover: hover) {\n    .predef-set:hover {\n      cursor: pointer;\n      background-color: #966a5f; } }\n\n.soundcloud-embed {\n  font-size: 1.5em;\n  width: 100%;\n  height: 50px;\n  border-radius: 2px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background-color: #b6694a; }\n  @media (hover: hover) {\n    .soundcloud-embed:hover {\n      cursor: pointer;\n      background-color: #dd551f;\n      box-shadow: 0 0 8px 4px rgba(51, 31, 59, 0.7);\n      transition: 0.5s; } }\n  .soundcloud-embed .soundcloud-title {\n    font-style: italic; }\n\n.section-tag {\n  border-radius: 2px;\n  border: 1px solid #5a5560;\n  padding: 1px 3px;\n  background-color: #6e9e2e48;\n  margin-left: 3px;\n  margin-top: 1px;\n  margin-bottom: 1px;\n  cursor: pointer; }\n  .section-tag.is-active {\n    border: 2px solid #faed26; }\n\n.section-extra {\n  float: right; }\n\n.soundcloud-bck {\n  font-size: 0.8em;\n  color: #331f3b;\n  font-style: italic;\n  background-color: white;\n  border-radius: 3px; }\n\n/* ------------------------------------------------------------ */\n/* Footer */\n/* ------------------------------------------------------------ */\nfooter {\n  color: #9d8d8f;\n  flex: 0 1 100px;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  font-size: 0.7em;\n  text-align: center;\n  background-color: #744236; }\n\n@media only screen and (min-width: 540px) {\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  header {\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + "); }\n    header .primary-nav {\n      flex-direction: row;\n      height: 16em; }\n    header div#header-title {\n      font-size: 7vw;\n      line-height: 7vw; }\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  .contact-main {\n    display: flex;\n    flex-direction: row; }\n    .contact-main .contact-section {\n      margin-right: 10px; }\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */\n  /* ------------------------------------------------------------ */ }\n\n@media only screen and (min-width: 960px) {\n  html {\n    background-color: white; }\n  header div#header-title {\n    font-size: 5vw;\n    line-height: 5vw; }\n  body {\n    margin: auto;\n    max-width: 1000px;\n    box-shadow: 0 4px 8px 0 #331f3b, 0 6px 20px 0 #331f3b; } }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -42456,7 +42456,7 @@ if (false) {} else {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, __RouterContext, generatePath, matchPath, useHistory, useLocation, useParams, useRouteMatch, withRouter */
+/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, __RouterContext, generatePath, matchPath, useHistory, useLocation, useParams, useRouteMatch, withRouter, BrowserRouter, HashRouter, Link, NavLink */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -47866,11 +47866,11 @@ function _objectDestructuringEmpty(obj) { if (obj == null) throw new TypeError("
 function Footer(_ref) {
   _objectDestructuringEmpty(_ref);
 
-  return React.createElement(React.Fragment, null, "design & development by Frantisek Hajnovic", React.createElement("br", null), "copyright \xA9 2020, all rights reserved ", React.createElement("br", null), "pic credit mainly \xA0", React.createElement("a", {
+  return React.createElement(React.Fragment, null, "design & development by Frantisek Hajnovic", React.createElement("br", null), "copyright \xA9 2020, all rights reserved ", React.createElement("br", null), "pic credits \xA0", React.createElement("a", {
     href: "https://www.instagram.com/eo.lenka/"
   }, "Lenka"), ",", React.createElement("a", {
     href: "https://www.instagram.com/garethsphotography/"
-  }, "Gareth"), " and Kika", React.createElement("br", null), React.createElement("div", null, React.createElement("a", {
+  }, "Gareth"), ", Kika, Stevo", React.createElement("br", null), React.createElement("div", null, React.createElement("a", {
     href: "https://www.facebook.com/feromusician",
     className: "fa fa-facebook"
   }), React.createElement("a", {
@@ -48218,7 +48218,7 @@ function About(_ref) {
 
   return React.createElement(React.Fragment, null, React.createElement("p", {
     className: "page-title"
-  }, "Errr... Who are you?"), React.createElement("div", null, React.createElement("p", null, "As written at the home page, \"my name is Fero, and I'm a guitarist, song-writer and a busker based in London\". But my friend Alex once said \"London has many faces\". And just like London, I too, have many faces."), React.createElement("div", {
+  }, "Errr... Who are you?"), React.createElement("div", null, React.createElement("p", null, "As written at the home page, \"my name is Fero, and I'm a guitarist, song-writer and a busker based in London\". But my friend Alex once said \"London has many faces\". And just like London, I too, have many faces. Let's go through them."), React.createElement("div", {
     className: "page-section"
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], {
     width: "40%",
@@ -48228,7 +48228,7 @@ function About(_ref) {
     imgSrc: __webpack_require__(/*! ../../pics/grass-2.jpg */ "./src/pics/grass-2.jpg")
   })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, React.createElement("span", {
     className: "about-face"
-  }, "The guitar face"), ". But let's start with this one. Unlike many people, who start playing in their childhood and often drop the instrument when starting uni, I did the opposite and made my first strums on a classical guitar when I was 18. I soon realized that I enjoy improvising (or at least trying it) and after the obligatory pentatonics, I started to explore more of the music theory. Luckily, my teacher - Ali Kovac - was one of the more progressive ones and after a couple years of improving my technique through classical guitar, we moved on to do electric guitar, blues, extended scales and much more."), React.createElement("p", null, "One of the breakthroughs for me was discovering the music of Dire Straits and Mark Knopfler. I still remember that moment. We were in London over the summer of 2008, sort of Work & Travel thing. One day, we were in our shitty room in Walthamstow, as usual bitching about not earning enough money through our minimum-wage jobs. At some point, when we had enough, my friend Roman (a long-standing Dire Straits fan) played me the ", React.createElement("a", {
+  }, "The guitar face"), ". Let's start with this one. Unlike many people, who start playing in their childhood and often drop the instrument when starting uni, I did the opposite and made my first strums on a classical guitar when I was 18. I soon realized that I enjoy improvising (or at least trying it that time) and after the obligatory pentatonics, I started to explore more of the music theory. Luckily, my teacher - Ali Kovac - was one of the more progressive ones and after a couple years of improving my technique through classical guitar, we moved on to do electric guitar, blues, extended scales and much more."), React.createElement("p", null, "One of the breakthroughs for me was discovering the music of Dire Straits and Mark Knopfler. I still remember that moment. We were in London over the summer of 2008, sort of Work & Travel thing. One day, we were in our messy room in Walthamstow, as usual complaining about not earning enough money through our minimum-wage jobs. At some point, when we had enough, my friend Roman (a long-standing Dire Straits fan) played me the ", React.createElement("a", {
     href: "https://www.youtube.com/watch?v=_4E_924b9SU&feature=youtu.be&t=250"
   }, "first solo from Telegraph road "), ". I somehow got it on my iPod and that was it. Since then, literally every day on the way to and from work, I would listen to that solo over and over again. I found it absolutely captivating, beautiful and somewhat special - it was simply something I never found in music before, and haven't found in the music ever since. Roman's \"recommender\" system kicked in soon after and he suggested another one, the ", React.createElement("a", {
     href: "https://youtu.be/gAirINwjaxE?t=343"
@@ -48237,19 +48237,12 @@ function About(_ref) {
     minWidth: "300px",
     "float": "right"
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Image"], {
-    imgSrc: __webpack_require__(/*! ../../pics/london-room.jpg */ "./src/pics/london-room.jpg"),
-    caption: "Roman told me about Dire Straits in this (rather messy) room in London in 2008"
-  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "By that time though, I was hooked enough, and I went on to listen to anything that Mark Knopfler (frontman of Dire Straits) touched, learned countless of the songs, seen him live five times and tried to unravel the beauty of his playing. If there's one thing that I know for sure that I'll never get tired of, it is Mark's music. For although it has been now close to 12 years since that moment in Walthamstow, I still listen to Telegraph road with the same enthusiasm and the first solo of the song is, if anything, even more beautiful than it was back then."), React.createElement("p", null, "Other than Dire Strais/Mark Knopfler, I find a lot of inspiration in John Mayer's music - always superbly produced, and a rare combination of relatively pop-y and mainstream genre with intelligent and melodic guitar playing, one that can be easily be deemed \"cool\" by any guitarist's standards.")), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], {
+    imgSrc: __webpack_require__(/*! ../../pics/with-roman.jpg */ "./src/pics/with-roman.jpg"),
+    caption: "With Roman in Oslo, 2015"
+  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "By that time though, I was hooked enough, and I went on to listen to anything that Mark Knopfler (former frontman of Dire Straits) touched, learned countless of the songs, seen him live five times and tried to unravel the beauty of his playing. If there's one thing that I know for sure, it's that I'll never get tired of his music. For although it has been now close to 12 years since that moment in Walthamstow, I still listen to Telegraph road with the same enthusiasm and that first solo of the song is, if anything, even more beautiful than it was back then."), React.createElement("p", null, "Other than Dire Strais/Mark Knopfler, I find a lot of inspiration in John Mayer's music - always superbly produced, and a rare combination of relatively pop-y and mainstream genre with intelligent and melodic guitar playing, one that can be easily be deemed \"cool\" by any guitarist's standards.")), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], {
     width: "40%",
     minWidth: "300px",
     "float": "left"
-  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Image"], {
-    imgSrc: __webpack_require__(/*! ../../pics/with-roman.jpg */ "./src/pics/with-roman.jpg"),
-    caption: "With Roman in Oslo, 2015"
-  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], {
-    width: "40%",
-    minWidth: "300px",
-    "float": "right"
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Image"], {
     imgSrc: __webpack_require__(/*! ../../pics/guitars.jpg */ "./src/pics/guitars.jpg"),
     caption: "The guitar family as of 2020 - still happyily growing!"
@@ -48273,7 +48266,7 @@ function About(_ref) {
     caption: "My last day at ONS, Dec. 2019"
   })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "Other than that, I spent a year doing full-stack web dev too and I found the responsive frontend work quite fun too. This led me to teaching myself some React and using it either in ", React.createElement("a", {
     href: "https://onsbigdata.github.io/dcm-transcripts-new/travis/dist/index.html"
-  }, "work"), " or even for this website."), React.createElement("p", null, "People sometimes ask me if I consider dropping the \"data career\" and going fulltime with music. There were times when I played with the idea. And there may be those times again. But at the moment I consider myself lucky to have a job I actually like to do - not just", React.createElement("i", null, "\"doing\""), " the programming/tech work, but mainly showing others what is possible and helping organizations getting more efficient - automating the \"boring stuff\" and creating space for innovation. Combined with my job being in UK's Civil service, it not only drives my motivation to see my work benefit public good, but it also provides for a good work-life balanced role - one that leaves lots of energy and time for music... And the other \"faces\" of mine, like..."))), React.createElement("div", {
+  }, "work"), " or even for this website."), React.createElement("p", null, "People sometimes ask me if I consider dropping the \"data career\" and going fulltime with music. There were times when I played with the idea. And there may be those times again. But at the moment I enjoy doing the field of data science/engineering too much. Combined with my job being in UK's Civil service, it not only drives my motivation to see my work benefit public good, but it also provides for a good work-life balanced role - one that leaves lots of energy and time for music... And the other \"faces\" of mine, like..."))), React.createElement("div", {
     className: "page-section clear-float"
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], {
     width: "40%",
@@ -48291,7 +48284,7 @@ function About(_ref) {
     caption: "Annapurna circuit, Nepal, 2019"
   })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, React.createElement("span", {
     className: "about-face"
-  }, "The outdoors face"), ". Outdoors is awesome. There's hardly a better weekend I can imagine than an overnight hike in the countryside with friends, wild-camping in the middle of nowhere. Add jumps to waterfall pools, views from the mountain tops and the obligatory well-deserved dinner in the pub (with a couple pints, of course), and you're good to go for another week of mentally difficult work. It's simply the ultimate cure, for body and the mind alike. The only downside is that it's just hard to bring a guitar to a hike."), React.createElement("p", null, "Or is it? Arun once showed me his Klos travel guitar - a carbon-fibre 3/4-sized acoustic marvel that is not only lightweight enough to add to clip on to the backpack, but which is also near-indestructible thanks to the materials used. A week later, I ordered mine and it has been an excellent companion on many hikes, or simply the extra acoustic guitar I'd take when going busking."))), React.createElement("div", {
+  }, "The outdoors face"), ". Outdoors is awesome. There's hardly a better weekend I can imagine than an overnight hike in the countryside with friends, wild-camping in the middle of nowhere. Add jumps to waterfall pools, views from the mountain tops and the obligatory well-deserved dinner in the pub (with a couple pints, of course), and you're good to go for another week of mentally difficult work. It's simply the ultimate cure, for body and the mind alike. The only downside is that it's just hard to bring a guitar to a hike."), React.createElement("p", null, "Or is it? Arun once showed me his Klos travel guitar - a carbon-fibre 3/4-sized acoustic marvel that is not only lightweight enough to clip on to the backpack, but which is also near-indestructible thanks to the materials used. A week later, I ordered mine and it has been an excellent companion on many hikes, or simply the extra acoustic guitar I'd take when going busking."))), React.createElement("div", {
     className: "page-section clear-float"
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], {
     width: "40%",
@@ -48355,7 +48348,7 @@ function About(_ref) {
     href: "http://ferostreetplay.blogspot.com/"
   }, "busking around northern Europe"), " in June 2015, I expanded my blog family yet again before finally realizing I just need something generic where I can keep writing about anything I want - leading to ", React.createElement("a", {
     href: "http://ferowrites.blogspot.com/"
-  }, "Fero writes"), " (kicked off with my most-read blog post ever - albeit one that I wish I wouldn't have needed to write) ."), React.createElement("p", null, "Writing, song-writing, composing, creating. The first step may seem hard. It may take time. But the end result is worth it. For once it's there, it is there forever - a bit of you engraved in the world... ;-)")))));
+  }, "Fero writes"), " (kicked off with my most-read blog post ever - albeit one that I wish I would never have needed to write)."), React.createElement("p", null, "Writing, song-writing, composing, creating. The first step may seem hard. It may take time. But the end result is worth it. For once it's there, it is there forever - a bit of you engraved in the world.")))));
 }
 
 /***/ }),
@@ -48423,7 +48416,7 @@ function Busking(_ref2) {
     minWidth: "350px"
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
     id: "jAXI18tFkUM"
-  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "I started to busk in 2014 and I love it ever since. For me, it's not about money - I enjoy playing for people, connecting with the street and seeing how people react. When busking, I feel alive and the instant feedback, be it a small donation or just a thumb up from the passers by, is simply irreplaceable."), React.createElement("p", null, "When busking, I have a \"", React.createElement("b", null, "50% for good"), "\" rule. This means that 50% of what I raise goes for a good cause - check out the causes I supported over the years below. And if this is not a good enough reason to support me busking, watch this video :-)"))), React.createElement(Causes, {
+  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "I started to busk in 2014 and I've loved it ever since. It's not really about money - I enjoy playing for people, connecting with the street and seeing how people react. When busking, I feel alive and the instant feedback, be it a small donation or just a thumb up from the passers by, is simply irreplaceable."), React.createElement("p", null, "When busking, I have a \"", React.createElement("b", null, "50% for good"), "\" rule. This means that 50% of what I raise goes for a good cause. Check out the causes I supported over the years below. And if that is not a good enough reason to support busking, watch the video!"))), React.createElement(Causes, {
     name: "2019 - Various causes",
     sum: 500
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], {
@@ -48432,10 +48425,10 @@ function Busking(_ref2) {
     minWidth: "350px"
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Image"], {
     imgSrc: __webpack_require__(/*! ../../pics/library-2.jpg */ "./src/pics/library-2.jpg")
-  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "Throughout the year of 2019, I've used the ever increasing \"busking fund\" to support various causes, donating in total over \xA31000. Much of this is mentioned on this page, however other causes I supported included:"), React.createElement("p", null, React.createElement("li", null, "Ocean cleanup"), React.createElement("li", null, "Alzheimer society"), React.createElement("li", null, "School bus for local school"), React.createElement("li", null, "Wikipedia"), React.createElement("li", null, "...")))), React.createElement(Causes, {
+  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "Throughout the year of 2019, I've used the ever increasing \"busking fund\" to support various causes, donating in total over \xA31000. Much of this is mentioned on this page, however some other causes that I supported include:"), React.createElement("p", null, React.createElement("li", null, "Ocean cleanup"), React.createElement("li", null, "Alzheimer society"), React.createElement("li", null, "School bus for local school"), React.createElement("li", null, "Wikipedia"), React.createElement("li", null, "...")))), React.createElement(Causes, {
     name: "Dec 2019 - Christmas busking choir",
     sum: 112
-  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, "A repeat of the successfuly Christmas choir busking, this time in front of Cardiff's Central market, again with all donations going to homelessness charity Llamau."), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["FlexContainer"], null, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, "A repeat of the successfuly Christmas choir busking, this time in front of Cardiff's Central market, again with all the raised donations going to homelessness charity Llamau."), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["FlexContainer"], null, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
     proportion: "0.41",
     minWidth: "300px"
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Image"], {
@@ -48450,7 +48443,7 @@ function Busking(_ref2) {
   }))))), React.createElement(Causes, {
     name: "July 2019 - Education trips for kids",
     sum: 150
-  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "In July 2019, I participated the Cardiff Bay triathlon, as part of which I was raising money for education programmes for school kids from poor parts of my home country. I contributed \xA3150 to the fund, eventually reaching the target of \xA3500."), React.createElement("p", null, "Even better, I finished the triathlon! Read more about this experience on ", React.createElement("a", {
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "In July 2019, I participated the Cardiff Bay triathlon, as part of which I was raising money for education programmes for school kids from poor parts of my home country. I contributed \xA3150 to the fund, eventually reaching the target of \xA3500."), React.createElement("p", null, "Even better, I finished the triathlon! If interested, read more about this experience on ", React.createElement("a", {
     href: "http://ferowrites.blogspot.com/2019/07/cardiff-bay-triathlon.html"
   }, "this blog post."))), React.createElement("div", {
     className: "flex-container"
@@ -48478,7 +48471,7 @@ function Busking(_ref2) {
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Image"], {
     imgSrc: __webpack_require__(/*! ../../pics/queen-street-03.png */ "./src/pics/queen-street-03.png"),
     caption: "Busking at Queen street"
-  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, "As a busker, I witnessed first hand the deteriorating state of homelessness on the streets of Cardiff. This prompted me to donate some more of the raised money to the homelessness charity Llamau, which works with young and vulnerable people at the risk of becoming homeless.")), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["FlexContainer"], null, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
+  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, "As a busker, I witnessed first hand the deteriorating state of homelessness on the streets of Cardiff. This prompted me to donate chunk of the raised money to the homelessness charity Llamau, which works with young and vulnerable people at the risk of becoming homeless.")), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["FlexContainer"], null, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
     proportion: "0.53",
     minWidth: "300px"
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Image"], {
@@ -48498,7 +48491,7 @@ function Busking(_ref2) {
   }))))), React.createElement(Causes, {
     name: "Dec 2018 - Christmas busking choir",
     sum: 126
-  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, "In December 2018, I organized a busking performance with the choir I've been attending at my former workplace (Office for National Statistics). The performances took place at The Hayes in Cardiff and all raised money was donated to a homelessness charity Llamau."), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["FlexContainer"], null, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, "In December 2018, I organized a busking performance with the choir I've been attending at my former workplace (Office for National Statistics). The performances took place at The Hayes in Cardiff and all of the raised money was donated to a homelessness charity Llamau."), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["FlexContainer"], null, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
     proportion: "0.41",
     minWidth: "250px"
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Image"], {
@@ -48522,7 +48515,7 @@ function Busking(_ref2) {
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Image"], {
     imgSrc: __webpack_require__(/*! ../../pics/sos-1.jpg */ "./src/pics/sos-1.jpg"),
     caption: "Delivering the guitar to SOS Children's village central in Oslo"
-  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "The idea of \"busking for good\" originated when I started busking 2014 in Oslo. I realized I have quite a bit of fun simply doing it and that the money is secondary. And that's when I set myself the \"", React.createElement("b", null, "50% for good"), "\" rule - setting aside 50% of the raised money for a good cause."), React.createElement("p", null, "I got in touch with a few charities and the SOS Childrens' Village responded - they would love if I could \"busk out\" a new guitar for their centre in Bergen, where music is used as a means of therapy."), React.createElement("p", null, "The new goal turned out to be more than achievable and by the end of autumn 2014, I raised enough to buy and hand over the beautiful Gretsch electric guitar."), React.createElement("p", null, "For more on the journey of my busking in Norway, check out ", React.createElement("a", {
+  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "The idea of \"busking for good\" originated when I started busking 2014 in Oslo. I realized I have quite a bit of fun simply doing it and that the money is secondary. And that's when I set myself the \"", React.createElement("b", null, "50% for good"), "\" rule - setting aside 50% of the raised money for a good cause."), React.createElement("p", null, "I got in touch with a few charities and the SOS Childrens' Village responded - they would love if I could \"busk out\" a new guitar for their centre in Bergen, where music was used as a means of therapy."), React.createElement("p", null, "The new goal turned out to be more than achievable and by the end of autumn 2014, I raised enough to buy and hand over the beautiful Gretsch electric guitar."), React.createElement("p", null, "For more about the busking time in Norway, check out ", React.createElement("a", {
     href: "http://zivotvosle.blogspot.com/"
   }, "my blog post"), "."))), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["FlexContainer"], null, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
     proportion: "0.4",
@@ -48798,26 +48791,30 @@ function Home(_ref2) {
     href: "#repertoire"
   }, "repertoire"), " and ", React.createElement("a", {
     href: "#contact"
-  }, "get in touch"), ". For my original songs, collaborative works or covers, see ", React.createElement("a", {
+  }, "get in touch"), ". For my original songs, collaborations or covers, see ", React.createElement("a", {
     href: "#my-music"
   }, "my music"), " page. Finally, don't forget to visit the ", React.createElement("a", {
     href: "#busking"
   }, "busking for good"), " section and see why busking should be supported!"), React.createElement("p", null, "And if you'd just like to find out more about me, there will be some answers ", React.createElement("a", {
     href: "#about"
-  }, "here"), ".")), React.createElement("span", {
+  }, "here"), " :-)")), React.createElement("span", {
     className: "news-title"
   }, "News:"), React.createElement(News, {
     name: "Demo album reaching completion!",
     date: "05/2020"
-  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], {
-    width: "40%",
-    "float": "left",
-    minWidth: "350px"
-  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Image"], {
+  }, React.createElement("div", {
+    className: "flex-container"
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
+    proportion: "0.4",
+    minWidth: "200px"
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Image"], {
     imgSrc: __webpack_require__(/*! ../../pics/everyday-cover.jpeg */ "./src/pics/everyday-cover.jpeg")
-  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, "Check out the ", React.createElement("a", {
+  }))), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
+    proportion: "0.6",
+    minWidth: "200px"
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, "Check out the ", React.createElement("a", {
     href: "#my-music"
-  }, "11 tracks"), " from album \"Everyday\" that are already near finished! I'm re-recording some of the parts during the Covid-19 self-isolation - so that once the lock-down ceases, I'll be ready to hit the streets and bars again!")), React.createElement(News, {
+  }, "11 tracks"), " from album \"Everyday\" that are already near finished! I'm re-recording some of the parts during the Covid-19 self-isolation - so that once the lock-down ceases, I'll be ready to hit the streets and bars again!")))), React.createElement(News, {
     name: "Website is live!",
     date: "05/2020"
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, "Aand the website is live! You should be probably aware of that as you are just looking at it, but it's a milestone that deserves to be here!")));
@@ -49074,14 +49071,14 @@ function RepeIntro(_ref4) {
   var setRepdata = _ref4.setRepdata;
   return React.createElement(React.Fragment, null, React.createElement("div", {
     className: "repe-intro"
-  }, React.createElement("p", null, "Below is a (rather long) list of songs I play, have played, or are planning to play - on open mics, gigs or when busking."), React.createElement("p", null, "Some of the songs need a backing track or accompaniment, but for most I have a version which does not require a backing track, so singing and guitar with a loop station are enough. Many of the songs can be also done in a pure acoustic version."), React.createElement("p", null, "Explore and build the repertoire you'd like me to play!", React.createElement("li", null, "Filter by (clicking the song's) artist, tags or attributes"), React.createElement("li", null, "Build a selection by clicking the names of the song"), React.createElement("li", null, "Finally, export the selection and send it to me by email")), React.createElement("p", null, "Or check out these predefined setlists aimed at different situations and venues:"), React.createElement("div", {
+  }, React.createElement("p", null, "Below is a list of songs I tend to play when busking, on open mics etc, with extensions on demand very much possible."), React.createElement("p", null, "I tend to play plugged in, and using a loop station, but pure acoustic mode is an option for most of the songs."), React.createElement("p", null, "Explore and build the repertoire you'd like me to play!", React.createElement("li", null, "Filter by artist or tags (click the tag/artist)"), React.createElement("li", null, "Build a selection by clicking the names of the songs"), React.createElement("li", null, "Export the selection and send it to me by email")), React.createElement("p", null, "Or check out these predefined setlists aimed at different situations and venues:"), React.createElement("div", {
     className: "predef-setlists"
   }, React.createElement("div", {
     className: "predef-set",
     onClick: function onClick() {
       return setRepdata(_data_web_repe_gig_originals_json__WEBPACK_IMPORTED_MODULE_3__);
     }
-  }, "The originals"), React.createElement("div", {
+  }, "The Originals"), React.createElement("div", {
     className: "predef-set",
     onClick: function onClick() {
       return setRepdata(_data_web_repe_gig_fri_pub_nbt_json__WEBPACK_IMPORTED_MODULE_2__);
@@ -49091,7 +49088,7 @@ function RepeIntro(_ref4) {
     onClick: function onClick() {
       return setRepdata(_data_web_repe_gig_background_nbt_json__WEBPACK_IMPORTED_MODULE_1__);
     }
-  }, "Relaxed restaurant"), React.createElement("div", {
+  }, "Relaxed atmopshere"), React.createElement("div", {
     className: "predef-set last",
     onClick: function onClick() {
       return setRepdata(_data_web_repe_all_json__WEBPACK_IMPORTED_MODULE_0__);
@@ -49426,7 +49423,7 @@ function Collaborations(_ref) {
     className: "page-title"
   }, "Collaborations"), React.createElement("div", null, React.createElement("p", null, "A lot of my guitar skills I owe to my former guitar teacher Ali Kovac as well as to ", React.createElement("a", {
     href: "https://www.justinguitar.com/"
-  }, "Justin's great online content"), ", but I think the quickest way to improve is simply to play with others - not just learning from each and picking up new styles. Cause everyone has a different style."), React.createElement("p", null, "Over the years there was quite a bit of jamming and playing with people, little projects here and there. Some grew to see a studio recording, recorded jam sessions, or an open mic performance. Here's some of the top picks ;-)"), React.createElement("hr", null), "Filter tags: ", allTags.map(function (t, i) {
+  }, "Justin's great online content"), ", but I think the quickest way to improve is simply to play with others - not just learning from each and picking up new styles. Cause everyone has a different style."), React.createElement("p", null, "Over the years there was quite a bit of jamming and playing with people, little projects here and there. Some grew to see a studio recording, recorded jam sessions, or an open mic performance. Here's some of the top picks."), React.createElement("hr", null), "Filter tags: ", allTags.map(function (t, i) {
     return React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Tag"], {
       key: i,
       tag: t,
@@ -49439,7 +49436,7 @@ function Collaborations(_ref) {
     tags: ["cardiff"],
     selectedTags: selectedTags,
     updateTags: updateTags
-  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "Jams with Ellie, Matt and Ruth was another spin-off from the ONS choir. I was keen to try more harmonies and, honestly, I couldn't have asked for more accomplished people here, with all three having lots of experience singing in the church. My first memory of Matt is at the ONS choir, me trying to hit the right notes of the tune and Matt singing something completely different. When I asked him which line does he sing, his response was \"I just make it up on the spot\". That kind of level."), React.createElement("p", null, "The jams were always super nice, though quite infrequent. We thus never performed or recorded anything - until the Covid-19 quarantine came and I got the idea: \"why not record something now\"."), React.createElement("p", null, "The result is one of my dreams coming true - a recording of Sailing to Philadelphia with beautiful vocals and harmonies in it. Thanks again guys :-)")), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "Jams with Ellie, Ruth and Matt (thus the name El-Ru-Fe-Ma) was another spin-off from the ONS choir. I was keen to try including more harmonies in the songs and, honestly, I couldn't have asked for more accomplished people here, with all three having lots of experience singing in the church. Actually, my first memory of Matt is singing at the ONS choir, me trying to hit the right notes of the tune and Matt singing something completely different. When I asked him which line does he sing, his response was \"I just make it up on the spot\". That kind of level."), React.createElement("p", null, "The jams were always super nice, though quite infrequent. We thus never performed or recorded anything - until the Covid-19 quarantine came and I got the idea: \"why not record something now\"."), React.createElement("p", null, "The result is one of my dreams coming true - a recording of Sailing to Philadelphia with beautiful vocals and harmonies in it. Thanks again guys :-)")), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
     id: "8aCJvAg_MAQ"
   }))), React.createElement(CollabSection, {
     name: "With Ben",
@@ -49475,9 +49472,9 @@ function Collaborations(_ref) {
     tags: ["ons choir", "cardiff"],
     selectedTags: selectedTags,
     updateTags: updateTags
-  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "I never really thought of myself as a singer (and that holds to this day). But joining a choir at ONS was fantastic for realizing that even with the little singing I can do, there's still lot that can be done! Using harmonies, using the voice in a proper way or improving the technique. There's definitely long way to go, but looking back at some of my old recordings, there's much improvement already!"), React.createElement("p", null, "The bonus was a couple Christmas busking sessions where we raised money for a charity. Check out ", React.createElement("a", {
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "I never really thought of myself as a singer, but joining a choir at ONS was fantastic for realizing that even with the little singing I can do, there's still lot that can be done: harmonizing, using the voice in a proper way or just improving the technique. There's definitely long way to go, but looking back at some of my old recordings, there's much improvement already!"), React.createElement("p", null, "The bonus was a couple Christmas busking sessions where we raised money for a charity. Check out ", React.createElement("a", {
     href: "#/busking"
-  }, "busking section"), " for it went!")), React.createElement("div", {
+  }, "busking section"), " for how it went!")), React.createElement("div", {
     className: "flex-container"
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
     minWidth: "300px"
@@ -49495,7 +49492,7 @@ function Collaborations(_ref) {
     tags: ["sophie", "cardiff"],
     selectedTags: selectedTags,
     updateTags: updateTags
-  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, "The jams with Sophie came as a spin-out of other jams with people from the ONS choir. We wanted to focus on fewer songs, but more thoroughly. With Sophie's piano and beautiful vocals, as well as custom harmonies that we often added, we managed to record quite a few really nice covers, as well as slip in a few open mics!"), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], {
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, "The jams with Sophie came as a spin-off from other jams with people from the ONS choir. We wanted to focus on fewer songs, but more thoroughly. With Sophie's piano and beautiful vocals, as well as custom harmonies that we often added, we managed to record quite a few really nice covers, as well as slip in a few open mics."), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], {
     minHeight: "350px"
   }, React.createElement("div", {
     className: "iframe-div"
@@ -49546,7 +49543,7 @@ function Collaborations(_ref) {
     minWidth: "250px"
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["SoundCloud"], {
     iframeTag: "<iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/664352564&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true\"></iframe>"
-  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, "Not a perfectly serious entry - but a super fun one. After this accidentally following other songs in my playlist and listening to it a few times, I have to say - this song ROCKS! And we really nailed it. Vika's lyrics (both the initial rap + the middle Russian part is due to her) and Alex's incredible rap + really felt-through vocals make this a hit that's not only worth to publish, but listen to many times! Oh yeah!"))), React.createElement(CollabSection, {
+  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, "Not a perfectly serious entry - but a super fun one. After this accidentally following other songs in my playlist and listening to it a few times, I have to say - this song ROCKS! And we really nailed it. Vika's lyrics (both the initial rap + the middle Russian part is due to her) and Alex's incredible rap + really felt-through vocals make this a hit that's not only worth to publish, but listen to many times, be it perfectly clean vocals or not. Oh yeah!"))), React.createElement(CollabSection, {
     name: "With Moni",
     date: "2014",
     tags: ["moni", "oslo"],
@@ -49569,7 +49566,7 @@ function Collaborations(_ref) {
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Image"], {
     imgSrc: __webpack_require__(/*! ../../../pics/oslo-moni.jpg */ "./src/pics/oslo-moni.jpg"),
     caption: "With Moni, busking in Aker Brygge"
-  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "I met Moni in one of the Oslo Jam Session meetups. She had an amazing voice and was up for practicing some songs a bit more properly. Layla, More than Words, Let it be..."), React.createElement("p", null, "We ended up doing an open mic, as well as busking at Aker Brygge until she left Oslo. Good times!"))), React.createElement(CollabSection, {
+  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "I met Moni in one of the Oslo Jam Session meetups. She had an amazing voice and was up for practicing some songs a bit more properly. Layla, More than Words, Let it be - the usual songs that work nicely for a duo."), React.createElement("p", null, "We ended up doing an open mic, as well as busking at Aker Brygge until she left Oslo."))), React.createElement(CollabSection, {
     name: "Brainlive",
     date: "2013/2014",
     tags: ["brainlive", "oslo"],
@@ -49683,11 +49680,11 @@ function Covers(_ref) {
 
   return React.createElement(React.Fragment, null, React.createElement("div", {
     className: "page-title"
-  }, "Covers"), React.createElement("div", null, React.createElement("p", null, "Although I am increasingly focusing on (and enjoying) my own work, I would have never gotten to this point without the inspirations of Mark Knopfler, John Mayer or others. Trying to work out what it is that makes their music so appealing and attempting to reproduce that is essentially how one creates their own style."), React.createElement("p", null, "Here is some more complete cover work thatI've done. For more frequent updates, check out my Instagram ", React.createElement("a", {
+  }, "Covers"), React.createElement("div", null, React.createElement("p", null, "Although I am increasingly focusing on my own work, I would have never gotten to this point without the inspirations of Mark Knopfler, John Mayer or others. Trying to work out what it is that makes their music so appealing and attempting to reproduce that is essentially how one creates their own style."), React.createElement("p", null, "Here is some more complete cover work thatI've done. For more frequent updates, check out my Instagram ", React.createElement("a", {
     href: "https://www.instagram.com/fero.hajnovic"
   }, "@fero.hajnovic"), " or the ", React.createElement("a", {
     href: "https://www.youtube.com/channel/UCbFZJZ1bf8nMcLPJie5-mTA"
-  }, "YouTube channel"), " ."), React.createElement("p", null, "Enjoy :-)"), React.createElement("hr", null), "Filter tags: ", allTags.map(function (t, i) {
+  }, "YouTube channel"), " ."), React.createElement("hr", null), "Filter tags: ", allTags.map(function (t, i) {
     return React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Tag"], {
       key: i,
       tag: t,
@@ -49706,7 +49703,7 @@ function Covers(_ref) {
     minWidth: "300px"
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
     id: "8aCJvAg_MAQ"
-  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, "In the middle of the Covid-19 quarantine, we sailed to Philadelphia :-) A beautiful song, made even more beautiful with Ruth's, Ellie's and Matt's vocals and harmonies. I've always wanted to record this one with them, but it was difficult to find a time everyone would be free. Well, a dream came true during the quarantine - who says we need to be at the same place recording? ;-)")), React.createElement(CoverSection, {
+  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, "In the middle of the Covid-19 quarantine, we sailed to Philadelphia. A beautiful song, made even more beautiful with Ruth's, Ellie's and Matt's vocals and harmonies. I've always wanted to record this one with them, but it was difficult to find a time everyone would be free. Well, a dream came true during the quarantine - who says we need to be at the same place recording? ;-)")), React.createElement(CoverSection, {
     name: "John Mayer - I guess I just feel like",
     date: "2020-03-30",
     tags: ["john mayer", "video", "studio", "multicam"],
@@ -49943,13 +49940,15 @@ function Everyday(_ref3) {
   })))), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
     proportion: "0.6",
     minWidth: "350px"
-  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "My first (demo) album is slowly coming together. Named after one of the songs - Everyday - its beginnings date to my after-university times in Oslo when I made that step from \"bedroom guitar playing\" and started doing open mics, jamming, duo-projects and eventually my most favorite activity: ", React.createElement("a", {
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "My first (demo) album is slowly coming together. Named after one of the songs - Everyday - its beginnings date to my after-university times in Oslo when I made that step from \"bedroom guitar playing\" to doing open mics, jamming, ", React.createElement("a", {
+    href: "#my-music/collaborations"
+  }, "collaborative"), " projects and eventually my most favorite activity: ", React.createElement("a", {
     href: "#busking"
-  }, "busking"), "."), React.createElement("p", null, "It was there in Oslo, where the first of the songs came together, with some eventually making my first demo recordings (and some still waiting on my hard drive to get their chance for some studio time!)."), React.createElement("p", null, "The next round of inspiration came during ", React.createElement("a", {
+  }, "busking"), "."), React.createElement("p", null, "It was there in Oslo, where the first of my songs came together, with some eventually being my first demo recordings (and some still waiting on my hard drive to get their chance for some studio time!)."), React.createElement("p", null, "The next round of inspiration came during my unforgettable ", React.createElement("a", {
     href: "http://feroafrica.blogspot.com/"
-  }, "my time in Ghana"), " and the following ", React.createElement("a", {
+  }, "time in Ghana"), " and the following ", React.createElement("a", {
     href: "http://ferostreetplay.blogspot.com/"
-  }, "2015 stret play tour"), " of northern Europe, both unforgettable experiences out of the ordinary."), React.createElement("p", null, "Finally, the UK cities of Newport, London, and especially Cardiff, were home to my most recent ideas and work."), React.createElement("p", null, "The songs on the album are not in chronological order, but below you can enjoy a cut through my life expressed via the songs, as the time went.")))), React.createElement("div", {
+  }, "2015 stret play tour"), " of northern Europe, both completely life-changing experiences."), React.createElement("p", null, "Finally, the UK cities of Newport, London, and especially Cardiff, were home to my most recent ideas and work."), React.createElement("p", null, "The songs on the album are not in chronological order, but below you can enjoy a cut through my life expressed via the songs, as the time went.")))), React.createElement("div", {
     className: "clear-float"
   }, React.createElement(Song, {
     name: "Everyday"
@@ -49966,28 +49965,39 @@ function Everyday(_ref3) {
     where: "right"
   }, React.createElement(SoundcloudEmbed, {
     title: "Everyday"
-  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "This song is really about Oslo and some of my experiences there, but also about the time I started to focus on music, guitar and songwriting a bit more seriously than before..."), React.createElement("a", {
+  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "This song is really about Oslo and some of my experiences there, but also about the time I started to focus on music, guitar and songwriting a bit more seriously than before."), React.createElement("a", {
     href: "https://drive.google.com/file/d/1Di-44alLplaT_RoVP9_ZoVCiSLsCgMnc"
   }, "Chords and lyrics")))), React.createElement(Song, {
     name: "Vices"
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement(SoundcloudEmbed, {
     title: "Vices"
-  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "This is a song about one of my friends, a quite unique character. Not much more is needed to be said, just listen to the song and you'll find out more..."), React.createElement("a", {
+  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "A song about one of my friends from back home, a quite unique character. Not much more is needed to be said, just listen to the song and you'll find out more ;-)"), React.createElement("a", {
     href: "https://drive.google.com/file/d/1C6uYILWab7q74PpC8gPYo6kyxOgqC8E6"
   }, "Chords and lyrics"))), React.createElement(Song, {
     name: "Let's go fail"
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
+    proportion: "0.65",
+    minWidth: "200px"
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement(SoundcloudEmbed, {
     title: "Let's go fail"
-  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "A song I wrote in a train, returning from a visit to my friend Laco, who's the most \"yes attitude\" person I've ever met. Indeed, saying \"Laco, let's go fail\" is likely to be met with \"all right, let's do that!\". It's just hard NOT to write a song about a person like this!"), React.createElement("a", {
+  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "I wrote this one in a train, returning from a visit of my friend Laco, who's the most \"yes attitude\" person I've ever met. Indeed, saying \"Laco, let's go fail\" is likely to be met with \"all right, let's do that!\". It's just hard NOT to write a song about someone like this!"), React.createElement("a", {
     href: "https://drive.google.com/file/d/1uyVyDSwf5BAG6KvRg5Kf6wr4hnmmdghW"
-  }, "Chords and lyrics"))), React.createElement(Song, {
+  }, "Chords and lyrics"))), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
+    proportion: "0.35",
+    minWidth: "200px"
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Image"], {
+    imgSrc: __webpack_require__(/*! ../../../pics/laco.jpg */ "./src/pics/laco.jpg"),
+    caption: React.createElement(React.Fragment, null, "A rather old pic, but I love it. Did I say that other than YES attitude master, Laco is also accomplished musician having his own ", React.createElement("a", {
+      href: "http://www.lafamiliasalsaband.com/"
+    }, "Salsa Band"), "?")
+  })))), React.createElement(Song, {
     name: "Daily ride"
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement(SoundcloudEmbed, {
     title: "Daily ride"
   })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
     minWidth: "300px",
     proportion: "0.6"
-  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "This song is indeed about my daily ride that I had while in Biriwa, Ghana. I was working at the institute of mathematical sciences at the other end of the village. The ride on my bicycle through the hot night amidst frequent power cut in total darkness was simply unique and ultimately prompted me to write this song..."), React.createElement("a", {
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "When I was in Biriwa, Ghana, I used to do a daily ride on my bike to and from work, the Institute of Mathematical Sciences at the other end of the village. The ride, especially back home, often through the hot night amidst frequent power cuts and in total darkness was simply surreal and ultimately prompted me to write this song."), React.createElement("a", {
     href: "https://drive.google.com/file/d/1yoMogwnQjyaBGwSiJRNHH2TF0sKLRmeQ"
   }, "Chords and lyrics"))), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
     minWidth: "150px",
@@ -49999,13 +50009,13 @@ function Everyday(_ref3) {
     name: "Summer tune"
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement(SoundcloudEmbed, {
     title: "Summer tune"
-  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "One of my few purely instrumental tracks. This came together spontaneously one sunny day in Prague, just after coming back from Ghana. I liked it straight away, named it \"Summer tune\" and played it ever since."), React.createElement("a", {
+  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "One of my few purely instrumental tracks. This came together spontaneously one sunny day in Prague, just after coming back from Ghana. I liked the tune straight away, and since it was summer at its best, I named it \"Summer tune\" and played it ever since."), React.createElement("a", {
     href: "https://drive.google.com/file/d/1KzFUAV5ewzaEHcn-geI7OEYxQsEMZjfi"
   }, "Chords and lyrics"))), React.createElement(Song, {
     name: "Fargo and Pelgrim"
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement(SoundcloudEmbed, {
     title: "Fargo and Pelgrim"
-  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "This song is from one moment in Czech republic, when we were watching a sunset on a horse pasture and my girlfriend was explaining to me how horses communicate and behave. There's no maybes, problems are resolved with fights and things are generally more black or white. Seems so simple, yet beautiful..."), React.createElement("a", {
+  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "This song is from one moment in Czech republic, when we were watching a sunset on a horse pasture and my girlfriend was explaining to me how horses communicate and behave. There's no maybes, problems are resolved with fights and things are generally more black or white. Simple, but inspiring."), React.createElement("a", {
     href: "https://drive.google.com/file/d/18cNkcaIGDkd_HiWtYIpwmdqQQlWMhgOm"
   }, "Chords and lyrics"))), React.createElement(Song, {
     name: "Calling at Newport"
@@ -50014,7 +50024,7 @@ function Everyday(_ref3) {
   })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
     minWidth: "300px",
     proportion: "0.6"
-  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "One of my favorite songs to play - the time we came to UK, south Wales was indeed special. It was October, sun shining every day and I was asking myself if the \"rainy UK\" is just a myth. Shortly after writing the lyrics and the music, the winter kicked in along with the many storms. But still, nothing can take away those sunny days from my memory - journeys on Arriva Trains Wales to Cardiff or the vibrant rugby days of World cup 2015..."), React.createElement("a", {
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "One of my favorite songs to play, about the time we came to South Wales . A special time indeed. It was October, but sun was shining every day and I was asking myself if the \"rainy UK\" is just a myth. Shortly after writing the lyrics and the music, the winter kicked in along with the many storms. But still, nothing can take away those sunny days from my memory - journeys on the Arriva Trains Wales to Cardiff or the vibrant rugby days of World cup, that was the autumn of 2015..."), React.createElement("a", {
     href: "https://drive.google.com/file/d/17H0500WCxY1-izSiqTQFt8XGuX6EXzAb"
   }, "Chords and lyrics"))), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
     minWidth: "250px",
@@ -50024,15 +50034,23 @@ function Everyday(_ref3) {
     caption: "Clyffard Crescent in Newport"
   })))), React.createElement(Song, {
     name: "Hey dad"
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
+    minWidth: "250px",
+    proportion: "0.65"
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement(SoundcloudEmbed, {
     title: "Hey dad"
-  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "I made this for my dad's recent birthday. He's a true inspiration ;-)"), React.createElement("a", {
+  }))), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
+    minWidth: "250px",
+    proportion: "0.35"
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Image"], {
+    imgSrc: __webpack_require__(/*! ../../../pics/tato.jpg */ "./src/pics/tato.jpg")
+  }))), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "I made this one for my dad's round birthday, and I was surprised how smoothly it came together once I started. But then, I should not be surprised, he's a true inspiration, a dad I'll always be grateful for."), React.createElement("a", {
     href: "https://drive.google.com/file/d/1KHBDmHPLcmMYg6efRG58HPyiH_aekGWi"
   }, "Chords and lyrics"))), React.createElement(Song, {
     name: "Sticks in the water"
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement(SoundcloudEmbed, {
     title: "Sticks in the water"
-  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "This song's lyrics were written mainly by Martin Buckridge, a friend from my Toastmasters club back in Cardiff. Martin's take on it is simply inspiring and the lyrics send an important message in today's world - there's too much rush and not enough time to pause. Give it a listen and find out more!"), React.createElement("a", {
+  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "This song's lyrics were written mainly by Martin Buckridge, a friend from my Toastmasters club back in Cardiff. Martin's take on it is simply inspiring and the lyrics send an important message in today's world - there's too much rush and not enough time to pause. Give it a listen and find out more ;-)"), React.createElement("a", {
     href: "https://drive.google.com/open?id=1GPm6GK45xovabba0uAGg3eC_w5CXvAk9"
   }, "Chords and lyrics"))), React.createElement(Song, {
     name: "At the ocean shore"
@@ -50054,7 +50072,7 @@ function Everyday(_ref3) {
     proportion: "0.6"
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement(SoundcloudEmbed, {
     title: "When this is done"
-  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "A song made in the tough times of self-isolation. And although tough times, for many, I believe, it has been an opportunity for reflection as to how they would want to change and what kind of world they'd like to see ... When this is done"), React.createElement("a", {
+  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "A song made in the tough times of self-isolation. And although tough times for many, I believe, it has been an opportunity for reflection as to how one wants to change and what kind of world they'd like to see on the other side... When this is done"), React.createElement("a", {
     href: "https://drive.google.com/file/d/1NtTP0NpnIHD4yHjomHuUEeeAxFCxbpX4/view"
   }, "Chords and lyrics"))), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
     minWidth: "250px",
@@ -50139,7 +50157,7 @@ function Originals(_ref) {
     className: "page-title"
   }, "Other originals"), React.createElement("div", null, React.createElement("p", null, "Although most of my original stuff is part of my first ", React.createElement("a", {
     href: "#my-music/everyday"
-  }, "demo album Everyday"), ", there's still some more stuff - other studio songs or live versions of the songs on the demo album. Expect this section to grow substantially :-)"), React.createElement("hr", null), "Filter tags: ", allTags.map(function (t, i) {
+  }, "demo album Everyday"), ", there's still some more stuff - other studio songs or live versions of the songs on the demo album. Expect this section to grow substantially!"), React.createElement("hr", null), "Filter tags: ", allTags.map(function (t, i) {
     return React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Tag"], {
       key: i,
       tag: t,
@@ -50184,7 +50202,7 @@ function Originals(_ref) {
     minWidth: "300px"
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
     id: "JIUr4QQPv6s"
-  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, "NosDa is an awesome, chilled place for music, chat or a drink at the bank of Taff in Cardiff. It is no wonder I did my first open mic in Cardiff here, and several more too. I did \"Hey dad\" here a couple months after writing the song, and it was the first time to do it without a backing track and using loop station instead.")), React.createElement(OriginalsSection, {
+  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, "NosDa is an awesome, chilled place for music, chat or a drink at the bank of Taff in Cardiff. It is no wonder I did my first open mic in Cardiff here, with several more after that too. I did \"Hey dad\" here a couple months after writing the song, and it was the first time to do it without a backing track and using loop station instead.")), React.createElement(OriginalsSection, {
     name: "Calling at Newport (live in Cardiff :-))",
     date: "2019-05-12",
     tags: ["cardiff", "live", "video"],
@@ -50661,7 +50679,7 @@ module.exports = __webpack_require__.p + "6285a68502128018b28ff31fd8274bd5.JPG";
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "e28a59ee5edeae057d9b0871c5d14601.jpeg";
+module.exports = __webpack_require__.p + "3924f4399bff44a249a8076f8d923bd5.jpeg";
 
 /***/ }),
 
@@ -50731,6 +50749,17 @@ module.exports = __webpack_require__.p + "94c93bdcccffc4c53f842fe2b792b63a.jpg";
 
 /***/ }),
 
+/***/ "./src/pics/laco.jpg":
+/*!***************************!*\
+  !*** ./src/pics/laco.jpg ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "03152713db02762f5384f8c25da9f2c3.jpg";
+
+/***/ }),
+
 /***/ "./src/pics/library-2.jpg":
 /*!********************************!*\
   !*** ./src/pics/library-2.jpg ***!
@@ -50772,17 +50801,6 @@ module.exports = __webpack_require__.p + "24ecf2c54bc23dd37e889891d28451f0.jpg";
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "ded11dc80e451e23af7f6b7054125a2e.jpg";
-
-/***/ }),
-
-/***/ "./src/pics/london-room.jpg":
-/*!**********************************!*\
-  !*** ./src/pics/london-room.jpg ***!
-  \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "dba41f5e5c906cf6278b0fa0cbd6a0a2.jpg";
 
 /***/ }),
 
@@ -50926,6 +50944,17 @@ module.exports = __webpack_require__.p + "8c79690d92d597cc38ca8319a52708b9.jpg";
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "d3ffc20e6d8ad88c5837edf894d1509a.jpg";
+
+/***/ }),
+
+/***/ "./src/pics/tato.jpg":
+/*!***************************!*\
+  !*** ./src/pics/tato.jpg ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "3a0cee99398357caf6a12390a8dba9ee.jpg";
 
 /***/ }),
 
