@@ -1,5 +1,6 @@
 import InstagramEmbed from 'react-instagram-embed';
 import $ from "jquery";
+import {useEffect} from 'react';
 
 export function isMobile() {
     let check = false;
@@ -111,6 +112,7 @@ export function InText({
     width='100%',
     minWidth=null,
     minHeight=null,
+    stretchOnSmall=true,
     children
 }) {
     let style = {};
@@ -127,7 +129,7 @@ export function InText({
         style['minHeight'] = minHeight;
     }
 
-    return <div className="in-text" style={style}>
+return <div className={"in-text" + (stretchOnSmall ? ' stretch-small' : '')} style={style}>
         {children}
     </div>
 }
@@ -216,7 +218,8 @@ export function Part({
     children
 }) {
     let style = {
-        'flexBasis': `${proportion*100}%`
+        'flexBasis': `${proportion*100}%`,
+        'float': 'left'
     };
     if (minWidth) {
         style['minWidth'] = minWidth;
