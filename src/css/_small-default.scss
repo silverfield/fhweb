@@ -86,12 +86,37 @@ body {
 /* Header */
 /* ------------------------------------------------------------ */
 
-header {
-    flex: 0 1 auto;
-    padding: $main-padding;
+#react-header {
+    overflow: hidden;
+}
+
+.header-bck-img {
     background-image: url("./../pics/london-metro-small.jpg");
     background-size: cover;
+}
+
+.header-container {
+    flex: 0 1 auto;
+    padding: $main-padding;
     position: relative;
+
+    .video-banner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        overflow: hidden;
+    }
+
+    #nav {
+        position: relative;
+        z-index: 1;
+    }
 
     div#header-title {
         font-weight: 600;
@@ -301,10 +326,12 @@ div.page-section {
     }
 
     .section-header {
-        margin-bottom: 10px
+        margin-bottom: 10px;
+        display: flex;
     }
 
     .page-sec-title {
+        flex-grow: 1;
         font-size: 20px;
         font-weight: 800;
         display: inline-block;
@@ -408,7 +435,6 @@ img {
 .news-date {
     font-size: 20px;
     font-weight: 1000;
-    float: right;
     color: $color-inco-strongest;
     text-shadow: 0 0 5px white;
 }

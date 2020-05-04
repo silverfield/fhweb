@@ -9,6 +9,7 @@ import {useState, useEffect, useContext, createContext} from "react"
 import ScrollToTop from './ScrollToTop.js'
 
 const MenuItem = withRouter(MenuItemImp);
+export const HeaderContent = withRouter(HeaderContentImp);
 
 const StickyContext = createContext(false);
 
@@ -80,8 +81,6 @@ function Menu({
 function NavBar({
 
 }) {
-    const [isStickyShown, setIsStickyShown] = useState(false);
-
     useEffect(() => {
         var navbar = document.getElementById("nav");
         var menuSticky = document.getElementById("menu-sticky");
@@ -96,10 +95,8 @@ function NavBar({
         window.onscroll = function() {
             if (window.pageYOffset >= navbar.clientHeight) {
                 menuSticky.style.display = 'block';
-                setIsStickyShown(true);
             } else {
                 menuSticky.style.display = 'none';
-                setIsStickyShown(false);
             }
         };
 
@@ -108,38 +105,75 @@ function NavBar({
         };
     });
 
-    return (
-        <StickyContext.Provider value={isStickyShown}>  
+    return <>
         <nav id="nav">
-            <Router>
-                <ScrollToTop>
-                    <div id="menu-std">
-                        <Menu sticky={false}/>
-                    </div>
-                    <div id="menu-sticky" style={{'display': 'none'}}>
-                        <Menu sticky={true}/>
-                    </div>
-                </ScrollToTop>
-            </Router>
+            <ScrollToTop>
+                <div id="menu-std">
+                    <Menu sticky={false}/>
+                </div>
+                <div id="menu-sticky" style={{'display': 'none'}}>
+                    <Menu sticky={true}/>
+                </div>
+            </ScrollToTop>
         </nav>
-        </StickyContext.Provider>
-    );
+    </>;
 }
 
-export default function Header({
-
+function HeaderContentImp({
+    location
 }) {
+    useEffect(() => {
+        const adjVid = () => {
+            let el = $('#video');
+            let par = el.parent();
+
+            if (el.width() < par.width()) {
+                el.css('width', '105%');
+                el.css('height', 'auto');
+            }
+            else if (el.height() < par.height()) {
+                el.css('height', '105%');
+                el.css('width', 'auto');
+            }
+        };
+
+        // running twice - first one stretches one dimension, then the next one
+        adjVid();
+        adjVid();
+
+        $(window).resize(adjVid);
+    }, []);
+
+    let vidCover = <div className="video-banner">
+        <video id="video" autoPlay loop muted>
+            <source src={require("../pics/cover-vid.mp4")} type="video/mp4"/>
+        </video>
+    </div>
+
+    let isHome = location.pathname.startsWith('/home') || location.pathname == '/';
+
     return (
         <>
-            <div className="header">
-                <NavBar/>
-                <div id="header-title">
-                    Fero <br/>
-                    Hajnovič <br/>
-                    Music
+            <div className={"header-container" + (isHome ? '' : ' header-bck-img')}>
+                {isHome ? vidCover : <></> } 
+                <div className="header-content">
+                    <NavBar/>
+                    <div id="header-title">
+                        Fero <br/>
+                        Hajnovič <br/>
+                        Music
+                    </div>
                 </div>
             </div>
         </>
     );
   }
   
+
+export default function Header({
+
+}) {
+    return <Router>
+        <HeaderContent/>
+    </Router>
+}
