@@ -3,15 +3,20 @@
 /* ------------------------------------------------------------ */
 /* ------------------------------------------------------------ */
 
-header {
+.header-bck-img {
+    background-image: url("./../pics/london-metro.jpg");
+    background-size: cover;
+}
+
+.header-container {
     .primary-nav {
         flex-direction: row;
         height: 16em;
     }
 
     div#header-title {
-        font-size: 8vw;
-        bottom: 5vw;
+        font-size: 7vw;
+        line-height: 7vw;
     }
 }
 

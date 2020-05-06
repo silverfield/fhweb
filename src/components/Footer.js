@@ -5,10 +5,11 @@ export default function Footer({
         <>
             design &amp; development by Frantisek Hajnovic<br/>
             copyright © 2020, all rights reserved <br/>
-            pic credit mainly &nbsp;
+            pic credits &nbsp;
             <a href="https://www.instagram.com/eo.lenka/">Lenka</a>,
-            <a href="https://www.instagram.com/garethsphotography/">Gareth</a> and
-            Kika 
+            <a href="https://www.instagram.com/garethsphotography/">Gareth</a>,
+            Kika,
+            Stevo
              
             <br/>
             

@@ -305,5 +305,17 @@
             "famous",
             "singing"
         ]
+    },
+    {
+        "artist": "Dire Straits",
+        "name": "Money for nothing",
+        "bt": true,
+        "nbt": true,
+        "tags": [
+            "dsmk",
+            "rocky",
+            "guitary",
+            "famous"
+        ]
     }
 ]

@@ -13,6 +13,18 @@
     },
     {
         "artist": "Dire Straits",
+        "name": "Money for nothing",
+        "bt": true,
+        "nbt": true,
+        "tags": [
+            "dsmk",
+            "rocky",
+            "guitary",
+            "famous"
+        ]
+    },
+    {
+        "artist": "Dire Straits",
         "name": "On every street",
         "bt": true,
         "nbt": true,
@@ -42,21 +54,21 @@
         "bt": true,
         "nbt": true,
         "tags": [
-            "acoustic",
-            "famous",
             "dsmk",
-            "relaxed"
+            "relaxed",
+            "acoustic",
+            "famous"
         ]
     },
     {
         "artist": "Dire Straits",
         "name": "Six blade knife",
-        "bt": true,
+        "bt": false,
         "nbt": true,
         "tags": [
-            "acoustic",
-            "rocky",
             "dsmk",
+            "rocky",
+            "acoustic",
             "guitary"
         ]
     },
@@ -101,10 +113,10 @@
         "bt": true,
         "nbt": true,
         "tags": [
-            "acoustic",
             "rocky",
-            "guitary",
-            "relaxed"
+            "acoustic",
+            "relaxed",
+            "guitary"
         ]
     },
     {
@@ -114,10 +126,32 @@
         "nbt": true,
         "tags": [
             "famous",
-            "acoustic",
             "rhythm",
-            "guitary",
+            "acoustic",
+            "relaxed",
+            "guitary"
+        ]
+    },
+    {
+        "artist": "Fero Hajnovic",
+        "name": "How I'll remember Cardiff",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "acoustic",
             "relaxed"
+        ]
+    },
+    {
+        "artist": "Fero Hajnovic",
+        "name": "At the ocean shore",
+        "bt": true,
+        "nbt": true,
+        "tags": [
+            "acoustic",
+            "songwriter",
+            "relaxed",
+            "guitary"
         ]
     },
     {
@@ -128,6 +162,30 @@
         "tags": [
             "relaxed",
             "guitary"
+        ]
+    },
+    {
+        "artist": "Fero Hajnovic",
+        "name": "Ocean shore",
+        "bt": true,
+        "nbt": true,
+        "tags": [
+            "relaxed",
+            "guitary",
+            "acoustic",
+            "songwriter"
+        ]
+    },
+    {
+        "artist": "Fero Hajnovic",
+        "name": "Sticks in the water",
+        "bt": true,
+        "nbt": true,
+        "tags": [
+            "relaxed",
+            "guitary",
+            "acoustic",
+            "songwriter"
         ]
     },
     {
@@ -221,30 +279,6 @@
     },
     {
         "artist": "Fero Hajnovic",
-        "name": "Ocean shore",
-        "bt": true,
-        "nbt": true,
-        "tags": [
-            "relaxed",
-            "guitary",
-            "acoustic",
-            "songwriter"
-        ]
-    },
-    {
-        "artist": "Fero Hajnovic",
-        "name": "Sticks in the water",
-        "bt": true,
-        "nbt": true,
-        "tags": [
-            "relaxed",
-            "guitary",
-            "acoustic",
-            "songwriter"
-        ]
-    },
-    {
-        "artist": "Fero Hajnovic",
         "name": "Summer breeze",
         "bt": true,
         "nbt": true,
@@ -270,6 +304,17 @@
         "artist": "Fero Hajnovic",
         "name": "Vices",
         "bt": true,
+        "nbt": true,
+        "tags": [
+            "acoustic",
+            "relaxed",
+            "guitary"
+        ]
+    },
+    {
+        "artist": "Fero Hajnovic",
+        "name": "When this is done",
+        "bt": false,
         "nbt": true,
         "tags": [
             "acoustic",
@@ -304,9 +349,9 @@
         "bt": true,
         "nbt": false,
         "tags": [
-            "acoustic",
             "rocky",
-            "guitary"
+            "guitary",
+            "acoustic"
         ]
     },
     {
@@ -337,9 +382,9 @@
         "bt": true,
         "nbt": true,
         "tags": [
-            "acoustic",
+            "relaxed",
             "guitary",
-            "relaxed"
+            "acoustic"
         ]
     },
     {
@@ -348,8 +393,8 @@
         "bt": true,
         "nbt": true,
         "tags": [
-            "acoustic",
-            "relaxed"
+            "relaxed",
+            "acoustic"
         ]
     },
     {
@@ -402,9 +447,9 @@
         "bt": true,
         "nbt": true,
         "tags": [
-            "acoustic",
+            "relaxed",
             "guitary",
-            "relaxed"
+            "acoustic"
         ]
     },
     {

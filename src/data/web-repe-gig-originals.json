@@ -45,8 +45,8 @@
     },
     {
         "artist": "Fero Hajnovic",
-        "name": "Bluff",
-        "bt": true,
+        "name": "When this is done",
+        "bt": false,
         "nbt": true,
         "tags": [
             "acoustic",

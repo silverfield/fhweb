@@ -11,3 +11,10 @@
 @media only screen and (min-width: 960px) {
     @import "large";
 }
+
+@media only screen and (max-width: 539px)
+{
+    .stretch-small {
+        width: 100% !important;
+    }
+}
