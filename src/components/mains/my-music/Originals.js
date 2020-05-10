@@ -55,6 +55,25 @@ export default function Originals({
             </div>
 
             <OriginalsSection 
+                name="Daily ride - end solo"
+                date="2020-05-10"
+                tags={["studio", "video"]}
+                selectedTags={selectedTags}
+                updateTags={updateTags}
+            >
+                <InText>
+                    <YouTube id="jPc_fixaJiw"/>
+                </InText>
+
+                <Text>
+                    A newly recorded version of my song Daily ride from the <a href="#my-music/everyday">demo 
+                    album Everyday</a>. If what you imagine listening to it is dashing on a bicycle 
+                    through hot nights amidst frequent power cuts in the village of Biriwa, south Ghana,
+                    then you're spot on! For that's what the song is about.
+                </Text>
+            </OriginalsSection>
+
+            <OriginalsSection 
                 name="When this is done"
                 date="2020-04-13"
                 tags={["studio", "video"]}

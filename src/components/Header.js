@@ -123,17 +123,18 @@ function HeaderContentImp({
     location
 }) {
     useEffect(() => {
-        const adjVid = () => {
-            let el = $('#video');
-            let par = el.parent();
+        let el = $('#video');
+        let ratio = 960/540;
+        let par = el.parent();
 
-            if (el.width() < par.width()) {
-                el.css('width', '105%');
-                el.css('height', 'auto');
+        const adjVid = () => {
+            if (par.width() < par.height()*ratio) {
+                el.css('min-width', 'auto');
+                el.css('min-height', '105%');
             }
-            else if (el.height() < par.height()) {
-                el.css('height', '105%');
-                el.css('width', 'auto');
+            else {
+                el.css('min-width', '105%');
+                el.css('min-height', 'auto');
             }
         };
 
@@ -141,10 +142,13 @@ function HeaderContentImp({
         adjVid();
         adjVid();
 
-        $(window).resize(adjVid);
-    }, []);
+        let elToObs = document.getElementById('video-banner');
+        if (elToObs !== null) new ResizeObserver(adjVid).observe(elToObs);
 
-    let vidCover = <div className="video-banner">
+        // $(window).resize(adjVid);
+    }, [location]);
+
+    let vidCover = <div className="video-banner" id="video-banner">
         <video id="video" autoPlay loop muted>
             <source src={require("../pics/cover-vid.mp4")} type="video/mp4"/>
         </video>
