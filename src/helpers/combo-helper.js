@@ -129,7 +129,7 @@ export function InText({
         style['minHeight'] = minHeight;
     }
 
-return <div className={"in-text" + (stretchOnSmall ? ' stretch-small' : '')} style={style}>
+    return <div className={"in-text" + (stretchOnSmall ? ' stretch-small' : '')} style={style}>
         {children}
     </div>
 }
