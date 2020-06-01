@@ -55,6 +55,23 @@ export default function Originals({
             </div>
 
             <OriginalsSection 
+                name="At the ocean shore (busking in Cambridge)"
+                date="2020-05-31"
+                tags={["live", "video"]}
+                selectedTags={selectedTags}
+                updateTags={updateTags}
+            >
+                <InText>
+                    <YouTube id="NZ6mUr5ma6w"/>
+                </InText>
+
+                <Text>
+                    Busking in Cambridge King's Parade, I thought this melodic tune nicely fit the atmosphere of the moment:
+                    people enjoying icecream on a sunny and calm Sunday afternoon next to iconic buildings around us... 
+                </Text>
+            </OriginalsSection>
+
+            <OriginalsSection 
                 name="Daily ride - end solo"
                 date="2020-05-10"
                 tags={["studio", "video"]}

@@ -1,4 +1,4 @@
-import {TagSection, Part, InText, Text, Tag, YouTube, SoundCloud, Instagram} from '../../../helpers/combo-helper'
+import {TagSection, Part, InText, Text, Image, Tag, YouTube, SoundCloud, Instagram} from '../../../helpers/combo-helper'
 import {useState} from "react"
 import {useEffect} from "react"
 
@@ -61,6 +61,39 @@ export default function Covers({
 
                 Filter tags: {allTags.map((t, i) => <Tag key={i} tag={t} updateTags={updateTags} selectedTags={selectedTags} />)}
             </div>
+
+            <CoverSection 
+                name="Busking around London"
+                date="2020-05-31"
+                tags={["mark knopfler", "video", "live"]}
+                selectedTags={selectedTags}
+                updateTags={updateTags}
+            >
+                <div className="flex-container">
+                    <Part proportion='0.5' minWidth="200px">
+                        <InText>
+                            <YouTube id="CuECCdsjTkE" caption="Busking in Cambridge: Mark Knopfler - Golden Heart (custom lyrics)"/>
+                        </InText>
+                    </Part>
+                    <Part proportion='0.5' minWidth="200px">
+                        <InText>
+                            <YouTube id="hynRiLvpNYc" caption="Busking in Brighton: Mark Knopfler - Local Hero"/>
+                        </InText>
+                    </Part>
+                </div>
+
+                <Text>
+                    <p>
+                        Finally back to busking, this time in the towns around London! A trio of venues was 
+                        completed with playing first in 
+                        Guildford, then on the Brighton beach and finally on Kings's parade in Cambridge. 
+                    </p>
+                    
+                    <p>
+                        Both songs above are played on Michael Kelly Telecaster 1957.
+                    </p>
+                </Text>
+            </CoverSection>
 
             <CoverSection 
                 name="Dire Straits - Telegraph road (outro)"
