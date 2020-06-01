@@ -52,6 +52,29 @@ export default function Home({
             
             <span className="news-title">News:</span>
 
+            <News name="Back to busking!" date="05/2020">
+                <div className="flex-container">
+                    <Part proportion='0.4' minWidth="200px">
+                        <InText>
+                            <Image 
+                                imgSrc={require("../../pics/cambridge.jpg")}
+                            />
+                        </InText>
+                    </Part>
+                    <Part proportion='0.6' minWidth="200px">
+                        <Text>
+                            After about half a year, I finally got back on the street again, brushing the dust off my 
+                            card reader and trying some of the new songs in the live setting. London South bank,
+                            Guildford, Brighton and (most of all) Cambridge were beautiful spots and I'm bound to
+                            be back for more. Check out <a href="#my-music/originals">other originals</a> or 
+                            the <a href="#my-music/covers">covers</a> sections for some videos, or 
+                            see my  <a href="https://www.facebook.com/feromusician">instagram</a> for 
+                            most recent updates.
+                        </Text>
+                    </Part>
+                </div>
+            </News>
+
             <News name="Demo album reaching completion!" date="05/2020">
                 <div className="flex-container">
                     <Part proportion='0.4' minWidth="200px">

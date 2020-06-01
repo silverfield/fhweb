@@ -1,6 +1,6 @@
 # Intro
 
-My personal web
+My music personal web
 
 Go to [the site](https://music.ferohajnovic.com/)
 
