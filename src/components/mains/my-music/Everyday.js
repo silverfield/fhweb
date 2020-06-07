@@ -1,4 +1,4 @@
-import {Part, PageSection, InText, Image, SoundCloud, Text} from '../../../helpers/combo-helper'
+import {Part, PageSection, InText, Image, SoundCloud, Text, YouTube} from '../../../helpers/combo-helper'
 
 function Song({
     name,
@@ -50,6 +50,9 @@ function SoundcloudEmbed({
         'when this is done': `
             <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/801596623&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/ferohajnovic" title="Fero Hajnovic" target="_blank" style="color: #cccccc; text-decoration: none;">Fero Hajnovic</a> · <a href="https://soundcloud.com/ferohajnovic/when-this-is-done" title="When this is done" target="_blank" style="color: #cccccc; text-decoration: none;">When this is done</a></div>        
         `,
+        'how i\'ll remember cardiff': `
+            <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/801596623&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/ferohajnovic" title="Fero Hajnovic" target="_blank" style="color: #cccccc; text-decoration: none;">Fero Hajnovic</a> · <a href="https://soundcloud.com/ferohajnovic/when-this-is-done" title="When this is done" target="_blank" style="color: #cccccc; text-decoration: none;">When this is done</a></div>        
+        `,
     };
 
     var slugs = {
@@ -63,7 +66,8 @@ function SoundcloudEmbed({
         'hey dad': 'hey-dad',
         'sticks in the water': 'sticks-in-the-water',
         'at the ocean shore': 'at-the-ocean-shore',
-        'when this is done': 'when-this-is-done'
+        'when this is done': 'when-this-is-done',
+        'how i\'ll remember cardiff': 'how-ill-remember-cardiff'
     }
     
     let iframeTag = embeds[title.toLowerCase()];
@@ -385,6 +389,31 @@ export default function Everyday({
                             />
                         </InText>
                     </Part> 
+                </Song>
+
+                <Song name="How I'll remember Cardiff">
+                    <Part proportion="0.6">
+                        <InText>
+                            <SoundcloudEmbed title="How I'll remember Cardiff" />
+                        </InText>
+                    </Part>
+                    <Part minWidth="250px" proportion="0.4">
+                        <InText>
+                            <YouTube id="xwcOZl9ocAQ"/>
+                        </InText>
+                    </Part> 
+                    <Text>
+                        <p>
+                            "You can take the boy out of Cardiff, but you can NEVER take Cardiff out of the boy!"
+                        </p>
+                        <p>
+                            I wrote this song back in December 2019, with fresh emotions of leaving Cardiff. 
+                            But half a year later, I wouldn't change a thing. 
+                            For THIS, ladies and gents, is "How I'll remember Cardiff".
+                        </p>
+
+                        <a href="https://drive.google.com/file/d/1kWvkRV3OG_zlcQAiRrBCmLRVdJFhLHNN/view?usp=sharing">Chords and lyrics</a>
+                    </Text>
                 </Song>
             </div>            
         </> 

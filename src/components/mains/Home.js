@@ -1,4 +1,4 @@
-import {Part, PageSection, Text, InText, Image} from '../../helpers/combo-helper'
+import {Part, PageSection, Text, InText, Image, YouTube} from '../../helpers/combo-helper'
 
 function News({
     name,
@@ -51,6 +51,28 @@ export default function Home({
             </div>
             
             <span className="news-title">News:</span>
+
+            <News name="NEW SONG! How I'll remember Cardiff is now live!" date="06/2020">
+                <div className="flex-container">
+                    <Part proportion='0.4' minWidth="200px">
+                        <InText>
+                            <YouTube id="xwcOZl9ocAQ"/>
+                        </InText>
+                    </Part>
+                    <Part proportion='0.6' minWidth="200px">
+                        <Text>
+                            <p>
+                                "How I'll remember Cardiff" is finally live! It took me a while to record this one
+                                as I not only wanteed to tweak the music, but also record a videoclip. The result is 
+                                quite simply the epitome of the title: how I'll always remember Cardiff!
+                            </p>
+                            <p>
+                                See more in <a href="#my-music">my music</a> section!
+                            </p>
+                        </Text>
+                    </Part>
+                </div>
+            </News>
 
             <News name="Back to busking!" date="05/2020">
                 <div className="flex-container">
