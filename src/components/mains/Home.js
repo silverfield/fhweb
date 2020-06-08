@@ -56,7 +56,7 @@ export default function Home({
                 <div className="flex-container">
                     <Part proportion='0.4' minWidth="200px">
                         <InText>
-                            <YouTube id="xwcOZl9ocAQ"/>
+                            <YouTube id="e1BE3NQ2KHA"/>
                         </InText>
                     </Part>
                     <Part proportion='0.6' minWidth="200px">
