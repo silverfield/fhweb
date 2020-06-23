@@ -49995,7 +49995,8 @@ function SoundcloudEmbed(_ref2) {
     'sticks in the water': "\n            <iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/796806931&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true\"></iframe>\n        ",
     'at the ocean shore': "\n            <iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/801596386&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true\"></iframe><div style=\"font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;\"><a href=\"https://soundcloud.com/ferohajnovic\" title=\"Fero Hajnovic\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">Fero Hajnovic</a> \xB7 <a href=\"https://soundcloud.com/ferohajnovic/at-the-ocean-shore\" title=\"At the ocean shore\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">At the ocean shore</a></div>\n        ",
     'when this is done': "\n            <iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/801596623&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true\"></iframe><div style=\"font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;\"><a href=\"https://soundcloud.com/ferohajnovic\" title=\"Fero Hajnovic\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">Fero Hajnovic</a> \xB7 <a href=\"https://soundcloud.com/ferohajnovic/when-this-is-done\" title=\"When this is done\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">When this is done</a></div>        \n        ",
-    'how i\'ll remember cardiff': "\n            <iframe width=\"100%\" height=\"300\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/836421970&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\"></iframe><div style=\"font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;\"><a href=\"https://soundcloud.com/ferohajnovic\" title=\"Fero Hajnovic\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">Fero Hajnovic</a> \xB7 <a href=\"https://soundcloud.com/ferohajnovic/how-ill-remember-cardiff\" title=\"How I&#x27;ll remember Cardiff\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">How I&#x27;ll remember Cardiff</a></div>\n        "
+    'how i\'ll remember cardiff': "\n            <iframe width=\"100%\" height=\"300\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/836421970&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\"></iframe><div style=\"font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;\"><a href=\"https://soundcloud.com/ferohajnovic\" title=\"Fero Hajnovic\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">Fero Hajnovic</a> \xB7 <a href=\"https://soundcloud.com/ferohajnovic/how-ill-remember-cardiff\" title=\"How I&#x27;ll remember Cardiff\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">How I&#x27;ll remember Cardiff</a></div>\n        ",
+    'walking on': "\n            <iframe width=\"100%\" height=\"300\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/845597962&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\"></iframe><div style=\"font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;\"><a href=\"https://soundcloud.com/ferohajnovic\" title=\"Fero Hajnovic\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">Fero Hajnovic</a> \xB7 <a href=\"https://soundcloud.com/ferohajnovic/walking-on\" title=\"Walking on\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">Walking on</a></div>\n        "
   };
   var slugs = {
     'everyday': 'everyday',
@@ -50009,7 +50010,8 @@ function SoundcloudEmbed(_ref2) {
     'sticks in the water': 'sticks-in-the-water',
     'at the ocean shore': 'at-the-ocean-shore',
     'when this is done': 'when-this-is-done',
-    'how i\'ll remember cardiff': 'how-ill-remember-cardiff'
+    'how i\'ll remember cardiff': 'how-ill-remember-cardiff',
+    'walking on': 'walking-on'
   };
   var iframeTag = embeds[title.toLowerCase()];
   var bckSlug = slugs[title.toLowerCase()];
@@ -50197,7 +50199,21 @@ function Everyday(_ref3) {
     id: "e1BE3NQ2KHA"
   }))), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "\"You can take the boy out of Cardiff, but you can NEVER take Cardiff out of the boy!\". That was the message wrote by one of my friends on my leaving card, when I was leaving Cardiff in December 2019."), React.createElement("p", null, "Some time before, Alex said I \"should write a song about Cardiff before I go\"."), React.createElement("p", null, "And so I did. I wrote this back then in December 2019, with the emotions of leaving still fresh. But half a year later, I wouldn't change a thing. For THIS, ladies and gents, is \"How I'll remember Cardiff\"."), React.createElement("a", {
     href: "https://drive.google.com/file/d/1kWvkRV3OG_zlcQAiRrBCmLRVdJFhLHNN/view?usp=sharing"
-  }, "Chords and lyrics")))));
+  }, "Chords and lyrics"))), React.createElement(Song, {
+    name: "Walking on"
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
+    proportion: "0.6"
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement(SoundcloudEmbed, {
+    title: "Walking on"
+  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "I went for a walk. And wrote a song about it. It was the prime lockdown time and I took an advice from a friend to go for a walk and just leave my phone at home. The result: getting soaked in a storm, lost in Canada water and walking through the dreaded Rotherhithe tunnel. In other words, the most inspiring walk ever, which was bound to be turned into a song!"), React.createElement("a", {
+    href: "https://drive.google.com/file/d/1fCGITnBk2r_qaPdIBWLHzM7JvMDN47zP/view?usp=sharing"
+  }, "Chords and lyrics"))), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
+    minWidth: "250px",
+    proportion: "0.4"
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Image"], {
+    imgSrc: __webpack_require__(/*! ../../../pics/greenwhich.jpg */ "./src/pics/greenwhich.jpg"),
+    caption: React.createElement(React.Fragment, null, "View from the original destination of my walk ", React.createElement("br", null), "(taken on another day, as I did not have phone or camera that time!)")
+  }))))));
 }
 
 /***/ }),
@@ -50899,6 +50915,17 @@ module.exports = __webpack_require__.p + "56cde233b0c3da05facb5ea2d815ebe7.jpg";
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "bb00f09e6367281ffa24daac606c12e6.jpg";
+
+/***/ }),
+
+/***/ "./src/pics/greenwhich.jpg":
+/*!*********************************!*\
+  !*** ./src/pics/greenwhich.jpg ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "8164199888c51982ec211323dafdd498.jpg";
 
 /***/ }),
 
