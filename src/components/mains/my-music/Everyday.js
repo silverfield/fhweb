@@ -53,6 +53,9 @@ function SoundcloudEmbed({
         'how i\'ll remember cardiff': `
             <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/836421970&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/ferohajnovic" title="Fero Hajnovic" target="_blank" style="color: #cccccc; text-decoration: none;">Fero Hajnovic</a> · <a href="https://soundcloud.com/ferohajnovic/how-ill-remember-cardiff" title="How I&#x27;ll remember Cardiff" target="_blank" style="color: #cccccc; text-decoration: none;">How I&#x27;ll remember Cardiff</a></div>
         `,
+        'walking on': `
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/845597962&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/ferohajnovic" title="Fero Hajnovic" target="_blank" style="color: #cccccc; text-decoration: none;">Fero Hajnovic</a> · <a href="https://soundcloud.com/ferohajnovic/walking-on" title="Walking on" target="_blank" style="color: #cccccc; text-decoration: none;">Walking on</a></div>
+        `
     };
 
     var slugs = {
@@ -67,7 +70,8 @@ function SoundcloudEmbed({
         'sticks in the water': 'sticks-in-the-water',
         'at the ocean shore': 'at-the-ocean-shore',
         'when this is done': 'when-this-is-done',
-        'how i\'ll remember cardiff': 'how-ill-remember-cardiff'
+        'how i\'ll remember cardiff': 'how-ill-remember-cardiff',
+        'walking on': 'walking-on'
     }
     
     let iframeTag = embeds[title.toLowerCase()];
@@ -420,6 +424,38 @@ export default function Everyday({
 
                         <a href="https://drive.google.com/file/d/1kWvkRV3OG_zlcQAiRrBCmLRVdJFhLHNN/view?usp=sharing">Chords and lyrics</a>
                     </Text>
+                </Song>
+
+                <Song name="Walking on">
+                    <Part proportion="0.6">
+                        <InText>
+                            <SoundcloudEmbed title="Walking on" />
+                        </InText>
+                        
+                        <Text>
+                            <p>
+                                I went for a walk. And wrote a song about it.
+
+                                It was the prime lockdown time and I took an advice from a friend to go 
+                                for a walk and just leave my phone at home. The result: getting soaked in a 
+                                storm, lost in Canada water and walking through the dreaded Rotherhithe tunnel. 
+                                In other words, the most inspiring walk ever, which was bound to be turned into a song!
+                            </p>
+
+                            <a href="https://drive.google.com/file/d/1fCGITnBk2r_qaPdIBWLHzM7JvMDN47zP/view?usp=sharing">Chords and lyrics</a>
+                        </Text>
+                    </Part>
+                    <Part minWidth="250px" proportion="0.4">
+                        <InText>
+                            <Image
+                                imgSrc={require("../../../pics/greenwhich.jpg")}
+                                caption={<>
+                                    View from the original destination of my walk <br/>
+                                    (taken on another day, as I did not have phone or camera that time!)
+                                </>}
+                            />
+                        </InText>
+                    </Part>
                 </Song>
             </div>            
         </> 
