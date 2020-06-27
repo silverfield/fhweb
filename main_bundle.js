@@ -48836,6 +48836,21 @@ function Home(_ref2) {
   }, "here"), " :-)")), React.createElement("span", {
     className: "news-title"
   }, "News:"), React.createElement(News, {
+    name: "Walking on - now live!",
+    date: "06/2020"
+  }, React.createElement("div", {
+    className: "flex-container"
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
+    proportion: "0.6",
+    minWidth: "200px"
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "A new song, first one from my time in London. Check out the ", React.createElement("a", {
+    href: "#my-music"
+  }, "my music"), " section!"))), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
+    proportion: "0.4",
+    minWidth: "200px"
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "o6nnCW7Rn1Y"
+  }))))), React.createElement(News, {
     name: "NEW SONG! How I'll remember Cardiff is now live!",
     date: "06/2020"
   }, React.createElement("div", {
@@ -50205,7 +50220,7 @@ function Everyday(_ref3) {
     proportion: "0.6"
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement(SoundcloudEmbed, {
     title: "Walking on"
-  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "I went for a walk. And wrote a song about it. It was the prime lockdown time and I took an advice from a friend to go for a walk and just leave my phone at home. The result: getting soaked in a storm, lost in Canada water and walking through the dreaded Rotherhithe tunnel. In other words, the most inspiring walk ever, which was bound to be turned into a song!"), React.createElement("a", {
+  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "I went for a walk. And wrote a song about it. It was the prime lockdown time and I took an advice from a friend to go for a walk and just leave my phone at home. The result: getting soaked in a storm, lost in Canada water and walking through the dreaded Rotherhithe tunnel. In other words, the most inspiring walk ever, which was bound to be turned into a song!"), React.createElement("p", null, "See also the video for the song, which was filmed a couple weeks after the song (as I really did not have a phone, neither my camera during the actual walk! :-))"), React.createElement("a", {
     href: "https://drive.google.com/file/d/1fCGITnBk2r_qaPdIBWLHzM7JvMDN47zP/view?usp=sharing"
   }, "Chords and lyrics"))), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
     minWidth: "250px",
@@ -50213,6 +50228,8 @@ function Everyday(_ref3) {
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Image"], {
     imgSrc: __webpack_require__(/*! ../../../pics/greenwhich.jpg */ "./src/pics/greenwhich.jpg"),
     caption: React.createElement(React.Fragment, null, "View from the original destination of my walk ", React.createElement("br", null), "(taken on another day, as I did not have phone or camera that time!)")
+  })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "o6nnCW7Rn1Y"
   }))))));
 }
 
