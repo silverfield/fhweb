@@ -52,6 +52,24 @@ export default function Home({
             
             <span className="news-title">News:</span>
 
+            <News name="Walking on - now live!" date="06/2020">
+                <div className="flex-container">
+                    <Part proportion='0.6' minWidth="200px">
+                        <Text>
+                            <p>
+                                A new song, first one from my time in London. Check out the <a href="#my-music">my music</a> section!
+                            </p>
+                        </Text>
+                    </Part>
+                    <Part proportion='0.4' minWidth="200px">
+                        <InText>
+                            <YouTube id="o6nnCW7Rn1Y"/>
+                        </InText>
+                    </Part>
+                    
+                </div>
+            </News>
+
             <News name="NEW SONG! How I'll remember Cardiff is now live!" date="06/2020">
                 <div className="flex-container">
                     <Part proportion='0.4' minWidth="200px">

@@ -442,6 +442,11 @@ export default function Everyday({
                                 In other words, the most inspiring walk ever, which was bound to be turned into a song!
                             </p>
 
+                            <p>
+                                See also the video for the song, which was filmed a couple weeks after the song (as I 
+                                really did not have a phone, neither my camera during the actual walk! :-))
+                            </p>
+
                             <a href="https://drive.google.com/file/d/1fCGITnBk2r_qaPdIBWLHzM7JvMDN47zP/view?usp=sharing">Chords and lyrics</a>
                         </Text>
                     </Part>
@@ -454,6 +459,10 @@ export default function Everyday({
                                     (taken on another day, as I did not have phone or camera that time!)
                                 </>}
                             />
+                        </InText>
+
+                        <InText>
+                            <YouTube id="o6nnCW7Rn1Y"/>
                         </InText>
                     </Part>
                 </Song>
