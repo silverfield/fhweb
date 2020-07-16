@@ -52,6 +52,32 @@ export default function Home({
             
             <span className="news-title">News:</span>
 
+            <News name="Recording with BestTubeTo!" date="07/2020">
+                <div className="flex-container">
+                    <Part proportion='0.5' minWidth="200px">
+                        <InText>
+                            <YouTube id="0HU8MWE2jLU"/>
+                        </InText>
+                    </Part>
+                    <Part proportion='0.5' minWidth="200px">
+                        <InText>
+                            <Image 
+                                imgSrc={require("../../pics/besttubeto.jpg")}
+                            />
+                        </InText>
+                    </Part>
+                    <Text>
+                        <p>
+                            Filming with BestTubeTo in Southwark park for an interesting 
+                            project to promote London's landmarks, even in the lockdown times.
+                        </p>
+                        <p>
+                            Check out the <a href="#my-music/originals">originals</a> section for more!
+                        </p>
+                    </Text>
+                </div>
+            </News>
+
             <News name="Walking on - now live!" date="06/2020">
                 <div className="flex-container">
                     <Part proportion='0.6' minWidth="200px">
