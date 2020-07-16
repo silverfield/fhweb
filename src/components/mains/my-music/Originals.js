@@ -55,6 +55,85 @@ export default function Originals({
             </div>
 
             <OriginalsSection 
+                name="Filming with BestTubeTo"
+                date="2020-07-16"
+                tags={["live", "video", "london"]}
+                selectedTags={selectedTags}
+                updateTags={updateTags}
+            >
+                <div className="flex-container">
+                    <Part proportion='0.5' minWidth="200px">
+                        <InText>
+                            <YouTube id="4NrNSVxti70"/>
+                        </InText>
+                    </Part>
+                    <Part proportion='0.5' minWidth="200px">
+                        <InText>
+                            <YouTube id="0HU8MWE2jLU"/>
+                        </InText>
+                    </Part>
+
+                    <Text>
+                        <p>
+                            I got involved in a fun project whereby musicians were filmed
+                            in front of a green screen background, which was later swapped
+                            for a London landmark. Have to say the result turned out quite nicely!
+                        </p>
+                        <p>
+                            Check out the project 
+                            at <a href="http://qa.besttubeto.co.uk/videos2020.php?artist=14">this link</a> and 
+                            listen to the studio versions of my songs <a href="#my-music/everyday">here</a>.
+                        </p>
+                    </Text>
+                </div>
+            </OriginalsSection>
+
+            <OriginalsSection 
+                name="How I'll remember Cardiff (video clip)"
+                date="2020-06-08"
+                tags={["studio", "video", "multicam", "cardiff"]}
+                selectedTags={selectedTags}
+                updateTags={updateTags}
+            >
+                <InText>
+                    <YouTube id="e1BE3NQ2KHA"/>
+                </InText>
+
+                <Text>
+                    <p>
+                        For the first time I decided to record also a video clip for a studio recording of my 
+                        song - How I'll remember Cardiff rendered itself superbly to this, as I had lots of material
+                        from the near 4 and half years in Wales. Enjoy the result :-)
+                    </p>
+                    <p>
+                        Check out the rest of my studio recordings of my demo album <a href="#my-music/everyday">Everyday</a>.
+                    </p>
+                </Text>
+            </OriginalsSection>
+
+            <OriginalsSection 
+                name="At the ocean shore (busking in Cambridge)"
+                date="2020-05-31"
+                tags={["live", "video"]}
+                selectedTags={selectedTags}
+                updateTags={updateTags}
+            >
+                <InText>
+                    <YouTube id="NZ6mUr5ma6w"/>
+                </InText>
+
+                <Text>
+                    <p>
+                        Busking in Cambridge King's Parade, I thought this melodic tune nicely fit the atmosphere of the moment:
+                        people enjoying icecream on a sunny and calm Sunday afternoon next to iconic buildings around us... 
+                    </p>
+                    <p>
+                        Listen to the studio version in my demo album <a href="#my-music/everyday">Everyday</a>
+                    </p>
+                </Text>
+            </OriginalsSection>
+
+            <OriginalsSection 
                 name="Daily ride - end solo"
                 date="2020-05-10"
                 tags={["studio", "video"]}

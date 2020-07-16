@@ -135,11 +135,13 @@
     {
         "artist": "Fero Hajnovic",
         "name": "How I'll remember Cardiff",
-        "bt": false,
+        "bt": true,
         "nbt": true,
         "tags": [
             "acoustic",
-            "relaxed"
+            "relaxed",
+            "rhythm",
+            "guitary"
         ]
     },
     {
@@ -990,6 +992,17 @@
             "relaxed",
             "acoustic",
             "guitary"
+        ]
+    },
+    {
+        "artist": "Billy Joel",
+        "name": "Vienna",
+        "bt": false,
+        "nbt": true,
+        "tags": [
+            "acoustic",
+            "famous",
+            "singing"
         ]
     }
 ]

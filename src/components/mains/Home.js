@@ -1,4 +1,4 @@
-import {Part, PageSection, Text, InText, Image} from '../../helpers/combo-helper'
+import {Part, PageSection, Text, InText, Image, YouTube} from '../../helpers/combo-helper'
 
 function News({
     name,
@@ -51,6 +51,95 @@ export default function Home({
             </div>
             
             <span className="news-title">News:</span>
+
+            <News name="Recording with BestTubeTo!" date="07/2020">
+                <div className="flex-container">
+                    <Part proportion='0.5' minWidth="200px">
+                        <InText>
+                            <YouTube id="0HU8MWE2jLU"/>
+                        </InText>
+                    </Part>
+                    <Part proportion='0.5' minWidth="200px">
+                        <InText>
+                            <Image 
+                                imgSrc={require("../../pics/besttubeto.jpg")}
+                            />
+                        </InText>
+                    </Part>
+                    <Text>
+                        <p>
+                            Filming with BestTubeTo in Southwark park for an interesting 
+                            project to promote London's landmarks, even in the lockdown times.
+                        </p>
+                        <p>
+                            Check out the <a href="#my-music/originals">originals</a> section for more!
+                        </p>
+                    </Text>
+                </div>
+            </News>
+
+            <News name="Walking on - now live!" date="06/2020">
+                <div className="flex-container">
+                    <Part proportion='0.6' minWidth="200px">
+                        <Text>
+                            <p>
+                                A new song, first one from my time in London. Check out the <a href="#my-music">my music</a> section!
+                            </p>
+                        </Text>
+                    </Part>
+                    <Part proportion='0.4' minWidth="200px">
+                        <InText>
+                            <YouTube id="o6nnCW7Rn1Y"/>
+                        </InText>
+                    </Part>
+                    
+                </div>
+            </News>
+
+            <News name="NEW SONG! How I'll remember Cardiff is now live!" date="06/2020">
+                <div className="flex-container">
+                    <Part proportion='0.4' minWidth="200px">
+                        <InText>
+                            <YouTube id="e1BE3NQ2KHA"/>
+                        </InText>
+                    </Part>
+                    <Part proportion='0.6' minWidth="200px">
+                        <Text>
+                            <p>
+                                "How I'll remember Cardiff" is finally live! It took me a while to record this one
+                                as I not only wanteed to tweak the music, but also record a videoclip. The result is 
+                                quite simply the epitome of the title: how I'll always remember Cardiff!
+                            </p>
+                            <p>
+                                See more in <a href="#my-music">my music</a> section!
+                            </p>
+                        </Text>
+                    </Part>
+                </div>
+            </News>
+
+            <News name="Back to busking!" date="05/2020">
+                <div className="flex-container">
+                    <Part proportion='0.4' minWidth="200px">
+                        <InText>
+                            <Image 
+                                imgSrc={require("../../pics/cambridge.jpg")}
+                            />
+                        </InText>
+                    </Part>
+                    <Part proportion='0.6' minWidth="200px">
+                        <Text>
+                            After about half a year, I finally got back on the street again, brushing the dust off my 
+                            card reader and trying some of the new songs in the live setting. London South bank,
+                            Guildford, Brighton and (most of all) Cambridge were beautiful spots and I'm bound to
+                            be back for more. Check out <a href="#my-music/originals">other originals</a> or 
+                            the <a href="#my-music/covers">covers</a> sections for some videos, or 
+                            see my  <a href="https://www.facebook.com/feromusician">instagram</a> for 
+                            most recent updates.
+                        </Text>
+                    </Part>
+                </div>
+            </News>
 
             <News name="Demo album reaching completion!" date="05/2020">
                 <div className="flex-container">
