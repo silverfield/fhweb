@@ -42456,7 +42456,7 @@ if (false) {} else {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, __RouterContext, generatePath, matchPath, useHistory, useLocation, useParams, useRouteMatch, withRouter */
+/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, __RouterContext, generatePath, matchPath, useHistory, useLocation, useParams, useRouteMatch, withRouter, BrowserRouter, HashRouter, Link, NavLink */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -48453,6 +48453,21 @@ function Busking(_ref2) {
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
     id: "jAXI18tFkUM"
   })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "I started to busk in 2014 and I've loved it ever since. It's not really about money - I enjoy playing for people, connecting with the street and seeing how people react. When busking, I feel alive and the instant feedback, be it a small donation or just a thumb up from the passers by, is simply irreplaceable."), React.createElement("p", null, "When busking, I have a \"", React.createElement("b", null, "50% for good"), "\" rule. This means that 50% of what I raise goes for a good cause. Check out the causes I supported over the years below. And if that is not a good enough reason to support busking, watch the video!"))), React.createElement(Causes, {
+    name: "Independent journalism",
+    sum: 255
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["FlexContainer"], null, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
+    proportion: "0.25",
+    minWidth: "300px"
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Image"], {
+    imgSrc: __webpack_require__(/*! ../../pics/oxford.jpg */ "./src/pics/oxford.jpg"),
+    caption: "Busking in Oxford"
+  }))), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
+    proportion: "0.65",
+    minWidth: "300px"
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "A2ZGRJwQp-A",
+    caption: "Busking in London, Cutty Sark"
+  })))), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "I often wonder where's the best ratio of donated money/impact made. I keep thinking that Education is probably one of the most important things to support, but given the political evolution of the western world in recent years, I think there's another cause in need of urgent attention: Independent journalism."), React.createElement("p", null, "The Guardian, although maybe not completely unbiased and independent, does some fantastic work here, reporting on issues of human rights, climate change and much more."), React.createElement("p", null, "Obviously, my donations are probably just a drop in the water here, but hopefully I'm not alone."))), React.createElement(Causes, {
     name: "2019 - Various causes",
     sum: 500
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], {
@@ -51223,6 +51238,17 @@ module.exports = __webpack_require__.p + "25bfd963eff43d94da9864cb8729b59c.jpg";
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "016a74e4c7253dec0e3a7b9fb0066ce5.jpg";
+
+/***/ }),
+
+/***/ "./src/pics/oxford.jpg":
+/*!*****************************!*\
+  !*** ./src/pics/oxford.jpg ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "e6656b401323354add12a3bab66fc2ce.jpg";
 
 /***/ }),
 
