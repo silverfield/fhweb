@@ -53,7 +53,7 @@ export default function Busking({
                 </Text>
             </div>
 
-            <Causes name="Independent journalism" sum={255}>
+            <Causes name="Summer 2020 - Independent journalism" sum={255}>
                 <FlexContainer>
                     <Part proportion="0.25" minWidth="300px">
                         <InText>
