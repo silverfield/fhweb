@@ -52,6 +52,29 @@ export default function Home({
             
             <span className="news-title">News:</span>
 
+            <News name="Summer busking!" date="09/2020">
+                <div className="flex-container">
+                    <Part proportion='0.5' minWidth="200px">
+                        <InText>
+                            <YouTube id="VZiMaWtuSuU"/>
+                        </InText>
+                    </Part>
+                    <Part proportion='0.5' minWidth="200px">
+                        <Text>
+                            <p>
+                                Summer of 2020 was actually excellent for busking. Check it out 
+                                in <a href="#my-music/covers">covers</a> section!
+                            </p>
+                            <p>
+                                Also see 
+                                the <a href="https://www.besttubeto.co.uk/images/socialmedia/FeroHajnovic.mp4">result</a> of 
+                                the project with BestTubeTo!
+                            </p>
+                        </Text>
+                    </Part>
+                </div>
+            </News>
+
             <News name="Recording with BestTubeTo!" date="07/2020">
                 <div className="flex-container">
                     <Part proportion='0.5' minWidth="200px">
