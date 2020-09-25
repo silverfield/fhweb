@@ -48453,7 +48453,7 @@ function Busking(_ref2) {
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
     id: "jAXI18tFkUM"
   })), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "I started to busk in 2014 and I've loved it ever since. It's not really about money - I enjoy playing for people, connecting with the street and seeing how people react. When busking, I feel alive and the instant feedback, be it a small donation or just a thumb up from the passers by, is simply irreplaceable."), React.createElement("p", null, "When busking, I have a \"", React.createElement("b", null, "50% for good"), "\" rule. This means that 50% of what I raise goes for a good cause. Check out the causes I supported over the years below. And if that is not a good enough reason to support busking, watch the video!"))), React.createElement(Causes, {
-    name: "Independent journalism",
+    name: "Summer 2020 - Independent journalism",
     sum: 255
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["FlexContainer"], null, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
     proportion: "0.25",
