@@ -63,6 +63,67 @@ export default function Covers({
             </div>
 
             <CoverSection 
+                name="Summer busking 2020"
+                date="2020-08"
+                tags={["mark knopfler", "video", "live", "cardiff", "bath", "london"]}
+                selectedTags={selectedTags}
+                updateTags={updateTags}
+            >
+                <div className="flex-container">
+                    <Part proportion='0.5' minWidth="200px">
+                        <InText>
+                            <YouTube id="l0NAJsgFK-g" caption="Busking in Cardiff: Dire Straits - Telegraph road"/>
+                        </InText>
+                    </Part>
+                    <Part proportion='0.5' minWidth="200px">
+                        <InText>
+                            <YouTube id="fhDL-A-B62s" caption="Busking in Cardiff: The Notting Hillbillies - Feel like going home"/>
+                        </InText>
+                    </Part>
+                </div>
+
+                <div className="flex-container">
+                    <Part proportion='0.5' minWidth="200px">
+                        <InText>
+                            <YouTube id="VZiMaWtuSuU" caption="Busking in Bath: Dire Straits - Brothers in Arms"/>
+                        </InText>
+                    </Part>
+                    <Part proportion='0.5' minWidth="200px">
+                        <InText>
+                            <YouTube id="A2ZGRJwQp-A" caption="Busking in London: Mark Knopfler - Darling Pretty"/>
+                        </InText>
+                    </Part>
+                </div>
+
+                <div className="flex-container">
+                    <Part proportion='0.5' minWidth="200px">
+                        <InText>
+                            <YouTube id="tMwywoVVSkI" caption="Busking in Cardiff: Fero Hajnovic - Hey Dad"/>
+                        </InText>
+                    </Part>
+                    <Part proportion='0.5' minWidth="200px">
+                        <InText>
+                            <YouTube id="Jn6upYKiBQQ" caption="Busking in Cardiff: Mark Knopfler - Get Lucky"/>
+                        </InText>
+                    </Part>
+                </div>
+
+                <Text>
+                    <p>
+                        I had a great time busking this summer, despite the Covid-19 pandemic still in full swing.
+                        Yet, the lockdowns were lifted temporarily during July and August and there was a certain
+                        vibe of optimism in the air. 
+                    </p>
+                    
+                    <p>
+                        With the new Michael Kelly 1965 Stratocaster and the awesome Hotone Ampero One multieffect,
+                        I was keen to put them to action in some new (Bath, Oxford) as well as good old (Cardiff) 
+                        locations :-)
+                    </p>
+                </Text>
+            </CoverSection>
+
+            <CoverSection 
                 name="Busking around London"
                 date="2020-05-31"
                 tags={["mark knopfler", "video", "live"]}
