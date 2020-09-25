@@ -53,6 +53,45 @@ export default function Busking({
                 </Text>
             </div>
 
+            <Causes name="Independent journalism" sum={255}>
+                <FlexContainer>
+                    <Part proportion="0.25" minWidth="300px">
+                        <InText>
+                            <Image 
+                                imgSrc={require("../../pics/oxford.jpg")}
+                                caption="Busking in Oxford"
+                            />
+                        </InText>
+                    </Part>
+                    <Part proportion="0.65" minWidth="300px">
+                        <InText>
+                            <YouTube 
+                                id="A2ZGRJwQp-A"
+                                caption="Busking in London, Cutty Sark"
+                            />
+                        </InText>
+                    </Part>
+                </FlexContainer>
+                <Text>
+                    <p>
+                        I often wonder where's the best ratio of donated money/impact made. I keep thinking that 
+                        Education is 
+                        probably one of the most important things to support, but given the political 
+                        evolution of the western world in recent years, I think there's another cause
+                        in need of urgent attention: Independent journalism. 
+                    </p>
+                    <p>
+                        The Guardian, although maybe not completely unbiased and independent, does some
+                        fantastic work here, reporting on issues of human rights, climate change and much 
+                        more. 
+                    </p>
+                    <p>
+                        Obviously, my donations are probably just a drop in the water here, but 
+                        hopefully I'm not alone. 
+                    </p>
+                </Text>
+            </Causes>
+
             <Causes name="2019 - Various causes" sum={500}>
                 <InText width="40%" float='left' minWidth="350px">
                     <Image 
