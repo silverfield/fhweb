@@ -48836,6 +48836,23 @@ function Home(_ref2) {
   }, "here"), " :-)")), React.createElement("span", {
     className: "news-title"
   }, "News:"), React.createElement(News, {
+    name: "Summer busking!",
+    date: "09/2020"
+  }, React.createElement("div", {
+    className: "flex-container"
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
+    proportion: "0.5",
+    minWidth: "200px"
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "VZiMaWtuSuU"
+  }))), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
+    proportion: "0.5",
+    minWidth: "200px"
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "Summer of 2020 was actually excellent for busking. Check it out in ", React.createElement("a", {
+    href: "#my-music/covers"
+  }, "covers"), " section!"), React.createElement("p", null, "Also see the ", React.createElement("a", {
+    href: "https://www.besttubeto.co.uk/images/socialmedia/FeroHajnovic.mp4"
+  }, "result"), " of the project with BestTubeTo!"))))), React.createElement(News, {
     name: "Recording with BestTubeTo!",
     date: "07/2020"
   }, React.createElement("div", {
@@ -49794,6 +49811,54 @@ function Covers(_ref) {
       selectedTags: selectedTags
     });
   })), React.createElement(CoverSection, {
+    name: "Summer busking 2020",
+    date: "2020-08",
+    tags: ["mark knopfler", "video", "live", "cardiff", "bath", "london"],
+    selectedTags: selectedTags,
+    updateTags: updateTags
+  }, React.createElement("div", {
+    className: "flex-container"
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
+    proportion: "0.5",
+    minWidth: "200px"
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "l0NAJsgFK-g",
+    caption: "Busking in Cardiff: Dire Straits - Telegraph road"
+  }))), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
+    proportion: "0.5",
+    minWidth: "200px"
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "fhDL-A-B62s",
+    caption: "Busking in Cardiff: The Notting Hillbillies - Feel like going home"
+  })))), React.createElement("div", {
+    className: "flex-container"
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
+    proportion: "0.5",
+    minWidth: "200px"
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "VZiMaWtuSuU",
+    caption: "Busking in Bath: Dire Straits - Brothers in Arms"
+  }))), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
+    proportion: "0.5",
+    minWidth: "200px"
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "A2ZGRJwQp-A",
+    caption: "Busking in London: Mark Knopfler - Darling Pretty"
+  })))), React.createElement("div", {
+    className: "flex-container"
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
+    proportion: "0.5",
+    minWidth: "200px"
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "tMwywoVVSkI",
+    caption: "Busking in Cardiff: Fero Hajnovic - Hey Dad"
+  }))), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
+    proportion: "0.5",
+    minWidth: "200px"
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["YouTube"], {
+    id: "Jn6upYKiBQQ",
+    caption: "Busking in Cardiff: Mark Knopfler - Get Lucky"
+  })))), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "I had a great time busking this summer, despite the Covid-19 pandemic still in full swing. Yet, the lockdowns were lifted temporarily during July and August and there was a certain vibe of optimism in the air."), React.createElement("p", null, "With the new Michael Kelly 1965 Stratocaster and the awesome Hotone Ampero One multieffect, I was keen to put them to action in some new (Bath, Oxford) as well as good old (Cardiff) locations :-)"))), React.createElement(CoverSection, {
     name: "Busking around London",
     date: "2020-05-31",
     tags: ["mark knopfler", "video", "live"],
