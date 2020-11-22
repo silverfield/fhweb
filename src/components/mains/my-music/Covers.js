@@ -63,6 +63,35 @@ export default function Covers({
             </div>
 
             <CoverSection 
+                name="Local hero - Les Paul version"
+                date="2020-11-17"
+                tags={["mark knopfler", "video", "studio", "multicam"]}
+                selectedTags={selectedTags}
+                updateTags={updateTags}
+            >
+                <div className="flex-container">
+                    <Part proportion='0.5' minWidth="200px">
+                        <InText>
+                            <YouTube id="MAjZv86-HEU" />
+                        </InText>
+                    </Part>
+                    <Part proportion='0.5' minWidth="200px">
+                        <Text>
+                            <p>
+                                After I've seen Mark perform a new version of Local hero on his Les Paul for 
+                                the Great North Run 2020, I've just had to give this a go myself. 
+                            </p>
+                            
+                            <p>
+                                With the overdriven Les Paul, the song simply gets another dimension. 
+                                This is my tribute to the genius, mr. Knopfler.
+                            </p>
+                        </Text>
+                    </Part>
+                </div>
+            </CoverSection>
+
+            <CoverSection 
                 name="Summer busking 2020"
                 date="2020-08"
                 tags={["mark knopfler", "video", "live", "cardiff", "bath", "london"]}

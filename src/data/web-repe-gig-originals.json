@@ -23,18 +23,6 @@
     },
     {
         "artist": "Fero Hajnovic",
-        "name": "Daily ride",
-        "bt": true,
-        "nbt": true,
-        "tags": [
-            "rocky",
-            "acoustic",
-            "relaxed",
-            "guitary"
-        ]
-    },
-    {
-        "artist": "Fero Hajnovic",
         "name": "African Bird",
         "bt": true,
         "nbt": true,
@@ -66,26 +54,26 @@
     },
     {
         "artist": "Fero Hajnovic",
-        "name": "Ocean shore",
+        "name": "At the ocean shore",
         "bt": true,
         "nbt": true,
         "tags": [
-            "relaxed",
-            "guitary",
             "acoustic",
-            "songwriter"
+            "songwriter",
+            "relaxed",
+            "guitary"
         ]
     },
     {
         "artist": "Fero Hajnovic",
-        "name": "Sticks in the water",
+        "name": "How I'll remember Cardiff",
         "bt": true,
         "nbt": true,
         "tags": [
-            "relaxed",
-            "guitary",
             "acoustic",
-            "songwriter"
+            "relaxed",
+            "rhythm",
+            "guitary"
         ]
     },
     {
@@ -114,13 +102,14 @@
     },
     {
         "artist": "Fero Hajnovic",
-        "name": "Vices",
+        "name": "Walking on",
         "bt": true,
         "nbt": true,
         "tags": [
             "acoustic",
+            "guitary",
             "relaxed",
-            "guitary"
+            "songwriter"
         ]
     },
     {
@@ -132,6 +121,18 @@
             "acoustic",
             "relaxed",
             "guitary",
+            "songwriter"
+        ]
+    },
+    {
+        "artist": "Fero Hajnovic",
+        "name": "Sticks in the water",
+        "bt": true,
+        "nbt": true,
+        "tags": [
+            "relaxed",
+            "guitary",
+            "acoustic",
             "songwriter"
         ]
     }
