@@ -52,6 +52,27 @@ export default function Home({
             
             <span className="news-title">News:</span>
 
+            <News name="New-ish song!" date="11/2020">
+                <div className="flex-container">
+                    <Part proportion='0.5' minWidth="200px">
+                        <Text>
+                            <p>
+                                I composed and even recorded African bird years ago already, but was 
+                                never too happy with the recording. Now I've re-recorded most of the parts
+                                and one of my most favourite tunes I have composed can now happily sit in 
+                                my album as the 
+                                concluding song. Just head to <a href="#my-music/everyday">my-music</a> section!
+                            </p>
+                        </Text>
+                    </Part>
+                    <Part proportion='0.5' minWidth="200px">
+                        <InText>
+                            <YouTube id="fRfyfcghFFI"/>
+                        </InText>
+                    </Part>
+                </div>
+            </News>
+
             <News name="Summer busking!" date="09/2020">
                 <div className="flex-container">
                     <Part proportion='0.5' minWidth="200px">

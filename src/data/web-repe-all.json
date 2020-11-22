@@ -168,18 +168,6 @@
     },
     {
         "artist": "Fero Hajnovic",
-        "name": "Ocean shore",
-        "bt": true,
-        "nbt": true,
-        "tags": [
-            "relaxed",
-            "guitary",
-            "acoustic",
-            "songwriter"
-        ]
-    },
-    {
-        "artist": "Fero Hajnovic",
         "name": "Sticks in the water",
         "bt": true,
         "nbt": true,
@@ -1003,6 +991,18 @@
             "acoustic",
             "famous",
             "singing"
+        ]
+    },
+    {
+        "artist": "Fero Hajnovic",
+        "name": "Walking on",
+        "bt": true,
+        "nbt": true,
+        "tags": [
+            "acoustic",
+            "guitary",
+            "relaxed",
+            "songwriter"
         ]
     }
 ]
