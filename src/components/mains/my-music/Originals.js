@@ -55,6 +55,40 @@ export default function Originals({
             </div>
 
             <OriginalsSection 
+                name="Filming with BestTubeTo"
+                date="2020-07-16"
+                tags={["live", "video", "london"]}
+                selectedTags={selectedTags}
+                updateTags={updateTags}
+            >
+                <div className="flex-container">
+                    <Part proportion='0.5' minWidth="200px">
+                        <InText>
+                            <YouTube id="4NrNSVxti70"/>
+                        </InText>
+                    </Part>
+                    <Part proportion='0.5' minWidth="200px">
+                        <InText>
+                            <YouTube id="0HU8MWE2jLU"/>
+                        </InText>
+                    </Part>
+
+                    <Text>
+                        <p>
+                            I got involved in a fun project whereby musicians were filmed
+                            in front of a green screen background, which was later swapped
+                            for a London landmark. Have to say the result turned out quite nicely!
+                        </p>
+                        <p>
+                            Check out the project 
+                            at <a href="http://qa.besttubeto.co.uk/videos2020.php?artist=14">this link</a> and 
+                            listen to the studio versions of my songs <a href="#my-music/everyday">here</a>.
+                        </p>
+                    </Text>
+                </div>
+            </OriginalsSection>
+
+            <OriginalsSection 
                 name="How I'll remember Cardiff (video clip)"
                 date="2020-06-08"
                 tags={["studio", "video", "multicam", "cardiff"]}

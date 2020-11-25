@@ -199,12 +199,11 @@ function RepeIntro({
     return <>
         <div className="repe-intro">
             <p>
-                Below is a list of songs I tend to play when busking, on open mics etc, with 
+                Below is a list of songs I tend to play - in the pubs, when busking, on open mics etc, with 
                 extensions on demand very much possible. 
             </p>
             <p>
-                I tend to play plugged in, and using a loop station, but pure acoustic mode is
-                an option for most of the songs. 
+                For performing in a venue, I would use a plugged in acoustic guitar with a loop station. 
             </p>
             <p>
                 Explore and build the repertoire you'd like me to play! 

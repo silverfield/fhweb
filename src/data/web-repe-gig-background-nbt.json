@@ -47,14 +47,13 @@
     },
     {
         "artist": "Fero Hajnovic",
-        "name": "Fargo and Pelgrim",
-        "bt": true,
+        "name": "When this is done",
+        "bt": false,
         "nbt": true,
         "tags": [
             "acoustic",
             "relaxed",
-            "guitary",
-            "songwriter"
+            "guitary"
         ]
     },
     {
@@ -136,28 +135,6 @@
         ]
     },
     {
-        "artist": "Eva Cassidy",
-        "name": "Fields of Gold",
-        "bt": false,
-        "nbt": true,
-        "tags": [
-            "relaxed",
-            "singing",
-            "acoustic"
-        ]
-    },
-    {
-        "artist": "Fero Hajnovic",
-        "name": "In style",
-        "bt": false,
-        "nbt": true,
-        "tags": [
-            "relaxed",
-            "songwriter",
-            "acoustic"
-        ]
-    },
-    {
         "artist": "Eric Clapton",
         "name": "Layla",
         "bt": true,
@@ -184,14 +161,14 @@
     },
     {
         "artist": "Fero Hajnovic",
-        "name": "Ocean shore",
+        "name": "At the ocean shore",
         "bt": true,
         "nbt": true,
         "tags": [
-            "relaxed",
-            "guitary",
             "acoustic",
-            "songwriter"
+            "songwriter",
+            "relaxed",
+            "guitary"
         ]
     },
     {
@@ -216,18 +193,6 @@
             "singing",
             "acoustic",
             "relaxed"
-        ]
-    },
-    {
-        "artist": "Dire Straits",
-        "name": "Romeo And Juliet",
-        "bt": true,
-        "nbt": true,
-        "tags": [
-            "dsmk",
-            "relaxed",
-            "acoustic",
-            "famous"
         ]
     },
     {
@@ -266,18 +231,6 @@
     {
         "artist": "Leonard Cohen",
         "name": "Hallelujah",
-        "bt": false,
-        "nbt": true,
-        "tags": [
-            "relaxed",
-            "famous",
-            "singing",
-            "acoustic"
-        ]
-    },
-    {
-        "artist": "Linking Park",
-        "name": "The Messenger",
         "bt": false,
         "nbt": true,
         "tags": [
@@ -378,28 +331,6 @@
         ]
     },
     {
-        "artist": "The Greatest Showman soundtrack",
-        "name": "A Million Dreams",
-        "bt": false,
-        "nbt": true,
-        "tags": [
-            "acoustic",
-            "famous",
-            "singing"
-        ]
-    },
-    {
-        "artist": "Fero Hajnovic",
-        "name": "Vices",
-        "bt": true,
-        "nbt": true,
-        "tags": [
-            "acoustic",
-            "relaxed",
-            "guitary"
-        ]
-    },
-    {
         "artist": "Mark Knopfler",
         "name": "Boom like that",
         "bt": true,
@@ -419,18 +350,6 @@
             "dsmk",
             "relaxed",
             "guitary"
-        ]
-    },
-    {
-        "artist": "A Great Big World & Christina Aguilera",
-        "name": "Say Something",
-        "bt": false,
-        "nbt": true,
-        "tags": [
-            "famous",
-            "relaxed",
-            "acoustic",
-            "singing"
         ]
     },
     {
