@@ -42456,7 +42456,7 @@ if (false) {} else {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, __RouterContext, generatePath, matchPath, useHistory, useLocation, useParams, useRouteMatch, withRouter */
+/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, __RouterContext, generatePath, matchPath, useHistory, useLocation, useParams, useRouteMatch, withRouter, BrowserRouter, HashRouter, Link, NavLink */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -47882,6 +47882,9 @@ function Footer(_ref) {
     href: "https://soundcloud.com/ferohajnovic",
     className: "fa fa-soundcloud"
   }), React.createElement("a", {
+    href: "https://fero.bandcamp.com",
+    className: "fa fa-bandcamp"
+  }), React.createElement("a", {
     href: "https://www.youtube.com/channel/UCbFZJZ1bf8nMcLPJie5-mTA",
     className: "fa fa-youtube"
   })));
@@ -48686,6 +48689,11 @@ function Contact(_ref) {
   }), React.createElement("a", {
     href: "https://www.instagram.com/fero.hajnovic"
   }, "@fero.hajnovic"), React.createElement("br", null), React.createElement("a", {
+    href: "https://fero.bandcamp.com/",
+    className: "fa fa-bandcamp"
+  }), React.createElement("a", {
+    href: "https://fero.bandcamp.com/"
+  }, "fero"), React.createElement("br", null), React.createElement("a", {
     href: "https://soundcloud.com/ferohajnovic",
     className: "fa fa-soundcloud"
   }), React.createElement("a", {
@@ -50203,7 +50211,7 @@ function Everyday(_ref3) {
     proportion: "0.4",
     minWidth: "250px"
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], {
-    minHeight: "560px"
+    minHeight: "330px"
   }, React.createElement("div", {
     className: "iframe-div"
   }, React.createElement("iframe", {
@@ -50213,6 +50221,11 @@ function Everyday(_ref3) {
     frameBorder: "no",
     allow: "autoplay",
     src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/781852491&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+  }))), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement("a", {
+    href: "./everyday-booklet.pdf"
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Image"], {
+    imgSrc: __webpack_require__(/*! ../../../pics/booklet-ad.png */ "./src/pics/booklet-ad.png"),
+    caption: "Check out the album booklet!"
   })))), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
     proportion: "0.6",
     minWidth: "350px"
@@ -51054,6 +51067,17 @@ module.exports = __webpack_require__.p + "31812b0f6c4949b087d1eb07767a7f1e.jpg";
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "0ff9625ad0c0391d3bd259ec98430ca9.JPG";
+
+/***/ }),
+
+/***/ "./src/pics/booklet-ad.png":
+/*!*********************************!*\
+  !*** ./src/pics/booklet-ad.png ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "16f007ea816ca2a86598962043265a03.png";
 
 /***/ }),
 
