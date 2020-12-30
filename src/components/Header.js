@@ -66,7 +66,7 @@ function Menu({
     return <div className="menu">
         <MenuItem to="/home" title="home" sticky={sticky} />
         <MenuItem to="/my-music" title="my music" submenuItems={[
-            {to: '/my-music/everyday', title: 'everyday (demo album)'},
+            {to: '/my-music/everyday', title: 'everyday (debut album)'},
             {to: '/my-music/originals', title: 'other originals'},
             {to: '/my-music/covers', title: 'covers'},
             {to: '/my-music/collaborations', title: 'collaborations'}
