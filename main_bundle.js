@@ -42456,7 +42456,7 @@ if (false) {} else {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, __RouterContext, generatePath, matchPath, useHistory, useLocation, useParams, useRouteMatch, withRouter, BrowserRouter, HashRouter, Link, NavLink */
+/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, __RouterContext, generatePath, matchPath, useHistory, useLocation, useParams, useRouteMatch, withRouter */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -48868,7 +48868,7 @@ function Home(_ref2) {
     minWidth: "200px"
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "After 7 years of off-and-on song-writing, recording and producing, I am immensely proud to say that my first album titled \"Everyday\" is now public!"), React.createElement("p", null, "Head to ", React.createElement("a", {
     href: "#my-music/everyday"
-  }, "everyday section"), " for more info, get the album on ", React.createElement("a", {
+  }, "everyday"), " for more info, get the album on ", React.createElement("a", {
     href: "https://fero.bandcamp.com/album/everyday"
   }, "Bandcamp"), ", or read my ", React.createElement("a", {
     href: "https://ferowrites.blogspot.com/2020/12/everyday.html"
