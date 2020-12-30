@@ -61,7 +61,7 @@ export default function Home({
                                 immensely proud to say that my first album titled "Everyday" is now public!
                             </p>
                             <p>
-                                Head to <a href="#my-music/everyday">everyday section</a> for more info, get the album
+                                Head to <a href="#my-music/everyday">everyday</a> for more info, get the album
                                 on <a href="https://fero.bandcamp.com/album/everyday">Bandcamp</a>, or read
                                 my <a href="https://ferowrites.blogspot.com/2020/12/everyday.html">blog post</a> about
                                 making the album
