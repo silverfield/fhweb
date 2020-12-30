@@ -102,7 +102,7 @@ export default function Everyday({
 
                     <p> 
                         Get the album on <a href="https://fero.bandcamp.com/album/everyday">Bandcamp</a> and check out
-                        the <a href="./">album booklet</a>!
+                        the <a href="./everyday-booklet.pdf">album booklet</a>!
                     </p>
                 </Text>
 
