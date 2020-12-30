@@ -107,10 +107,18 @@ export default function Everyday({
                 </Text>
 
                 <Part proportion='0.4' minWidth='250px'>
-                    <InText minHeight='560px'>
+                    <InText minHeight='330px'>
                         <div className="iframe-div">
                             <iframe width="100%" height='100%' scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/781852491&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
                         </div>
+                    </InText>
+                    <InText>
+                        <a href="./everyday-booklet.pdf">
+                            <Image
+                                imgSrc={require("../../../pics/booklet-ad.png")} 
+                                caption="Check out the album booklet!"
+                            />
+                        </a>
                     </InText>
                 </Part>
 
