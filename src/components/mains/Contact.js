@@ -66,6 +66,11 @@ export default function Contact({
 
                         <br/>
 
+                        <a href="https://fero.bandcamp.com/" className="fa fa-bandcamp"></a>
+                        <a href="https://fero.bandcamp.com/">fero</a>
+
+                        <br/>
+
                         <a href="https://soundcloud.com/ferohajnovic" className="fa fa-soundcloud"></a>
                         <a href="https://soundcloud.com/ferohajnovic">ferohajnovic</a>
 
