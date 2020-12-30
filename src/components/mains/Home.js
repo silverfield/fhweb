@@ -52,6 +52,35 @@ export default function Home({
             
             <span className="news-title">News:</span>
 
+            <News name="EVERYDAY IS HERE!" date="31/12/2020">
+                <div className="flex-container">
+                    <Part proportion='0.5' minWidth="200px">
+                        <Text>
+                            <p>
+                                After 7 years of off-and-on song-writing, recording and producing, I am 
+                                immensely proud to say that my first album titled "Everyday" is now public!
+                            </p>
+                            <p>
+                                Head to <a href="#my-music/everyday">everyday section</a> for more info, get the album
+                                on <a href="https://fero.bandcamp.com/album/everyday">Bandcamp</a>, or read
+                                my <a href="https://ferowrites.blogspot.com/2020/12/everyday.html">blog post</a> about
+                                making the album
+                            </p>
+                        </Text>
+                    </Part>
+                    <Part proportion='1' minWidth="200px">
+                        <InText>
+                            <a href="#my-music/everyday">
+                                <Image 
+                                    imgSrc={require("../../pics/everyday-cover-small.png")}
+                                />
+                            </a>
+                            
+                        </InText>
+                    </Part>
+                </div>
+            </News>
+
             <News name="New-ish song!" date="11/2020">
                 <div className="flex-container">
                     <Part proportion='0.5' minWidth="200px">
