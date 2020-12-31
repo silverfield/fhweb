@@ -42456,7 +42456,7 @@ if (false) {} else {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, __RouterContext, generatePath, matchPath, useHistory, useLocation, useParams, useRouteMatch, withRouter, BrowserRouter, HashRouter, Link, NavLink */
+/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, __RouterContext, generatePath, matchPath, useHistory, useLocation, useParams, useRouteMatch, withRouter */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -50433,7 +50433,7 @@ function Everyday(_ref3) {
     caption: "The beach to the east of the institute"
   }))), React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Part"], {
     proportion: "0.6"
-  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "A song that emerged suddenly in my mind one warm evening on a beach in Biriwa, Ghana, in early 2015. I was about half-way through with my tutoring and Python teaching stint at the African Institute of Mathematical Sciences."), React.createElement("p", null, "I'd take a stroll sometime along the beach. The Sun was setting, I was in thoughts, and a bird flew by and landed on the sand nearby. And so the song was born."), React.createElement("a", {
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "A song that emerged suddenly in my mind one warm evening on a beach in Biriwa, Ghana, in early 2015. I was about half-way through with my tutoring and Python teaching stint at the African Institute of Mathematical Sciences."), React.createElement("a", {
     href: "https://drive.google.com/file/d/1JlFMCe-lDqRga4e0HcbXcah_o92htbkF/view"
   }, "Chords and lyrics"))))));
 }
