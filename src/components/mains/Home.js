@@ -72,7 +72,7 @@ export default function Home({
                         <InText>
                             <a href="#my-music/everyday">
                                 <Image 
-                                    imgSrc={require("../../pics/everyday-cover-small.png")}
+                                    imgSrc={require("../../pics/everyday-release-banner.png")}
                                 />
                             </a>
                             
