@@ -537,11 +537,6 @@ export default function Everyday({
                                 through with my tutoring and Python teaching stint at the African
                                 Institute of Mathematical Sciences. 
                             </p>
-                            <p>
-                                I'd take a stroll sometime along the beach. The Sun was setting, I was 
-                                in thoughts, and a bird flew by and landed on the sand
-                                nearby. And so the song was born.
-                            </p>
 
                             <a href="https://drive.google.com/file/d/1JlFMCe-lDqRga4e0HcbXcah_o92htbkF/view">Chords and lyrics</a>
                         </Text>
