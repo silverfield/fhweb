@@ -42456,7 +42456,7 @@ if (false) {} else {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, __RouterContext, generatePath, matchPath, useHistory, useLocation, useParams, useRouteMatch, withRouter */
+/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, __RouterContext, generatePath, matchPath, useHistory, useLocation, useParams, useRouteMatch, withRouter, BrowserRouter, HashRouter, Link, NavLink */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -48878,7 +48878,7 @@ function Home(_ref2) {
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement("a", {
     href: "#my-music/everyday"
   }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Image"], {
-    imgSrc: __webpack_require__(/*! ../../pics/everyday-cover-small.png */ "./src/pics/everyday-cover-small.png")
+    imgSrc: __webpack_require__(/*! ../../pics/everyday-release-banner.png */ "./src/pics/everyday-release-banner.png")
   })))))), React.createElement(News, {
     name: "New-ish song!",
     date: "11/2020"
@@ -50203,7 +50203,11 @@ function Everyday(_ref3) {
     href: "https://soundcloud.com/ferohajnovic/sets/everyday"
   }, "Everyday (debut album)"), React.createElement("div", {
     className: "pre-section flex-container"
-  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement("p", null, "My debut album \"Everyday\" is here! After 7 years of off-and-on making, enjoy the 14 tracks packed with guitar music!"), React.createElement("p", null, "Get the album on ", React.createElement("a", {
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Text"], null, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["InText"], null, React.createElement("a", {
+    href: "https://fero.bandcamp.com/album/everyday"
+  }, React.createElement(_helpers_combo_helper__WEBPACK_IMPORTED_MODULE_0__["Image"], {
+    imgSrc: __webpack_require__(/*! ../../../pics/everyday-release-banner.png */ "./src/pics/everyday-release-banner.png")
+  }))), React.createElement("p", null, "My debut album \"Everyday\" is here! After 7 years of off-and-on making, enjoy the 14 tracks packed with guitar music!"), React.createElement("p", null, "Get the album on ", React.createElement("a", {
     href: "https://fero.bandcamp.com/album/everyday"
   }, "Bandcamp"), " and check out the ", React.createElement("a", {
     href: "./everyday-booklet.pdf"
@@ -50239,7 +50243,7 @@ function Everyday(_ref3) {
     seamless: true
   }, React.createElement("a", {
     href: "https://fero.bandcamp.com/album/everyday"
-  }, "Everyday by Fero Hajnovic")), React.createElement("p", null, "Named after one of the songs - Everyday - the album's beginnings date to my after-university times in Oslo when I made that step from \"bedroom guitar playing\" to doing open mics, jamming, ", React.createElement("a", {
+  }, "Everyday by Fero Hajnovic")), React.createElement("p", null, "Named after one of the songs - Everyday - the album's beginnings date back to my post-university times in Oslo when I made that step from \"bedroom guitar playing\" to doing open mics, jamming, ", React.createElement("a", {
     href: "#my-music/collaborations"
   }, "collaborative"), " projects and eventually my most favorite activity: ", React.createElement("a", {
     href: "#busking"
@@ -51125,17 +51129,6 @@ module.exports = __webpack_require__.p + "96d83fa22e173bc5f5f575dd49cf4a8d.mp4";
 
 /***/ }),
 
-/***/ "./src/pics/everyday-cover-small.png":
-/*!*******************************************!*\
-  !*** ./src/pics/everyday-cover-small.png ***!
-  \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "eb6037b1aeed84348ef004859bb17ac0.png";
-
-/***/ }),
-
 /***/ "./src/pics/everyday-cover.jpeg":
 /*!**************************************!*\
   !*** ./src/pics/everyday-cover.jpeg ***!
@@ -51144,6 +51137,17 @@ module.exports = __webpack_require__.p + "eb6037b1aeed84348ef004859bb17ac0.png";
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "3924f4399bff44a249a8076f8d923bd5.jpeg";
+
+/***/ }),
+
+/***/ "./src/pics/everyday-release-banner.png":
+/*!**********************************************!*\
+  !*** ./src/pics/everyday-release-banner.png ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "01e95396bb1ba04c88db2e0dbdd48bb0.png";
 
 /***/ }),
 
