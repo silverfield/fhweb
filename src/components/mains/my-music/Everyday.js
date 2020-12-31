@@ -95,6 +95,14 @@ export default function Everyday({
 
             <div className="pre-section flex-container">
                 <Text>
+                    <InText>
+                        <a href="https://fero.bandcamp.com/album/everyday">
+                            <Image
+                                imgSrc={require("../../../pics/everyday-release-banner.png")}
+                            />
+                        </a>
+                    </InText>
+
                     <p> 
                         My debut album "Everyday" is here! After 7 years of off-and-on making, enjoy the 
                         14 tracks packed with guitar music!
@@ -134,7 +142,7 @@ export default function Everyday({
 
                         <p>
                             Named after one of the songs - Everyday - the album's beginnings 
-                            date to my after-university times in 
+                            date back to my post-university times in 
                             Oslo when I made that step from "bedroom guitar playing" to doing
                             open mics, jamming, <a href="#my-music/collaborations">collaborative</a> projects 
                             and eventually my most favorite 
