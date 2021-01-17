@@ -109,8 +109,12 @@ export default function Everyday({
                     </p>
 
                     <p> 
-                        Get the album on <a href="https://fero.bandcamp.com/album/everyday">Bandcamp</a> and check out
+                        Listen on <a href="https://open.spotify.com/album/5oJHG1rt76a39Ttqw7LQBZ">Spotify</a>, get 
+                        the album on <a href="https://fero.bandcamp.com/album/everyday">Bandcamp</a> and check out
                         the <a href="./everyday-booklet.pdf">album booklet</a>!
+                    </p>
+                    <p>
+                        Everyday can be also found on <a href="https://www.amazon.com/gp/product/B08STLKWX5">Amazon</a> and <a href="https://music.apple.com/us/album/everyday/1548556040?uo=4&app=apple+music">Apple music & iTunes</a>
                     </p>
                 </Text>
 

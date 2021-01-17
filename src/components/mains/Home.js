@@ -52,6 +52,34 @@ export default function Home({
             
             <span className="news-title">News:</span>
 
+            <News name="Everyday is on Spotify!!!" date="17/01/2021">
+                <div className="flex-container">
+                    <Part proportion='0.6' minWidth="200px">
+                        <Text>
+                            <p>
+                                Everyday is now live 
+                                on <a href="https://open.spotify.com/album/5oJHG1rt76a39Ttqw7LQBZ">Spotify</a>, <a href="https://www.amazon.com/gp/product/B08STLKWX5">Amazon</a> and <a href="https://music.apple.com/us/album/everyday/1548556040?uo=4&app=apple+music">Apple music & iTunes</a>!!!
+                            </p>
+                            <p>
+                                Is that it? Hah. I'm already working on a new album with a single 
+                                "Like I do" well in progress. It will be new, and... different. Stat tuned!
+                            </p>
+                        </Text>
+                    </Part>
+                    <Part proportion='0.4' minWidth="200px">
+                        <InText>
+                            <a href="https://open.spotify.com/album/5oJHG1rt76a39Ttqw7LQBZ">
+                                <Image 
+                                    imgSrc={require("../../pics/spotify.png")}
+                                />
+                            </a>
+                            
+                        </InText>
+                    </Part>
+                </div>
+            </News>
+
+
             <News name="EVERYDAY IS HERE!" date="31/12/2020">
                 <div className="flex-container">
                     <Part proportion='0.5' minWidth="200px">
