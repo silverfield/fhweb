@@ -95,22 +95,42 @@ export default function Everyday({
 
             <div className="pre-section flex-container">
                 <Text>
+                    <InText>
+                        <a href="https://fero.bandcamp.com/album/everyday">
+                            <Image
+                                imgSrc={require("../../../pics/everyday-release-banner.png")}
+                            />
+                        </a>
+                    </InText>
+
                     <p> 
                         My debut album "Everyday" is here! After 7 years of off-and-on making, enjoy the 
                         14 tracks packed with guitar music!
                     </p>
 
                     <p> 
-                        Get the album on <a href="https://fero.bandcamp.com/album/everyday">Bandcamp</a> and check out
+                        Listen on <a href="https://open.spotify.com/album/5oJHG1rt76a39Ttqw7LQBZ">Spotify</a>, get 
+                        the album on <a href="https://fero.bandcamp.com/album/everyday">Bandcamp</a> and check out
                         the <a href="./everyday-booklet.pdf">album booklet</a>!
+                    </p>
+                    <p>
+                        Everyday can be also found on <a href="https://www.amazon.com/gp/product/B08STLKWX5">Amazon</a> and <a href="https://music.apple.com/us/album/everyday/1548556040?uo=4&app=apple+music">Apple music & iTunes</a>
                     </p>
                 </Text>
 
                 <Part proportion='0.4' minWidth='250px'>
-                    <InText minHeight='560px'>
+                    <InText minHeight='330px'>
                         <div className="iframe-div">
                             <iframe width="100%" height='100%' scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/781852491&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
                         </div>
+                    </InText>
+                    <InText>
+                        <a href="./everyday-booklet.pdf">
+                            <Image
+                                imgSrc={require("../../../pics/booklet-ad.png")} 
+                                caption="Check out the album booklet!"
+                            />
+                        </a>
                     </InText>
                 </Part>
 
@@ -126,7 +146,7 @@ export default function Everyday({
 
                         <p>
                             Named after one of the songs - Everyday - the album's beginnings 
-                            date to my after-university times in 
+                            date back to my post-university times in 
                             Oslo when I made that step from "bedroom guitar playing" to doing
                             open mics, jamming, <a href="#my-music/collaborations">collaborative</a> projects 
                             and eventually my most favorite 
@@ -520,11 +540,6 @@ export default function Everyday({
                                 beach in Biriwa, Ghana, in early 2015. I was about half-way 
                                 through with my tutoring and Python teaching stint at the African
                                 Institute of Mathematical Sciences. 
-                            </p>
-                            <p>
-                                I'd take a stroll sometime along the beach. The Sun was setting, I was 
-                                in thoughts, and a bird flew by and landed on the sand
-                                nearby. And so the song was born.
                             </p>
 
                             <a href="https://drive.google.com/file/d/1JlFMCe-lDqRga4e0HcbXcah_o92htbkF/view">Chords and lyrics</a>
